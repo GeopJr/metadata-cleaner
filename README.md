@@ -19,23 +19,23 @@ Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse an
 
 Dependencies:
 
-- `gtk3` >= 3.24
-- `libhandy1`
+- `gtk+-3.0` >= 3.24
+- `libhandy-1`
+- `pygobject-3.0`
 - `python3`
-- `python3-gobject`
 - `python3-mat2` and [its dependencies](https://0xacab.org/jvoisin/mat2#requirements)
 
 Metadata Cleaner uses the meson build system:
 
 ```sh
 meson builddir
-sudo ninja -C builddir install
+meson install -C builddir
 ```
 
 Flatpak building is also available and requires the GNOME 3.38 platform and SDK:
 
 ```sh
-flatpak-builder --force-clean --user --install build-dir data/fr.romainvigier.MetadataCleaner.yaml
+flatpak-builder --force-clean --user --install builddir data/fr.romainvigier.MetadataCleaner.yaml
 ```
 
 ## Contributing
