@@ -76,7 +76,7 @@ class File(GObject.GObject):
         logger.debug(f"Initializing parser for {self.filename}...")
         try:
             parser, mimetype = parser_factory.get_parser(self.path)
-        except ValueError as e:
+        except Exception as e:
             self.error = e
             logger.error(
                 f"Error while initializing parser for {self.filename}: {e}"
@@ -138,7 +138,7 @@ class File(GObject.GObject):
                     "Something bad happened during the removal, "
                     "cleaned file not found"
                 ))
-        except (OSError, RuntimeError) as e:
+        except Exception as e:
             self.error = e
             logger.error(
                 f"Error while removing metadata for {self.filename}: {e}"
@@ -163,7 +163,7 @@ class File(GObject.GObject):
                 None,
                 None
             )
-        except OSError as e:
+        except Exception as e:
             self.error = e
             logger.error(f"Error while saving {self.filename}: {e}")
             self._set_state(FileState.ERROR_WHILE_SAVING)
