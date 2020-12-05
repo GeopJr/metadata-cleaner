@@ -23,7 +23,7 @@ Dependencies:
 - `libhandy-1`
 - `pygobject-3.0`
 - `python3`
-- `python3-mat2` and [its dependencies](https://0xacab.org/jvoisin/mat2#requirements)
+- Python 3 `libmat2` module and [its dependencies](https://0xacab.org/jvoisin/mat2#requirements)
 
 Metadata Cleaner uses the meson build system:
 
