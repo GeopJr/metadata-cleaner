@@ -11,6 +11,9 @@
         <property name="tooltip-text" translatable="yes">Remove file from list</property>
         <property name="vexpand">False</property>
         <property name="valign">center</property>
+        <style>
+          <class name="flat"/>
+        </style>
         <signal name="clicked" handler="_on_remove_file_button_clicked" swapped="no"/>
         <child>
           <object class="GtkImage">
