@@ -1,18 +1,17 @@
-"""Popover with details about the file's metadata."""
+"""Popover with details about the file's state."""
 
 from gettext import gettext as _
 from gi.repository import Gtk
 from typing import Optional
 
 from metadatacleaner.file import File, FileState
-from metadatacleaner.metadataview import MetadataView
 
 
 @Gtk.Template(
     resource_path="/fr/romainvigier/MetadataCleaner/ui/FilePopover.ui"
 )
 class FilePopover(Gtk.Popover):
-    """Popover with details about the file's metadata."""
+    """Popover with details about the file's state."""
 
     __gtype_name__ = "FilePopover"
 
@@ -64,10 +63,6 @@ class FilePopover(Gtk.Popover):
         if self._content:
             self._content.destroy()
             self._content = None
-        if self._file.state == FileState.HAS_METADATA:
-            self._content = MetadataView(self._file.metadata) \
-                if self._file.metadata \
-                else None
         elif self._file.state in [
             FileState.ERROR_WHILE_CHECKING_METADATA,
             FileState.ERROR_WHILE_REMOVING_METADATA,

@@ -4,6 +4,7 @@ from gi.repository import Gtk
 
 from metadatacleaner.file import File, FileState
 from metadatacleaner.filepopover import FilePopover
+from metadatacleaner.metadatawindow import MetadataWindow
 
 
 @Gtk.Template(
@@ -52,11 +53,22 @@ class FileButton(Gtk.Button):
 
     @Gtk.Template.Callback()
     def _on_file_button_clicked(self, button: Gtk.Button) -> None:
-        self.show_popover()
+        if self._file.state is FileState.HAS_METADATA:
+            self.show_metadata_window()
+        else:
+            self.show_popover()
 
     def _on_file_state_changed(self, file: File, new_state: FileState) -> None:
         self._sync_file_button_to_state()
 
     def show_popover(self) -> None:
-        """Show the popover with details about the file's metadata."""
+        """Show the popover with details about the file's state."""
         self._popover.popup()
+
+    def show_metadata_window(self) -> None:
+        """Show the window with the details about the file's metadata"""
+        window = MetadataWindow(
+            transient_for=self.get_toplevel(),
+            f=self._file
+        )
+        window.show()

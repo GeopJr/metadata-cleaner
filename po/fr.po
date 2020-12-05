@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-03 20:47+0100\n"
-"PO-Revision-Date: 2020-12-03 18:12+0100\n"
+"POT-Creation-Date: 2020-12-05 21:57+0100\n"
+"PO-Revision-Date: 2020-12-05 21:57+0100\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <romain@romainvigier.fr>\n"
 "Language: fr\n"
@@ -205,6 +205,10 @@ msgstr "_Raccourcis clavier"
 msgid "_About Metadata Cleaner"
 msgstr "À _propos de Nettoyeur de métadonnées"
 
+#: data/ui/MetadataWindow.ui:5
+msgid "Metadata details"
+msgstr "Détail des métadonnées"
+
 #: data/ui/SaveFilesButton.ui:8
 msgid "_Save"
 msgstr "_Enregistrer"
@@ -344,21 +348,23 @@ msgstr "Erreur pendant l’enregistrement du fichier :"
 msgid "The cleaned file has been saved."
 msgstr "Le fichier nettoyé a été enregistré."
 
-#: metadatacleaner/metadataview.py:47 metadatacleaner/metadataview.py:59
-msgid "Key"
-msgstr "Clé"
-
-#: metadatacleaner/metadataview.py:50 metadatacleaner/metadataview.py:62
-msgid "Value"
-msgstr "Valeur"
-
-#: metadatacleaner/metadataview.py:56
-msgid "File"
-msgstr "Fichier"
+#: metadatacleaner/metadatadetails.py:35
+#, python-brace-format
+msgid "{filename}:"
+msgstr "{filename} :"
 
 #: metadatacleaner/statusindicator.py:30
 msgid "Processing file {}/{}"
 msgstr "Traitement du fichier {}/{}"
+
+#~ msgid "Key"
+#~ msgstr "Clé"
+
+#~ msgid "Value"
+#~ msgstr "Valeur"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
 
 #~ msgid "Unable to create a temporary file."
 #~ msgstr "Impossible de créer un fichier temporaire."

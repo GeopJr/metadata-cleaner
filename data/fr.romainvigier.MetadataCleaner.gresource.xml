@@ -20,7 +20,8 @@
 		<file compressed="true" preprocess="xml-stripblanks">ui/FilesView.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/MenuButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/MenuPopover.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataView.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataDetails.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataWindow.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/SaveFilesButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/SaveWarningDialog.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/ShortcutsDialog.ui</file>

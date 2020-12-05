@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-03 20:47+0100\n"
+"POT-Creation-Date: 2020-12-05 21:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,6 +165,10 @@ msgstr ""
 msgid "_About Metadata Cleaner"
 msgstr ""
 
+#: data/ui/MetadataWindow.ui:5
+msgid "Metadata details"
+msgstr ""
+
 #: data/ui/SaveFilesButton.ui:8
 msgid "_Save"
 msgstr ""
@@ -300,16 +304,9 @@ msgstr ""
 msgid "The cleaned file has been saved."
 msgstr ""
 
-#: metadatacleaner/metadataview.py:47 metadatacleaner/metadataview.py:59
-msgid "Key"
-msgstr ""
-
-#: metadatacleaner/metadataview.py:50 metadatacleaner/metadataview.py:62
-msgid "Value"
-msgstr ""
-
-#: metadatacleaner/metadataview.py:56
-msgid "File"
+#: metadatacleaner/metadatadetails.py:35
+#, python-brace-format
+msgid "{filename}:"
 msgstr ""
 
 #: metadatacleaner/statusindicator.py:30
