@@ -56,10 +56,7 @@ def setup_mimetypes() -> None:
     # The Flatpak runtime doesn't have a mime.types file, we have to import
     # our own
     if flatpak:
-        mimetypes.init(
-            files=mimetypes.knownfiles +
-            [os.path.join(PKGDATA_DIR, "mime.types")]
-        )
+        mimetypes.init(files=mimetypes.knownfiles + ["/app/share/mime.types"])
 
 
 def run_app() -> int:

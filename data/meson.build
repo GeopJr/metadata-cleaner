@@ -51,5 +51,4 @@ i18n.merge_file(
 
 
 install_data(APP_ID + '.gschema.xml', install_dir: schemasdir)
-install_data('mime.types', install_dir: pkgdatadir)
 install_subdir('icons/hicolor', install_dir: iconsdir)

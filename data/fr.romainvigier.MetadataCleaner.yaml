@@ -89,6 +89,15 @@ modules:
         branch: master
         commit: 92dcc8175da12285961d97a6dd64917b8e7ae464
 
+  - name: mimetypes
+    buildsystem: simple
+    build-commands:
+      - install -D mime.types $FLATPAK_DEST/share/
+    sources:
+      - type: file
+        url: https://bazaar.launchpad.net/~ubuntu-branches/debian/stretch/mime-support/stretch/download/head:/mime.types
+        sha256: f0552ed253ba5e462a4e0ff0dcda3615087a97cb94774faef1f86860f1380a85
+
   - name: metadata-cleaner
     buildsystem: meson
     sources:
