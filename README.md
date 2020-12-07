@@ -20,6 +20,12 @@ Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse an
 ![Metadata details window](./data/screenshots/2.png)
 ![Cleaned files](./data/screenshots/3.png)
 
+## Installing
+
+Metadata Cleaner is available as a Flatpak on Flathub:
+
+<a href="https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner"><img src="https://flathub.org/assets/badges/flathub-badge-en.png" alt="Download on Flathub" width="240"></a>
+
 ## Building from source
 
 Dependencies:
