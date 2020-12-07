@@ -9,6 +9,14 @@ finish-args:
   - --share=ipc
   - --device=dri
 
+cleanup:
+  - /include
+  - /lib/pkgconfig
+  - /share/doc
+  - /share/man
+  - '*.a'
+  - '*.la'
+
 modules:
   - name: libhandy
     buildsystem: meson
@@ -103,11 +111,3 @@ modules:
     sources:
       - type: dir
         path: ../
-
-cleanup:
-  - /include
-  - /lib/pkgconfig
-  - /share/doc
-  - /share/man
-  - '*.a'
-  - '*.la'
