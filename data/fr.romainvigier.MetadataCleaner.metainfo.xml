@@ -8,6 +8,8 @@
   <metadata_license>CC-BY-SA-4.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
 
+  <developer_name>Romain Vigier</developer_name>
+
   <url type="homepage">https://gitlab.com/rmnvgr/metadata-cleaner</url>
   <url type="bugtracker">https://gitlab.com/rmnvgr/metadata-cleaner/-/issues</url>
   <url type="donation">https://liberapay.com/rmnvgr/donate</url>
