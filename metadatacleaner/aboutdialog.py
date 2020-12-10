@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """About dialog giving informations about the application."""
 
 from gi.repository import Gtk

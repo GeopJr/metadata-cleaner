@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """Row representing a file."""
 
 from gi.repository import Gio, Gtk, Handy

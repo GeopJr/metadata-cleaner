@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """Dialog warning the user of possible data loss on saving."""
 
 from gi.repository import Gio, Gtk

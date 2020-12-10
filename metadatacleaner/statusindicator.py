@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """Indicator showing the status of the files manager."""
 
 from gettext import gettext as _

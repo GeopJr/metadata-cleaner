@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """Message dialog teaching users about removing metadata."""
 
 from gi.repository import Gtk

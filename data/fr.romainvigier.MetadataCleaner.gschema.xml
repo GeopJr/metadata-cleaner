@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
 <schemalist gettext-domain="fr.romainvigier.MetadataCleaner">
     <schema id="fr.romainvigier.MetadataCleaner" path="/fr/romainvigier/MetadataCleaner/">
         <key name="warn-before-saving" type="b">

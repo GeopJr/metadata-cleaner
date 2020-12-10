@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 project('metadata-remover',
   version: '0.9.9',
   meson_version: '>= 0.51.0'

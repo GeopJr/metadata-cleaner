@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Metadata Cleaner
 
 ![](./data/icons/hicolor/scalable/apps/fr.romainvigier.MetadataCleaner.svg)

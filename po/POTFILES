@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 data/fr.romainvigier.MetadataCleaner.desktop.in
 data/fr.romainvigier.MetadataCleaner.gschema.xml
 data/fr.romainvigier.MetadataCleaner.metainfo.xml
