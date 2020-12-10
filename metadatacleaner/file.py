@@ -1,7 +1,6 @@
 """File object and states."""
 
 import hashlib
-import logging
 import os
 import tempfile
 
@@ -12,8 +11,7 @@ from libmat2 import parser_factory
 from threading import Thread
 from typing import Dict, Optional
 
-
-logger = logging.getLogger(__name__)
+from metadatacleaner.logger import Logger as logger
 
 
 class FileState(IntEnum):
@@ -73,12 +71,12 @@ class File(GObject.GObject):
 
     def initialize_parser(self) -> None:
         """Initialize the metadata parser."""
-        logger.debug(f"Initializing parser for {self.filename}...")
+        logger.info(f"Initializing parser for {self.filename}...")
         try:
             parser, mimetype = parser_factory.get_parser(self.path)
         except Exception as e:
             self.error = e
-            logger.error(
+            logger.warning(
                 f"Error while initializing parser for {self.filename}: {e}"
             )
             self._set_state(FileState.ERROR_WHILE_INITIALIZING)
@@ -86,33 +84,33 @@ class File(GObject.GObject):
             self._parser = parser
             self.mimetype = mimetype
             if self._parser:
-                logger.debug(f"{self.filename} is supported.")
+                logger.info(f"{self.filename} is supported.")
                 self._set_state(FileState.SUPPORTED)
             else:
-                logger.warning(f"{self.filename} is unsupported.")
+                logger.info(f"{self.filename} is unsupported.")
                 self._set_state(FileState.UNSUPPORTED)
 
     def check_metadata(self) -> None:
         """Check the metadata present in the file."""
         if self.state != FileState.SUPPORTED:
             return
-        logger.debug(f"Checking metadata for {self.filename}...")
+        logger.info(f"Checking metadata for {self.filename}...")
         self._set_state(FileState.CHECKING_METADATA)
         try:
             metadata = self._parser.get_meta()
         except Exception as e:
             self.error = e
-            logger.error(
+            logger.warning(
                 f"Error while checking metadata for {self.filename}: {e}"
             )
             self._set_state(FileState.ERROR_WHILE_CHECKING_METADATA)
         else:
             self.metadata = metadata if bool(metadata) else None
             if self.metadata:
-                logger.debug(f"Found metadata for {self.filename}.")
+                logger.info(f"Found metadata for {self.filename}.")
                 self._set_state(FileState.HAS_METADATA)
             else:
-                logger.debug(f"Found no metadata for {self.filename}.")
+                logger.info(f"Found no metadata for {self.filename}.")
                 self._set_state(FileState.HAS_NO_METADATA)
 
     def remove_metadata(self, lightweight_mode=False) -> None:
@@ -127,7 +125,7 @@ class File(GObject.GObject):
             FileState.HAS_NO_METADATA
         ]:
             return
-        logger.debug(f"Removing metadata for {self.filename}...")
+        logger.info(f"Removing metadata for {self.filename}...")
         self._set_state(FileState.REMOVING_METADATA)
         try:
             self._parser.output_filename = self._temp_path
@@ -140,19 +138,19 @@ class File(GObject.GObject):
                 ))
         except Exception as e:
             self.error = e
-            logger.error(
+            logger.warning(
                 f"Error while removing metadata for {self.filename}: {e}"
             )
             self._set_state(FileState.ERROR_WHILE_REMOVING_METADATA)
         else:
-            logger.debug(f"{self.filename} has been cleaned.")
+            logger.info(f"{self.filename} has been cleaned.")
             self._set_state(FileState.CLEANED)
 
     def save(self) -> None:
         """Save the cleaned file."""
         if self.state != FileState.CLEANED:
             return
-        logger.debug(f"Saving {self.filename}...")
+        logger.info(f"Saving {self.filename}...")
         self._set_state(FileState.SAVING)
         try:
             cleaned_gfile = Gio.File.new_for_path(self._temp_path)
@@ -165,10 +163,10 @@ class File(GObject.GObject):
             )
         except Exception as e:
             self.error = e
-            logger.error(f"Error while saving {self.filename}: {e}")
+            logger.warning(f"Error while saving {self.filename}: {e}")
             self._set_state(FileState.ERROR_WHILE_SAVING)
         else:
-            logger.debug(f"{self.filename} has been saved.")
+            logger.info(f"{self.filename} has been saved.")
             self._set_state(FileState.SAVED)
 
     def remove(self) -> None:

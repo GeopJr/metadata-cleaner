@@ -59,6 +59,7 @@ sources = [
   'metadatacleaner/filerow.py',
   'metadatacleaner/filesmanager.py',
   'metadatacleaner/filesview.py',
+  'metadatacleaner/logger.py',
   'metadatacleaner/menubutton.py',
   'metadatacleaner/menupopover.py',
   'metadatacleaner/metadatadetails.py',

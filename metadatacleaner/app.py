@@ -8,10 +8,8 @@ from typing import List, Optional
 
 from metadatacleaner.file import File
 from metadatacleaner.filesmanager import FilesManager
+from metadatacleaner.logger import Logger as logger
 from metadatacleaner.window import Window
-
-
-logger = logging.getLogger(__name__)
 
 
 class MetadataCleaner(Gtk.Application):

@@ -11,9 +11,7 @@ from threading import Thread
 from typing import Dict, Iterable, List, Set
 
 from metadatacleaner.file import File, FileState
-
-
-logger = logging.getLogger(__name__)
+from metadatacleaner.logger import Logger as logger
 
 
 def _get_supported_formats() -> Dict:
@@ -129,12 +127,12 @@ class FilesManager(GObject.GObject):
             gfile (Gio.File): The Gio File to add.
         """
         if gfile.get_path() in self._paths:
-            logger.debug(f"Skipping {gfile.get_path()}, already added.")
+            logger.info(f"Skipping {gfile.get_path()}, already added.")
             return
         if not gfile.query_exists(None):
-            logger.error(f"File {gfile.get_path()} does not exist, skipping.")
+            logger.info(f"File {gfile.get_path()} does not exist, skipping.")
             return
-        logger.debug(f"Adding {gfile.get_path()}...")
+        logger.info(f"Adding {gfile.get_path()}...")
         f = File(gfile)
         self._paths.add(f.path)
         self._files.append(f)
