@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 project('metadata-remover',
-  version: '0.9.9',
+  version: '1.0.0',
   meson_version: '>= 0.51.0'
 )
 
