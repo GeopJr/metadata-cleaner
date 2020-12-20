@@ -1,0 +1,354 @@
+# German translations for fr.romainvigier.MetadataCleaner package.
+# Copyright (C) 2020 THE fr.romainvigier.MetadataCleaner'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
+# Automatically generated, 2020.
+# lux <lux@systemli.org>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-19 19:49+0100\n"
+"PO-Revision-Date: 2020-12-20 19:19+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:6
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:7
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
+#: metadatacleaner/app.py:43
+msgid "Metadata Cleaner"
+msgstr "Metadaten-Reiniger"
+
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:8
+msgid "Clean metadata from your files"
+msgstr "Bereinige deine Dateien von Metadaten"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:16
+msgid "Metadata;Remover;Cleaner;"
+msgstr "Metadaten;Reiniger;Entfernen;"
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
+msgid "Warn before saving cleaned files"
+msgstr "Warnen bevor bereinigte Dateien gespeichert werden"
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
+msgid "Show the warning dialog before saving the cleaned files"
+msgstr "Warnung anzeigen bevor bereinigte Dateien gespeichert werden"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
+msgid "View and clean metadata in files"
+msgstr "Metadaten in Dateien anzeigen und bereinigen"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:15
+msgid "Romain Vigier"
+msgstr "Romain Vigier"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:22
+msgid ""
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when a picture was taken and what camera was used. Office applications "
+"automatically add author and company information to documents and "
+"spreadsheets. Maybe you don't want to disclose those informations."
+msgstr ""
+"Metadaten in einer Datei können einiges über dich aussagen. Kameras "
+"speichern Informationen darüber wann ein Foto aufgenommen wurde und welche "
+"Kamera benutzt wurde. Office-Anwendungen fügen Dokumenten und Tabellen "
+"automatisch Informationen zu Autor und Firma hinzu. Vielleicht möchtest du "
+"diese Informationen nicht preisgeben."
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:23
+msgid ""
+"This tool allows you to view metadata in your files and to get rid of them, "
+"as much as possible."
+msgstr ""
+"Diese Anwendung erlaubt die Metadaten in deinen Dateien anzuzeigen und so "
+"viel wie möglich zu entfernen."
+
+#: data/ui/AboutDialog.ui:23
+msgid ""
+"<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
+"a> to clean the metadata. Show them some love!</small>"
+msgstr ""
+"<small>Diese Anwendung nutzt <a href=\"https://0xacab.org/jvoisin/"
+"mat2\">mat2</a> um die Metadaten zu bereinigen. Zeig ihnen etwas Liebe!</"
+"small>"
+
+#: data/ui/AboutMetadataPrivacyDialog.ui:9
+msgid "Note about metadata and privacy"
+msgstr "Hinweis zu Metadaten und Privatsphäre"
+
+#: data/ui/AboutMetadataPrivacyDialog.ui:10
+msgid ""
+"Metadata consist of information that characterizes data. Metadata are used "
+"to provide documentation for data products. In essence, metadata answer who, "
+"what, when, where, why, and how about every facet of the data that are being "
+"documented.\n"
+"\n"
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when a picture was taken and what camera was used. Office aplications "
+"automatically add author and company information to documents and "
+"spreadsheets. Maybe you don't want to disclose those informations.\n"
+"\n"
+"This tool will get rid, as much as possible, of metadata."
+msgstr ""
+"Metadaten bestehen aus Informationen die Dateien kennzeichnen. Metadaten "
+"werden genutzt um Dateien zu dokumentieren. Im Grunde beantworten Metadaten "
+"das wer, was, wann, wo, warum und wie über jede Facette der Datei die sie "
+"dokumentieren\n"
+"\n"
+"Metadaten in einer Datei können einiges über dich aussagen. Kameras "
+"speichern Informationen darüber wann ein Foto aufgenommen wurde und welche "
+"Kamera benutzt wurde. Office-Anwendungen fügen Dokumenten und Tabellen "
+"automatisch Informationen zu Autor und Firma hinzu. Vielleicht möchtest du "
+"diese Informationen nicht preisgeben.\n"
+"\n"
+"Diese Anwendung wird so möglich Metadaten wie möglich entfernen."
+
+#: data/ui/AboutRemovingMetadataDialog.ui:9
+msgid "Note about removing metadata"
+msgstr "Hinweis zum Bereinigen von Metadaten"
+
+#: data/ui/AboutRemovingMetadataDialog.ui:10
+msgid ""
+"While this tool is doing its very best to display metadata, it doesn't mean "
+"that a file is clean from any metadata if it doesn't show any. There is no "
+"reliable way to detect every single possible metadata for complex file "
+"formats.\n"
+"\n"
+"This is why you shouldn't rely on metadata's presence to decide if your file "
+"must be cleaned or not."
+msgstr ""
+"Diese Anwendung gibt zwar ihr Bestes, Metadaten anzuzeigen. Wenn keine "
+"angezeigt werden, bedeutet das nicht dass die Datei nicht doch welche "
+"enthält. Es gibt keinen verlässlichen Weg, alle erdenklichen Metadaten für "
+"komplexe Dateiformate zu erkennen.\n"
+"\n"
+"Du solltest dich daher nicht auf die Anzeige von Metadaten verlassen um zu "
+"entscheiden ob die Datei bereinigt werden sollte oder nicht."
+
+#: data/ui/AddFilesButton.ui:9
+msgid "Add files"
+msgstr "Dateien hinzufügen"
+
+#: data/ui/CleanMetadataButton.ui:12
+msgid "_Clean"
+msgstr "_Reinigen"
+
+#: data/ui/EmptyView.ui:23
+msgid "Clean your traces."
+msgstr "Bereinige deine Spuren."
+
+#: data/ui/FileButton.ui:25
+msgid "Warning"
+msgstr "Warnung"
+
+#: data/ui/FileButton.ui:35
+msgid "Error"
+msgstr "Fehler"
+
+#: data/ui/FileButton.ui:45
+msgid "Metadata"
+msgstr "Metadaten"
+
+#: data/ui/FileButton.ui:55
+msgid "Cleaned"
+msgstr "Bereinigt"
+
+#: data/ui/FileRow.ui:14
+msgid "Remove file from list"
+msgstr "Datei aus der Liste entfernen"
+
+#: data/ui/MenuPopover.ui:18
+msgid "_New window"
+msgstr "_Neues Fenster"
+
+#: data/ui/MenuPopover.ui:33
+msgid "_Lightweight mode"
+msgstr "_Oberflächlich bereinigen"
+
+#: data/ui/MenuPopover.ui:34
+msgid ""
+"By default, the removal process might alter a bit the data of your files, in "
+"order to remove as much metadata as possible. For example, texts in PDF "
+"might not be selectable anymore, compressed images might get compressed "
+"again… If you're willing to trade some metadata's presence in exchange of "
+"the guarantee that the data of your files won't be modified, the lightweight "
+"mode precisely does that."
+msgstr ""
+"Standardmäßig könnte der Bereinigungsprozess deine Dateien ein wenig "
+"verändern, um so viele Metadaten wie möglich zu entfernen. Zum Beispiel "
+"könnten Texte in PDF nicht mehr auswählbar sein, komprimierte Bilder könnten "
+"nochmals komprimiert werden... Bei einer oberflächlichen Reinigung könnten "
+"einige Metadaten übrigbleiben, dafür werden die Dateien nicht verändert "
+"werden."
+
+#: data/ui/MenuPopover.ui:48
+msgid "Note about _metadata and privacy"
+msgstr "Hinweis zu _Metadaten und Privatsphäre"
+
+#: data/ui/MenuPopover.ui:55
+msgid "Note about _removing metadata"
+msgstr "Hinweis zum _Bereinigen von Metadaten"
+
+#: data/ui/MenuPopover.ui:71
+msgid "_Keyboard shortcuts"
+msgstr "_Tastaturkürzel"
+
+#: data/ui/MenuPopover.ui:78
+msgid "_About Metadata Cleaner"
+msgstr "_Über Metataten-Reiniger"
+
+#: data/ui/MetadataWindow.ui:9
+msgid "Metadata details"
+msgstr "Metadatendetails"
+
+#: data/ui/SaveFilesButton.ui:12
+msgid "_Save"
+msgstr "_Speichern"
+
+#: data/ui/SaveWarningDialog.ui:9
+msgid "Make sure you backed up your files!"
+msgstr "Stelle sicher dass du Backups von deinen Dateien angelegt hast!"
+
+#: data/ui/SaveWarningDialog.ui:10
+msgid "Once you replace your files, there's no going back."
+msgstr "Sobald zu deine Dateien überschreibst, gibt es kein Zurück mehr."
+
+#: data/ui/SaveWarningDialog.ui:18
+msgid "Don't tell me again"
+msgstr "Nicht nochmal anzeigen"
+
+#: data/ui/ShortcutsDialog.ui:18
+msgctxt "shortcut window"
+msgid "Files"
+msgstr "Dateien"
+
+#: data/ui/ShortcutsDialog.ui:22
+msgctxt "shortcut window"
+msgid "Add files"
+msgstr "Dateien hinzufügen"
+
+#: data/ui/ShortcutsDialog.ui:29
+msgctxt "shortcut window"
+msgid "Clean metadata"
+msgstr "Metadaten bereinigen"
+
+#: data/ui/ShortcutsDialog.ui:36
+msgctxt "shortcut window"
+msgid "Save cleaned files"
+msgstr "Bereinigte Dateien speichern"
+
+#: data/ui/ShortcutsDialog.ui:45
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Allgemein"
+
+#: data/ui/ShortcutsDialog.ui:49
+msgctxt "shortcut window"
+msgid "New window"
+msgstr "Neues Fenster"
+
+#: data/ui/ShortcutsDialog.ui:56
+msgctxt "shortcut window"
+msgid "Close window"
+msgstr "Fenster schließen"
+
+#: data/ui/ShortcutsDialog.ui:63
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Beenden"
+
+#: data/ui/ShortcutsDialog.ui:70
+msgctxt "shortcut window"
+msgid "Keyboard shortcuts"
+msgstr "Tastaturkürzel"
+
+#: data/ui/StatusIndicator.ui:35
+msgid "Done!"
+msgstr "Erledigt!"
+
+#: metadatacleaner/file.py:139
+msgid "Something bad happened during the removal, cleaned file not found"
+msgstr ""
+"Etwas ist beim Reinigen schiefgelaufen, bereinigte Datei nicht gefunden"
+
+#: metadatacleaner/filechooserdialog.py:21
+msgid "Choose files"
+msgstr "Dateien auswählen"
+
+#: metadatacleaner/filechooserdialog.py:31
+msgid "All supported files"
+msgstr "Alle unterstützten Dateien"
+
+#: metadatacleaner/filepopover.py:38
+msgid "Initializing…"
+msgstr "Vorbereiten…"
+
+#: metadatacleaner/filepopover.py:40
+msgid "Error while initializing the file parser."
+msgstr "Fehler beim Vorbereiten des Parsers."
+
+#: metadatacleaner/filepopover.py:42
+msgid "File type not supported."
+msgstr "Dateityp wird nicht unterstützt."
+
+#: metadatacleaner/filepopover.py:43
+msgid "File type supported."
+msgstr "Dateityp wird unterstützt."
+
+#: metadatacleaner/filepopover.py:44
+msgid "Checking metadata…"
+msgstr "Untersuche Metadaten…"
+
+#: metadatacleaner/filepopover.py:46
+msgid "Error while checking metadata:"
+msgstr "Fehler beim Untersuchen der Metadaten:"
+
+#: metadatacleaner/filepopover.py:49
+msgid ""
+"No metadata have been found.\n"
+"The file will be cleaned anyway, better safe than sorry."
+msgstr ""
+"Es wurden keine Metadaten gefunden.\n"
+"Die Datei wird dennoch bereinigt, Vorsicht ist besser als Nachsicht."
+
+#: metadatacleaner/filepopover.py:52
+msgid "Removing metadata…"
+msgstr "Entferne Metadaten…"
+
+#: metadatacleaner/filepopover.py:54
+msgid "Error while removing metadata:"
+msgstr "Fehler beim Entfernen der Metadaten:"
+
+#: metadatacleaner/filepopover.py:56
+msgid "The file has been cleaned."
+msgstr "Die Datei wurde bereinigt."
+
+#: metadatacleaner/filepopover.py:57
+msgid "Saving the cleaned file…"
+msgstr "Speichere bereinigte Datei…"
+
+#: metadatacleaner/filepopover.py:58
+msgid "Error while saving the file:"
+msgstr "Fehler beim Speichern der Datei:"
+
+#: metadatacleaner/filepopover.py:59
+msgid "The cleaned file has been saved."
+msgstr "Bereinigte Datei wurde gespeichert."
+
+#: metadatacleaner/metadatadetails.py:39
+#, python-brace-format
+msgid "{filename}:"
+msgstr "{filename}:"
+
+#: metadatacleaner/statusindicator.py:33
+msgid "Processing file {}/{}"
+msgstr "Verarbeite Datei {}/{}"
