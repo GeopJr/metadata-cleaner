@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-10 12:41+0100\n"
+"POT-Creation-Date: 2020-12-21 14:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,7 +63,7 @@ msgid ""
 "as much as possible."
 msgstr ""
 
-#: data/ui/AboutDialog.ui:23
+#: data/ui/AboutDialog.ui:25
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"

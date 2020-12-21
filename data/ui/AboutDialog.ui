@@ -12,6 +12,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <property name="copyright">© 2020 Romain Vigier</property>
     <property name="authors">Romain Vigier</property>
     <property name="artists">Romain Vigier</property>
+    <property name="translator-credits">Romain Vigier
+lux</property>
     <property name="website">https://gitlab.com/rmnvgr/metadata-cleaner/</property>
     <child internal-child="vbox">
       <object class="GtkBox">
