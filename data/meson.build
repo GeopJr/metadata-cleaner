@@ -29,7 +29,7 @@ if ascli_exe.found()
       'validate',
       '--no-net',
       '--pedantic',
-      metainfo_file
+      join_paths(meson.current_build_dir(), metainfo_file)
     ]
   )
 endif
