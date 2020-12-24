@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-21 14:23+0100\n"
+"POT-Creation-Date: 2020-12-24 12:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,6 +61,14 @@ msgstr ""
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of them, "
 "as much as possible."
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
+msgid "New in v1.0.1:"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+msgid "German translation (contributed by lux)"
 msgstr ""
 
 #: data/ui/AboutDialog.ui:25
