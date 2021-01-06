@@ -30,7 +30,9 @@ meson compile fr.romainvigier.MetadataCleaner-pot
 meson compile fr.romainvigier.MetadataCleaner-update-po
 ```
 
-Edit your language file in the [`./po/`](./po) directory.
+Edit your language file in the [`./po/`](./po) directory and add your name on a new line in the `translator-credits` field of the [`AboutDialog.ui` file](./data/ui/AboutDialog.ui).
+
+If you want to be pinged when the translation needs updating (for release notes and UI changes), add an entry in the [`Translations need updating.md` issue template](./.gitlab/issue_templates/Translations%20need%20updating.md) with your language and your username.
 
 ## Copyright notices
 
