@@ -44,6 +44,19 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <content_rating type="oars-1.1" />
 
   <releases>
+    <release version="1.0.2" date="2021-01-14">
+      <description>
+        <p>New in v1.0.2:</p>
+        <ul>
+          <li>Spanish translation (contributed by Óscar Fernández Díaz)</li>
+          <li>Swedish translation (contributed by Åke Engelbrektson)</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Files with uppercase extension can now be added</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1" date="2020-12-24">
       <description>
         <p>New in v1.0.1:</p>
