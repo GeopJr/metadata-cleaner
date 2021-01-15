@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-24 12:26+0100\n"
-"PO-Revision-Date: 2020-12-25 00:02+0100\n"
+"POT-Creation-Date: 2021-01-14 13:52+0100\n"
+"PO-Revision-Date: 2021-01-15 15:14+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -73,14 +73,35 @@ msgstr ""
 "viel wie möglich zu entfernen."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
+msgid "New in v1.0.2:"
+msgstr "Neu in v1.0.2:"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
+msgstr "Spanische Übersetzung (beigetragen von Óscar Fernández Díaz)"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
+msgid "Swedish translation (contributed by Åke Engelbrektson)"
+msgstr "Schwedische Übersetzung (beigetragen von Åke Engelbrektson)"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:54
+msgid "Bug fixes:"
+msgstr "Fehlerbehebungen:"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:56
+msgid "Files with uppercase extension can now be added"
+msgstr ""
+"Dateien mit Großbuchstaben in der Dateiendung können jetzt hinzugefügt werden"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:62
 msgid "New in v1.0.1:"
 msgstr "Neu in v1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:64
 msgid "German translation (contributed by lux)"
 msgstr "Deutsche Übersetzung (beigetragen von lux)"
 
-#: data/ui/AboutDialog.ui:25
+#: data/ui/AboutDialog.ui:27
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"
