@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-14 13:52+0100\n"
+"POT-Creation-Date: 2021-01-19 12:47+0100\n"
 "PO-Revision-Date: 2021-01-15 13:09+0100\n"
 "Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
 "Language-Team: Svenska Språkfiler <contactform@svenskasprakfiler.se>\n"
@@ -98,7 +98,12 @@ msgstr "Nytt i v1.0.1:"
 msgid "German translation (contributed by lux)"
 msgstr "Tysk översättning (av lux)"
 
-#: data/ui/AboutDialog.ui:27
+#. Translators: Add your name here, do not remove previous ones!
+#: data/ui/AboutDialog.ui:15
+msgid "translator-credits"
+msgstr "Åke Engelbrektson"
+
+#: data/ui/AboutDialog.ui:24
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"

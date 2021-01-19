@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-14 13:52+0100\n"
+"POT-Creation-Date: 2021-01-19 12:47+0100\n"
 "PO-Revision-Date: 2021-01-14 14:08+0100\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish - Spain <oscfdezdz@tuta.io>\n"
@@ -75,17 +75,14 @@ msgstr ""
 "de ellos, en la medida de lo posible."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
-#| msgid "New in v1.0.1:"
 msgid "New in v1.0.2:"
 msgstr "Nuevo en la v1.0.2:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
-#| msgid "German translation (contributed by lux)"
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Traducción al español (contribución de Óscar Fernández Díaz)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
-#| msgid "German translation (contributed by lux)"
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Traducción al sueco (contribución de Åke Engelbrektson)"
 
@@ -105,7 +102,12 @@ msgstr "Nuevo en la v1.0.1:"
 msgid "German translation (contributed by lux)"
 msgstr "Traducción al alemán (contribución de lux)"
 
-#: data/ui/AboutDialog.ui:27
+#. Translators: Add your name here, do not remove previous ones!
+#: data/ui/AboutDialog.ui:15
+msgid "translator-credits"
+msgstr "Óscar Fernández Díaz"
+
+#: data/ui/AboutDialog.ui:24
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"

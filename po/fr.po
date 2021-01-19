@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-14 13:52+0100\n"
+"POT-Creation-Date: 2021-01-19 12:47+0100\n"
 "PO-Revision-Date: 2021-01-14 13:54+0100\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <romain@romainvigier.fr>\n"
@@ -103,7 +103,12 @@ msgstr "Nouveau dans la version 1.0.1 :"
 msgid "German translation (contributed by lux)"
 msgstr "Traduction allemande (contribution de lux)"
 
-#: data/ui/AboutDialog.ui:27
+#. Translators: Add your name here, do not remove previous ones!
+#: data/ui/AboutDialog.ui:15
+msgid "translator-credits"
+msgstr "Romain Vigier"
+
+#: data/ui/AboutDialog.ui:24
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"
