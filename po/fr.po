@@ -3,21 +3,21 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataRemover package.
 # Automatically generated, 2020.
 # Romain Vigier <romain@romainvigier.fr>, 2020-2021.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-19 12:47+0100\n"
-"PO-Revision-Date: 2021-01-14 13:54+0100\n"
+"PO-Revision-Date: 2021-03-29 12:33+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
-"Language-Team: French <romain@romainvigier.fr>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/metadata-cleaner/"
+"languages/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -316,7 +316,7 @@ msgstr "Terminé !"
 msgid "Something bad happened during the removal, cleaned file not found"
 msgstr ""
 "Quelque chose s’est mal passé pendant la suppression, le fichier nettoyé est "
-"introuvable."
+"introuvable"
 
 #: metadatacleaner/filechooserdialog.py:21
 msgid "Choose files"
