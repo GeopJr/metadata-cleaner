@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: metadata-cleaner
+Upstream-Contact: Romain Vigier <romain@romainvigier.fr>
+Source: https://gitlab.com/rmnvgr/metadata-cleaner/
+
+Files: po/*.po
+Copyright:
+License: CC-BY-SA-4.0

@@ -15,24 +15,21 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 Metadata Cleaner is written in Python 3. It follows the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide, the [PEP 257](https://www.python.org/dev/peps/pep-0257/) doctring conventions and the [PEP 484](https://www.python.org/dev/peps/pep-0484/) type hints.
 
+If you add or modify strings, make your modification available to translation by updating the POT file with this command:
+
+```bash
+meson compile -C builddir fr.romainvigier.MetadataCleaner-pot
+```
+
 Open a new merge request with your changes, the CI will automatically check your code.
 
 ## Translations
 
-If you want to add a new language, add its code in a new line in the [`./po/LINGUAS`](./po/LINGUAS) file.
+The project uses Weblate to manage translations. Head over [Metadata Cleaner's project page](https://hosted.weblate.org/projects/metadata-cleaner/) to start translating the application. If you need help, check out [Weblate's user documentation](https://docs.weblate.org/en/latest/user/translating.html).
 
-Run these commands to update the `po` files:
+Current translation status:
 
-```sh
-meson builddir
-cd builddir
-meson compile fr.romainvigier.MetadataCleaner-pot
-meson compile fr.romainvigier.MetadataCleaner-update-po
-```
-
-Edit your language file in the [`./po/`](./po) directory.
-
-If you want to be pinged when the translation needs updating (for release notes and UI changes), add an entry in the [`Translations need updating.md` issue template](./.gitlab/issue_templates/Translations%20need%20updating.md) with your language and your username.
+[![Translation status](https://hosted.weblate.org/widgets/metadata-cleaner/-/multi-auto.svg)](https://hosted.weblate.org/engage/metadata-cleaner/)
 
 ## Copyright notices
 
