@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 15:01+0200\n"
-"PO-Revision-Date: 2021-03-30 19:26+0000\n"
+"PO-Revision-Date: 2021-04-02 16:10+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "strings/tr/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: metadatacleaner/app.py:43
 msgid "Metadata Cleaner"
-msgstr "Metadata Cleaner"
+msgstr "Üst Veri Temizleyici"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
@@ -72,14 +72,12 @@ msgstr ""
 "onlardan kurtulmanızı sağlar."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
-#, fuzzy
 msgid "New in v1.0.4:"
-msgstr "1.0.2 sürümündeki yenilikler:"
+msgstr "1.0.4 sürümündeki yenilikler:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
-#, fuzzy
 msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr "İsveççe çeviri (katkıda bulunan: Åke Engelbrektson)"
+msgstr "Türkçe çeviri (katkıda bulunan: Oğuz Ersen)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
 msgid "New in v1.0.2:"
@@ -245,7 +243,7 @@ msgstr "_Klavye kısayolları"
 
 #: data/ui/MenuPopover.ui:78
 msgid "_About Metadata Cleaner"
-msgstr "Metadata Cleaner _Hakkında"
+msgstr "Üst Veri Temizleyici _Hakkında"
 
 #: data/ui/MetadataWindow.ui:9
 msgid "Metadata details"
