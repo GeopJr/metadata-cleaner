@@ -13,6 +13,8 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 ## Code
 
+Before writing any code, please open a new issue to discuss your intented changes.
+
 Metadata Cleaner is written in Python 3. It follows the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide, the [PEP 257](https://www.python.org/dev/peps/pep-0257/) doctring conventions and the [PEP 484](https://www.python.org/dev/peps/pep-0484/) type hints.
 
 If you add or modify strings, make your modification available to translation by updating the POT file with this command:
@@ -50,7 +52,3 @@ or
 ```
 Translation: Update French
 ```
-
-## Support
-
-I've written this application for the benefit of everyone, if you want to help me in return, please consider [supporting me on Liberapay](https://liberapay.com/rmnvgr/)!

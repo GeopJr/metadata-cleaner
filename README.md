@@ -56,4 +56,10 @@ flatpak-builder --force-clean --user --install builddir data/fr.romainvigier.Met
 
 ## Contributing
 
-See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+You can contribute to the code or the translations, see [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+
+## Support
+
+I've written this application for the benefit of everyone, if you want to help me in return, please consider [supporting me on Liberapay](https://liberapay.com/rmnvgr/)!
+
+[![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/rmnvgr/donate)
