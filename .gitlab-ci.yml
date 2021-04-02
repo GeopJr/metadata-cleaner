@@ -1,26 +1,26 @@
 # SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-image: python:latest
-
-variables:
-  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
-
-cache:
-  paths:
-    - .cache/pip
-    - venv/
-
-before_script:
-  - python -V
-  - pip install virtualenv
-  - virtualenv venv
-  - source venv/bin/activate
-
 stages:
   - check
+  - build
+
+.python:
+  image: python:latest
+  variables:
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  cache:
+    paths:
+      - .cache/pip
+      - venv/
+  before_script:
+    - python -V
+    - pip install virtualenv
+    - virtualenv venv
+    - source venv/bin/activate
 
 mypy:
+  extends: .python
   stage: check
   rules:
     - changes:
@@ -30,6 +30,7 @@ mypy:
     - mypy --ignore-missing-imports ./metadatacleaner
 
 pydocstyle:
+  extends: .python
   stage: check
   rules:
     - changes:
@@ -39,7 +40,29 @@ pydocstyle:
     - pydocstyle ./metadatacleaner
 
 reuse:
+  extends: .python
   stage: check
   script:
     - pip install reuse
     - reuse lint
+
+flatpak:
+  stage: build
+  image: fedora:latest
+  cache:
+    paths:
+      - .flatpak-builder
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_TAG
+    - if: $CI_PIPELINE_SOURCE == "web"
+  script:
+    - sudo dnf install -y flatpak flatpak-builder
+    - flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    - flatpak-builder --install-deps-from=flathub --repo=metadata-cleaner-flatpak builddir data/fr.romainvigier.MetadataCleaner.yaml
+    - flatpak build-bundle ./metadata-cleaner-flatpak fr.romainvigier.MetadataCleaner.flatpak fr.romainvigier.MetadataCleaner
+  artifacts:
+    name: "$CI_COMMIT_REF_SLUG"
+    expose_as: "flatpak-bundle"
+    paths:
+      - "fr.romainvigier.MetadataCleaner.flatpak"
