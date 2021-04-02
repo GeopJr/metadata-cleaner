@@ -48,7 +48,7 @@ meson builddir
 meson install -C builddir
 ```
 
-Flatpak building is also available and requires the GNOME 3.38 platform and SDK:
+Flatpak building is also available and requires the GNOME platform and SDK:
 
 ```sh
 flatpak-builder --force-clean --user --install builddir data/fr.romainvigier.MetadataCleaner.yaml
