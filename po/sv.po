@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-19 12:47+0100\n"
+"POT-Creation-Date: 2021-04-02 15:01+0200\n"
 "PO-Revision-Date: 2021-01-15 13:09+0100\n"
 "Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
 "Language-Team: Svenska Språkfiler <contactform@svenskasprakfiler.se>\n"
@@ -71,30 +71,40 @@ msgstr ""
 "mycket som möjligt."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
-msgid "New in v1.0.2:"
+#, fuzzy
+msgid "New in v1.0.4:"
 msgstr "Nytt i v1.0.2:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+#, fuzzy
+msgid "Turkish translation (contributed by Oğuz Ersen)"
+msgstr "Svensk översättning (av Åke Engelbrektson))"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
+msgid "New in v1.0.2:"
+msgstr "Nytt i v1.0.2:"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Spansk översättning (av Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:61
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Svensk översättning (av Åke Engelbrektson))"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:54
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:63
 msgid "Bug fixes:"
 msgstr "Buggfixar:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:56
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:65
 msgid "Files with uppercase extension can now be added"
 msgstr "Filer med filändelsen i versaler kan nu läggas till"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:62
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
 msgid "New in v1.0.1:"
 msgstr "Nytt i v1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:64
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
 msgid "German translation (contributed by lux)"
 msgstr "Tysk översättning (av lux)"
 

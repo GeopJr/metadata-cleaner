@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-19 12:47+0100\n"
+"POT-Creation-Date: 2021-04-02 15:01+0200\n"
 "PO-Revision-Date: 2021-02-12 14:29+0100\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish\n"
@@ -73,30 +73,40 @@ msgstr ""
 "de ellos en la medida de lo posible."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
-msgid "New in v1.0.2:"
+#, fuzzy
+msgid "New in v1.0.4:"
 msgstr "Nuevo en la versión 1.0.2:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+#, fuzzy
+msgid "Turkish translation (contributed by Oğuz Ersen)"
+msgstr "Traducción al sueco (aportada por Åke Engelbrektson)"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
+msgid "New in v1.0.2:"
+msgstr "Nuevo en la versión 1.0.2:"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Traducción al español (aportada por Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:61
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Traducción al sueco (aportada por Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:54
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:63
 msgid "Bug fixes:"
 msgstr "Corrección de errores:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:56
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:65
 msgid "Files with uppercase extension can now be added"
 msgstr "Ahora se pueden añadir archivos con extensión en mayúsculas"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:62
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
 msgid "New in v1.0.1:"
 msgstr "Nuevo en la versión 1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:64
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
 msgid "German translation (contributed by lux)"
 msgstr "Traducción al alemán (aportada por lux)"
 
