@@ -20,7 +20,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
               <object class="GtkShortcutsShortcut">
                 <property name="visible">True</property>
                 <property name="title" translatable="yes" context="shortcut window">Add files</property>
-                <property name="accelerator">&lt;Primary&gt;n</property>
+                <property name="accelerator">&lt;Primary&gt;o</property>
               </object>
             </child>
             <child>
