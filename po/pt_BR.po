@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
+# Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 15:08+0200\n"
-"PO-Revision-Date: 2021-04-25 09:05+0000\n"
-"Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
+"PO-Revision-Date: 2021-04-27 08:52+0000\n"
+"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -110,7 +111,7 @@ msgstr "Tradução para o alemão (contribuição de lux)"
 #. Translators: Add your name here, do not remove previous ones!
 #: data/ui/AboutDialog.ui:15
 msgid "translator-credits"
-msgstr "Gustavo Costa &lt;xfgusta@gmail.com&gt;"
+msgstr "Gustavo Costa <xfgusta@gmail.com>"
 
 #: data/ui/AboutDialog.ui:24
 msgid ""
