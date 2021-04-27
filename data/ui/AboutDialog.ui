@@ -12,7 +12,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <property name="copyright">© 2020 Romain Vigier</property>
     <property name="authors">Romain Vigier</property>
     <property name="artists">Romain Vigier</property>
-    <property name="translator-credits" translatable="yes" comments="Translators: Add your name here, do not remove previous ones!">translator-credits</property>
+    <property name="translator-credits" translatable="yes" comments="Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name &lt;mail@example.org&gt;`). If names are already present, do not remove them and add yours on a new line.">translator-credits</property>
     <property name="website">https://gitlab.com/rmnvgr/metadata-cleaner/</property>
     <child internal-child="vbox">
       <object class="GtkBox">

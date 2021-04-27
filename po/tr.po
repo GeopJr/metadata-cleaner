@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-02 15:01+0200\n"
+"POT-Creation-Date: 2021-04-27 10:37+0200\n"
 "PO-Revision-Date: 2021-04-02 16:10+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -107,7 +107,7 @@ msgstr "1.0.1 sürümündeki yenilikler:"
 msgid "German translation (contributed by lux)"
 msgstr "Almanca çeviri (katkıda bulunan: lux)"
 
-#. Translators: Add your name here, do not remove previous ones!
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/AboutDialog.ui:15
 msgid "translator-credits"
 msgstr "Oğuz Ersen"
