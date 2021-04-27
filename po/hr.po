@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 15:08+0200\n"
-"PO-Revision-Date: 2021-04-27 08:43+0000\n"
+"PO-Revision-Date: 2021-04-27 08:52+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/hr/>\n"
@@ -112,7 +112,7 @@ msgstr "Njemački prijevod (lux)"
 #. Translators: Add your name here, do not remove previous ones!
 #: data/ui/AboutDialog.ui:15
 msgid "translator-credits"
-msgstr "Milo Ivir &lt;mail@milotype.de&gt;"
+msgstr "Milo Ivir <mail@milotype.de>"
 
 #: data/ui/AboutDialog.ui:24
 msgid ""
