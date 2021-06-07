@@ -41,6 +41,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <binary>metadata-cleaner</binary>
   </provides>
 
+  <translation type="gettext">fr.romainvigier.MetadataCleaner</translation>
+
   <content_rating type="oars-1.1" />
 
   <releases>
