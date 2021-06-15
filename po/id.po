@@ -7,45 +7,50 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 11:07+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-06-17 00:40+0000\n"
+"Last-Translator: liimee <alt3753.7@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: metadatacleaner/app.py:43
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Pembersih Metadata"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "Bersihkan metadata dari berkas-berkas Anda"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:16
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "Metadata;Penghapus;Pembersih;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Warn before saving cleaned files"
-msgstr ""
+msgstr "Peringati sebelum menyimpan berkas-berkas yang telah dibersihkan"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Show the warning dialog before saving the cleaned files"
 msgstr ""
+"Tampilkan dialog peringatan sebelum menyimpan berkas-berkas yang telah "
+"dibersihkan"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "Lihat dan bersihkan metadata pada berkas-berkas"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:15
 msgid "Romain Vigier"
-msgstr ""
+msgstr "Romain Vigier"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:22
 msgid ""
@@ -56,10 +61,13 @@ msgid ""
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:23
+#, fuzzy
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of them, "
 "as much as possible."
 msgstr ""
+"Alat ini memungkinkan Anda untuk melihat metadata pada berkas-berkas Anda "
+"dan membersihkannya, sebanyak mungkin."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:50
 msgid "Croatian translation (contributed by Milo Ivir)"
