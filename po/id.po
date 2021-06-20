@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 11:07+0200\n"
-"PO-Revision-Date: 2021-06-18 02:33+0000\n"
+"PO-Revision-Date: 2021-06-22 00:41+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/id/>\n"
@@ -62,13 +62,12 @@ msgid ""
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:23
-#, fuzzy
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of them, "
 "as much as possible."
 msgstr ""
-"Alat ini memungkinkan Anda untuk melihat metadata pada berkas-berkas Anda "
-"dan membersihkannya, sebanyak mungkin."
+"Alat ini membantu Anda untuk melihat metadata pada berkas-berkas Anda dan "
+"membersihkannya, sebanyak mungkin."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:50
 msgid "Croatian translation (contributed by Milo Ivir)"
@@ -88,19 +87,19 @@ msgstr "Terjemahan bahasa Turki ( oleh Oğuz Ersen)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
 msgid "New in v1.0.2:"
-msgstr ""
+msgstr "Baru di v1.0.2:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr ""
+msgstr "Terjemahan Bahasa Spanyol (disumbangkan oleh Óscar Fernández Díaz)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr ""
+msgstr "Terjemahan Swedia (disumbangkan oleh Åke Engelbrektson)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:72
 msgid "Bug fixes:"
-msgstr ""
+msgstr "Perbaikan bug:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Files with uppercase extension can now be added"
@@ -108,11 +107,11 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:80
 msgid "New in v1.0.1:"
-msgstr ""
+msgstr "Baru di v1.0.1:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
 msgid "German translation (contributed by lux)"
-msgstr ""
+msgstr "Terjemahan Bahasa Jerman (disumbangkan oleh lux)"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/AboutDialog.ui:15
@@ -165,39 +164,39 @@ msgstr "Tambah berkas"
 
 #: data/ui/CleanMetadataButton.ui:12
 msgid "_Clean"
-msgstr ""
+msgstr "_Hapus"
 
 #: data/ui/EmptyView.ui:23
 msgid "Clean your traces."
-msgstr ""
+msgstr "Hapus jejak anda."
 
 #: data/ui/FileButton.ui:25
 msgid "Warning"
-msgstr ""
+msgstr "Peringatan"
 
 #: data/ui/FileButton.ui:35
 msgid "Error"
-msgstr ""
+msgstr "Galat"
 
 #: data/ui/FileButton.ui:45
 msgid "Metadata"
-msgstr ""
+msgstr "Metadata"
 
 #: data/ui/FileButton.ui:55
 msgid "Cleaned"
-msgstr ""
+msgstr "Dibersihkan"
 
 #: data/ui/FileRow.ui:14
 msgid "Remove file from list"
-msgstr ""
+msgstr "Hapus berkas dari daftar"
 
 #: data/ui/MenuPopover.ui:18
 msgid "_New window"
-msgstr ""
+msgstr "_Jendela baru"
 
 #: data/ui/MenuPopover.ui:33
 msgid "_Lightweight mode"
-msgstr ""
+msgstr "_Mode ringan"
 
 #: data/ui/MenuPopover.ui:34
 msgid ""
@@ -215,15 +214,15 @@ msgstr ""
 
 #: data/ui/MenuPopover.ui:55
 msgid "Note about _removing metadata"
-msgstr ""
+msgstr "Catatan mengenai _menghapus metadata"
 
 #: data/ui/MenuPopover.ui:71
 msgid "_Keyboard shortcuts"
-msgstr ""
+msgstr "_Pintasan papan tik"
 
 #: data/ui/MenuPopover.ui:78
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_Tentang Metadata Cleaner"
 
 #: data/ui/MetadataWindow.ui:9
 msgid "Metadata details"
@@ -243,17 +242,17 @@ msgstr ""
 
 #: data/ui/SaveWarningDialog.ui:18
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Jangan beritahu lagi"
 
 #: data/ui/ShortcutsDialog.ui:18
 msgctxt "shortcut window"
 msgid "Files"
-msgstr ""
+msgstr "Berkas"
 
 #: data/ui/ShortcutsDialog.ui:22
 msgctxt "shortcut window"
 msgid "Add files"
-msgstr ""
+msgstr "Tambah berkas"
 
 #: data/ui/ShortcutsDialog.ui:29
 msgctxt "shortcut window"
@@ -273,26 +272,26 @@ msgstr ""
 #: data/ui/ShortcutsDialog.ui:49
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "Jendela baru"
 
 #: data/ui/ShortcutsDialog.ui:56
 msgctxt "shortcut window"
 msgid "Close window"
-msgstr ""
+msgstr "Tutup jendela"
 
 #: data/ui/ShortcutsDialog.ui:63
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Keluar"
 
 #: data/ui/ShortcutsDialog.ui:70
 msgctxt "shortcut window"
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Pintasan papan tik"
 
 #: data/ui/StatusIndicator.ui:35
 msgid "Done!"
-msgstr ""
+msgstr "Selesai!"
 
 #: metadatacleaner/file.py:139
 msgid "Something bad happened during the removal, cleaned file not found"
@@ -300,15 +299,15 @@ msgstr ""
 
 #: metadatacleaner/filechooserdialog.py:21
 msgid "Choose files"
-msgstr ""
+msgstr "Pilih berkas"
 
 #: metadatacleaner/filechooserdialog.py:31
 msgid "All supported files"
-msgstr ""
+msgstr "Semua berkas yang didukung"
 
 #: metadatacleaner/filepopover.py:38
 msgid "Initializing…"
-msgstr ""
+msgstr "Memulai…"
 
 #: metadatacleaner/filepopover.py:40
 msgid "Error while initializing the file parser."
@@ -328,43 +327,45 @@ msgstr ""
 
 #: metadatacleaner/filepopover.py:46
 msgid "Error while checking metadata:"
-msgstr ""
+msgstr "Galat saat memeriksa metadata:"
 
 #: metadatacleaner/filepopover.py:49
 msgid ""
 "No metadata have been found.\n"
 "The file will be cleaned anyway, better safe than sorry."
 msgstr ""
+"Tidak ada metadata yang ditemukan.\n"
+"Berkas akan tetap dibersihkan, lebih baik aman daripada menyesal."
 
 #: metadatacleaner/filepopover.py:52
 msgid "Removing metadata…"
-msgstr ""
+msgstr "Menghapus metadata…"
 
 #: metadatacleaner/filepopover.py:54
 msgid "Error while removing metadata:"
-msgstr ""
+msgstr "Galat saat menghapus metadata:"
 
 #: metadatacleaner/filepopover.py:56
 msgid "The file has been cleaned."
-msgstr ""
+msgstr "Berkas telah dibersihkan."
 
 #: metadatacleaner/filepopover.py:57
 msgid "Saving the cleaned file…"
-msgstr ""
+msgstr "Menyimpan berkas yang dibersihkan…"
 
 #: metadatacleaner/filepopover.py:58
 msgid "Error while saving the file:"
-msgstr ""
+msgstr "Galat saat menyimpan berkas:"
 
 #: metadatacleaner/filepopover.py:59
 msgid "The cleaned file has been saved."
-msgstr ""
+msgstr "Berkas yang dibersihkan telah disimpan."
 
 #: metadatacleaner/metadatadetails.py:39
 #, python-brace-format
 msgid "{filename}:"
-msgstr ""
+msgstr "{filename}:"
 
 #: metadatacleaner/statusindicator.py:33
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "Memproses berkas {}/{}"
