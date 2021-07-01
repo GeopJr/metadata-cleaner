@@ -46,6 +46,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <content_rating type="oars-1.1" />
 
   <releases>
+    <release version="1.0.7" date="2021-07-01">
+      <description>
+        <ul>
+          <li>New translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.6" date="2021-04-27">
       <description>
         <ul>

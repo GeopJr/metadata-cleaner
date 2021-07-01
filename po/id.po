@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 11:07+0200\n"
+"POT-Creation-Date: 2021-07-01 11:08+0200\n"
 "PO-Revision-Date: 2021-06-22 00:41+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,47 +69,51 @@ msgstr ""
 "Alat ini membantu Anda untuk melihat metadata pada berkas-berkas Anda dan "
 "membersihkannya, sebanyak mungkin."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:50
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
+msgid "New translations"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:59
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
 msgid "New in v1.0.4:"
 msgstr "Apa yang baru di v1.0.4:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Terjemahan bahasa Turki ( oleh Oğuz Ersen)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "New in v1.0.2:"
 msgstr "Baru di v1.0.2:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Terjemahan Bahasa Spanyol (disumbangkan oleh Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Terjemahan Swedia (disumbangkan oleh Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:72
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
 msgid "Bug fixes:"
 msgstr "Perbaikan bug:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
 msgid "Files with uppercase extension can now be added"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:80
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
 msgid "New in v1.0.1:"
 msgstr "Baru di v1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "German translation (contributed by lux)"
 msgstr "Terjemahan Bahasa Jerman (disumbangkan oleh lux)"
 

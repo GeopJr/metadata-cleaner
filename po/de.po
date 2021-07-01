@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 11:07+0200\n"
+"POT-Creation-Date: 2021-07-01 11:08+0200\n"
 "PO-Revision-Date: 2021-04-29 13:32+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -74,48 +74,52 @@ msgstr ""
 "Diese Anwendung erlaubt die Metadaten in deinen Dateien anzuzeigen und so "
 "viel wie möglich zu entfernen."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:50
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
+msgid "New translations"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:59
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr "Kroatische Übersetzung (beigetragen von Milo Ivir)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr "Portugiesische (Brasilien) Übersetzung (beigetragen von Gustavo Costa)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
 msgid "New in v1.0.4:"
 msgstr "Neu in v1.0.4:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Türkische Übersetzung (beigetragen von Oğuz Ersen)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "New in v1.0.2:"
 msgstr "Neu in v1.0.2:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Spanische Übersetzung (beigetragen von Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Schwedische Übersetzung (beigetragen von Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:72
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
 msgid "Bug fixes:"
 msgstr "Fehlerbehebungen:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
 msgid "Files with uppercase extension can now be added"
 msgstr ""
 "Dateien mit Großbuchstaben in der Dateiendung können jetzt hinzugefügt werden"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:80
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
 msgid "New in v1.0.1:"
 msgstr "Neu in v1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "German translation (contributed by lux)"
 msgstr "Deutsche Übersetzung (beigetragen von lux)"
 
