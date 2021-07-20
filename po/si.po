@@ -7,13 +7,16 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-01 11:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-07-21 18:34+0000\n"
+"Last-Translator: HelaBasa <R45XvezA@protonmail.ch>\n"
+"Language-Team: Sinhala <https://hosted.weblate.org/projects/metadata-cleaner/"
+"application/si/>\n"
 "Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -63,7 +66,7 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
 msgid "New translations"
-msgstr ""
+msgstr "නව පරිවර්තන"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:59
 msgid "Croatian translation (contributed by Milo Ivir)"
@@ -156,7 +159,7 @@ msgstr ""
 
 #: data/ui/AddFilesButton.ui:9
 msgid "Add files"
-msgstr ""
+msgstr "ගොනු එකතු කරන්න"
 
 #: data/ui/CleanMetadataButton.ui:12
 msgid "_Clean"
@@ -168,11 +171,11 @@ msgstr ""
 
 #: data/ui/FileButton.ui:25
 msgid "Warning"
-msgstr ""
+msgstr "අවවාදයයි"
 
 #: data/ui/FileButton.ui:35
 msgid "Error"
-msgstr ""
+msgstr "දෝෂයකි"
 
 #: data/ui/FileButton.ui:45
 msgid "Metadata"
@@ -243,12 +246,12 @@ msgstr ""
 #: data/ui/ShortcutsDialog.ui:18
 msgctxt "shortcut window"
 msgid "Files"
-msgstr ""
+msgstr "ගොනු"
 
 #: data/ui/ShortcutsDialog.ui:22
 msgctxt "shortcut window"
 msgid "Add files"
-msgstr ""
+msgstr "ගොනු එකතු කරන්න"
 
 #: data/ui/ShortcutsDialog.ui:29
 msgctxt "shortcut window"
@@ -268,22 +271,22 @@ msgstr ""
 #: data/ui/ShortcutsDialog.ui:49
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "නව කවුළුව"
 
 #: data/ui/ShortcutsDialog.ui:56
 msgctxt "shortcut window"
 msgid "Close window"
-msgstr ""
+msgstr "කවුළුව වසන්න"
 
 #: data/ui/ShortcutsDialog.ui:63
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "ඉවත් වන්න"
 
 #: data/ui/ShortcutsDialog.ui:70
 msgctxt "shortcut window"
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "යතුරුපුවරු කෙටිමං"
 
 #: data/ui/StatusIndicator.ui:35
 msgid "Done!"
