@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-10 14:45+0200\n"
-"PO-Revision-Date: 2021-08-06 18:33+0000\n"
+"PO-Revision-Date: 2021-08-10 17:50+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/nl/>\n"
@@ -47,31 +47,32 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 #: data/ui/SettingsButton.ui:28
-#, fuzzy
 msgid "Lightweight cleaning"
-msgstr "_Eenvoudige modus"
+msgstr "Eenvoudige modus"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid ""
 "Trade some metadata's presence in exchange of the guarantee that the data "
 "won't be modified"
 msgstr ""
+"Neem voor lief dat er enkele metagegevens achterblijven, maar mét "
+"verzekering dat bestanden niet worden aangepast"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr ""
+msgstr "Vensterbreedte"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr ""
+msgstr "De vensterbreedte is opgeslagen"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr ""
+msgstr "Vensterhoogte"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr ""
+msgstr "De vensterhoogte is opgeslagen"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -100,20 +101,20 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "De automatisch aanpasbare vormgeving is verbeterd"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New help pages"
-msgstr ""
+msgstr "Nieuwe hulppagina's"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "One-click cleaning, no need to clean then save anymore"
 msgstr ""
+"Opschonen met één klik: je hoeft niet meer op te schonen en dan op te slaan"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-#, fuzzy
 msgid "Lightweight cleaning option is now saved"
-msgstr "_Eenvoudige modus"
+msgstr "De eenvoudige modus-optie wordt voortaan onthouden"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
@@ -166,7 +167,6 @@ msgid "German translation (contributed by lux)"
 msgstr "Duitse vertaling (met dank aan lux)"
 
 #: data/gtk/help-overlay.ui:15
-#, fuzzy
 msgid "Files"
 msgstr "Bestanden"
 
@@ -175,62 +175,56 @@ msgid "Add files"
 msgstr "Bestanden toevoegen"
 
 #: data/gtk/help-overlay.ui:24
-#, fuzzy
 msgid "Clean metadata"
 msgstr "Metagegevens opschonen"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Alle bestanden op venster wissen"
 
 #: data/gtk/help-overlay.ui:38
-#, fuzzy
 msgid "General"
 msgstr "Algemeen"
 
 #: data/gtk/help-overlay.ui:41
-#, fuzzy
 msgid "New window"
 msgstr "Nieuw venster openen"
 
 #: data/gtk/help-overlay.ui:47
-#, fuzzy
 msgid "Close window"
 msgstr "Venster sluiten"
 
 #: data/gtk/help-overlay.ui:53
-#, fuzzy
 msgid "Quit"
 msgstr "Afsluiten"
 
 #: data/gtk/help-overlay.ui:59
-#, fuzzy
 msgid "Keyboard shortcuts"
 msgstr "Sneltoetsen tonen"
 
 #: data/gtk/help-overlay.ui:65
 msgid "Help"
-msgstr ""
+msgstr "Hulp"
 
 #: data/ui/AboutDialog.ui:87
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "Chatten op Matrix"
 
 #: data/ui/AboutDialog.ui:97
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "Broncode bekijken op GitLab"
 
 #: data/ui/AboutDialog.ui:107
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "Vertalen op Weblate"
 
 #: data/ui/AboutDialog.ui:117
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "Doneren via Liberapay"
 
 #: data/ui/AboutDialog.ui:147
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #: data/ui/AboutDialog.ui:153
 msgid "Artwork"
@@ -347,7 +341,7 @@ msgstr ""
 
 #: data/ui/SettingsButton.ui:33
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Meer informatie over de eenvoudige modus"
 
 #: data/ui/Window.ui:72
 msgid "Details"
