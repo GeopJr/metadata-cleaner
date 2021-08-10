@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: 2021-08-10 15:00+0000\n"
+"PO-Revision-Date: 2021-08-10 18:12+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/fr/>\n"
@@ -17,52 +17,77 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Métadonnées et confidentialité"
 
 #. (itstool) path: section/p
 #: C/general.page:15
 msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
 msgstr ""
+"Les métadonnées sont des informations qui caractérisent une donnée. Elles "
+"sont utilisées pour donner des renseignements aux consommateurs de données. "
+"Par essence, les métadonnées répondent aux questions qui, quoi, quand, où, "
+"pourquoi et comment à propos de chaque aspect de la donnée qu’elles "
+"caractérisent."
 
 #. (itstool) path: section/p
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"Les métadonnées dans un fichier peuvent en dire beaucoup sur vous. Les "
+"appareils photo enregistrent des données sur la date et le matériel de prise "
+"de vue. Les applications de bureautique ajoutent automatiquement des "
+"informations sur l’auteur et l’entreprise aux documents et tableaux. Vous ne "
+"voulez peut-être pas divulguer ces informations."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Exemple de métadonnées dans un fichier image"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
 msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Le fichier divulgue des informations sur le matériel, les réglages, la date "
+"et l’emplacement de la prise de vue. Il contient un total de 79 métadonnées."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Processus de nettoyage"
 
 #. (itstool) path: section/p
 #: C/general.page:28
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
+"Bien que <app>Nettoyeur de métadonnées</app> fasse de son mieux pour "
+"afficher les métadonnées, cela ne signifie pas qu’un fichier n’en contient "
+"pas s’il n’en affiche aucun. Il n’y a pas de méthode fiable pour détecter "
+"chaque métadonnée possible pour des formats de fichier complexes. C’est "
+"pourquoi vous ne devriez pas vous fier à la présence de métadonnées pour "
+"décider si votre fichier doit être nettoyé ou non."
 
 #. (itstool) path: section/p
 #: C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Nettoyeur de métadonnées</app> prends le contenu du fichier et le place "
+"dans un nouveau sans métadonnées, garantissant que toutes les métadonnées "
+"non-détectées sont retirées."
 
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Limites"
 
 #. (itstool) path: section/p
 #: C/general.page:36
 msgid "Be aware that metadata are not the only way of marking a file. If the content discloses personal informations or has been watermarked, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Prenez conscience que les métadonnées ne sont pas le seul moyen pour tracer "
+"un fichier. Si le contenu divulgue des informations personnelles ou a été "
+"tatoué numériquement, <app>Nettoyeur de métadonnées</app> ne vous protégera "
+"pas."
 
 #. (itstool) path: page/title
 #: C/index.page:10
@@ -73,61 +98,71 @@ msgstr "Nettoyeur de métadonnées"
 #: C/index.page:14
 msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of them, as much as possible."
 msgstr ""
+"<app>Nettoyeur de métadonnées</app> vous permet d’afficher les métadonnées "
+"dans vos fichiers et de les effacer, autant que possible."
 
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General informations"
-msgstr ""
+msgstr "Informations générales"
 
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Utiliser <app>Nettoyeur de métadonnées</app>"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Ajouter des fichiers"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
 msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
 msgstr ""
+"Pour ajouter des fichiers, pressez le bouton <gui style=\"button\">Ajouter "
+"des fichiers</gui>. Un sélecteur de fichier apparaîtra, choisissez les "
+"fichiers que vous désirez nettoyer."
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "Bouton <gui style=\"button\">Ajouter des fichiers</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:25
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Afficher des métadonnées"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
 msgid "Click on a file in the list to open the detailed view. If it has metadata, they will be shown there."
 msgstr ""
+"Cliquez sur un fichier de la liste pour ouvrir la vue détaillées. S’il a des "
+"métadonnées, elles seront présentées ici."
 
 #. (itstool) path: figure/title
 #: C/usage.page:28
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Vue détaillée des métadonnées"
 
 #. (itstool) path: section/title
 #: C/usage.page:36
 msgid "Cleaning files"
-msgstr ""
+msgstr "Nettoyer des fichiers"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Pour nettoyer tous les fichiers de la fenêtre, pressez le bouton <gui style="
+"\"button\">Nettoyer</gui>. Le processus de nettoyage peut prendre un certain "
+"temps avant de se terminer."
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "Bouton <gui style=\"button\">Nettoyer</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:47
@@ -138,8 +173,15 @@ msgstr "Nettoyage léger"
 #: C/usage.page:48
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
+"Par défaut, le processus de nettoyage peut légèrement altérer les données de "
+"vos fichiers, afin de supprimer le plus de métadonnées possible. Par "
+"exemple, le texte dans les PDF peut ne plus être sélectionnable, les images "
+"compressées peuvent l’être à nouveau…"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
 msgid "If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that."
 msgstr ""
+"Si vous souhaitez troquer la présence de quelques métadonnées en "
+"contrepartie de la garantie que les données de vos fichiers ne seront pas "
+"modifiées, le mode léger accomplit précisément cela."
