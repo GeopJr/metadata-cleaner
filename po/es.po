@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-10 14:45+0200\n"
-"PO-Revision-Date: 2021-08-11 06:09+0000\n"
+"PO-Revision-Date: 2021-08-11 13:59+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/es/>\n"
@@ -269,7 +269,7 @@ msgstr "_Limpiar"
 
 #: data/ui/EmptyView.ui:13
 msgid "Clean your traces."
-msgstr "Limpie sus rastros."
+msgstr "Limpie sus huellas."
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
@@ -295,11 +295,11 @@ msgstr "Limpiado"
 
 #: data/ui/MenuButton.ui:10
 msgid "_New window"
-msgstr "_Ventana nueva"
+msgstr "Ventana _nueva"
 
 #: data/ui/MenuButton.ui:14
 msgid "_Clear window"
-msgstr "_Limpiar ventana"
+msgstr "Limpiar _ventana"
 
 #: data/ui/MenuButton.ui:20
 msgid "_Help"
@@ -311,7 +311,7 @@ msgstr "Atajos de _teclado"
 
 #: data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "Acerca de Lim_piador de metadatos"
+msgstr "Acerca de Limpiador de _metadatos"
 
 #: data/ui/SaveWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
@@ -352,11 +352,11 @@ msgstr "Cerrar"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/Window.ui:98
 msgid "translator-credits"
-msgstr "Óscar Fernández Díaz"
+msgstr "Óscar Fernández Díaz <oscfdezdz@tuta.io>"
 
 #: data/ui/Window.ui:107
 msgid "Choose files to clean"
-msgstr "Elija los archivos que desea limpiar"
+msgstr "Elija los archivos que desee limpiar"
 
 #: metadatacleaner/modules/file.py:223
 msgid "Something bad happened during the cleaning, cleaned file not found"
