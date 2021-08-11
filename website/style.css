@@ -96,7 +96,7 @@ a.button::before
 	content: '';
 	width: 1.5em;
 	height: 1.5em;
-	margin: -0.10em 0.6em -0.4em 0;
+	margin: -0.10em 1em -0.4em 0;
 	background: #fff;
 	-webkit-mask-position: center;
 	-webkit-mask-size: 100%;
@@ -218,11 +218,9 @@ main p.download a
 
 main p.download a::before
 {
-	width: 2em;
-	height: 2em;
-	margin: -0.5em 0.5em -0.5em 0;
-	-webkit-mask-image: url(icons/flathub.svg);
-	mask-image: url(icons/flathub.svg);
+	margin: -0.5em 1em -0.4em 0;
+	-webkit-mask-image: url(icons/download.svg);
+	mask-image: url(icons/download.svg);
 }
 
 main p.download a:active::before
@@ -251,28 +249,28 @@ aside ul.actions
 	list-style: none;
 }
 
-aside ul.actions a.link-gitlab::before
+aside ul.actions a.chat::before
 {
-	-webkit-mask-image: url(icons/gitlab.svg);
-	mask-image: url(icons/gitlab.svg);
+	-webkit-mask-image: url(icons/chat.svg);
+	mask-image: url(icons/chat.svg);
 }
 
-aside ul.actions a.link-liberapay::before
+aside ul.actions a.code::before
 {
-	-webkit-mask-image: url(icons/liberapay.svg);
-	mask-image: url(icons/liberapay.svg);
+	-webkit-mask-image: url(icons/code.svg);
+	mask-image: url(icons/code.svg);
 }
 
-aside ul.actions a.link-matrix::before
+aside ul.actions a.support::before
 {
-	-webkit-mask-image: url(icons/matrix.svg);
-	mask-image: url(icons/matrix.svg);
+	-webkit-mask-image: url(icons/support.svg);
+	mask-image: url(icons/support.svg);
 }
 
-aside ul.actions a.link-weblate::before
+aside ul.actions a.translate::before
 {
-	-webkit-mask-image: url(icons/weblate.svg);
-	mask-image: url(icons/weblate.svg);
+	-webkit-mask-image: url(icons/translate.svg);
+	mask-image: url(icons/translate.svg);
 }
 
 footer
