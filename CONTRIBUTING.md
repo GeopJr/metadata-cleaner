@@ -34,7 +34,7 @@ Current translation status:
 
 ## Code
 
-Before writing any code, please open a new issue to discuss your intented changes.
+Before writing any code, please open a new issue to discuss your intended changes.
 
 ### Conventions
 
