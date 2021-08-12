@@ -17,7 +17,7 @@ The help pages are written in [Mallard](http://projectmallard.org/index.html) an
 
 If you create new pages, add their path to the `./help/meson.build` file.
 
-If you add or modify text, make your modification available to translation by updating the POT and PO files with these commands:
+If you add or modify text, make your modifications available to translation by updating the POT and PO files with these commands:
 
 ```bash
 meson compile -C builddir help-fr.romainvigier.MetadataCleaner-pot
@@ -52,7 +52,7 @@ If you add new UI or Python files, add their path to the `./po/POTFILES` file. A
 
 ### Localizable strings
 
-If you add or modify strings, make your modification available to translation by updating the POT and PO files with these commands:
+If you add or modify strings, make your modifications available to translation by updating the POT and PO files with these commands:
 
 ```bash
 meson compile -C builddir fr.romainvigier.MetadataCleaner-pot
