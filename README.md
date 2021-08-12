@@ -57,7 +57,7 @@ flatpak-builder --force-clean --user --install builddir data/fr.romainvigier.Met
 
 ## Contributing
 
-You can contribute to the code or the translations, see [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+You can contribute to the documentation, translation or code, see [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 ## Support
 
