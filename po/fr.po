@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-12 12:21+0200\n"
-"PO-Revision-Date: 2021-08-10 14:34+0000\n"
+"PO-Revision-Date: 2021-08-13 10:21+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/fr/>\n"
@@ -37,11 +37,11 @@ msgstr "Métadonnées;Metadata;Supprimer;Effacer;Nettoyer;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr ""
+msgstr "Nettoyer sans avertissement"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr ""
+msgstr "Nettoyer les fichiers sans afficher le dialogue d’avertissement"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 #: data/ui/SettingsButton.ui:27
