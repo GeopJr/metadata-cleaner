@@ -1,10 +1,11 @@
 # liimee <alt3753.7@gmail.com>, 2021.
+# Reza Almanda <rezaalmanda27@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: 2021-08-11 06:09+0000\n"
-"Last-Translator: liimee <alt3753.7@gmail.com>\n"
+"PO-Revision-Date: 2021-08-13 10:21+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/id/>\n"
 "Language: id\n"
@@ -57,7 +58,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Batasan"
 
 #. (itstool) path: section/p
 #: C/general.page:36
@@ -67,7 +68,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Pembersih Metadata"
 
 #. (itstool) path: page/p
 #: C/index.page:14
@@ -77,17 +78,17 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General informations"
-msgstr ""
+msgstr "Informasi Umum"
 
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Menggunakan <app>Metadata Cleaner</app>"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Menambah berkas"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
@@ -117,7 +118,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:36
 msgid "Cleaning files"
-msgstr ""
+msgstr "Membersihkan berkas"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
@@ -132,7 +133,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:47
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Pembersihan ringan"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
