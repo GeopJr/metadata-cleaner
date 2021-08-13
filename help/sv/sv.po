@@ -3,140 +3,177 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-13 10:21+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
+#, fuzzy
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metadata och personvård"
 
 #. (itstool) path: section/p
 #: C/general.page:15
 msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
 msgstr ""
+"Metadata består av info som karakteriserar data. Metadata används till att "
+"bjuda upp info for dataprodukter. I summa är det vem, va, varthän, varför, "
+"och hur om varje fasett av den data som dokumenteras."
 
 #. (itstool) path: section/p
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"Metadata i en fil kan säga mycket om dig. Kameran tar upp data om när en "
+"bild tagits, och kameran som används. Kontorsprogramvara lägger in "
+"författare och info om bedriften i dokument och kalkylblad. Kanske ni inte "
+"ville uppgiva den infon?"
 
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Exempel på metadata i en bildfil"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
 msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Filen tillkännager info om maskinvaran, inställningar, dato, och städ for "
+"bilden. Den har i alt 79 bitar metadata."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Reningsprocessen"
 
 #. (itstool) path: section/p
 #: C/general.page:28
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
+"Även om <app>Metadatarensaren</app> gör sitt bästa for att visa metadata, "
+"betyder det inte att en fil är tom for metadata om den inte visas. Det finns "
+"inget tillräckligt sätt att upptäcka all metadata for komplexa filformat. "
+"Därför borde ni inte lita på huruvida det visas metadata for om en fil borde "
+"rensas eller inte."
 
 #. (itstool) path: section/p
 #: C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Metadatarensaren</app> tar alt innehållet av filen och puttar den i en "
+"ny utan metadata, slik att all uppdagat metadata strippas."
 
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Begränsningar"
 
 #. (itstool) path: section/p
 #: C/general.page:36
 msgid "Be aware that metadata are not the only way of marking a file. If the content discloses personal informations or has been watermarked, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Kom i håg at metadata inte är den enda sättet att markera en fil. Om "
+"innehållet tillkännager personuppgifter eller har blivit vattenstämplat vill "
+"inte <app>Metadatarensaren</app> skydda deg."
 
 #. (itstool) path: page/title
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Metadatarensaren"
 
 #. (itstool) path: page/p
 #: C/index.page:14
 msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of them, as much as possible."
 msgstr ""
+"Med <app>Metadatarensaren</app> kan ni visa metadata i dina filer och bli åt "
+"den, såframt det är mögligt."
 
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General informations"
-msgstr ""
+msgstr "Generell info"
 
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Bruk av <app>Metadatarensaren</app>"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Tillägg av filer"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
 msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
 msgstr ""
+"Tryck <gui style=\"button\">Lägg till filer</gui>-knappen for att lägga till "
+"filar.En filväljare vill öppnas där ni kan välja filer att öppna."
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Lägg till filer</gui>-knappen"
 
 #. (itstool) path: section/title
 #: C/usage.page:25
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Visning av metadata"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
 msgid "Click on a file in the list to open the detailed view. If it has metadata, they will be shown there."
 msgstr ""
+"Klicka på en fil i listan for att öppna den detaljerade visningen. Om den "
+"har metadata vill det visas här."
 
 #. (itstool) path: figure/title
 #: C/usage.page:28
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Detaljerad visning av metadata"
 
 #. (itstool) path: section/title
 #: C/usage.page:36
 msgid "Cleaning files"
-msgstr ""
+msgstr "Rensning av filer"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Klick <gui style=\"button\">Rensa</gui>-knappen for at rensa alla filerna i "
+"fönstret. Reningsprocessen kan ta et tag."
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Rensa</gui>-knappen"
 
 #. (itstool) path: section/title
 #: C/usage.page:47
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Lätt upprensning"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
+"Som förval kan det hända processen ändrar en bit av dom reella uppgifterna i "
+"dina filer, for att rensa så mycket metadata som mögligt. Till exempel vill "
+"text i PDF-er inte kunna väljas, komprimerade bilder vill inte kunna "
+"sammanpackas igen."
 
 #. (itstool) path: section/p
 #: C/usage.page:49
 msgid "If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that."
 msgstr ""
+"Den lätta reningsprocessen gör dock inga skadliga ändringar, men är inte "
+"lika grundlig."
