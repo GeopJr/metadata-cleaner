@@ -55,7 +55,7 @@ class DetailsView(Gtk.ScrolledWindow):
 
     def _setup_cleaned_details(self) -> None:
         self._box.append(InfoDetails(
-            info_title=_("The file has been cleaned.")))
+            title=_("The file has been cleaned.")))
 
     def _setup_metadata_details(self, f: File) -> None:
         for metadata_file in f.metadata:
