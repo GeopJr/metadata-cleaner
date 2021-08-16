@@ -1,10 +1,11 @@
 # Allan Nordhøy <epost@anotheragency.no>, 2021.
+# Luna Jernberg <droidbittin@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: 2021-08-13 10:21+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2021-08-16 11:43+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/sv/>\n"
 "Language: sv\n"
@@ -16,9 +17,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/general.page:14
-#, fuzzy
 msgid "Metadata and privacy"
-msgstr "Metadata och personvård"
+msgstr "Metadata och integritet"
 
 #. (itstool) path: section/p
 #: C/general.page:15
