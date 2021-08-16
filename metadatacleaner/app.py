@@ -103,12 +103,12 @@ class MetadataCleaner(Adw.Application):
 
     def _setup_accels(self) -> None:
         self.set_accels_for_action("app.help::/index", ["F1"])
-        self.set_accels_for_action("app.new-window", ["<Primary>n"])
-        self.set_accels_for_action("app.quit", ["<Primary>q"])
-        self.set_accels_for_action("win.add-files", ["<Primary>o"])
-        self.set_accels_for_action("win.clear-files", ["<Primary>r"])
-        self.set_accels_for_action("win.clean-metadata", ["<Primary>m"])
-        self.set_accels_for_action("win.close", ["<Primary>w"])
+        self.set_accels_for_action("app.new-window", ["<Control>n"])
+        self.set_accels_for_action("app.quit", ["<Control>q"])
+        self.set_accels_for_action("win.add-files", ["<Control>o"])
+        self.set_accels_for_action("win.clear-files", ["<Control>r"])
+        self.set_accels_for_action("win.clean-metadata", ["<Control>m"])
+        self.set_accels_for_action("win.close", ["<Control>w"])
 
     # PUBLIC #
 
