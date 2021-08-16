@@ -17,7 +17,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 
   <developer_name its:translate="no">Romain Vigier</developer_name>
 
-  <url type="homepage">https://gitlab.com/rmnvgr/metadata-cleaner</url>
+  <url type="homepage">https://metadatacleaner.romainvigier.fr</url>
   <url type="bugtracker">https://gitlab.com/rmnvgr/metadata-cleaner/-/issues</url>
   <url type="donation">https://liberapay.com/rmnvgr/donate</url>
   <url type="translate">https://hosted.weblate.org/engage/metadata-cleaner/</url>
