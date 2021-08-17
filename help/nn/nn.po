@@ -21,12 +21,20 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:15
-msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
+msgid ""
+"Metadata consist of information that characterizes data. Metadata are used "
+"to provide documentation for data products. In essence, metadata answer who, "
+"what, when, where, why, and how about every facet of the data that are being "
+"documented."
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
-msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
+msgid ""
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when a picture was taken and what camera was used. Office aplications "
+"automatically add author and company information to documents and "
+"spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
 
 #. (itstool) path: figure/title
@@ -36,7 +44,9 @@ msgstr ""
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
-msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
+msgid ""
+"The file discloses informations about the hardware, settings, date, location "
+"of the shoot. It contains a total of 79 metadata."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -46,12 +56,19 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:28
-msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
+msgid ""
+"While <app>Metadata Cleaner</app> is doing its very best to display "
+"metadata, it doesn't mean that a file is clean from any metadata if it "
+"doesn't show any. There is no reliable way to detect every single possible "
+"metadata for complex file formats. This is why you shouldn't rely on "
+"metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:29
-msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
+msgid ""
+"<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
+"new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -61,7 +78,10 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:36
-msgid "Be aware that metadata are not the only way of marking a file. If the content discloses personal informations or has been watermarked, <app>Metadata Cleaner</app> will not protect you."
+msgid ""
+"Be aware that metadata are not the only way of marking a file. If the "
+"content discloses personal informations or has been watermarked, "
+"<app>Metadata Cleaner</app> will not protect you."
 msgstr ""
 
 #. (itstool) path: page/title
@@ -71,7 +91,9 @@ msgstr "Metadatareingjøraren"
 
 #. (itstool) path: page/p
 #: C/index.page:14
-msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of them, as much as possible."
+msgid ""
+"<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
+"get rid of them, as much as possible."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -91,7 +113,9 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/usage.page:15
-msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
+msgid ""
+"To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
+"chooser will open, select the files you want to clean."
 msgstr ""
 
 #. (itstool) path: figure/title
@@ -106,7 +130,9 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/usage.page:26
-msgid "Click on a file in the list to open the detailed view. If it has metadata, they will be shown there."
+msgid ""
+"Click on a file in the list to open the detailed view. If it has metadata, "
+"they will be shown there."
 msgstr ""
 
 #. (itstool) path: figure/title
@@ -121,7 +147,9 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/usage.page:37
-msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
+msgid ""
+"To clean all the files in the window, press the <gui style=\"button\">Clean</"
+"gui> button. The cleaning process may take some time to complete."
 msgstr ""
 
 #. (itstool) path: figure/title
@@ -136,10 +164,17 @@ msgstr "Lett reingjøring"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
-msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
+msgid ""
+"By default, the removal process might alter a bit the data of your files, in "
+"order to remove as much metadata as possible. For example, texts in PDF "
+"might not be selectable anymore, compressed images might get compressed "
+"again…"
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/usage.page:49
-msgid "If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that."
+msgid ""
+"If you're willing to trade some metadata's presence in exchange of the "
+"guarantee that the data of your files won't be modified, the lightweight "
+"mode precisely does that."
 msgstr ""

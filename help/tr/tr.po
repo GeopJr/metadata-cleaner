@@ -21,7 +21,11 @@ msgstr "Üst veriler ve gizlilik"
 
 #. (itstool) path: section/p
 #: C/general.page:15
-msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
+msgid ""
+"Metadata consist of information that characterizes data. Metadata are used "
+"to provide documentation for data products. In essence, metadata answer who, "
+"what, when, where, why, and how about every facet of the data that are being "
+"documented."
 msgstr ""
 "Üst veriler, verilerin kendisi hakkında ayırt edici bilgilerden oluşur. Üst "
 "veriler, veri ürünleri için belgelendirme sağlamak için kullanılır. Özünde, "
@@ -30,7 +34,11 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
-msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
+msgid ""
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when a picture was taken and what camera was used. Office aplications "
+"automatically add author and company information to documents and "
+"spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
 "Bir dosyadaki üst veriler sizin hakkınızda çok şey söyleyebilir. Kameralar "
 "bir fotoğrafın ne zaman çekildiği ve hangi kameranın kullanıldığı ile ilgili "
@@ -45,7 +53,9 @@ msgstr "Bir resim dosyasındaki üst veri örneği"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
-msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
+msgid ""
+"The file discloses informations about the hardware, settings, date, location "
+"of the shoot. It contains a total of 79 metadata."
 msgstr ""
 "Dosyada yapılan çekimin donanımı, ayarları, tarihi, yeri ile ilgili bilgiler "
 "açığa vuruluyor. Toplam 79 üst veri içeriyor."
@@ -57,7 +67,12 @@ msgstr "Temizleme işlemi"
 
 #. (itstool) path: section/p
 #: C/general.page:28
-msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
+msgid ""
+"While <app>Metadata Cleaner</app> is doing its very best to display "
+"metadata, it doesn't mean that a file is clean from any metadata if it "
+"doesn't show any. There is no reliable way to detect every single possible "
+"metadata for complex file formats. This is why you shouldn't rely on "
+"metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
 "<app>Üst Veri Temizleyici</app>, üst verileri görüntülemek için elinden "
 "gelenin en iyisini yapıyor olsa da, herhangi bir üst veri göstermiyorsa bu, "
@@ -68,7 +83,9 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:29
-msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
+msgid ""
+"<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
+"new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
 "<app>Üst Veri Temizleyici</app>, dosyanın içeriğini alır ve üst veri "
 "içermeyen yeni bir dosyaya yerleştirir ve algılanmayan üst verilerin "
@@ -81,7 +98,10 @@ msgstr "Sınırlamalar"
 
 #. (itstool) path: section/p
 #: C/general.page:36
-msgid "Be aware that metadata are not the only way of marking a file. If the content discloses personal informations or has been watermarked, <app>Metadata Cleaner</app> will not protect you."
+msgid ""
+"Be aware that metadata are not the only way of marking a file. If the "
+"content discloses personal informations or has been watermarked, "
+"<app>Metadata Cleaner</app> will not protect you."
 msgstr ""
 "Bir dosyayı işaretlemenin tek yolunun üst veriler olmadığını unutmayın. "
 "İçerik kişisel bilgileri ortaya döküyor veya filigran eklenmişse, <app>Üst "
@@ -94,7 +114,9 @@ msgstr "Üst Veri Temizleyici"
 
 #. (itstool) path: page/p
 #: C/index.page:14
-msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of them, as much as possible."
+msgid ""
+"<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
+"get rid of them, as much as possible."
 msgstr ""
 "<app>Üst Veri Temizleyici</app>, dosyalarınızdaki üst verileri "
 "görüntülemenizi ve mümkün olduğunca onlardan kurtulmanızı sağlar."
@@ -116,7 +138,9 @@ msgstr "Dosya ekleme"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
-msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
+msgid ""
+"To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
+"chooser will open, select the files you want to clean."
 msgstr ""
 "Dosya eklemek için <gui style=\"button\">Dosya Ekle</gui> düğmesine basın. "
 "Bir dosya seçici açılacaktır, temizlemek istediğiniz dosyaları seçin."
@@ -133,7 +157,9 @@ msgstr "Üst verileri görüntüleme"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
-msgid "Click on a file in the list to open the detailed view. If it has metadata, they will be shown there."
+msgid ""
+"Click on a file in the list to open the detailed view. If it has metadata, "
+"they will be shown there."
 msgstr ""
 "Ayrıntılı görünümü açmak için listedeki bir dosyaya tıklayın. Üst verileri "
 "varsa, orada gösterilecektir."
@@ -150,7 +176,9 @@ msgstr "Dosyaları temizleme"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
-msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
+msgid ""
+"To clean all the files in the window, press the <gui style=\"button\">Clean</"
+"gui> button. The cleaning process may take some time to complete."
 msgstr ""
 "Penceredeki tüm dosyaları temizlemek için <gui style=\"button\">Temizle</"
 "gui> düğmesine basın. Temizleme işleminin tamamlanması biraz zaman alabilir."
@@ -167,7 +195,11 @@ msgstr "Hafif temizleme"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
-msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
+msgid ""
+"By default, the removal process might alter a bit the data of your files, in "
+"order to remove as much metadata as possible. For example, texts in PDF "
+"might not be selectable anymore, compressed images might get compressed "
+"again…"
 msgstr ""
 "Öntanımlı olarak, mümkün olduğunca fazla üst veriyi kaldırmak için kaldırma "
 "işlemi dosyalarınızın verilerini biraz değiştirebilir. Örneğin, PDF "
@@ -176,7 +208,10 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/usage.page:49
-msgid "If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that."
+msgid ""
+"If you're willing to trade some metadata's presence in exchange of the "
+"guarantee that the data of your files won't be modified, the lightweight "
+"mode precisely does that."
 msgstr ""
 "Dosyalarınızın verilerinin değiştirilmeyeceği garantisi karşılığında bazı "
 "üst verilerin varlığını takas etmek istiyorsanız, hafif mod tam olarak bunu "

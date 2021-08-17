@@ -23,7 +23,11 @@ msgstr "Metadata och integritet"
 
 #. (itstool) path: section/p
 #: C/general.page:15
-msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
+msgid ""
+"Metadata consist of information that characterizes data. Metadata are used "
+"to provide documentation for data products. In essence, metadata answer who, "
+"what, when, where, why, and how about every facet of the data that are being "
+"documented."
 msgstr ""
 "Metadata består av info som karakteriserar data. Metadata används till att "
 "bjuda upp info for dataprodukter. I summa är det vem, va, varthän, varför, "
@@ -31,7 +35,11 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
-msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
+msgid ""
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when a picture was taken and what camera was used. Office aplications "
+"automatically add author and company information to documents and "
+"spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
 "Metadata i en fil kan säga mycket om dig. Kameran tar upp data om när en "
 "bild tagits, och vilken kamera som används. Kontorsprogramvara lägger "
@@ -45,7 +53,9 @@ msgstr "Exempel på metadata i en bildfil"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
-msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
+msgid ""
+"The file discloses informations about the hardware, settings, date, location "
+"of the shoot. It contains a total of 79 metadata."
 msgstr ""
 "Filen tillkännager info om maskinvaran, inställningar, dato, och städ for "
 "bilden. Den har i alt 79 bitar metadata."
@@ -57,7 +67,12 @@ msgstr "Reningsprocessen"
 
 #. (itstool) path: section/p
 #: C/general.page:28
-msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
+msgid ""
+"While <app>Metadata Cleaner</app> is doing its very best to display "
+"metadata, it doesn't mean that a file is clean from any metadata if it "
+"doesn't show any. There is no reliable way to detect every single possible "
+"metadata for complex file formats. This is why you shouldn't rely on "
+"metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
 "Även om <app>Metadatarensaren</app> gör sitt bästa for att visa metadata, "
 "betyder det inte att en fil är tom for metadata om den inte visas. Det finns "
@@ -67,7 +82,9 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:29
-msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
+msgid ""
+"<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
+"new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
 "<app>Metadatarensaren</app> tar alt innehållet av filen och puttar den i en "
 "ny utan metadata, slik att all uppdagat metadata strippas."
@@ -79,7 +96,10 @@ msgstr "Begränsningar"
 
 #. (itstool) path: section/p
 #: C/general.page:36
-msgid "Be aware that metadata are not the only way of marking a file. If the content discloses personal informations or has been watermarked, <app>Metadata Cleaner</app> will not protect you."
+msgid ""
+"Be aware that metadata are not the only way of marking a file. If the "
+"content discloses personal informations or has been watermarked, "
+"<app>Metadata Cleaner</app> will not protect you."
 msgstr ""
 "Kom i håg at metadata inte är den enda sättet att markera en fil. Om "
 "innehållet tillkännager personuppgifter eller har blivit vattenstämplat vill "
@@ -92,7 +112,9 @@ msgstr "Metadatarensaren"
 
 #. (itstool) path: page/p
 #: C/index.page:14
-msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of them, as much as possible."
+msgid ""
+"<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
+"get rid of them, as much as possible."
 msgstr ""
 "Med <app>Metadatarensaren</app> kan ni visa metadata i dina filer och bli åt "
 "den, såframt det är mögligt."
@@ -114,7 +136,9 @@ msgstr "Tillägg av filer"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
-msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
+msgid ""
+"To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
+"chooser will open, select the files you want to clean."
 msgstr ""
 "Tryck <gui style=\"button\">Lägg till filer</gui>-knappen for att lägga till "
 "filar.En filväljare vill öppnas där ni kan välja filer att öppna."
@@ -131,7 +155,9 @@ msgstr "Visning av metadata"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
-msgid "Click on a file in the list to open the detailed view. If it has metadata, they will be shown there."
+msgid ""
+"Click on a file in the list to open the detailed view. If it has metadata, "
+"they will be shown there."
 msgstr ""
 "Klicka på en fil i listan for att öppna den detaljerade visningen. Om den "
 "har metadata vill det visas här."
@@ -148,7 +174,9 @@ msgstr "Rensning av filer"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
-msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
+msgid ""
+"To clean all the files in the window, press the <gui style=\"button\">Clean</"
+"gui> button. The cleaning process may take some time to complete."
 msgstr ""
 "Klick <gui style=\"button\">Rensa</gui>-knappen for at rensa alla filerna i "
 "fönstret. Reningsprocessen kan ta et tag."
@@ -165,7 +193,11 @@ msgstr "Lätt upprensning"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
-msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
+msgid ""
+"By default, the removal process might alter a bit the data of your files, in "
+"order to remove as much metadata as possible. For example, texts in PDF "
+"might not be selectable anymore, compressed images might get compressed "
+"again…"
 msgstr ""
 "Som standard händer det att processen ändrar lite data i dina filer, för att "
 "rensa bort så mycket metadata som möjligt. Som exempel kan text i PDF-filer "
@@ -174,7 +206,10 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/usage.page:49
-msgid "If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that."
+msgid ""
+"If you're willing to trade some metadata's presence in exchange of the "
+"guarantee that the data of your files won't be modified, the lightweight "
+"mode precisely does that."
 msgstr ""
 "Den lätta reningsprocessen gör dock inga skadliga ändringar, men är inte "
 "lika grundlig."
