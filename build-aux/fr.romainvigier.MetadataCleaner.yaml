@@ -4,8 +4,13 @@
 app-id: fr.romainvigier.MetadataCleaner
 default-branch: main
 runtime: org.gnome.Platform
-runtime-version: '40'
+runtime-version: '41'
 sdk: org.gnome.Sdk
+add-extensions:
+  org.freedesktop.Platform.ffmpeg-full:
+    directory: lib/ffmpeg
+    add-ld-path: '.'
+    version: '21.08'
 command: metadata-cleaner
 separate-locales: false
 finish-args:
@@ -13,6 +18,9 @@ finish-args:
   - --socket=fallback-x11
   - --share=ipc
   - --device=dri
+
+cleanup-commands:
+  - mkdir -p $FLATPAK_DEST/lib/ffmpeg
 
 cleanup:
   - /include
@@ -23,32 +31,6 @@ cleanup:
   - '*.la'
 
 modules:
-
-  - name: ffmpeg
-    buildsystem: autotools
-    config-opts:
-      - --disable-ffplay
-      - --disable-ffprobe
-      - --disable-doc
-      - --disable-htmlpages
-      - --disable-manpages
-      - --disable-podpages
-      - --disable-txtpages
-      - --disable-decoders
-      - --disable-encoders
-      - --disable-parsers
-      - --disable-bsfs
-      - --disable-protocols
-      - --enable-protocol=file
-      - --disable-devices
-      - --disable-filters
-    cleanup:
-      - /share/ffmpeg
-    sources:
-      - type: git
-        url: https://git.ffmpeg.org/ffmpeg.git
-        tag: n4.4
-        commit: dc91b913b6260e85e1304c74ff7bb3c22a8c9fb1
 
   - name: perl
     buildsystem: simple
