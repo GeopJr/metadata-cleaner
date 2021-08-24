@@ -8,7 +8,7 @@ if mypy_exe.found()
     mypy_exe,
     args: [
       '--ignore-missing-imports',
-      meson.source_root() / 'metadatacleaner'
+      meson.project_source_root() / 'metadatacleaner'
     ],
     suite: 'code',
   )
@@ -20,7 +20,7 @@ if pycodestyle_exe.found()
     'Check code style (PEP 8)',
     pycodestyle_exe,
     args: [
-      meson.source_root() / 'metadatacleaner'
+      meson.project_source_root() / 'metadatacleaner'
     ],
     suite: 'code',
   )
@@ -32,7 +32,7 @@ if pydocstyle_exe.found()
     'Check docstrings (PEP 257)',
     pydocstyle_exe,
     args: [
-      meson.source_root() / 'metadatacleaner'
+      meson.project_source_root() / 'metadatacleaner'
     ],
     suite: 'code',
   )
@@ -45,7 +45,7 @@ if reuse_exe.found()
     reuse_exe,
     args: [
       '--root',
-      meson.source_root(),
+      meson.project_source_root(),
       'lint'
     ],
     suite: 'licenses',

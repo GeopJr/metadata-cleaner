@@ -5,7 +5,7 @@ project(
   'metadata-cleaner',
   version: '2.0.0',
   license: ['GPL-3.0-or-later', 'CC-BY-SA-4.0'],
-  meson_version: '>= 0.51.0'
+  meson_version: '>= 0.57.0'
 )
 
 APP_ID = 'fr.romainvigier.MetadataCleaner'
@@ -59,4 +59,8 @@ subdir('metadatacleaner')
 subdir('po')
 subdir('tests')
 
+gnome.post_install(
+  glib_compile_schemas: true,
+  gtk_update_icon_cache: true,
+)
 meson.add_install_script('build-aux' / 'postinstall.py')

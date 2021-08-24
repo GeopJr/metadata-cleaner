@@ -9,12 +9,6 @@ gnome.compile_resources(
   install_dir: pkgdatadir,
 )
 
-gio_schemasdir = dependency('gio-2.0').get_pkgconfig_variable(
-  'schemasdir',
-  define_variable: ['datadir', datadir],
-  default: schemasdir,
-)
-
 # Validate MetaInfo file
 metainfo_file = APP_ID + '.metainfo.xml'
 ascli_exe = find_program('appstreamcli', required: false)
@@ -35,7 +29,7 @@ i18n.merge_file(
   type: 'desktop',
   input: APP_ID + '.desktop.in',
   output: APP_ID + '.desktop',
-  po_dir: meson.source_root() / 'po',
+  po_dir: meson.project_source_root() / 'po',
   install: true,
   install_dir: applicationsdir
 )
@@ -44,7 +38,7 @@ i18n.merge_file(
   input: metainfo_file,
   output: APP_ID + '.metainfo.xml',
   type: 'xml',
-  po_dir: meson.source_root() / 'po',
+  po_dir: meson.project_source_root() / 'po',
   install: true,
   install_dir: appdatadir
 )
