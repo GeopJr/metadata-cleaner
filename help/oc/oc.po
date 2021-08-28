@@ -1,19 +1,23 @@
+# Quentin PAGÈS <quentinantonin@free.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-29 21:33+0000\n"
+"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
+"Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metadonadas e confidencialitat"
 
 #. (itstool) path: section/p
 #: C/general.page:15
@@ -28,17 +32,19 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Exemple de metadonadas dins un fichièr imatge"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
 msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Lo fichièr divulga d'informacions sul material, los reglatges, las data e "
+"l'emplaçament de la presa de vista. Conten un total de 79 metadonadas."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Processús de netejatge"
 
 #. (itstool) path: section/p
 #: C/general.page:28
@@ -53,7 +59,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Limitacions"
 
 #. (itstool) path: section/p
 #: C/general.page:36
@@ -63,7 +69,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Netejador de metadonadas"
 
 #. (itstool) path: page/p
 #: C/index.page:14
@@ -73,7 +79,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General informations"
-msgstr ""
+msgstr "Informacions generals"
 
 #. (itstool) path: section/title
 #: C/index.page:21
@@ -83,7 +89,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Apondre de fichièrs"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
@@ -93,12 +99,12 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "Boton <gui style=\"button\">Apondre de fichièrs</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:25
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Visualizar las metadonadas"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
@@ -108,27 +114,30 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/usage.page:28
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Vista detalhada de las metadonadas"
 
 #. (itstool) path: section/title
 #: C/usage.page:36
 msgid "Cleaning files"
-msgstr ""
+msgstr "Netejar los fichièrs"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Per netejar totes los fichièrs de la fenèstra, quichatz lo boton <gui style="
+"\"button\">Netejar</gui>. Lo processús de netejatge pòt trigar abans de se "
+"terminar."
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "Boton <gui style=\"button\">Netejar</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:47
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Netejatge leugièr"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
