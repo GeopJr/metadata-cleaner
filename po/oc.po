@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-12 12:21+0200\n"
-"PO-Revision-Date: 2021-08-28 16:56+0000\n"
+"PO-Revision-Date: 2021-08-29 21:34+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/oc/>\n"
@@ -32,46 +32,48 @@ msgstr "Neteja las metadonas dels fichièrs"
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:16
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "metadonas;tirar;suprimir;levar;netejador;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr ""
+msgstr "Netejar sens avertir"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr ""
+msgstr "Netejar los fichièrs sens mostrar la fenèstra de dialòg d’avís"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 #: data/ui/SettingsButton.ui:27
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Netejatge leugièr"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid ""
 "Trade some metadata's presence in exchange of the guarantee that the data "
 "won't be modified"
 msgstr ""
+"Troncar la preséncia d’unas metadonadas contra la garantida que las donadas "
+"seràn pas modificadas"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr ""
+msgstr "Largor de la fenèstra"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr ""
+msgstr "Largor enregistrada de la fenèstra"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr ""
+msgstr "Nautor de la fenèstra"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr ""
+msgstr "Nautor de la fenèstra enregistrada"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "Visualizar e netejar las metadonadas dels fichièrs"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
@@ -80,155 +82,164 @@ msgid ""
 "automatically add author and company information to documents and "
 "spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"Las metadonadas dins un fichièr pòdon en dire fòrça a vòstre subjècte. Los "
+"aparelhs fòto enregistran quand una fotografia foguèt presa e qual aparelh "
+"foguèt utilizat. Las aplicacions de burèu ajustan automaticament "
+"d'informacions sus l'autor e l'entrepresa als documents e als tablèus. "
+"Volètz benlèu pas desvelar aquelas informacions."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of them, "
 "as much as possible."
 msgstr ""
+"Aquesta aisina vos permet d’afichar las metadonadas dins vòstres fichièrs e "
+"vos’n desfar, tan que possible."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "Interfàcia utilizaire adaptativa amelhorada"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New help pages"
-msgstr ""
+msgstr "Paginas novèlas d’ajuda"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "One-click cleaning, no need to clean then save anymore"
-msgstr ""
+msgstr "Netejatge en un clic, cal pas mai netejar puèi enregistrar"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 msgid "Lightweight cleaning option is now saved"
-msgstr ""
+msgstr "L’opcion de netejatge leugièr es ara memorizada"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "New translations"
-msgstr ""
+msgstr "Traduccions novèlas"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:98
 msgid "Croatian translation (contributed by Milo Ivir)"
-msgstr ""
+msgstr "Traduccion en croat (contribucion de Milo Ivir)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-msgstr ""
+msgstr "Traduccion en portugués (contribucion de Gustavo Costa)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
 msgid "New in v1.0.4:"
-msgstr ""
+msgstr "Nòu dins la version 1.0.4 :"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:108
 msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr ""
+msgstr "Traduccion en turc (contribucion d’Oğuz Ersen)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:115
 msgid "New in v1.0.2:"
-msgstr ""
+msgstr "Nòu dins la version 1.0.2 :"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:117
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr ""
+msgstr "Traduccion en castelhan (contribucion d’Óscar Fernández Díaz)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr ""
+msgstr "Traduccion en suedés (contribucion d’Åke Engelbrektson)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 msgid "Bug fixes:"
-msgstr ""
+msgstr "Correccions d’anomalia :"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "Los fichièrs amb una extension en majuscula pòdon ara èsser aponduts"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "New in v1.0.1:"
-msgstr ""
+msgstr "Nòu dins la version 1.0.1 :"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
 msgid "German translation (contributed by lux)"
-msgstr ""
+msgstr "Traduccion en alemand (contribucion de lux)"
 
 #: data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "Fichièrs"
 
 #: data/gtk/help-overlay.ui:18 data/ui/AddFilesButton.ui:8
 msgid "Add files"
-msgstr ""
+msgstr "Ajustar de fichièrs"
 
 #: data/gtk/help-overlay.ui:24
 msgid "Clean metadata"
-msgstr ""
+msgstr "Netejar las metadonadas"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Escafar totes los fichièrs de la fenèstra"
 
 #: data/gtk/help-overlay.ui:38
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: data/gtk/help-overlay.ui:41
 msgid "New window"
-msgstr ""
+msgstr "Fenèstra novèla"
 
 #: data/gtk/help-overlay.ui:47
 msgid "Close window"
-msgstr ""
+msgstr "Tampar la fenèstra"
 
 #: data/gtk/help-overlay.ui:53
 msgid "Quit"
-msgstr ""
+msgstr "Quitar"
 
 #: data/gtk/help-overlay.ui:59
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Acorchis clavièr"
 
 #: data/gtk/help-overlay.ui:65
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 #: data/ui/AboutDialog.ui:87
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "Charrar sus Matrix"
 
 #: data/ui/AboutDialog.ui:97
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "Veire lo còdi sus GitLab"
 
 #: data/ui/AboutDialog.ui:107
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "Traduire sus Weblate"
 
 #: data/ui/AboutDialog.ui:117
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "Nos sostenir Liberapay"
 
 #: data/ui/AboutDialog.ui:147
 msgid "Code"
-msgstr ""
+msgstr "Còdi"
 
 #: data/ui/AboutDialog.ui:153
 msgid "Artwork"
-msgstr ""
+msgstr "Art"
 
 #: data/ui/AboutDialog.ui:159
 msgid "Documentation"
-msgstr ""
+msgstr "Documentacion"
 
 #: data/ui/AboutDialog.ui:165
 msgid "Translation"
-msgstr ""
+msgstr "Traduccion"
 
 #: data/ui/AboutDialog.ui:170
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
+"Aqueste programa utiliza <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
+"a> per percórrer e netejar las metadonadas. Mostratz-lor vòstre amor !"
 
 #: data/ui/AboutDialog.ui:183
 msgid ""
@@ -237,132 +248,139 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"Lo còdi font d’aqueste programa es fornit segon los tèrmes de la licéncia <a "
+"href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 o mai recent</"
+"a>. Los grafismes e traduccions originals son fornits segon los tèrmes de la "
+"licéncia <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-"
+"SA 4.0</a>."
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_Netejar"
 
 #: data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "Asseguratz-vos d’averr facha una salvagarda de vòstres fichièrs !"
 
 #: data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "Un còp los fichièrs netejats, i a pas cap de retorn en arrièr."
 
 #: data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Me demandar pas mai"
 
 #: data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
-msgstr ""
+msgstr "Anullar"
 
 #: data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "Netejar"
 
 #: data/ui/EmptyView.ui:13
 msgid "Clean your traces."
-msgstr ""
+msgstr "Netejatz vòstras traças."
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
 msgstr ""
+"Ne saber mai tocant las metadonadas e las limitacions del processús de "
+"netejatge."
 
 #: data/ui/FileRow.ui:12
 msgid "Remove file from list"
-msgstr ""
+msgstr "Levar lo fichièr de la lista"
 
 #: data/ui/FileRow.ui:93
 msgid "Warning"
-msgstr ""
+msgstr "Avís"
 
 #: data/ui/FileRow.ui:111
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #: data/ui/FileRow.ui:151
 msgid "Cleaned"
-msgstr ""
+msgstr "Netejat"
 
 #: data/ui/MenuButton.ui:10
 msgid "_New window"
-msgstr ""
+msgstr "Fenèstra _novèla"
 
 #: data/ui/MenuButton.ui:14
 msgid "_Clear window"
-msgstr ""
+msgstr "Escafar la _fenèstra"
 
 #: data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_Ajuda"
 
 #: data/ui/MenuButton.ui:25
 msgid "_Keyboard shortcuts"
-msgstr ""
+msgstr "_Acorchis de clavièr"
 
 #: data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_A prepaus de Netejador de metadonas"
 
 #: data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "Paramètres de netejatge"
 
 #: data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Ne saber mai tocant lo netejatge leugièr"
 
 #: data/ui/Window.ui:72
 msgid "Details"
-msgstr ""
+msgstr "Detalhs"
 
 #: data/ui/Window.ui:78
 msgid "Close"
-msgstr ""
+msgstr "Tampar"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/Window.ui:98
 msgid "translator-credits"
-msgstr ""
+msgstr "Quentin PAGÈS"
 
 #: data/ui/Window.ui:107
 msgid "Choose files to clean"
-msgstr ""
+msgstr "Causir los fichièrs de netejar"
 
 #: metadatacleaner/modules/file.py:223
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
+msgstr "Quicòm a trucat pendent lo netejatge, lo fichièr netejat es introbable"
 
 #: metadatacleaner/ui/detailsview.py:58
 msgid "The file has been cleaned."
-msgstr ""
+msgstr "Lo fichièr es estat netejat."
 
 #: metadatacleaner/ui/detailsview.py:69
 msgid "Unable to read the file."
-msgstr ""
+msgstr "Lectura impossibla del fichièr."
 
 #: metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
-msgstr ""
+msgstr "Tipe de fichièr pas pres en carga."
 
 #: metadatacleaner/ui/detailsview.py:72
 msgid "Unable to check metadata."
-msgstr ""
+msgstr "Impossible de verificar las metadonadas."
 
 #: metadatacleaner/ui/detailsview.py:74
 msgid "No known metadata, the file will be cleaned to be sure."
-msgstr ""
+msgstr "Cap de metadonadas reconegudas, lo fichièr serà netejat se per cas."
 
 #: metadatacleaner/ui/detailsview.py:76
 msgid "Unable to remove metadata."
-msgstr ""
+msgstr "Supression impossibla de las metadonadas."
 
 #: metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "Totes los fichièrs preses en carga"
 
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "Tractament del fichièr {}/{}"
