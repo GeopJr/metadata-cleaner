@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-30 16:46+0200\n"
+"POT-Creation-Date: 2021-08-30 18:50+0200\n"
 "PO-Revision-Date: 2021-08-13 10:21+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
@@ -122,7 +122,7 @@ msgstr "Pembersihan satu-klik, tidak perlu bersihkan lalu simpan"
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 #, fuzzy
 #| msgid "Lightweight cleaning option is now saved"
-msgid "Persistent ightweight cleaning option"
+msgid "Persistent lightweight cleaning option"
 msgstr "Opsi mode ringan sekarang disimpan"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84

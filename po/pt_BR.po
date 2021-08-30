@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-30 16:46+0200\n"
+"POT-Creation-Date: 2021-08-30 18:50+0200\n"
 "PO-Revision-Date: 2021-08-24 13:34+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -124,7 +124,7 @@ msgstr ""
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 #, fuzzy
 #| msgid "Lightweight cleaning option is now saved"
-msgid "Persistent ightweight cleaning option"
+msgid "Persistent lightweight cleaning option"
 msgstr "A opção de limpeza leve agora é salva"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
