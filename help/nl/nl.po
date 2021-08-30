@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-23 14:39+0200\n"
+"POT-Creation-Date: 2021-08-30 17:04+0200\n"
 "PO-Revision-Date: 2021-08-12 08:43+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -21,11 +21,17 @@ msgstr "Metagegevens en privacy"
 
 #. (itstool) path: section/p
 #: C/general.page:15
+#, fuzzy
+#| msgid ""
+#| "Metadata consist of information that characterizes data. Metadata are "
+#| "used to provide documentation for data products. In essence, metadata "
+#| "answer who, what, when, where, why, and how about every facet of the data "
+#| "that are being documented."
 msgid ""
-"Metadata consist of information that characterizes data. Metadata are used "
-"to provide documentation for data products. In essence, metadata answer who, "
-"what, when, where, why, and how about every facet of the data that are being "
-"documented."
+"Metadata consists of information that characterizes data. Metadata is used "
+"to provide documentation for data products. In essence, metadata answers "
+"who, what, when, where, why, and how about every facet of the data that is "
+"being documented."
 msgstr ""
 "Metagegevens bevatten informatie met mogelijk herleidbare gegevens. Deze "
 "worden gebruikt om productdocumentatie samen te stellen en te bepalen wie, "
@@ -33,11 +39,18 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
+#, fuzzy
+#| msgid ""
+#| "Metadata within a file can tell a lot about you. Cameras record data "
+#| "about when a picture was taken and what camera was used. Office "
+#| "aplications automatically add author and company information to documents "
+#| "and spreadsheets. Maybe you don't want to disclose those informations."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
-"when a picture was taken and what camera was used. Office aplications "
-"automatically add author and company information to documents and "
-"spreadsheets. Maybe you don't want to disclose those informations."
+"when and where a picture was taken and which camera was used. Office "
+"aplications automatically add author and company information to documents "
+"and spreadsheets. This is sensitive information and you may not want to "
+"disclose it."
 msgstr ""
 "Metagegevens in een bestand kunnen herleidbaar zijn tot jou. Zo slaan "
 "camera's informatie op over wanneer een foto is genomen, welke camera je "
@@ -52,8 +65,12 @@ msgstr "Voorbeeld van metagegevens in een afbeeldingsbestand"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
+#, fuzzy
+#| msgid ""
+#| "The file discloses informations about the hardware, settings, date, "
+#| "location of the shoot. It contains a total of 79 metadata."
 msgid ""
-"The file discloses informations about the hardware, settings, date, location "
+"The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
 msgstr ""
 "Dit bestand bevat informatie over de gebruikte camera, instellingen, datum "
@@ -66,12 +83,19 @@ msgstr "Opschoonproces"
 
 #. (itstool) path: section/p
 #: C/general.page:28
+#, fuzzy
+#| msgid ""
+#| "While <app>Metadata Cleaner</app> is doing its very best to display "
+#| "metadata, it doesn't mean that a file is clean from any metadata if it "
+#| "doesn't show any. There is no reliable way to detect every single "
+#| "possible metadata for complex file formats. This is why you shouldn't "
+#| "rely on metadata's presence to decide if your file must be cleaned or not."
 msgid ""
 "While <app>Metadata Cleaner</app> is doing its very best to display "
-"metadata, it doesn't mean that a file is clean from any metadata if it "
-"doesn't show any. There is no reliable way to detect every single possible "
-"metadata for complex file formats. This is why you shouldn't rely on "
-"metadata's presence to decide if your file must be cleaned or not."
+"metadata, it doesn't mean that a file is clean from metadata if it doesn't "
+"show any. There is no reliable way to detect every single possible metadata "
+"for complex file formats. This is why you shouldn't rely on metadata's "
+"presence to decide if your file must be cleaned or not."
 msgstr ""
 "Hoewel <app>Metagegevensopruiming</app> probeert de metagegevens zo goed als "
 "mogelijk te tonen, maar biedt geen garantie dat alle gegevens nadien zijn "
@@ -97,25 +121,35 @@ msgstr "Beperkingen"
 
 #. (itstool) path: section/p
 #: C/general.page:36
+#, fuzzy
+#| msgid ""
+#| "Be aware that metadata are not the only way of marking a file. If the "
+#| "content discloses personal informations or has been watermarked, "
+#| "<app>Metadata Cleaner</app> will not protect you."
 msgid ""
-"Be aware that metadata are not the only way of marking a file. If the "
-"content discloses personal informations or has been watermarked, "
-"<app>Metadata Cleaner</app> will not protect you."
+"Be aware that metadata is not the only way of marking a file. If the content "
+"itself discloses personal information or has been watermarked, traditionally "
+"or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
 "Let op: metagegevens zijn niet de enige manier om een bestand op te maken. "
 "Als de inhoud persoonlijke informatie bevat of gewatermerkt is, dan biedt "
 "<app>Metagegevensopruiming</app> geen bescherming."
 
 #. (itstool) path: page/title
+#. The application name. It can be translated.
 #: C/index.page:10
 msgid "Metadata Cleaner"
 msgstr "Metagegevensopruiming"
 
 #. (itstool) path: page/p
 #: C/index.page:14
+#, fuzzy
+#| msgid ""
+#| "<app>Metadata Cleaner</app> allows you to view metadata in your files and "
+#| "to get rid of them, as much as possible."
 msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
-"get rid of them, as much as possible."
+"get rid of it, as much as possible."
 msgstr ""
 "<app>Metagegevensopruiming</app> stelt je in staat metagegevens te bekijken "
 "en ze zo goed als mogelijk te verwijderen."
@@ -157,9 +191,13 @@ msgstr "Metagegevens bekijken"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
+#, fuzzy
+#| msgid ""
+#| "Click on a file in the list to open the detailed view. If it has "
+#| "metadata, they will be shown there."
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
-"they will be shown there."
+"it will be shown there."
 msgstr ""
 "Klik op een bestand op de lijst om de details te tonen. Als er metagegevens "
 "zijn, dan worden ze daar getoond."
@@ -209,10 +247,15 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/usage.page:49
 msgid ""
-"If you're willing to trade some metadata's presence in exchange of the "
-"guarantee that the data of your files won't be modified, the lightweight "
-"mode precisely does that."
+"The lightweight mode, while not as thorough, will not make destructive "
+"changes to your files."
 msgstr ""
-"Als je niet wilt dat dit gebeurt en bereid bent voor lief te nemen dat er "
-"mogelijk een paar gegevens achterblijven, dan is de eenvoudige modus "
-"geschikt."
+
+#~ msgid ""
+#~ "If you're willing to trade some metadata's presence in exchange of the "
+#~ "guarantee that the data of your files won't be modified, the lightweight "
+#~ "mode precisely does that."
+#~ msgstr ""
+#~ "Als je niet wilt dat dit gebeurt en bereid bent voor lief te nemen dat er "
+#~ "mogelijk een paar gegevens achterblijven, dan is de eenvoudige modus "
+#~ "geschikt."
