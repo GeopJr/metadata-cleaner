@@ -74,7 +74,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <li>Improved adaptive user interface</li>
           <li>New help pages</li>
           <li>One-click cleaning, no need to save after cleaning</li>
-          <li>Persistent ightweight cleaning option</li>
+          <li>Persistent lightweight cleaning option</li>
         </ul>
       </description>
     </release>
