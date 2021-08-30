@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-12 12:21+0200\n"
+"POT-Creation-Date: 2021-08-30 16:46+0200\n"
 "PO-Revision-Date: 2021-08-11 16:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -51,13 +51,8 @@ msgid "Lightweight cleaning"
 msgstr "Enkel rens"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-#, fuzzy
-msgid ""
-"Trade some metadata's presence in exchange of the guarantee that the data "
-"won't be modified"
+msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
-"La der blive igen metadata hvis det betyder at filens nyttedata aldrig "
-"ændres."
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 #, fuzzy
@@ -87,9 +82,10 @@ msgstr "Vis og rens metadata i filer"
 #, fuzzy
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
-"when a picture was taken and what camera was used. Office applications "
-"automatically add author and company information to documents and "
-"spreadsheets. Maybe you don't want to disclose those informations."
+"when and where a picture was taken and which camera was used. Office "
+"aplications automatically add author and company information to documents "
+"and spreadsheets. This is sensitive information and you may not want to "
+"disclose it."
 msgstr ""
 "Metadata i filer fortæller meget om dig. Kameraer spiller ind data om når et "
 "bilde ble knipset og hvilket kamera der brugtes. Kontorsoftware tillægger "
@@ -99,8 +95,8 @@ msgstr ""
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 #, fuzzy
 msgid ""
-"This tool allows you to view metadata in your files and to get rid of them, "
-"as much as possible."
+"This tool allows you to view metadata in your files and to get rid of it, as "
+"much as possible."
 msgstr "Vis metadata i dine filer og rens dem."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
@@ -114,12 +110,12 @@ msgstr "Nye hjælpesider"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 #, fuzzy
-msgid "One-click cleaning, no need to clean then save anymore"
+msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Etkliksrens. Ingen efterfølgende manuel lagring."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 #, fuzzy
-msgid "Lightweight cleaning option is now saved"
+msgid "Persistent ightweight cleaning option"
 msgstr "Enkel rensevalg er nu vedvarende"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
@@ -438,6 +434,14 @@ msgstr "Alle filer der støttes"
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "Behandler fil {}/{}"
+
+#, fuzzy
+#~ msgid ""
+#~ "Trade some metadata's presence in exchange of the guarantee that the data "
+#~ "won't be modified"
+#~ msgstr ""
+#~ "La der blive igen metadata hvis det betyder at filens nyttedata aldrig "
+#~ "ændres."
 
 #~ msgid "Warn before saving cleaned files"
 #~ msgstr "Advar før lagring af rensede filer"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-12 12:21+0200\n"
+"POT-Creation-Date: 2021-08-30 16:46+0200\n"
 "PO-Revision-Date: 2021-08-29 21:34+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -48,12 +48,8 @@ msgid "Lightweight cleaning"
 msgstr "Netejatge leugièr"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid ""
-"Trade some metadata's presence in exchange of the guarantee that the data "
-"won't be modified"
+msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
-"Troncar la preséncia d’unas metadonadas contra la garantida que las donadas "
-"seràn pas modificadas"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -76,11 +72,19 @@ msgid "View and clean metadata in files"
 msgstr "Visualizar e netejar las metadonadas dels fichièrs"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#, fuzzy
+#| msgid ""
+#| "Metadata within a file can tell a lot about you. Cameras record data "
+#| "about when a picture was taken and what camera was used. Office "
+#| "applications automatically add author and company information to "
+#| "documents and spreadsheets. Maybe you don't want to disclose those "
+#| "informations."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
-"when a picture was taken and what camera was used. Office applications "
-"automatically add author and company information to documents and "
-"spreadsheets. Maybe you don't want to disclose those informations."
+"when and where a picture was taken and which camera was used. Office "
+"aplications automatically add author and company information to documents "
+"and spreadsheets. This is sensitive information and you may not want to "
+"disclose it."
 msgstr ""
 "Las metadonadas dins un fichièr pòdon en dire fòrça a vòstre subjècte. Los "
 "aparelhs fòto enregistran quand una fotografia foguèt presa e qual aparelh "
@@ -89,9 +93,13 @@ msgstr ""
 "Volètz benlèu pas desvelar aquelas informacions."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#, fuzzy
+#| msgid ""
+#| "This tool allows you to view metadata in your files and to get rid of "
+#| "them, as much as possible."
 msgid ""
-"This tool allows you to view metadata in your files and to get rid of them, "
-"as much as possible."
+"This tool allows you to view metadata in your files and to get rid of it, as "
+"much as possible."
 msgstr ""
 "Aquesta aisina vos permet d’afichar las metadonadas dins vòstres fichièrs e "
 "vos’n desfar, tan que possible."
@@ -105,11 +113,15 @@ msgid "New help pages"
 msgstr "Paginas novèlas d’ajuda"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-msgid "One-click cleaning, no need to clean then save anymore"
+#, fuzzy
+#| msgid "One-click cleaning, no need to clean then save anymore"
+msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Netejatge en un clic, cal pas mai netejar puèi enregistrar"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-msgid "Lightweight cleaning option is now saved"
+#, fuzzy
+#| msgid "Lightweight cleaning option is now saved"
+msgid "Persistent ightweight cleaning option"
 msgstr "L’opcion de netejatge leugièr es ara memorizada"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
@@ -384,3 +396,10 @@ msgstr "Totes los fichièrs preses en carga"
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "Tractament del fichièr {}/{}"
+
+#~ msgid ""
+#~ "Trade some metadata's presence in exchange of the guarantee that the data "
+#~ "won't be modified"
+#~ msgstr ""
+#~ "Troncar la preséncia d’unas metadonadas contra la garantida que las "
+#~ "donadas seràn pas modificadas"
