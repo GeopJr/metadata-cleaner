@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-08-30 17:04+0200\n"
-"PO-Revision-Date: 2021-08-30 16:50+0000\n"
+"PO-Revision-Date: 2021-08-31 18:37+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/lt/>\n"
@@ -105,8 +105,9 @@ msgid ""
 "or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
 "Atminkite, kad metaduomenys nėra vienintelis failų žymėjimo būdas. Jei "
-"turinys pats atskleidžia asmeninę informaciją arba yra pažymėtas vandens "
-"ženklais, <app>Metaduomenų valytojas</app> jūsų neapsaugos."
+"turinys pats atskleidžia asmeninę informaciją arba yra pažymėtas "
+"tradiciniais vandens ženklais ar stenografijos metodu, <app>Metaduomenų "
+"valytojas</app> jūsų neapsaugos."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
@@ -116,10 +117,6 @@ msgstr "Metaduomenų valytojas"
 
 #. (itstool) path: page/p
 #: C/index.page:14
-#, fuzzy
-#| msgid ""
-#| "<app>Metadata Cleaner</app> allows you to view metadata in your files and "
-#| "to get rid of them, as much as possible."
 msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
@@ -164,10 +161,6 @@ msgstr "Metaduomenų peržiūra"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
-#, fuzzy
-#| msgid ""
-#| "Click on a file in the list to open the detailed view. If it has "
-#| "metadata, they will be shown there."
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -223,6 +216,8 @@ msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."
 msgstr ""
+"Lengvasis režimas, nors ir nėra toks išsamus, nepadarys žalingų failų "
+"pakeitimų."
 
 #~ msgid ""
 #~ "If you're willing to trade some metadata's presence in exchange of the "
