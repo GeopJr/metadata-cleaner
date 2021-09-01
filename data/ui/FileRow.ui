@@ -49,6 +49,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                   <object class="GtkLabel">
                     <property name="xalign">0</property>
                     <property name="ellipsize">middle</property>
+                    <property name="wrap-mode">word-char</property>
+                    <property name="lines">2</property>
+                    <property name="single-line-mode">True</property>
                     <binding name="label">
                       <lookup name="filename" type="File"><lookup name="file">FileRow</lookup></lookup>
                     </binding>
