@@ -51,7 +51,7 @@ headerbar:not(.flat)
 .file-list
 {
 	background: none;
-	transition: margin 0.1s;
+	transition: all 0.1s;
 }
 
 .file-list:not(.small)
