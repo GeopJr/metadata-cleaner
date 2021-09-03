@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 18:50+0200\n"
-"PO-Revision-Date: 2021-08-29 21:34+0000\n"
+"PO-Revision-Date: 2021-09-03 11:06+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/oc/>\n"
@@ -50,6 +50,8 @@ msgstr "Netejatge leugièr"
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
+"Fa pas de modificacion destructiva als fichièrs mas pòt daissar d’unas "
+"metadonadas"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -72,13 +74,6 @@ msgid "View and clean metadata in files"
 msgstr "Visualizar e netejar las metadonadas dels fichièrs"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when a picture was taken and what camera was used. Office "
-#| "applications automatically add author and company information to "
-#| "documents and spreadsheets. Maybe you don't want to disclose those "
-#| "informations."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -87,16 +82,12 @@ msgid ""
 "disclose it."
 msgstr ""
 "Las metadonadas dins un fichièr pòdon en dire fòrça a vòstre subjècte. Los "
-"aparelhs fòto enregistran quand una fotografia foguèt presa e qual aparelh "
-"foguèt utilizat. Las aplicacions de burèu ajustan automaticament "
-"d'informacions sus l'autor e l'entrepresa als documents e als tablèus. "
-"Volètz benlèu pas desvelar aquelas informacions."
+"aparelhs fòto enregistran quand e ont una fotografia foguèt presa e qual "
+"aparelh foguèt utilizat. Las aplicacions de burèu ajustan automaticament "
+"d'informacions sus l'autor e l'entrepresa als documents e als tablèus. Son d’"
+"informacions sensiblas e volètz benlèu pas las desvelar."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
-#, fuzzy
-#| msgid ""
-#| "This tool allows you to view metadata in your files and to get rid of "
-#| "them, as much as possible."
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -113,16 +104,12 @@ msgid "New help pages"
 msgstr "Paginas novèlas d’ajuda"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#, fuzzy
-#| msgid "One-click cleaning, no need to clean then save anymore"
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr "Netejatge en un clic, cal pas mai netejar puèi enregistrar"
+msgstr "Netejatge en un clic, cal pas mai enregistrar aprèp netejatge"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-#, fuzzy
-#| msgid "Lightweight cleaning option is now saved"
 msgid "Persistent lightweight cleaning option"
-msgstr "L’opcion de netejatge leugièr es ara memorizada"
+msgstr "Opcion persistenta de netejatge leugièr"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
