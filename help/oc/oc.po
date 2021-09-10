@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-08-30 17:04+0200\n"
-"PO-Revision-Date: 2021-09-03 10:59+0000\n"
+"PO-Revision-Date: 2021-09-10 12:52+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/oc/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -27,6 +27,11 @@ msgid ""
 "who, what, when, where, why, and how about every facet of the data that is "
 "being documented."
 msgstr ""
+"Las metadonadas son compausadas d'informacions caracterizadas. Las "
+"metadonadas son utilizadas per provesir de la documentacion pels produches "
+"de donadas. Grosso modo, las metadonadas respondon a las questions qual, "
+"qué, quora, ont, perqué e cossí a prepaus de totas las caras d'una donadas "
+"en cors de documentacion."
 
 #. (itstool) path: section/p
 #: C/general.page:16
@@ -50,10 +55,6 @@ msgstr "Exemple de metadonadas dins un fichièr imatge"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
-#, fuzzy
-#| msgid ""
-#| "The file discloses informations about the hardware, settings, date, "
-#| "location of the shoot. It contains a total of 79 metadata."
 msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
@@ -82,6 +83,9 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Netejador de metadonadas</app> pren lo contengut d'un fichièr e lo bota "
+"dins un nòu sens cap de metadonada, per s'assegurar que cap de metadonadas "
+"pas detectada siá levada."
 
 #. (itstool) path: section/title
 #: C/general.page:35
@@ -108,6 +112,8 @@ msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
 msgstr ""
+"<app>Netejador de metadonadas</app> vos permet de visualizar las metadonadas "
+"dels fichièrs e de vos'n desbarrassar."
 
 #. (itstool) path: section/title
 #: C/index.page:17
@@ -117,7 +123,7 @@ msgstr "Informacions generals"
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Utilizar <app>Netejador de metadonadas</app>"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
@@ -130,6 +136,9 @@ msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
 msgstr ""
+"Per apondre de fichièrs, quichat lo boton <gui style=\"button\">Ajustar de "
+"fichièrs</gui>. Lo selector de fichièr se dobrirà per causir los fichièrs "
+"que volètz netejar."
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
@@ -147,6 +156,8 @@ msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
 msgstr ""
+"Clicatz un fichièr de la lista per dobrir la vista detalhada. Se possedís de "
+"metadonadas, serà presentadas aicí."
 
 #. (itstool) path: figure/title
 #: C/usage.page:28
