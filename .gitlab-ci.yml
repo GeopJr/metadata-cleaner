@@ -85,7 +85,7 @@ flatpak-repo:
     - job: pycodestyle
       optional: true
     - reuse
-  image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
+  image: registry.gitlab.com/rmnvgr/metadata-cleaner/build-env:latest
   cache:
     - key: flatpak-repo-$CI_COMMIT_REF_SLUG
       paths:
@@ -106,7 +106,7 @@ app:
   needs:
     - job: flatpak-repo
       artifacts: true
-  image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
+  image: registry.gitlab.com/rmnvgr/metadata-cleaner/build-env:latest
   script:
     - flatpak build-bundle ./repo $APP_ID.flatpak $APP_ID $CI_COMMIT_REF_SLUG
   artifacts:
@@ -122,7 +122,7 @@ debug:
   needs:
     - job: flatpak-repo
       artifacts: true
-  image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
+  image: registry.gitlab.com/rmnvgr/metadata-cleaner/build-env:latest
   script:
     - flatpak build-bundle --runtime ./repo $APP_ID.Debug.flatpak $APP_ID.Debug $CI_COMMIT_REF_SLUG
   artifacts:
@@ -194,7 +194,7 @@ pages:
   stage: deploy
   needs:
     - reuse
-  image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
+  image: registry.gitlab.com/rmnvgr/metadata-cleaner/build-env:latest
   script:
     - cp -r website public
     - cp -r data/screenshots public/screenshots
