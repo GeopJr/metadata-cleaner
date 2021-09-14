@@ -7,66 +7,69 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 18:50+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-09-14 22:47+0000\n"
+"Last-Translator: Kaede <contact@kaede.ch>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: data/ui/AboutDialog.ui:66 metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "メタデータクリーナー"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "ファイルからメタデータを除去"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:16
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "Metadata;Remover;Cleaner;メタデータ;削除ツール;クリーナー;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr ""
+msgstr "警告なしで除去"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr ""
+msgstr "警告ダイアログを表示せずにファイルからメタデータを除去します"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 #: data/ui/SettingsButton.ui:27
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "ライトクリーニング"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
+msgstr "ファイルに壊滅的な変更を加えませんが、一部のメタデータが残る場合があります"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr ""
+msgstr "ウィンドウの幅"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr ""
+msgstr "保存されたウィンドウの幅"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr ""
+msgstr "ウィンドウの高さ"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr ""
+msgstr "保存されたウィンドウの高さ"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "ファイルに含まれるメタデータの確認と除去が行えます"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
@@ -76,155 +79,159 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"ファイル内のメタデータは、あなたのことをよく表しています。カメラは、いつ、どこで、どの機種で撮影したかを画像ファイルに記録します。オフィスアプリケーション"
+"は、作成者や会社の情報を文書ファイルや表計算ファイルに自動的に追加します。これらの情報は機密情報であり、公開したくない場合もあります。"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
-msgstr ""
+msgstr "このツールではファイル内のメタデータを確認し、可能な範囲で除去できます。"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "Adaptive User Interface の改善"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New help pages"
-msgstr ""
+msgstr "新しいヘルプページ"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
+msgstr "ワンクリック除去、除去後の保存は不要"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 msgid "Persistent lightweight cleaning option"
-msgstr ""
+msgstr "永続的なライトクリーニングオプション"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "New translations"
-msgstr ""
+msgstr "新しい翻訳"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:98
 msgid "Croatian translation (contributed by Milo Ivir)"
-msgstr ""
+msgstr "クロアチア語の翻訳 (Milo Ivir による貢献)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-msgstr ""
+msgstr "ポルトガル語 (ブラジル) の翻訳 (Gustavo Costa による貢献)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
 msgid "New in v1.0.4:"
-msgstr ""
+msgstr "v1.0.4 の更新内容:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:108
 msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr ""
+msgstr "トルコ語の翻訳 (Oğuz Ersen による貢献)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:115
 msgid "New in v1.0.2:"
-msgstr ""
+msgstr "v1.0.2 の更新内容:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:117
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr ""
+msgstr "スペイン語の翻訳 (Óscar Fernández Díaz による貢献)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr ""
+msgstr "スウェーデン語の翻訳 (Åke Engelbrektson による貢献)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 msgid "Bug fixes:"
-msgstr ""
+msgstr "バグ修正:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "拡張子が大文字のファイルを追加できるようになりました"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "New in v1.0.1:"
-msgstr ""
+msgstr "v1.0.1 の更新内容:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
 msgid "German translation (contributed by lux)"
-msgstr ""
+msgstr "ドイツ語の翻訳 (lux による貢献)"
 
 #: data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "ファイル"
 
 #: data/gtk/help-overlay.ui:18 data/ui/AddFilesButton.ui:8
 msgid "Add files"
-msgstr ""
+msgstr "ファイル追加"
 
 #: data/gtk/help-overlay.ui:24
 msgid "Clean metadata"
-msgstr ""
+msgstr "メタデータ除去"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clear all files from window"
-msgstr ""
+msgstr "ウィンドウ内の全ファイルからメタデータを除去"
 
 #: data/gtk/help-overlay.ui:38
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: data/gtk/help-overlay.ui:41
 msgid "New window"
-msgstr ""
+msgstr "新しいウィンドウ"
 
 #: data/gtk/help-overlay.ui:47
 msgid "Close window"
-msgstr ""
+msgstr "ウィンドウを閉じる"
 
 #: data/gtk/help-overlay.ui:53
 msgid "Quit"
-msgstr ""
+msgstr "終了"
 
 #: data/gtk/help-overlay.ui:59
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "キーボードショートカット"
 
 #: data/gtk/help-overlay.ui:65
 msgid "Help"
-msgstr ""
+msgstr "ヘルプ"
 
 #: data/ui/AboutDialog.ui:87
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "Matrix でチャット"
 
 #: data/ui/AboutDialog.ui:97
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "GitLab でコードを確認"
 
 #: data/ui/AboutDialog.ui:107
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "Weblate で翻訳"
 
 #: data/ui/AboutDialog.ui:117
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "Liberapay で支援"
 
 #: data/ui/AboutDialog.ui:147
 msgid "Code"
-msgstr ""
+msgstr "コード"
 
 #: data/ui/AboutDialog.ui:153
 msgid "Artwork"
-msgstr ""
+msgstr "アートワーク"
 
 #: data/ui/AboutDialog.ui:159
 msgid "Documentation"
-msgstr ""
+msgstr "文献"
 
 #: data/ui/AboutDialog.ui:165
 msgid "Translation"
-msgstr ""
+msgstr "翻訳"
 
 #: data/ui/AboutDialog.ui:170
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
+"このプログラムは <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
+"を使用してメタデータの解析と除去を行っています。mat2 に感謝申し上げます！"
 
 #: data/ui/AboutDialog.ui:183
 msgid ""
@@ -233,132 +240,136 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"このプログラムのソースコードは <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU "
+"GPL 3.0 またはそれ以降</a> に基づいてリリースされています。オリジナルのアートワークと翻訳は <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> "
+"に基づいてリリースされています。"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "除去 (_C)"
 
 #: data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "ファイルをバックアップしてください！"
 
 #: data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "一度メタデータを除去したファイルを、元の状態に戻すことはできません。"
 
 #: data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "今後表示しない"
 
 #: data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "除去"
 
 #: data/ui/EmptyView.ui:13
 msgid "Clean your traces."
-msgstr ""
+msgstr "メタデータを除去します。"
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
-msgstr ""
+msgstr "メタデータおよび除去プロセスの限界についてはこちらをご覧ください。"
 
 #: data/ui/FileRow.ui:12
 msgid "Remove file from list"
-msgstr ""
+msgstr "ファイルを一覧から削除"
 
 #: data/ui/FileRow.ui:93
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: data/ui/FileRow.ui:111
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
 #: data/ui/FileRow.ui:151
 msgid "Cleaned"
-msgstr ""
+msgstr "除去済み"
 
 #: data/ui/MenuButton.ui:10
 msgid "_New window"
-msgstr ""
+msgstr "新しいウィンドウ (_N)"
 
 #: data/ui/MenuButton.ui:14
 msgid "_Clear window"
-msgstr ""
+msgstr "ウィンドウ内ファイルのメタデータを除去 (_C)"
 
 #: data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "ヘルプ (_H)"
 
 #: data/ui/MenuButton.ui:25
 msgid "_Keyboard shortcuts"
-msgstr ""
+msgstr "キーボードショートカット (_K)"
 
 #: data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "メタデータクリーナーについて (_A)"
 
 #: data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "クリーニングの設定"
 
 #: data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "ライトクリーニングの詳細についてはこちらをご覧ください"
 
 #: data/ui/Window.ui:72
 msgid "Details"
-msgstr ""
+msgstr "詳細"
 
 #: data/ui/Window.ui:78
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/Window.ui:98
 msgid "translator-credits"
-msgstr ""
+msgstr "Kaede <contact@kaede.ch>"
 
 #: data/ui/Window.ui:107
 msgid "Choose files to clean"
-msgstr ""
+msgstr "メタデータを除去するファイルを選択"
 
 #: metadatacleaner/modules/file.py:223
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
+msgstr "何らかの問題が発生し、除去済みのファイルが見つかりません"
 
 #: metadatacleaner/ui/detailsview.py:58
 msgid "The file has been cleaned."
-msgstr ""
+msgstr "ファイルのメタデータが除去されました。"
 
 #: metadatacleaner/ui/detailsview.py:69
 msgid "Unable to read the file."
-msgstr ""
+msgstr "ファイルを読み込めません。"
 
 #: metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
-msgstr ""
+msgstr "未対応のファイル形式です。"
 
 #: metadatacleaner/ui/detailsview.py:72
 msgid "Unable to check metadata."
-msgstr ""
+msgstr "メタデータを確認できません。"
 
 #: metadatacleaner/ui/detailsview.py:74
 msgid "No known metadata, the file will be cleaned to be sure."
-msgstr ""
+msgstr "ファイルに既知のメタデータはありませんが、念のため除去しました。"
 
 #: metadatacleaner/ui/detailsview.py:76
 msgid "Unable to remove metadata."
-msgstr ""
+msgstr "メタデータを除去できません。"
 
 #: metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "対応ファイル一覧"
 
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "処理中のファイル {}/{}"
