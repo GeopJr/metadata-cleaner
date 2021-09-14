@@ -7,66 +7,71 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 18:50+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-09-14 17:00+0000\n"
+"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: data/ui/AboutDialog.ui:66 metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Metaadattörlő"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "Metaadatok kitisztítása a fájlokból"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:16
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "Metaadat;Eltávolító;Tisztító;Törlő;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr ""
+msgstr "Tisztítás figyelmeztetés nélkül"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
 msgstr ""
+"A fájlok megtisztítása a figyelmeztetés párbeszédablak megjelenítése nélkül"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 #: data/ui/SettingsButton.ui:27
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Egyszerűsített tisztítás"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
+"Nem végez romboló változtatásokat a fájlokon, de meghagyhat néhány metaadatot"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr ""
+msgstr "Ablak szélessége"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr ""
+msgstr "Az ablak mentett szélessége"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr ""
+msgstr "Ablak magassága"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr ""
+msgstr "Az ablak mentett magassága"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "Metaadatok megtekintése és tisztítása a fájlokból"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
@@ -76,155 +81,166 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"Egy fájlon belüli metaadatok sokat elárulhatnak Önről. A fényképezőgépek "
+"adatokat rögzítenek arról, hogy mikor és hol készült a fénykép, illetve "
+"milyen fényképezőgépet használtak. Az irodai alkalmazások automatikusan "
+"hozzáadják a dokumentumokhoz és táblázatokhoz a szerző és a vállalat "
+"adatait. Ezek érzékeny információk, és nem biztos, hogy szeretné "
+"nyilvánosságra hozni azokat."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
+"Ez az eszköz lehetővé teszi, hogy megtekinthesse a fájlokban lévő "
+"metaadatokat, és a lehető legnagyobb mértékben megszabaduljon tőlük."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "Továbbfejlesztett alkalmazkodó felhasználói felület"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New help pages"
-msgstr ""
+msgstr "Új súgóoldalak"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
+msgstr "Egykattintásos tisztítás, nincs szükség mentésre a tisztítás után"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 msgid "Persistent lightweight cleaning option"
-msgstr ""
+msgstr "Állandó egyszerűsített tisztítási lehetőség"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "New translations"
-msgstr ""
+msgstr "Új fordítások"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:98
 msgid "Croatian translation (contributed by Milo Ivir)"
-msgstr ""
+msgstr "Horvát fordítás (Milo Ivir közreműködésével)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-msgstr ""
+msgstr "Portugál (brazíliai) fordítás (Gustavo Costa közreműködésével)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
 msgid "New in v1.0.4:"
-msgstr ""
+msgstr "Újdonságok az 1.0.4-es verzióban:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:108
 msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr ""
+msgstr "Török fordítás (Oğuz Ersen közreműködésével)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:115
 msgid "New in v1.0.2:"
-msgstr ""
+msgstr "Újdonságok az 1.0.2-es verzióban:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:117
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr ""
+msgstr "Spanyol fordítás (Óscar Fernández Díaz közreműködésével)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr ""
+msgstr "Svéd fordítás (Åke Engelbrektson közreműködésével)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 msgid "Bug fixes:"
-msgstr ""
+msgstr "Hibajavítások:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "Mostantól hozzáadhatók a nagybetűs kiterjesztéssel rendelkező fájlok"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "New in v1.0.1:"
-msgstr ""
+msgstr "Újdonságok az 1.0.1-es verzióban:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
 msgid "German translation (contributed by lux)"
-msgstr ""
+msgstr "Német fordítás (lux közreműködésével)"
 
 #: data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "Fájlok"
 
 #: data/gtk/help-overlay.ui:18 data/ui/AddFilesButton.ui:8
 msgid "Add files"
-msgstr ""
+msgstr "Fájlok hozzáadása"
 
 #: data/gtk/help-overlay.ui:24
 msgid "Clean metadata"
-msgstr ""
+msgstr "Metaadatok törlése"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Összes fájl megtisztítása az ablakból"
 
 #: data/gtk/help-overlay.ui:38
 msgid "General"
-msgstr ""
+msgstr "Általános"
 
 #: data/gtk/help-overlay.ui:41
 msgid "New window"
-msgstr ""
+msgstr "Új ablak"
 
 #: data/gtk/help-overlay.ui:47
 msgid "Close window"
-msgstr ""
+msgstr "Ablak bezárása"
 
 #: data/gtk/help-overlay.ui:53
 msgid "Quit"
-msgstr ""
+msgstr "Kilépés"
 
 #: data/gtk/help-overlay.ui:59
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Gyorsbillentyűk"
 
 #: data/gtk/help-overlay.ui:65
 msgid "Help"
-msgstr ""
+msgstr "Súgó"
 
 #: data/ui/AboutDialog.ui:87
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "Csevegés Mátrixon"
 
 #: data/ui/AboutDialog.ui:97
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "A forráskód megtekintése GitLabon"
 
 #: data/ui/AboutDialog.ui:107
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "Fordítás Weblate-en"
 
 #: data/ui/AboutDialog.ui:117
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "Támogasson minket Liberapay-en"
 
 #: data/ui/AboutDialog.ui:147
 msgid "Code"
-msgstr ""
+msgstr "Kód"
 
 #: data/ui/AboutDialog.ui:153
 msgid "Artwork"
-msgstr ""
+msgstr "Grafika"
 
 #: data/ui/AboutDialog.ui:159
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentáció"
 
 #: data/ui/AboutDialog.ui:165
 msgid "Translation"
-msgstr ""
+msgstr "Fordítás"
 
 #: data/ui/AboutDialog.ui:170
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
+"Ez a program a <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> eszközt "
+"használja a metaadatok feldolgozásához és törléséhez. Mutasson nekik egy kis "
+"szeretetet!"
 
 #: data/ui/AboutDialog.ui:183
 msgid ""
@@ -233,132 +249,139 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"A program forráskódja a <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\""
+">GNU GPL 3.0 vagy újabb</a> verziójában foglaltak szerint lett kiadva. Az "
+"eredeti grafika és a fordítások <a href=\"https://creativecommons.org/"
+"licenses/by-sa/4.0/\">CC BY-SA 4.0</a> szerint kerültek kiadásra."
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_Tisztítás"
 
 #: data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "Győződjön meg arról, hogy készített-e biztonsági mentést a fájljairól!"
 
 #: data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "Ha a fájlokat egyszer megtisztították, már nincs visszaút."
 
 #: data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Ne mondja ezt újra"
 
 #: data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
-msgstr ""
+msgstr "Mégse"
 
 #: data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "Tisztítás"
 
 #: data/ui/EmptyView.ui:13
 msgid "Clean your traces."
-msgstr ""
+msgstr "Tisztítsa meg a nyomait."
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
 msgstr ""
+"Tudjon meg többet a metaadatokról és a tisztítási folyamat korlátjairól."
 
 #: data/ui/FileRow.ui:12
 msgid "Remove file from list"
-msgstr ""
+msgstr "Fájl eltávolítása a listáról"
 
 #: data/ui/FileRow.ui:93
 msgid "Warning"
-msgstr ""
+msgstr "Figyelmeztetés"
 
 #: data/ui/FileRow.ui:111
 msgid "Error"
-msgstr ""
+msgstr "Hiba"
 
 #: data/ui/FileRow.ui:151
 msgid "Cleaned"
-msgstr ""
+msgstr "Megtisztítva"
 
 #: data/ui/MenuButton.ui:10
 msgid "_New window"
-msgstr ""
+msgstr "Ú_j ablak"
 
 #: data/ui/MenuButton.ui:14
 msgid "_Clear window"
-msgstr ""
+msgstr "Ablak _törlése"
 
 #: data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_Súgó"
 
 #: data/ui/MenuButton.ui:25
 msgid "_Keyboard shortcuts"
-msgstr ""
+msgstr "_Gyorsbillentyűk"
 
 #: data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "A Metaadattörlő _névjegye"
 
 #: data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "Tisztítási beállítások"
 
 #: data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Tudjon meg többet az egyszerűsített tisztításról"
 
 #: data/ui/Window.ui:72
 msgid "Details"
-msgstr ""
+msgstr "Részletek"
 
 #: data/ui/Window.ui:78
 msgid "Close"
-msgstr ""
+msgstr "Bezárás"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/Window.ui:98
 msgid "translator-credits"
-msgstr ""
+msgstr "Balázs Úr <balazs@urbalazs.hu>"
 
 #: data/ui/Window.ui:107
 msgid "Choose files to clean"
-msgstr ""
+msgstr "Fájlok kiválasztása a tisztításhoz"
 
 #: metadatacleaner/modules/file.py:223
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
+"Valami rossz történt a tisztítás során, a megtisztított fájl nem található"
 
 #: metadatacleaner/ui/detailsview.py:58
 msgid "The file has been cleaned."
-msgstr ""
+msgstr "A fájl meg lett tisztítva."
 
 #: metadatacleaner/ui/detailsview.py:69
 msgid "Unable to read the file."
-msgstr ""
+msgstr "Nem lehet olvasni a fájlt."
 
 #: metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
-msgstr ""
+msgstr "A fájltípus nem támogatott."
 
 #: metadatacleaner/ui/detailsview.py:72
 msgid "Unable to check metadata."
-msgstr ""
+msgstr "Nem lehet ellenőrizni a metaadatokat."
 
 #: metadatacleaner/ui/detailsview.py:74
 msgid "No known metadata, the file will be cleaned to be sure."
 msgstr ""
+"Nincsenek ismert metaadatok, a fájl meg lesz tisztítva a biztonság kedvéért."
 
 #: metadatacleaner/ui/detailsview.py:76
 msgid "Unable to remove metadata."
-msgstr ""
+msgstr "Nem lehet eltávolítani a metaadatokat."
 
 #: metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "Minden támogatott fájl"
 
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "{}/{} fájl feldolgozása"
