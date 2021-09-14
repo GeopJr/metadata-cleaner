@@ -4,16 +4,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-08-30 17:04+0200\n"
-"PO-Revision-Date: 2021-08-13 10:21+0000\n"
+"PO-Revision-Date: 2021-09-14 17:00+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/help/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/help/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -38,11 +38,16 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"Metadata dalam file dapat memberi tahu banyak tentang Anda. Kamera merekam "
+"data tentang kapan dan di mana gambar diambil dan kamera mana yang "
+"digunakan. Aplikasi Office secara otomatis menambahkan informasi penulis dan "
+"perusahaan ke dokumen dan spreadsheet. Ini adalah informasi sensitif dan "
+"Anda mungkin tidak ingin mengungkapkannya."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Contoh metadata dari berkas gambar"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
@@ -98,6 +103,8 @@ msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
 msgstr ""
+"<app> Metadata Cleaner </app> memungkinkan Anda untuk melihat metadata dalam "
+"file Anda danmenyingkirkannya, sebanyak mungkin."
 
 #. (itstool) path: section/title
 #: C/index.page:17
@@ -120,16 +127,18 @@ msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
 msgstr ""
+"Untuk menambahkan berkas, tekan tombol <gui style=\"button\">Tambah berkas</"
+"gui>. Pemilih berkas akan terbuka, pilih berkas yang ingin Anda bersihkan."
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "Tombol <gui style=\"button\">Tambah File</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:25
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Melihat metadata"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
@@ -137,11 +146,13 @@ msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
 msgstr ""
+"Klik pada file dalam daftar untuk membuka tampilan rinci. Jika terdapat "
+"metadata, ia akan ditampilkan di sana."
 
 #. (itstool) path: figure/title
 #: C/usage.page:28
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Tampilan rinci dari metadata"
 
 #. (itstool) path: section/title
 #: C/usage.page:36
@@ -158,7 +169,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/usage.page:39
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "Tombol <gui style=\"button\">Bersihkan</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:47
@@ -180,3 +191,5 @@ msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."
 msgstr ""
+"Mode ringan, meskipun tidak menyeluruh, tidak akan membuat perubahan "
+"destruktif pada file Anda."
