@@ -183,11 +183,6 @@ headerbar:not(.flat) button:focus
 	padding: 0 0.4em;
 }
 
-.metadata-view row:last-child
-{
-	border-bottom: none;
-}
-
 .outbutton.gitlab
 {
 	background-color: rgba(250, 112, 53, 1);
@@ -230,9 +225,4 @@ headerbar:not(.flat) button:focus
 .outbutton.weblate:hover
 {
 	background-color: rgba(46, 204, 170, 1);
-}
-
-.frame
-{
-	border-radius: 6px;
 }
