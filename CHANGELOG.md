@@ -6,6 +6,47 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.0.0] - 2021-09-22
+
+Metadata Cleaner v2.0.0 is a major release featuring a brand new user interface written in GTK4 and using libadwaita, a new help system and a whole set of new and updated translations.
+
+### Added
+- Dependency upon GTK >=4.4
+- Dependency upon libadwaita commit `03f159488ec3b8e3ea4c3c2daa9c408b071d512d` (as the library is still in development, it is subject to API changes. When it is released, a new version of Metadata Cleaner will be tagged.)
+- Help pages trough Yelp
+- Adaptive user interface
+- Details about a finished cleaning
+- Menu item for clearing the window
+- Persistent lightweight cleaning preference
+- Window size saved on close
+- New Hungarian translation (contributed by @urbalazs)
+- New Japanese translation (contributed by Kaede)
+- New Occitan translation (contributed by @quenty_occitania)
+- Initial work on Danish translation (contributed by @kingu)
+- Initial work on Norwegian Nynorsk translation (contributed by @kingu)
+- Initial work on Russian translation (contributed by @BigmenPixel)
+
+### Changed
+- Cleaning and saving merged into a single action
+- Social links added in the About dialog
+- Updated Croatian translation (contributed by @milotype)
+- Updated Dutch translation (contributed by @Vistaus)
+- Updated Finnish translation (contributed by @artnay)
+- Updated French translation
+- Updated German translation (contributed by @milotype)
+- Updated Indonesian translation (contributed by @t7260 and Reza Almanda)
+- Updated Italian translation (contributed by @albanobattistella)
+- Updated Lithuanian translation (contributed by @completed)
+- Updated Norwegian Bokmål translation (contributed by @kingu)
+- Updated Portuguese (Brazil) translation (contributed by @rafaelff and @xfgusta)
+- Updated Spanish translation (contributed by @oscfdezdz)
+- Updated Swedish translation (contributed by @eson and @kingu)
+- Updated Turkish translation (contributed by @ersen)
+
+### Removed
+- Dependency upon GTK3 and libhandy
+
+
 ## [1.0.8] - 2021-08-10
 
 ### Added
