@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-08-30 17:04+0200\n"
-"PO-Revision-Date: 2021-09-14 22:47+0000\n"
+"PO-Revision-Date: 2021-09-19 22:36+0000\n"
 "Last-Translator: Kaede <contact@kaede.ch>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/ja/>\n"
@@ -23,6 +23,8 @@ msgstr "メタデータとプライバシー"
 #: C/general.page:15
 msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
 msgstr ""
+"メタデータとは、データを特徴づける情報のことです。メタデータは、そのファイルの詳細を説明するために使用されます。メタデータは、そのファイルのあらゆる側面に"
+"ついて、誰が、何を、いつ、どこで、なぜ、どのようにしたのかを記録したものです。"
 
 #. (itstool) path: section/p
 #: C/general.page:16
@@ -50,11 +52,16 @@ msgstr "除去プロセス"
 #: C/general.page:28
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
+"<app>メタデータクリーナー</app>は細心の注意を払ってメタデータを表示していますが、何も表示されないからといってそのファイルにメタデータがないとは"
+"限りません。様々なファイル形式が存在するため、ありとあらゆるメタデータを検出する確実な方法はありません。そのため、メタデータが表示されていないからと言って"
+"、そのファイルのメタデータ除去は必要ないと判断するべきではありません。"
 
 #. (itstool) path: section/p
 #: C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>メタデータクリーナー</app>は、メタデータを含まないファイルのコンテンツ部分を新しいファイルに出力するため、未検出のメタデータが確実に取り除"
+"かれます。"
 
 #. (itstool) path: section/title
 #: C/general.page:35
@@ -141,14 +148,16 @@ msgstr "<gui style=\"button\">除去</gui>ボタン"
 #. (itstool) path: section/title
 #: C/usage.page:47
 msgid "Lightweight cleaning"
-msgstr "ライトクリーニング"
+msgstr "簡易除去"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
+"デフォルトでは、可能な限り多くのメタデータを除去するために、除去プロセス中にファイルのデータを少し変更することがあります。例えば、PDF "
+"内のテキストが選択できなくなったり、圧縮された画像が再圧縮される場合があります。"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
 msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
-msgstr ""
+msgstr "簡易除去モードでは、徹底的な除去は行われませんが、ファイルに壊滅的な変更を加えません。"
