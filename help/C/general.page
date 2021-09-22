@@ -13,7 +13,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 		</info>
 		<title>Metadata and privacy</title>
 		<p>Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented.</p>
-		<p>Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office aplications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it.</p>
+		<p>Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it.</p>
 		<figure>
 			<title>Example of metadata in a picture file</title>
 			<media type="image" src="figures/metadata-example.png" its:translate="no"/>
