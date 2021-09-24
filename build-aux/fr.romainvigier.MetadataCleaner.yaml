@@ -6,13 +6,15 @@ default-branch: main
 runtime: org.gnome.Platform
 runtime-version: '41'
 sdk: org.gnome.Sdk
+command: metadata-cleaner
+separate-locales: false
+
 add-extensions:
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
     add-ld-path: '.'
     version: '21.08'
-command: metadata-cleaner
-separate-locales: false
+
 finish-args:
   - --socket=wayland
   - --socket=fallback-x11
