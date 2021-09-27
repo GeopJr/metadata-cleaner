@@ -17,7 +17,7 @@
 		</GitRepository>
 	</repository>
 
-	<developer>
+	<maintainer>
 		<foaf:Person>
 			<foaf:name>Romain Vigier</foaf:name>
 			<foaf:homepage rdf:resource="https://www.romainvigier.fr/"/>
@@ -29,5 +29,5 @@
 				</foaf:OnlineAccount>
 			</foaf:account>
 		</foaf:Person>
-	</developer>
+	</maintainer>
 </Project>
