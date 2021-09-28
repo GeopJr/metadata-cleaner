@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Quentin PAGÈS <quentinantonin@free.fr>, 2021.
+# Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-23 11:49+0200\n"
-"PO-Revision-Date: 2021-09-03 11:06+0000\n"
-"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
+"PO-Revision-Date: 2021-09-28 08:49+0000\n"
+"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/oc/>\n"
 "Language: oc\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -73,13 +74,6 @@ msgid "View and clean metadata in files"
 msgstr "Visualizar e netejar las metadonadas dels fichièrs"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when and where a picture was taken and which camera was used. "
-#| "Office aplications automatically add author and company information to "
-#| "documents and spreadsheets. This is sensitive information and you may not "
-#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -90,8 +84,8 @@ msgstr ""
 "Las metadonadas dins un fichièr pòdon en dire fòrça a vòstre subjècte. Los "
 "aparelhs fòto enregistran quand e ont una fotografia foguèt presa e qual "
 "aparelh foguèt utilizat. Las aplicacions de burèu ajustan automaticament "
-"d'informacions sus l'autor e l'entrepresa als documents e als tablèus. Son "
-"d’informacions sensiblas e volètz benlèu pas las desvelar."
+"d'informacions sus l'autor e l'entrepresa als documents e als tablèus. Son d’"
+"informacions sensiblas e volètz benlèu pas las desvelar."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
@@ -260,10 +254,8 @@ msgstr ""
 "SA 4.0</a>."
 
 #: data/ui/AddFilesButton.ui:11
-#, fuzzy
-#| msgid "Add files"
 msgid "_Add Files"
-msgstr "Ajustar de fichièrs"
+msgstr "_Ajustar de fichièrs"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -290,10 +282,8 @@ msgid "Clean"
 msgstr "Netejar"
 
 #: data/ui/EmptyView.ui:13
-#, fuzzy
-#| msgid "Clean your traces."
 msgid "Clean Your Traces"
-msgstr "Netejatz vòstras traças."
+msgstr "Netejatz vòstras traças"
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
@@ -318,14 +308,10 @@ msgid "Cleaned"
 msgstr "Netejat"
 
 #: data/ui/MenuButton.ui:10
-#, fuzzy
-#| msgid "_New window"
 msgid "_New Window"
 msgstr "Fenèstra _novèla"
 
 #: data/ui/MenuButton.ui:14
-#, fuzzy
-#| msgid "_Clear window"
 msgid "_Clear Window"
 msgstr "Escafar la _fenèstra"
 
@@ -334,8 +320,6 @@ msgid "_Help"
 msgstr "_Ajuda"
 
 #: data/ui/MenuButton.ui:25
-#, fuzzy
-#| msgid "_Keyboard shortcuts"
 msgid "_Keyboard Shortcuts"
 msgstr "_Acorchis de clavièr"
 
@@ -348,8 +332,6 @@ msgid "Cleaning settings"
 msgstr "Paramètres de netejatge"
 
 #: data/ui/SettingsButton.ui:27
-#, fuzzy
-#| msgid "Lightweight cleaning"
 msgid "Lightweight Cleaning"
 msgstr "Netejatge leugièr"
 
