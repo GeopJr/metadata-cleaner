@@ -106,6 +106,7 @@ class MetadataCleaner(Adw.Application):
         self.set_accels_for_action("app.new-window", ["<Control>n"])
         self.set_accels_for_action("app.quit", ["<Control>q"])
         self.set_accels_for_action("win.add-files", ["<Control>o"])
+        self.set_accels_for_action("win.add-folders", ["<Control><Shift>o"])
         self.set_accels_for_action("win.clear-files", ["<Control>r"])
         self.set_accels_for_action("win.clean-metadata", ["<Control>m"])
         self.set_accels_for_action("win.close", ["<Control>w"])

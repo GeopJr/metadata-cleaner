@@ -21,6 +21,12 @@ SPDX-License-Identifier: GPL-3.0-or-later
             </child>
             <child>
               <object class="GtkShortcutsShortcut">
+                <property name="title" translatable="yes">Add folders</property>
+                <property name="action-name">win.add-folders</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkShortcutsShortcut">
                 <property name="title" translatable="yes">Clean metadata</property>
                 <property name="action-name">win.clean-metadata</property>
               </object>

@@ -80,7 +80,6 @@ class File(GObject.GObject):
         self.icon_name = Gio.content_type_get_generic_icon_name(self.mimetype)
         self.metadata = MetadataStore()
         self.error: Optional[Exception] = None
-        self._setup_parser()
 
     def _compute_temp_path(self, path: str) -> str:
         # We have to keep the extension so that ffmpeg doesn't break
@@ -89,7 +88,10 @@ class File(GObject.GObject):
         return os.path.join(tempfile.gettempdir(), f"{digest}{extension}")
 
     def _set_state(self, state: FileState) -> None:
-        if state != self.state:
+        if state == self.state:
+            return
+
+        def update_state(state) -> None:
             simple_states = {
                 FileState.INITIALIZING: "working",
                 FileState.ERROR_WHILE_INITIALIZING: "error",
@@ -116,15 +118,17 @@ class File(GObject.GObject):
                 FileState.ERROR_WHILE_REMOVING_METADATA: "error-removing",
                 FileState.CLEANED: "none"
             }
-            self.state = state
             self.simple_state = simple_states[state]
             self.selectable = state == FileState.HAS_METADATA
             self.message_type = message_types[state]
             self.has_message = self.message_type != "none"
-            logger.debug(f"State of {self.filename} changed to {str(state)}.")
             self.emit("state-changed", state)
+        logger.debug(f"State of {self.filename} changed to {str(state)}.")
+        GLib.idle_add(update_state, state)
+        self.state = state
 
-    def _setup_parser(self) -> None:
+    def setup_parser(self) -> None:
+        """Set up the parser for this file."""
         logger.info(f"Setting up parser for {self.filename}...")
         try:
             parser, mimetype = parser_factory.get_parser(self.path)
@@ -142,9 +146,11 @@ class File(GObject.GObject):
     def _setup_parser_finish(self, parser, mimetype) -> None:
         self._parser = parser
         if mimetype:
-            self.mimetype = mimetype
-            self.icon_name = Gio.content_type_get_generic_icon_name(
-                self.mimetype)
+            def update_mimetype(mimetype) -> None:
+                self.mimetype = mimetype
+                self.icon_name = Gio.content_type_get_generic_icon_name(
+                    self.mimetype)
+            GLib.idle_add(update_mimetype, mimetype)
         if self._parser:
             logger.info(f"{self.filename} is supported.")
             self._set_state(FileState.SUPPORTED)
@@ -157,13 +163,13 @@ class File(GObject.GObject):
         if self.state != FileState.SUPPORTED:
             return
         logger.info(f"Checking metadata for {self.filename}...")
-        GLib.idle_add(self._set_state, FileState.CHECKING_METADATA)
+        self._set_state(FileState.CHECKING_METADATA)
         try:
             metadata = self._parser.get_meta()
         except Exception as e:
-            GLib.idle_add(self._check_metadata_error, e)
+            self._check_metadata_error(e)
         else:
-            GLib.idle_add(self._check_metadata_finish, metadata)
+            self._check_metadata_finish(metadata)
 
     def _check_metadata_error(self, error: Exception) -> None:
         self.error = error
@@ -176,6 +182,7 @@ class File(GObject.GObject):
             logger.info(f"Found no metadata for {self.filename}.")
             self._set_state(FileState.HAS_NO_METADATA)
             return
+        total_metadata = 0
         # Metadata found in multiple files (e.g. in archive)
         if isinstance(metadata[list(metadata)[0]], Dict):
             for filename, file_metadata in metadata.items():
@@ -185,7 +192,7 @@ class File(GObject.GObject):
                 self.metadata.append(MetadataFile(
                     filename=os.path.join(self.filename, filename),
                     metadata=metadata_list))
-                self.total_metadata += len(metadata_list)
+                total_metadata += len(metadata_list)
         # Metadata found in a single file
         else:
             metadata_list = MetadataList()
@@ -194,10 +201,14 @@ class File(GObject.GObject):
             self.metadata.append(MetadataFile(
                 filename=self.filename,
                 metadata=metadata_list))
-            self.total_metadata += len(metadata_list)
+            total_metadata += len(metadata_list)
         logger.info(
-            f"Found {self.total_metadata} metadata "
+            f"Found {total_metadata} metadata "
             f"for {self.filename}.")
+
+        def update_total_metadata(total_metadata) -> None:
+            self.total_metadata = total_metadata
+        GLib.idle_add(update_total_metadata, total_metadata)
         self._set_state(FileState.HAS_METADATA)
 
     def clean(self, lightweight_mode=False) -> None:
@@ -213,7 +224,7 @@ class File(GObject.GObject):
         ]:
             return
         logger.info(f"Cleaning metadata from {self.filename}...")
-        GLib.idle_add(self._set_state, FileState.REMOVING_METADATA)
+        self._set_state(FileState.REMOVING_METADATA)
         try:
             self._parser.output_filename = self._temp_path
             self._parser.lightweight_cleaning = lightweight_mode
@@ -230,9 +241,9 @@ class File(GObject.GObject):
                 None,
                 None)
         except Exception as e:
-            GLib.idle_add(self._clean_error, e)
+            self._clean_error(e)
         else:
-            GLib.idle_add(self._clean_finish)
+            self._clean_finish()
 
     def _clean_error(self, error: Exception) -> None:
         self.error = error

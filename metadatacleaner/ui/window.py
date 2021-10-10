@@ -3,6 +3,7 @@
 
 """Application window of Metadata Cleaner."""
 
+from gettext import gettext as _
 from gi.repository import Adw, Gdk, Gio, GLib, GObject, Gtk
 from typing import Any
 
@@ -13,6 +14,7 @@ from metadatacleaner.ui.addfilesbutton import AddFilesButton
 from metadatacleaner.ui.emptyview import EmptyView
 from metadatacleaner.ui.filechooserdialog import FileChooserDialog
 from metadatacleaner.ui.filesview import FilesView
+from metadatacleaner.ui.folderchooserdialog import FolderChooserDialog
 from metadatacleaner.ui.menubutton import MenuButton
 from metadatacleaner.ui.detailsview import DetailsView
 from metadatacleaner.ui.cleaningwarningdialog import CleaningWarningDialog
@@ -32,6 +34,7 @@ class Window(Adw.ApplicationWindow):
 
     _about_dialog: AboutDialog = Gtk.Template.Child()
     _file_chooser_dialog: FileChooserDialog = Gtk.Template.Child()
+    _folder_chooser_dialog: FolderChooserDialog = Gtk.Template.Child()
     _cleaning_warning_dialog: CleaningWarningDialog = Gtk.Template.Child()
 
     def __init__(
@@ -135,6 +138,12 @@ class Window(Adw.ApplicationWindow):
         add_files.connect("activate", on_add_files)
         self.add_action(add_files)
 
+        def on_add_folders(action: Gio.Action, parameters: None) -> None:
+            self._folder_chooser_dialog.show()
+        add_folders = Gio.SimpleAction.new("add-folders", None)
+        add_folders.connect("activate", on_add_folders)
+        self.add_action(add_folders)
+
         def on_remove_file(
                 action: Gio.Action,
                 parameters: GLib.Variant) -> None:
@@ -204,6 +213,17 @@ class Window(Adw.ApplicationWindow):
         dialog.hide()
         if response == Gtk.ResponseType.ACCEPT:
             self.file_store.add_gfiles(dialog.get_files())
+
+    @Gtk.Template.Callback()
+    def _on_folder_chooser_dialog_response(
+            self,
+            dialog: FolderChooserDialog,
+            response: Gtk.ResponseType) -> None:
+        dialog.hide()
+        if response == Gtk.ResponseType.ACCEPT:
+            self.file_store.add_gfiles_from_dirs(
+                dialog.get_files(),
+                dialog.get_choice("recursive"))
 
     @Gtk.Template.Callback()
     def _on_cleaning_warning_dialog_response(

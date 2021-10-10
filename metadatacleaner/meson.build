@@ -25,6 +25,7 @@ ui = [
   'ui/filechooserdialog.py',
   'ui/filerow.py',
   'ui/filesview.py',
+  'ui/folderchooserdialog.py',
   'ui/infodetails.py',
   'ui/menubutton.py',
   'ui/metadatadetails.py',

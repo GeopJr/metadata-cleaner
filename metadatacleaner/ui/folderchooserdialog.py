@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+"""Folder chooser dialog."""
+
+from gettext import gettext as _
+from gi.repository import Gtk
+
+
+class FolderChooserDialog(Gtk.FileChooserNative):
+    """Folder chooser dialog."""
+
+    __gtype_name__ = "FolderChooserDialog"
+
+    def __init__(self, *args, **kwargs) -> None:
+        """Folder chooser dialog initialization."""
+        super().__init__(*args, **kwargs)
+        self._setup_choice()
+
+    def _setup_choice(self) -> None:
+        self.add_choice(
+            "recursive", _("Add files from subfolders"), None, None)

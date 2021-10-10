@@ -38,6 +38,7 @@ metadatacleaner/ui/emptyview.py
 metadatacleaner/ui/filechooserdialog.py
 metadatacleaner/ui/filerow.py
 metadatacleaner/ui/filesview.py
+metadatacleaner/ui/folderchooserdialog.py
 metadatacleaner/ui/infodetails.py
 metadatacleaner/ui/menubutton.py
 metadatacleaner/ui/metadatadetails.py

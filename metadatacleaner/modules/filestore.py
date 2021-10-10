@@ -125,6 +125,47 @@ class FileStore(Gio.ListStore):
             raise RuntimeError("File not found in file store.")
         return position
 
+    def add_gfiles_from_dirs(
+            self, dirs: List[Gio.File], recursive: bool = False) -> None:
+        """Add Gio Files from directories to the Files Manager.
+
+        Args:
+            dirs (List[Gio.File]): List of directories to look into.
+            recursive (bool, optional): If subdirectories should also be looked
+            into. Defaults to False.
+        """
+        gfiles: List[Gio.File] = []
+        for dir in dirs:
+            gfiles.extend(self._get_gfiles_from_dir(dir, recursive))
+        self.add_gfiles(gfiles)
+
+    def _get_gfiles_from_dir(
+            self, dir: Gio.File, recursive: bool) -> List[Gio.File]:
+        gfiles: List[Gio.File] = []
+        subdirs: List[Gio.File] = []
+        children_enumerator = dir.enumerate_children(
+            "",
+            Gio.FileQueryInfoFlags.NONE,
+            None)
+        while True:
+            info = children_enumerator.next_file(None)
+            if info is None:
+                break
+            child = children_enumerator.get_child(info)
+            if info.get_file_type() == Gio.FileType.DIRECTORY:
+                if recursive:
+                    subdirs.append(child)
+            else:
+                gfiles.append(child)
+        children_enumerator.close(None)
+        with ThreadPoolExecutor() as executor:
+            for subgfiles in executor.map(
+                    self._get_gfiles_from_dir,
+                    subdirs,
+                    [recursive] * len(subdirs)):
+                gfiles.extend(subgfiles)
+        return gfiles
+
     def add_gfiles(self, gfiles: List[Gio.File]) -> None:
         """Add Gio Files to the Files Manager.
 
@@ -140,7 +181,7 @@ class FileStore(Gio.ListStore):
             return
         self.splice(len(self), 0, files)
         thread = Thread(
-            target=self._check_metadata_of_all_files_async,
+            target=self._check_metadata_of_files_async,
             args=(files,),
             daemon=False)
         thread.start()
@@ -152,24 +193,25 @@ class FileStore(Gio.ListStore):
         if bool(list(filter(lambda x: x.path == gfile.get_path(), self))):
             logger.info(f"Skipping {gfile.get_path()}, already added.")
             return None
-        return File(gfile)
+        f = File(gfile)
+        f.connect("state-changed", self._on_file_state_changed)
+        return f
 
-    def _check_metadata_of_all_files_async(self, files: List[File]) -> None:
+    def _check_metadata_of_files_async(self, files: List[File]) -> None:
         self._set_progress(0, len(files))
         self._set_state(FileStoreState.WORKING)
         self.last_action = FileStoreAction.ADDING
         with ThreadPoolExecutor() as executor:
+            for f in files:
+                executor.submit(f.setup_parser)
+        with ThreadPoolExecutor() as executor:
             futures = {
-                executor.submit(self._check_metadata_of_file_async, f)
+                executor.submit(f.check_metadata)
                 for f in files
             }
             for i, future in enumerate(as_completed(futures)):
                 self._set_progress(i + 1, len(files))
         self._set_state(FileStoreState.IDLE)
-
-    def _check_metadata_of_file_async(self, f: File) -> None:
-        f.connect("state-changed", self._on_file_state_changed)
-        f.check_metadata()
 
     def remove_file(self, f: File) -> None:
         """Remove a file from the File Store.
