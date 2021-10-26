@@ -16,33 +16,34 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <child>
       <object class="AdwClamp">
         <property name="tightening-threshold">600</property>
-        <child>
-          <object class="GtkInfoBar">
-            <property name="message-type">info</property>
+        <property name="child">
+          <object class="GtkButton">
+            <property name="action-name">app.help</property>
+            <property name="action-target">"/index"</property>
             <style>
-              <class name="help-infobar"/>
+              <class name="help-button"/>
             </style>
-            <child>
-              <object class="GtkLabel">
-                <property name="label" translatable="yes">Learn more about metadata and the cleaning process limitations.</property>
-                <property name="wrap">True</property>
-                <property name="xalign">0</property>
-                <property name="single-line-mode">True</property>
-                <property name="height-request">0</property>
+            <property name="child">
+              <object class="GtkBox">
+                <property name="halign">center</property>
+                <property name="spacing">12</property>
+                <child>
+                  <object class="GtkImage">
+                    <property name="valign">center</property>
+                    <property name="icon-name">dialog-information-symbolic</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="label" translatable="yes">Learn more about metadata and the cleaning process limitations.</property>
+                    <property name="wrap">True</property>
+                    <property name="xalign">0</property>
+                  </object>
+                </child>
               </object>
-            </child>
-            <child type="action">
-              <object class="GtkButton">
-                <property name="icon-name">dialog-information-symbolic</property>
-                <property name="action-name">app.help</property>
-                <property name="action-target">"/index"</property>
-                <style>
-                  <class name="circular"/>
-                </style>
-              </object>
-            </child>
+            </property>
           </object>
-        </child>
+        </property>
       </object>
     </child>
   </template>
