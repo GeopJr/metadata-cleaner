@@ -19,7 +19,7 @@ class StatusIndicator(Gtk.Stack):
 
     __gtype_name__ = "StatusIndicator"
 
-    file_store = GObject.Property(type=FileStore, nick="file-store")
+    file_store: FileStore = GObject.Property(type=FileStore, nick="file-store")
 
     _progressbar: Gtk.ProgressBar = Gtk.Template.Child()
     _done_label: Gtk.Label = Gtk.Template.Child()
@@ -30,9 +30,20 @@ class StatusIndicator(Gtk.Stack):
         self.show_idle()
 
     def _sync_progressbar(self, current, total) -> None:
-        self._progressbar.set_fraction(current / total)
-        self._progressbar.set_text(
-            _("Processing file {}/{}").format(current, total))
+        if not self.file_store or not self.file_store.last_action:
+            return
+        text = {
+            FileStoreAction.ADDING: _("Adding files…"),
+            FileStoreAction.CHECKING:
+                _("Processing file {}/{}").format(current, total),
+            FileStoreAction.CLEANING:
+                _("Cleaning file {}/{}").format(current, total),
+        }
+        self._progressbar.set_text(text[self.file_store.last_action])
+        if self.file_store.last_action == FileStoreAction.ADDING:
+            self._progressbar.pulse()
+        else:
+            self._progressbar.set_fraction(current / total)
 
     @Gtk.Template.Callback()
     def _on_file_store_changed(

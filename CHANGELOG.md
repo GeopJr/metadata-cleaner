@@ -14,6 +14,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 ### Changed
 - Info bar on the empty view is now a button
+- Status indicator now tells which action it is doing
 - Updated Finnish translation (contributed by @artnay)
 - Updated Occitan translation (contributed by @quenty_occitania)
 

@@ -27,6 +27,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <object class="GtkProgressBar" id="_progressbar">
             <property name="valign">center</property>
             <property name="show-text">True</property>
+            <property name="pulse-step">0.005</property>
           </object>
         </property>
       </object>

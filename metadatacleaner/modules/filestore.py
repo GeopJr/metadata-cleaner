@@ -44,6 +44,7 @@ class FileStoreAction(IntEnum):
     """Actions the Files manager can do."""
 
     ADDING = auto()
+    CHECKING = auto()
     CLEANING = auto()
 
 
@@ -202,8 +203,13 @@ class FileStore(Gio.ListStore):
         self._set_state(FileStoreState.WORKING)
         self.last_action = FileStoreAction.ADDING
         with ThreadPoolExecutor() as executor:
-            for f in files:
+            futures = {
                 executor.submit(f.setup_parser)
+                for f in files
+            }
+            for i, future in enumerate(as_completed(futures)):
+                self._set_progress(0, len(files))
+        self.last_action = FileStoreAction.CHECKING
         with ThreadPoolExecutor() as executor:
             futures = {
                 executor.submit(f.check_metadata)
