@@ -68,7 +68,15 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <kudo>UserDocs</kudo>
   </kudos>
 
-  <releases>
+  <releases its:locNote="Release notes">
+    <release version="2.1.0" date="2021-11-04">
+      <description>
+        <ul>
+          <li>New button to add folders</li>
+          <li>New translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.1" date="2021-09-28">
       <description>
         <ul>
@@ -103,39 +111,31 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <release version="1.0.6" date="2021-04-27">
       <description>
         <ul>
-          <li>Croatian translation (contributed by Milo Ivir)</li>
-          <li>Portuguese (Brazil) translation (contributed by Gustavo Costa)</li>
+          <li>New translations</li>
         </ul>
       </description>
     </release>
     <release version="1.0.5" date="2021-04-13" />
     <release version="1.0.4" date="2021-04-02">
       <description>
-        <p>New in v1.0.4:</p>
         <ul>
-          <li>Turkish translation (contributed by Oğuz Ersen)</li>
+          <li>New translations</li>
         </ul>
       </description>
     </release>
     <release version="1.0.3" date="2021-02-17" />
     <release version="1.0.2" date="2021-01-14">
       <description>
-        <p>New in v1.0.2:</p>
         <ul>
-          <li>Spanish translation (contributed by Óscar Fernández Díaz)</li>
-          <li>Swedish translation (contributed by Åke Engelbrektson)</li>
-        </ul>
-        <p>Bug fixes:</p>
-        <ul>
+          <li>New translations</li>
           <li>Files with uppercase extension can now be added</li>
         </ul>
       </description>
     </release>
     <release version="1.0.1" date="2020-12-24">
       <description>
-        <p>New in v1.0.1:</p>
         <ul>
-          <li>German translation (contributed by lux)</li>
+          <li>New translations</li>
         </ul>
       </description>
     </release>
