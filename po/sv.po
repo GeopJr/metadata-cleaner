@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-24 23:50+0200\n"
-"PO-Revision-Date: 2021-09-28 08:29+0000\n"
+"PO-Revision-Date: 2021-10-27 12:46+0000\n"
 "Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/sv/>\n"
@@ -168,10 +168,8 @@ msgid "Add files"
 msgstr "Lägg till filer"
 
 #: data/gtk/help-overlay.ui:24
-#, fuzzy
-#| msgid "Add files"
 msgid "Add folders"
-msgstr "Lägg till filer"
+msgstr "Lägg till mappar"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
@@ -262,10 +260,8 @@ msgid "_Add Files"
 msgstr "Lägg till filer"
 
 #: data/ui/AddFilesButton.ui:24
-#, fuzzy
-#| msgid "_Add Files"
 msgid "Add _Folders"
-msgstr "Lägg till filer"
+msgstr "Lägg till _mappar"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -367,10 +363,8 @@ msgid "Choose files to clean"
 msgstr "Välj filer att rensa"
 
 #: data/ui/Window.ui:123
-#, fuzzy
-#| msgid "Choose files to clean"
 msgid "Choose folders to clean"
-msgstr "Välj filer att rensa"
+msgstr "Välj mappar att rensa"
 
 #: metadatacleaner/modules/file.py:238
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -407,7 +401,7 @@ msgstr "Alla filer som stöds"
 
 #: metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Lägg till filer från undermappar"
 
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
