@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-09-23 11:49+0200\n"
+"POT-Creation-Date: 2021-10-24 23:48+0200\n"
 "PO-Revision-Date: 2021-10-04 12:36+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -46,8 +46,8 @@ msgstr ""
 "Las metadonadas dins un fichièr pòdon en dire fòrça a vòstre subjècte. Los "
 "aparelhs fòto enregistran quand e ont una fotografia foguèt presa e qual "
 "aparelh foguèt utilizat. Las aplicacions de burèu ajustan automaticament "
-"d'informacions sus l'autor e l'entrepresa als documents e als tablèus. Son d’"
-"informacions sensiblas e volètz benlèu pas las desvelar."
+"d'informacions sus l'autor e l'entrepresa als documents e als tablèus. Son "
+"d’informacions sensiblas e volètz benlèu pas las desvelar."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
@@ -78,8 +78,8 @@ msgid ""
 "presence to decide if your file must be cleaned or not."
 msgstr ""
 "Malgrat que <app>Metadata Cleaner</app> faga çò que pòt per mostrar las "
-"metadonadas, significa pas qu’un fichièr siá net de tota metadonada se n’"
-"aficha pas cap. I a pas cap de metòde fisable per detectar cada metadonada "
+"metadonadas, significa pas qu’un fichièr siá net de tota metadonada se "
+"n’aficha pas cap. I a pas cap de metòde fisable per detectar cada metadonada "
 "possibla pels formats de fichièrs complexes. Es per aquò que devètz pas "
 "comptar sus la preséncia de metadonada per decidir se un fichièr es netejat "
 "o pas."
@@ -156,13 +156,24 @@ msgstr ""
 msgid "<gui style=\"button\">Add Files</gui> button"
 msgstr "Boton <gui style=\"button\">Apondre de fichièrs</gui>"
 
+#. (itstool) path: section/p
+#: C/usage.page:20
+msgid ""
+"To add whole folders at once, press the arrow next to the <gui style=\"button"
+"\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
+"gui> button. A file chooser will open, select the folders you want to add. "
+"You can optionally choose to also add all files from all subfolders by "
+"checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
+"checkbox."
+msgstr ""
+
 #. (itstool) path: section/title
-#: C/usage.page:25
+#: C/usage.page:26
 msgid "Viewing metadata"
 msgstr "Visualizar las metadonadas"
 
 #. (itstool) path: section/p
-#: C/usage.page:26
+#: C/usage.page:27
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -171,17 +182,17 @@ msgstr ""
 "metadonadas, serà presentadas aicí."
 
 #. (itstool) path: figure/title
-#: C/usage.page:28
+#: C/usage.page:29
 msgid "Detailed view of the metadata"
 msgstr "Vista detalhada de las metadonadas"
 
 #. (itstool) path: section/title
-#: C/usage.page:36
+#: C/usage.page:37
 msgid "Cleaning files"
 msgstr "Netejar los fichièrs"
 
 #. (itstool) path: section/p
-#: C/usage.page:37
+#: C/usage.page:38
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
@@ -191,17 +202,17 @@ msgstr ""
 "terminar."
 
 #. (itstool) path: figure/title
-#: C/usage.page:39
+#: C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "Boton <gui style=\"button\">Netejar</gui>"
 
 #. (itstool) path: section/title
-#: C/usage.page:47
+#: C/usage.page:48
 msgid "Lightweight cleaning"
 msgstr "Netejatge leugièr"
 
 #. (itstool) path: section/p
-#: C/usage.page:48
+#: C/usage.page:49
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
@@ -214,7 +225,7 @@ msgstr ""
 "compressats de nòu…"
 
 #. (itstool) path: section/p
-#: C/usage.page:49
+#: C/usage.page:50
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."
