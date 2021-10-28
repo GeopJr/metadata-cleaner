@@ -76,6 +76,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <li>New translations</li>
         </ul>
       </description>
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v2.1.0</url>
     </release>
     <release version="2.0.1" date="2021-09-28">
       <description>
@@ -83,6 +84,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <li>New translations</li>
         </ul>
       </description>
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v2.0.1</url>
     </release>
     <release version="2.0.0" date="2021-09-22">
       <description>
@@ -93,6 +95,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <li>Persistent lightweight cleaning option</li>
         </ul>
       </description>
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v2.0.0</url>
     </release>
     <release version="1.0.8" date="2021-08-10">
       <description>
@@ -100,6 +103,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <li>New translations</li>
         </ul>
       </description>
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v1.0.8</url>
     </release>
     <release version="1.0.7" date="2021-07-01">
       <description>
@@ -107,6 +111,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <li>New translations</li>
         </ul>
       </description>
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v1.0.7</url>
     </release>
     <release version="1.0.6" date="2021-04-27">
       <description>
@@ -114,16 +119,22 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <li>New translations</li>
         </ul>
       </description>
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v1.0.6</url>
     </release>
-    <release version="1.0.5" date="2021-04-13" />
+    <release version="1.0.5" date="2021-04-13">
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v1.0.5</url>
+    </release>
     <release version="1.0.4" date="2021-04-02">
       <description>
         <ul>
           <li>New translations</li>
         </ul>
       </description>
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v1.0.4</url>
     </release>
-    <release version="1.0.3" date="2021-02-17" />
+    <release version="1.0.3" date="2021-02-17">
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v1.0.3</url>
+    </release>
     <release version="1.0.2" date="2021-01-14">
       <description>
         <ul>
@@ -131,6 +142,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <li>Files with uppercase extension can now be added</li>
         </ul>
       </description>
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v1.0.2</url>
     </release>
     <release version="1.0.1" date="2020-12-24">
       <description>
@@ -138,8 +150,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <li>New translations</li>
         </ul>
       </description>
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v1.0.1</url>
     </release>
-    <release version="1.0.0" date="2020-12-10" />
+    <release version="1.0.0" date="2020-12-10">
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v1.0.0</url>
+     </release>
     <release version="0.9.9" type="development" date="2020-12-06" />
     <release version="0.9.0" type="development" date="2020-12-03" />
   </releases>
