@@ -17,8 +17,20 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 - Info bar on the empty view is now a button
 - Status indicator now tells which action it is doing
 - About dialog is now scrollable
+- Updated Basque translation (contributed by @sergitroll9)
+- Updated Croatian translation (contributed by @milotype)
+- Updated Dutch translation (contributed by @Vistaus)
 - Updated Finnish translation (contributed by @artnay)
+- Updated French translation
+- Updated Hungarian translation (contributed by @urbalazs)
+- Updated Italian translation (contributed by @albanobattistella)
+- Updated Japanese translation (contributed by Kaede)
+- Updated Lithuanian translation (contributed by @completed)
 - Updated Occitan translation (contributed by @quenty_occitania)
+- Updated Portuguese (Brazil) translation (contributed by Davi Patricio)
+- Updated Spanish translation (contributed by @oscfdezdz)
+- Updated Swedish translation (contributed by @eson)
+- Updated Turkish translation (contributed by @ersen)
 
 
 ## [2.0.1] - 2021-09-28
