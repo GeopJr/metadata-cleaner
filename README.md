@@ -37,7 +37,7 @@ Metadata Cleaner is available as a Flatpak on Flathub:
 Dependencies:
 
 - `gtk4` >= 4.4
-- `libadwaita-1` == 1.0.0.alpha.3 or API-compatible
+- `libadwaita-1` == 1.0.0.alpha.4 or API-compatible
 - `pygobject-3.0`
 - `python3`
 - Python 3 `libmat2` module and [its dependencies](https://0xacab.org/jvoisin/mat2#requirements)
