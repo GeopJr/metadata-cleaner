@@ -200,20 +200,10 @@ window.flat.scrolled headerbar
 	color: #fff;
 }
 
-.outbutton.gitlab:hover
-{
-	background-color: rgba(250, 112, 53, 1);
-}
-
 .outbutton.liberapay
 {
 	background-color: rgba(246, 201, 21, 0.8);
 	color: #1a171b;
-}
-
-.outbutton.liberapay:hover
-{
-	background-color: rgba(246, 201, 21, 1);
 }
 
 .outbutton.matrix
@@ -222,20 +212,10 @@ window.flat.scrolled headerbar
 	color: #fff;
 }
 
-.outbutton.matrix:hover
-{
-	background-color: rgba(129, 61, 156, 1);
-}
-
 .outbutton.weblate
 {
 	background-color: rgba(46, 204, 170, 0.8);
 	color: #fff;
-}
-
-.outbutton.weblate:hover
-{
-	background-color: rgba(46, 204, 170, 1);
 }
 
 .app-icon

@@ -4,8 +4,10 @@ SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
-  <template class="OutButton" parent="GtkLinkButton">
+  <template class="OutButton" parent="GtkButton">
+    <signal name="clicked" handler="_on_clicked"/>
     <style>
+      <class name="opaque"/>
       <class name="outbutton"/>
     </style>
     <child>
