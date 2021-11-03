@@ -23,7 +23,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
       <object class="GtkFrame">
         <property name="visible" bind-source="InfoDetails" bind-property="has-details"/>
         <style>
-          <class name="view"/>
+          <class name="card"/>
         </style>
         <child>
           <object class="GtkLabel">
