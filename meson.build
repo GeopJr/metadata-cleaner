@@ -5,25 +5,19 @@ project(
   'metadata-cleaner',
   version: '2.1.0',
   license: ['GPL-3.0-or-later', 'CC-BY-SA-4.0'],
-  meson_version: '>= 0.57.0'
+  meson_version: '>= 0.59.0'
 )
 
 APP_ID = 'fr.romainvigier.MetadataCleaner'
 
 gnome = import('gnome')
 i18n = import('i18n')
-python = import('python').find_installation('python3', modules: ['libmat2'])
-
-dependency('gtk4', version: '>=4.4')
-dependency('libadwaita-1', version: '>=1.0.0')
-dependency('pygobject-3.0', version: '>=3.40')
-dependency('python3')
+python = import('python').find_installation('python3')
 
 prefix = get_option('prefix')
 
 bindir = prefix / get_option('bindir')
 datadir = prefix / get_option('datadir')
-libexecdir = prefix / get_option('libexecdir')
 localedir = prefix / get_option('localedir')
 pythondir = prefix / python.get_install_dir()
 
@@ -62,5 +56,5 @@ subdir('tests')
 gnome.post_install(
   glib_compile_schemas: true,
   gtk_update_icon_cache: true,
+  update_desktop_database: true
 )
-meson.add_install_script('build-aux' / 'postinstall.py')

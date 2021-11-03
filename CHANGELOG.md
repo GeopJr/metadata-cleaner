@@ -13,6 +13,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 - Folder name is now displayed in the files view
 
 ### Changed
+- Meson >= 0.59 is required
 - Dependency upon libadwaita 1.0.0.alpha.4
 - Info bar on the empty view is now a button
 - Status indicator now tells which action it is doing
