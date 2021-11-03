@@ -39,10 +39,10 @@ mypy:
   interruptible: true
   rules:
     - changes:
-      - metadatacleaner/**/*.py
+      - application/**/*.py
   script:
     - pip install mypy
-    - mypy --ignore-missing-imports ./metadatacleaner
+    - mypy --ignore-missing-imports ./application
 
 pydocstyle:
   extends: .python
@@ -50,10 +50,10 @@ pydocstyle:
   interruptible: true
   rules:
     - changes:
-      - metadatacleaner/**/*.py
+      - application/**/*.py
   script:
     - pip install pydocstyle
-    - pydocstyle ./metadatacleaner
+    - pydocstyle ./application
 
 pycodestyle:
   extends: .python
@@ -61,10 +61,10 @@ pycodestyle:
   interruptible: true
   rules:
     - changes:
-      - metadatacleaner/**/*.py
+      - application/**/*.py
   script:
     - pip install pycodestyle
-    - pycodestyle ./metadatacleaner
+    - pycodestyle ./application
 
 reuse:
   extends: .python
@@ -197,13 +197,14 @@ pages:
   image: registry.gitlab.com/rmnvgr/metadata-cleaner/build-env:latest
   script:
     - cp -r website public
-    - cp -r data/screenshots public/screenshots
+    - cp -r application/data/screenshots public/screenshots
     - find public -type f -regex '.*\.\(|html\|css\|svg\|png\|woff\|woff2\)$' -exec gzip -f -k {} \;
     - find public -type f -regex '.*\.\(|html\|css\|svg\|png\|woff\|woff2\)$' -exec brotli -f -k {} \;
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       changes:
-      - "website/**/*"
+      - application/data/screenshots/**/*
+      - website/**/*
   artifacts:
     paths:
       - public

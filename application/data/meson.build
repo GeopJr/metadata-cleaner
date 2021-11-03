@@ -29,7 +29,7 @@ i18n.merge_file(
   type: 'desktop',
   input: APP_ID + '.desktop.in',
   output: APP_ID + '.desktop',
-  po_dir: meson.project_source_root() / 'po',
+  po_dir: appsrcdir / 'po',
   install: true,
   install_dir: applicationsdir
 )
@@ -38,7 +38,7 @@ i18n.merge_file(
   input: metainfo_file,
   output: APP_ID + '.metainfo.xml',
   type: 'xml',
-  po_dir: meson.project_source_root() / 'po',
+  po_dir: appsrcdir / 'po',
   install: true,
   install_dir: appdatadir
 )

@@ -21,36 +21,17 @@ datadir = prefix / get_option('datadir')
 localedir = prefix / get_option('localedir')
 pythondir = prefix / python.get_install_dir()
 
-pkgdatadir = datadir / meson.project_name()
-
 appdatadir = datadir / 'metainfo'
 applicationsdir = datadir / 'applications'
-metadatacleanerdir = pythondir / 'metadatacleaner'
 iconsdir = datadir / 'icons'
+metadatacleanerdir = pythondir / 'metadatacleaner'
+pkgdatadir = datadir / meson.project_name()
 schemasdir = datadir / 'glib-2.0' / 'schemas'
 
 devel = get_option('devel')
 
-bin_config = configuration_data()
-bin_config.set('localedir', localedir)
-bin_config.set('pkgdatadir', pkgdatadir)
-bin_config.set('pythondir', pythondir)
-bin_config.set('schemasdir', schemasdir)
-bin_config.set('app_id', APP_ID)
-bin_config.set('devel', devel)
-bin_config.set('version', meson.project_version())
-
-configure_file(
-  input: 'metadata-cleaner.py.in',
-  output: 'metadata-cleaner',
-  configuration: bin_config,
-  install_dir: bindir
-)
-
-subdir('data')
+subdir('application')
 subdir('help')
-subdir('metadatacleaner')
-subdir('po')
 subdir('tests')
 
 gnome.post_install(

@@ -3,6 +3,8 @@
 # SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
+"""Entry script for Metadata Cleaner."""
+
 import gettext
 import gi
 import locale
@@ -28,6 +30,7 @@ sys.path.insert(1, PYTHON_DIR)
 
 
 def setup_i18n() -> None:
+    """Set the text domain for translations."""
     try:
         locale.bindtextdomain(APP_ID, LOCALE_DIR)  # type: ignore
         locale.textdomain(APP_ID)  # type: ignore
@@ -39,6 +42,7 @@ def setup_i18n() -> None:
 
 
 def setup_resources() -> None:
+    """Load the application resources."""
     from gi.repository import Gio
     resource = Gio.Resource.load(
         os.path.join(PKGDATA_DIR, f"{APP_ID}.gresource"))
@@ -46,13 +50,17 @@ def setup_resources() -> None:
 
 
 def setup_mimetypes() -> None:
-    # The Flatpak runtime doesn't have a mime.types file, we have to import
-    # our own
+    """Add a mime.types file for the Flatpak runtime."""
     if os.path.exists("/.flatpak-info"):
         mimetypes.init(files=mimetypes.knownfiles + ["/app/share/mime.types"])
 
 
 def run_app() -> int:
+    """Run the application.
+
+    Returns:
+        int: Exit status
+    """
     from metadatacleaner.app import MetadataCleaner
     app = MetadataCleaner(application_id=APP_ID, devel=DEVEL, version=VERSION)
     signal.signal(signal.SIGINT, signal.SIG_DFL)
