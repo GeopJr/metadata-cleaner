@@ -50,7 +50,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           </object>
         </property>
         <style>
-          <class name="content"/>
+          <class name="metadata-list"/>
         </style>
       </object>
     </child>

@@ -151,6 +151,31 @@ window.flat.scrolled headerbar
 	box-shadow: inset -1px 0 0 0 @borders;
 }
 
+.metadata-list
+{
+	background: none;
+}
+
+.metadata-list row
+{
+	border: 1px solid @borders;
+	border-top-width: 0;
+	background: @card_bg_color;
+}
+
+.metadata-list row:first-child
+{
+	border-width: 1px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.metadata-list row:last-child
+{
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
 .badge
 {
 	border-radius: 11px;
