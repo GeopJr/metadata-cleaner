@@ -85,6 +85,12 @@ window.flat.scrolled headerbar
 	background: @card_bg_color;
 }
 
+.file-list.small row:dir(rtl)
+{
+	padding-left: 0;
+	padding-right: 6px;
+}
+
 .file-list row:selected
 {
 	background: unset;
@@ -138,6 +144,11 @@ window.flat.scrolled headerbar
 .file-list.small row:hover .file
 {
 	box-shadow: inset 1px 0 0 0 @borders;
+}
+
+.file-list.small row:hover .file:dir(rtl)
+{
+	box-shadow: inset -1px 0 0 0 @borders;
 }
 
 .badge
