@@ -5,7 +5,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Metadata Cleaner
 
-![](./data/icons/hicolor/scalable/apps/fr.romainvigier.MetadataCleaner.svg)
+![](./resources/icons/icon.svg)
 
 Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it.
 
