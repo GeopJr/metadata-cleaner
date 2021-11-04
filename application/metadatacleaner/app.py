@@ -65,7 +65,7 @@ class MetadataCleaner(Adw.Application):
 
         def on_show_help(action: Gio.Action, parameters: GLib.Variant) -> None:
             Gtk.show_uri(
-                None,
+                self.get_active_window(),
                 f"help:{self.get_application_id()}{parameters.get_string()}",
                 Gdk.CURRENT_TIME)
         show_help = Gio.SimpleAction.new("help", GLib.VariantType.new("s"))
