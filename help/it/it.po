@@ -1,11 +1,12 @@
 # albanobattistella <albano_battistella@hotmail.com>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
+# Victor Mihalache <vmhl.ph@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2021-09-28 08:49+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
+"PO-Revision-Date: 2021-11-10 12:43+0000\n"
+"Last-Translator: Victor Mihalache <vmhl.ph@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/it/>\n"
 "Language: it\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -165,6 +166,13 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
+"Per aggiungere intere cartelle in una volta sola, premi la freccia accanto "
+"al pulsante <gui style=\"button\">Aggiungi file</gui> e premi il pulsante "
+"<gui style=\"button\">Aggiungi cartelle</gui>. Si aprirà un selezionatore di "
+"file, seleziona le cartelle che vuoi aggiungere. Puoi opzionalmente "
+"scegliere di aggiungere anche tutti i file di tutte le sottocartelle "
+"selezionando la casella <gui style=\"checkbox\">Aggiungi file dalle "
+"sottocartelle</gui>."
 
 #. (itstool) path: section/title
 #: C/usage.page:26
