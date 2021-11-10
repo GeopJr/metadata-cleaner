@@ -6,6 +6,16 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+# [2.1.1] - 2021-11-11
+
+### Added
+- New Romanian translation (contributed by Victor Mihalache)
+
+### Fixed
+- Clicking the Help menu item froze the application
+- A frame was not properly hidden in the details view of a cleaned file
+
+
 ## [2.1.0] - 2021-11-04
 
 ### Added
