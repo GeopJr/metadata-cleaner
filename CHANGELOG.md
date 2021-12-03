@@ -6,6 +6,12 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.1.3] - 2021-12-03
+
+### Changed
+- Updated German translation (contributed by @eladyn)
+
+
 ## [2.1.2] - 2021-11-16
 
 ### Added
