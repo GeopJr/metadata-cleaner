@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 """Files Manager object and states."""
@@ -126,19 +126,35 @@ class FileStore(Gio.ListStore):
             raise RuntimeError("File not found in file store.")
         return position
 
-    def add_gfiles_from_dirs(
-            self, dirs: List[Gio.File], recursive: bool = False) -> None:
-        """Add Gio Files from directories to the Files Manager.
+    def add_gfiles(
+            self, gfiles: List[Gio.File], recursive: bool = True) -> None:
+        """Add Gio Files to the Files Manager.
 
         Args:
-            dirs (List[Gio.File]): List of directories to look into.
+            gfiles (List[Gio.File]): List of Gio Files to add.
             recursive (bool, optional): If subdirectories should also be looked
-            into. Defaults to False.
+            into. Defaults to True.
         """
-        gfiles: List[Gio.File] = []
-        for dir in dirs:
-            gfiles.extend(self._get_gfiles_from_dir(dir, recursive))
-        self.add_gfiles(gfiles)
+        all_gfiles: List[Gio.File] = []
+        for gfile in gfiles:
+            f_type = gfile.query_file_type(Gio.FileQueryInfoFlags.NONE, None)
+            if f_type == Gio.FileType.DIRECTORY:
+                all_gfiles.extend(self._get_gfiles_from_dir(gfile, recursive))
+            else:
+                all_gfiles.append(gfile)
+        with ThreadPoolExecutor() as executor:
+            files = list(filter(None, executor.map(
+                self._file_from_gfile,
+                all_gfiles)))
+        if len(files) == 0:
+            logger.info("No files to add.")
+            return
+        self.splice(len(self), 0, files)
+        thread = Thread(
+            target=self._check_metadata_of_files_async,
+            args=(files,),
+            daemon=False)
+        thread.start()
 
     def _get_gfiles_from_dir(
             self, dir: Gio.File, recursive: bool) -> List[Gio.File]:
@@ -166,26 +182,6 @@ class FileStore(Gio.ListStore):
                     [recursive] * len(subdirs)):
                 gfiles.extend(subgfiles)
         return gfiles
-
-    def add_gfiles(self, gfiles: List[Gio.File]) -> None:
-        """Add Gio Files to the Files Manager.
-
-        Args:
-            gfiles (List[Gio.File]): List of Gio Files to add.
-        """
-        with ThreadPoolExecutor() as executor:
-            files = list(filter(None, executor.map(
-                self._file_from_gfile,
-                gfiles)))
-        if len(files) == 0:
-            logger.info("No files to add.")
-            return
-        self.splice(len(self), 0, files)
-        thread = Thread(
-            target=self._check_metadata_of_files_async,
-            args=(files,),
-            daemon=False)
-        thread.start()
 
     def _file_from_gfile(self, gfile: Gio.File) -> Optional[File]:
         if not gfile.query_exists(None):
