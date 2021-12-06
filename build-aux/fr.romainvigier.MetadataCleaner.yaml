@@ -1,10 +1,10 @@
-# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 app-id: fr.romainvigier.MetadataCleaner
 default-branch: main
 runtime: org.gnome.Platform
-runtime-version: '41'
+runtime-version: '42'
 sdk: org.gnome.Sdk
 command: metadata-cleaner
 separate-locales: false
@@ -173,33 +173,3 @@ modules:
                 url: https://github.com/quodlibet/mutagen.git
                 tag: release-1.45.1
                 commit: 07108702b18d373d883ee9a36d2dd1066e621a0c
-
-      - name: libadwaita
-        buildsystem: meson
-        config-opts:
-          - -Dtests=false
-          - -Dexamples=false
-          - -Dgtk_doc=false
-          - -Dvapi=false
-        sources:
-          - type: git
-            url: https://gitlab.gnome.org/GNOME/libadwaita.git
-            tag: 1.0.0.alpha.4
-            commit: 6b447fde8f270001a0dc29ef59d3e9bf6d32dae9
-        modules:
-          - name: libsass
-            buildsystem: meson
-            sources:
-              - type: git
-                url: https://github.com/lazka/libsass.git
-                branch: meson
-            cleanup:
-              - '*'
-          - name: sassc
-            buildsystem: meson
-            sources:
-              - type: git
-                url: https://github.com/lazka/sassc.git
-                branch: meson
-            cleanup:
-              - '*'
