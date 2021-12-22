@@ -5,13 +5,14 @@
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2021.
 # Davi Patricio <davipatricio@pm.me>, 2021.
+# Gabriel Gian <gabrielgian@live.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 18:05+0100\n"
-"PO-Revision-Date: 2021-11-10 17:20+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
+"PO-Revision-Date: 2021-12-24 03:54+0000\n"
+"Last-Translator: Gabriel Gian <gabrielgian@live.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -30,7 +31,7 @@ msgstr "Limpador de metadados"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr "Limpe os metadados de seus arquivos"
+msgstr "Limpe os metadados dos seus arquivos"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
@@ -43,7 +44,7 @@ msgstr "Limpar sem avisar"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr "Limpa os arquivos sem mostrar o diálogo de aviso"
+msgstr "Limpar os arquivos sem mostrar o diálogo de aviso"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
@@ -52,7 +53,7 @@ msgstr "Limpeza leve"
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
-"Não faz alterações destrutivas nos arquivos, mas pode deixar alguns metadados"
+"Não faz alterações destrutivas aos arquivos, mas pode deixar alguns metadados"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -82,11 +83,11 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Os metadados num arquivo podem dizer muito sobre você. As câmeras registram "
-"dados sobre quando e onde uma foto foi tirada e qual câmera foi usada. Os "
-"aplicativos de escritório adicionam automaticamente informações do autor e "
-"da empresa a documentos e planilhas. Estas são informações confidenciais e "
-"você não pode querer divulgá-las."
+"Os metadados em um arquivo podem dizer muito sobre você. As câmeras "
+"registram dados sobre quando e onde uma foto foi tirada e qual câmera foi "
+"usada. Os aplicativos de escritório adicionam automaticamente informações do "
+"autor e da empresa a documentos e planilhas. Estas são informações "
+"confidenciais e você pode não querer divulgá-las."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
@@ -98,7 +99,7 @@ msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "Bug fixes"
-msgstr "Correção de bugs"
+msgstr "Correções de bugs"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
@@ -126,7 +127,7 @@ msgstr "Novas páginas de ajuda"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr "Limpeza com um clique, não há necessidade de salvar após a limpeza"
+msgstr "Limpar com um clique, não há necessidade de salvar após a limpeza"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:104
 msgid "Persistent lightweight cleaning option"
@@ -218,7 +219,7 @@ msgid ""
 "parse and clean the metadata. Show them some love!"
 msgstr ""
 "Este programa usa <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> para "
-"analisar e limpar os metadados. Mostre a eles um pouco de amor!"
+"analisar e limpar os metadados. Ofereça-os um pouco de amor!"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -238,7 +239,7 @@ msgstr "_Adicionar arquivos"
 
 #: application/data/ui/AddFilesButton.ui:24
 msgid "Add _Folders"
-msgstr "_Adicionar pastas"
+msgstr "Adicionar _pastas"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -246,7 +247,7 @@ msgstr "_Limpar"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr "Certifique-se de fazer backup de seus arquivos!"
+msgstr "Certifique-se de fazer backup dos seus arquivos!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
@@ -254,7 +255,7 @@ msgstr "Depois que os arquivos são limpos, não há como voltar atrás."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr "Não mostre novamente"
+msgstr "Não mostrar novamente"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
@@ -306,7 +307,7 @@ msgstr "_Atalhos de teclado"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "_Sobre o limpador de metadados"
+msgstr "_Sobre o Limpador de metadados"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -331,7 +332,9 @@ msgstr "Fechar"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:104
 msgid "translator-credits"
-msgstr "Gustavo Costa <xfgusta@gmail.com>"
+msgstr ""
+"Gustavo Costa <xfgusta@gmail.com>\n"
+"Gabriel Gian <gabrielgian@protonmail.com>"
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
@@ -355,7 +358,7 @@ msgstr "Não foi possível ler o arquivo."
 
 #: application/metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
-msgstr "Tipo de arquivo não compatível."
+msgstr "Tipo de arquivo não suportado."
 
 #: application/metadatacleaner/ui/detailsview.py:72
 msgid "Unable to check metadata."
@@ -363,11 +366,11 @@ msgstr "Não foi possível verificar os metadados."
 
 #: application/metadatacleaner/ui/detailsview.py:74
 msgid "No known metadata, the file will be cleaned to be sure."
-msgstr "Sem metadados conhecidos, o arquivo será limpo para ter certeza."
+msgstr "Sem metadados conhecidos, o arquivo será limpo para certificar-se."
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to remove metadata."
-msgstr "Não foi possível remover metadados."
+msgstr "Não foi possível remover os metadados."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
