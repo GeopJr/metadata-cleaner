@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Fran Diéguez <fran.dieguez@mabishu.com>, 2022.
+# Romain Vigier <romain@romainvigier.fr>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 18:05+0100\n"
-"PO-Revision-Date: 2022-01-03 10:02+0000\n"
-"Last-Translator: Fran Diéguez <fran.dieguez@mabishu.com>\n"
+"PO-Revision-Date: 2022-01-03 10:05+0000\n"
+"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/gl/>\n"
 "Language: gl\n"
@@ -330,7 +331,7 @@ msgstr "Pechar"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:104
 msgid "translator-credits"
-msgstr "Fran Diéguez <frandieguez@gnome.org>, 2021"
+msgstr "Fran Diéguez <frandieguez@gnome.org>"
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
