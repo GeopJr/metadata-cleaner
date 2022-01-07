@@ -6,6 +6,20 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.1.4] - 2022-01-07
+
+### Added
+- New Galician translation (contributed by @frandieguez)
+- Initial work on Polish translation (contributed by Zszywek)
+
+### Changed
+- Updated Finnish translation (contributed by Janne)
+- Updated Indonesian translation (contributed by @0x6e656b6f)
+- Updated Occitan translation (contributed by @quenty_occitania)
+- Updated Portguese (Brazil) translation (contributed by Gabriel Gian)
+- Updated Spanish translation (contributed by @oscfdezdz)
+
+
 ## [2.1.3] - 2021-12-03
 
 ### Changed
