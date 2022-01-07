@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<interface>
+  <object class="AdwSplitButton" id="widget">
+    <property name="child">
+      <object class="AdwButtonContent">
+        <property name="label" translatable="yes">_Add Files</property>
+        <property name="icon-name">document-new-symbolic</property>
+        <property name="use-underline">True</property>
+      </object>
+    </property>
+    <property name="popover">
+      <object class="GtkPopover"/>
+    </property>
+    <style>
+      <class name="flat"/>
+      <class name="accent-bg"/>
+    </style>
+  </object>
+</interface>

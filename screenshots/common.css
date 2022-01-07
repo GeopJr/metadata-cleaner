@@ -1,0 +1,29 @@
+/*
+SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+SPDX-License-Identifier: GPL-3.0-or-later
+*/
+
+@define-color accent_color #813d9c;
+@define-color accent_bg_color @accent_color;
+@define-color accent_fg_color #fff;
+
+
+.badge
+{
+	border-radius: 11px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.badge.accent
+{
+	background-color: @accent_color;
+}
+
+.badge label
+{
+	margin: 0 6px;
+	padding: 0 0.4em;
+}

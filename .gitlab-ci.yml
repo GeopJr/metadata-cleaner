@@ -196,6 +196,28 @@ release:
           filepath: /${APP_ID}.flatpak
           link_type: package
 
+screenshots:
+  stage: deploy
+  needs:
+    - reuse
+  image: registry.gitlab.com/rmnvgr/metadata-cleaner/screenshot-env:latest
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+      - help/**/*.po
+      - screenshots/**/*
+  before_script:
+    - git config --global user.email "${GITLAB_USER_EMAIL}"
+    - git config --global user.name "${GITLAB_USER_NAME}"
+    - git remote set-url origin "https://${CI_GITLAB_USERNAME}:${CI_GITLAB_ACCESS_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+  script:
+    - meson builddir --prefix=/usr
+    - meson install -C builddir
+    - python3 screenshots/screenshot.py
+    - git add .
+    - "git commit -m 'Help: Update screenshots'"
+    - git push
+
 pages:
   stage: deploy
   needs:
