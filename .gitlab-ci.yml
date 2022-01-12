@@ -215,7 +215,7 @@ screenshots:
       if [[ -n $(git status --porcelain help) ]]; then
         git add help
         git commit -m "Help: Update screenshots"
-        git push
+        git push origin HEAD:main
       fi
 
 pages:
