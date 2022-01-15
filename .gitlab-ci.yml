@@ -67,11 +67,12 @@ pycodestyle:
     - pycodestyle ./application
 
 reuse:
-  extends: .python
+  image:
+    name: fsfe/reuse:latest
+    entrypoint: [""]
   stage: check
   interruptible: true
   script:
-    - pip install reuse
     - reuse lint
 
 flatpak-repo:
