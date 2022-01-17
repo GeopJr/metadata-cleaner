@@ -182,8 +182,7 @@ def run_uishooter(
         args.append(f"--libadwaita")
     args.append(ui_file)
     env["WAYLAND_DISPLAY"] = SOCKET_2X if scale == 2 else SOCKET
-    uishooter = subprocess.Popen(["uishooter"] + args, env=env)
-    return uishooter.wait()
+    return subprocess.run(["uishooter"] + args, env=env).returncode
 
 
 def shoot_application() -> None:
