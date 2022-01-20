@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2022-01-18 20:55+0000\n"
+"PO-Revision-Date: 2022-01-21 14:52+0000\n"
 "Last-Translator: Sasha <maxminer88@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/ru/>\n"
@@ -55,6 +55,8 @@ msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Этот файл раскрывает информацию об оборудовании, настройках, дате и месте "
+"съёмок. Он содержит 79 метатега."
 
 #. (itstool) path: section/title
 #: C/general.page:27
@@ -70,7 +72,7 @@ msgid ""
 "for complex file formats. This is why you shouldn't rely on metadata's "
 "presence to decide if your file must be cleaned or not."
 msgstr ""
-"Пока <app>Чистка метаданных</app> старается как можно лучше отобразить "
+"Пока <app>Очистка метаданных</app> старается как можно лучше отобразить "
 "метаданные, это не значит что в файле не осталось что-нибудь ещё. Нет "
 "точного способа обнаружить каждый метатег для разных форматов файлов. "
 "Поэтому не стоит полагаться на список метаданных чтобы убедиться в том, "
@@ -82,7 +84,7 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
-"<app>Чистка Метаданных</app> берёт данные файла и копирует их в новый без "
+"<app>Очистка Метаданных</app> берёт данные файла и копирует их в новый без "
 "метаданных, гарантируя, что все метаданные сотрутся."
 
 #. (itstool) path: section/title
@@ -110,8 +112,8 @@ msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
 msgstr ""
-"<app>Чистка Метаданных</app> позволяет просматривать метаданные в ваших "
-"файлах и избавляться от них насколько это возможно."
+"<app>Очистка Метаданных</app> позволяет просматривать метаданные в ваших "
+"файлах и избавляться от них настолько, насколько это возможно."
 
 #. (itstool) path: section/title
 #: C/index.page:17
@@ -121,7 +123,7 @@ msgstr "Общая информация"
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Использование <app>Очистка Метаданных</app>"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
