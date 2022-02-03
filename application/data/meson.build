@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 gnome.compile_resources(
@@ -45,4 +45,5 @@ i18n.merge_file(
 
 
 install_data(APP_ID + '.gschema.xml', install_dir: schemasdir)
+install_data(APP_ID + '.service', install_dir: dbusdir)
 install_subdir('icons/hicolor', install_dir: iconsdir)

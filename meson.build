@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 project(
@@ -23,6 +23,7 @@ pythondir = prefix / python.get_install_dir()
 
 appdatadir = datadir / 'metainfo'
 applicationsdir = datadir / 'applications'
+dbusdir = datadir / 'dbus-1' / 'services'
 iconsdir = datadir / 'icons'
 metadatacleanerdir = pythondir / 'metadatacleaner'
 pkgdatadir = datadir / meson.project_name()

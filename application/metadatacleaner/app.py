@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 """Application for Metadata Cleaner."""
@@ -39,9 +39,6 @@ class MetadataCleaner(Adw.Application):
         self.devel = devel
         self.version = version
         self.settings = Gio.Settings.new(self.get_application_id())
-        GLib.set_application_name(self.name)
-        GLib.set_prgname("metadata-cleaner")
-        Gtk.Window.set_default_icon_name(self.get_application_id())
 
     # APPLICATION METHODS #
 
