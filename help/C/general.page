@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 <page xmlns="http://projectmallard.org/1.0/"
 	xmlns:its="http://www.w3.org/2005/11/its"
 	type="topic"
-	id="about-cleaning">
+	id="general">
 	<section id="metadata">
 		<info>
 			<link type="guide" xref="index#general"/>
