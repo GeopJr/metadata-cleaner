@@ -55,100 +55,57 @@ window.flat.scrolled headerbar
 	margin: 0 18px 18px;
 }
 
-.file-list
-{
-	background: none;
-	transition: all 0.2s ease-out;
-}
-
-.file-list:not(.small)
-{
-	padding: 30px;
-}
-
-.file-list row
-{
-	padding: 0;
-	border-color: @borders;
-	transition: all 0.2s ease-out;
-}
-
-.file-list row:hover
+listview.files
 {
 	background: none;
 }
 
-.file-list.small row
+listview.files>row
 {
-	padding-left: 6px;
+	padding: 0 0 0 6px;
 	border-bottom: 1px solid @borders;
 	background: @card_bg_color;
+	transition: all 0.2s ease-out;
 }
 
-.file-list.small row:dir(rtl)
+listview.files>row:dir(rtl)
 {
 	padding-left: 0;
 	padding-right: 6px;
 }
 
-.file-list row:selected
+listview.files>row:selected
 {
-	background: unset;
+	background: alpha(@card_fg_color, 0.1);
 }
 
-.file-list .file
+listview.files .file
 {
-	border: 1px solid @borders;
-	border-width: 0;
+	border: 0 solid transparent;
+	border-left-width: 1px;
 	border-radius: unset;
 	background: unset;
 	font-weight: unset;
 	transition: all 0.2s ease-out;
 }
 
-.file-list:not(.small) .file
-{
-	border-width: 0 1px 1px;
-	background: @card_bg_color;
+listview.files .file:dir(rtl){
+	border-width: 0 1px 0 0;
 }
 
-.file-list:not(.small) row:first-child .file
-{
-	border-width: 1px;
-	border-top-left-radius: 12px;
-	border-top-right-radius: 12px;
-}
-
-.file-list:not(.small) row:last-child .file
-{
-	border-bottom-left-radius: 12px;
-	border-bottom-right-radius: 12px;
-}
-
-.file-list:not(.small) row:selected .file,
-.file-list.small row:selected
-{
-	background: alpha(@card_fg_color, 0.1);
-}
-
-.file-list .file:hover
+listview.files .file:hover
 {
 	background-image: image(alpha(@card_fg_color, 0.03));
 }
 
-.file-list .file:active
+listview.files .file:active
 {
 	background-image: image(alpha(@card_fg_color, 0.08));
 }
 
-.file-list.small row:hover .file
+listview.files>row:hover .file
 {
-	box-shadow: inset 1px 0 0 0 @borders;
-}
-
-.file-list.small row:hover .file:dir(rtl)
-{
-	box-shadow: inset -1px 0 0 0 @borders;
+	border-color: @borders;
 }
 
 listview.metadata
