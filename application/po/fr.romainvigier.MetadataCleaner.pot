@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-03 19:30+0100\n"
+"POT-Creation-Date: 2022-02-03 21:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -334,27 +334,37 @@ msgstr ""
 msgid "The File Has Been Cleaned"
 msgstr ""
 
-#: application/metadatacleaner/ui/detailsview.py:66
+#: application/metadatacleaner/ui/detailsview.py:60
+msgid ""
+"Known metadata have been removed, however the cleaning process has some "
+"limitations."
+msgstr ""
+
+#: application/metadatacleaner/ui/detailsview.py:63
+msgid "Learn more"
+msgstr ""
+
+#: application/metadatacleaner/ui/detailsview.py:74
 msgid "Unable to Read the File"
 msgstr ""
 
-#: application/metadatacleaner/ui/detailsview.py:67
+#: application/metadatacleaner/ui/detailsview.py:75
 msgid "File Type not Supported"
 msgstr ""
 
-#: application/metadatacleaner/ui/detailsview.py:69
+#: application/metadatacleaner/ui/detailsview.py:77
 msgid "Unable to Check for Metadata"
 msgstr ""
 
-#: application/metadatacleaner/ui/detailsview.py:70
+#: application/metadatacleaner/ui/detailsview.py:78
 msgid "No Known Metadata"
 msgstr ""
 
-#: application/metadatacleaner/ui/detailsview.py:72
+#: application/metadatacleaner/ui/detailsview.py:80
 msgid "Unable to Remove Metadata"
 msgstr ""
 
-#: application/metadatacleaner/ui/detailsview.py:76
+#: application/metadatacleaner/ui/detailsview.py:84
 msgid "The file will be cleaned anyway to be sure."
 msgstr ""
 

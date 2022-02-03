@@ -4,7 +4,7 @@
 """View details of a file."""
 
 from gettext import gettext as _
-from gi.repository import Adw, Gtk
+from gi.repository import Adw, GLib, Gtk
 from typing import Optional
 
 from metadatacleaner.modules.file import File, FileState
@@ -56,7 +56,15 @@ class DetailsView(Gtk.Widget):
         self.set_child(
             Adw.StatusPage(
                 title=_("The File Has Been Cleaned"),
-                icon_name="metadatacleaner-ok-symbolic"))
+                description=_(
+                    "Known metadata have been removed, however the cleaning "
+                    "process has some limitations."),
+                child=Gtk.Button(
+                    label=_("Learn more"),
+                    action_name="app.help",
+                    action_target=GLib.Variant.new_string("/about-cleaning"),
+                    halign=Gtk.Align.CENTER),
+                css_classes=["compact"]))
 
     def _setup_metadata_details(self, f: File) -> None:
         self.set_child(MetadataView(metadata=f.metadata))
