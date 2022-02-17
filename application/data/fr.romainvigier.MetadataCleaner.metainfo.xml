@@ -63,11 +63,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <display_length compare="ge">360</display_length>
   </requires>
 
-  <kudos>
-    <kudo>ModernToolkit</kudo>
-    <kudo>UserDocs</kudo>
-  </kudos>
-
   <releases its:locNote="Release notes">
     <release version="2.1.5" date="2022-02-15">
       <description>
