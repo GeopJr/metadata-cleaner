@@ -88,7 +88,7 @@ flatpak-repo:
     - reuse
   image: registry.gitlab.com/rmnvgr/metadata-cleaner/build-env:latest
   cache:
-    - key: flatpak-repo-$CI_COMMIT_REF_SLUG
+    - key: flatpak-repo
       paths:
         - .flatpak-builder
   script:
