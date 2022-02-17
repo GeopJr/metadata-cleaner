@@ -186,11 +186,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                     <child>
                       <object class="GtkBox">
                         <property name="orientation">vertical</property>
-                        <property name="margin-top">12</property>
-                        <property name="margin-bottom">12</property>
-                        <property name="margin-start">12</property>
-                        <property name="margin-end">12</property>
-                        <property name="spacing">6</property>
+                        <style>
+                          <class name="metadata-view"/>
+                        </style>
                         <child>
                           <object class="GtkLabel">
                             <property name="label">IMG_1312.jpg</property>
@@ -203,15 +201,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
                         <child>
                           <object class="GtkListBox">
                             <style>
-                              <class name="content"/>
+                              <class name="boxed-list"/>
                             </style>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">Make</property>
@@ -232,11 +228,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">Model</property>
@@ -257,11 +251,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">CreateDate</property>
@@ -282,11 +274,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">OffsetTime</property>
@@ -307,11 +297,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">ShutterSpeedValue</property>
@@ -332,11 +320,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">ApertureValue</property>
@@ -357,11 +343,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">Flash</property>
@@ -382,11 +366,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">FocalLength</property>
@@ -407,11 +389,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">GPSLatitudeRef</property>
@@ -432,11 +412,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">GPSLongitudeRef</property>
@@ -457,11 +435,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">GPSHPositioningError</property>
@@ -482,11 +458,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                             </child>
                             <child>
                               <object class="GtkBox">
-                                <property name="margin-start">6</property>
-                                <property name="margin-end">6</property>
-                                <property name="margin-top">6</property>
-                                <property name="margin-bottom">6</property>
-                                <property name="spacing">12</property>
+                                <style>
+                                  <class name="metadata-row"/>
+                                </style>
                                 <child>
                                   <object class="GtkLabel">
                                     <property name="label">GPSAltitude</property>
