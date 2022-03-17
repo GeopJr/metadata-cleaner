@@ -137,6 +137,9 @@ class FileStore(Gio.ListStore):
         """
         all_gfiles: List[Gio.File] = []
         for gfile in gfiles:
+            if not gfile:
+                logger.info("Invalid file, skipping.")
+                return
             f_type = gfile.query_file_type(Gio.FileQueryInfoFlags.NONE, None)
             if f_type == Gio.FileType.DIRECTORY:
                 all_gfiles.extend(self._get_gfiles_from_dir(gfile, recursive))
