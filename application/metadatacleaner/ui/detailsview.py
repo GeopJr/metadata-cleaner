@@ -64,7 +64,8 @@ class DetailsView(Gtk.Widget):
                     action_name="app.help",
                     action_target=GLib.Variant.new_string(
                         "/general#cleaning-process"),
-                    halign=Gtk.Align.CENTER),
+                    halign=Gtk.Align.CENTER,
+                    css_classes=["pill", "suggested-action"]),
                 css_classes=["compact"]))
 
     def _setup_metadata_details(self, f: File) -> None:
