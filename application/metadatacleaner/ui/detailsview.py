@@ -62,7 +62,8 @@ class DetailsView(Gtk.Widget):
                 child=Gtk.Button(
                     label=_("Learn more"),
                     action_name="app.help",
-                    action_target=GLib.Variant.new_string("/about-cleaning"),
+                    action_target=GLib.Variant.new_string(
+                        "/general#cleaning-process"),
                     halign=Gtk.Align.CENTER),
                 css_classes=["compact"]))
 
