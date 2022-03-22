@@ -5,6 +5,23 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Changelog
 
+## [2.2.0] - 2022-03-23
+
+### Added
+- Dropping of files to clean on the main window
+
+### Changed
+- Dependency upon GTK >= 4.6
+- Dependency upon libadwaita >= 1.0.0
+- User interface improvements
+- Folder chooser recursive option is enabled by default
+- Updated Chinese (simplified) translation (contributed by Eric)
+- Updated Polish translation (contributed by Anon Ymous)
+
+### Fixed
+- Titlebar buttons at the wrong position
+- Settings help button didn't open the correct help section
+
 ## [2.1.5] - 2022-02-15
 
 ### Added
