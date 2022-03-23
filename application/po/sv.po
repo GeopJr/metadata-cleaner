@@ -1,7 +1,7 @@
 # Swedish translation for the fr.romainvigier.MetadataCleaner packet.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021.
+# Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021, 2022.
 # Allan Nordhøy <epost@anotheragency.no>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-22 21:51+0100\n"
-"PO-Revision-Date: 2021-11-10 20:23+0000\n"
+"PO-Revision-Date: 2022-03-23 20:37+0000\n"
 "Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/sv/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -95,16 +95,12 @@ msgstr ""
 "mycket som möjligt."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
-#, fuzzy
-#| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
-msgstr "Förbättrat anpassningsbart användargränssnitt"
+msgstr "Förbättrat användargränssnitt"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
-#, fuzzy
-#| msgid "New translations"
 msgid "Updated translations"
-msgstr "Nya översättningar"
+msgstr "Uppdaterade översättningar"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
@@ -283,10 +279,8 @@ msgid "Clean Your Traces"
 msgstr "Sopa igen dina spår"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "Läs mer om metadata och begränsningar i rensningsprocessen."
+msgstr "Läs mer om metadata och begränsningar i rensningsprocessen"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -326,7 +320,7 @@ msgstr "_Om Metadatarensaren"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Huvudmeny"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -368,59 +362,44 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Något dåligt hände under borttagningen, en rensad fil hittades inte"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Filen har rensats."
+msgstr "Filen har rensats"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr "Läs mer om metadata och begränsningar i rensningsprocessen."
+msgstr ""
+"Funnen metadata har tagits bort, men rensningsprocessen har vissa "
+"begränsningar."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Läs mer"
 
 #: application/metadatacleaner/ui/detailsview.py:74
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Kan inte läsa filen."
+msgstr "Kan inte läsa filen"
 
 #: application/metadatacleaner/ui/detailsview.py:75
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Filtypen stöds inte."
+msgstr "Filtypen stöds inte"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Kunde inte kontrollera metadata."
+msgstr "Kunde inte kontrollera metadata"
 
 #: application/metadatacleaner/ui/detailsview.py:78
-#, fuzzy
-#| msgid "Metadata"
 msgid "No Known Metadata"
-msgstr "Metadata"
+msgstr "Ingen metadata hittades"
 
 #: application/metadatacleaner/ui/detailsview.py:80
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Kan inte ta bort metadata."
+msgstr "Kan inte ta bort metadata"
 
 #: application/metadatacleaner/ui/detailsview.py:84
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
-"Ingen känd metadata hittades, filen kommer att rensas för säkerhets skull."
+msgstr "Filen kommer att rensas för säkerhets skull."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
