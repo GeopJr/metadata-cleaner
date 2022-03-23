@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-22 21:51+0100\n"
-"PO-Revision-Date: 2022-03-22 06:58+0000\n"
+"PO-Revision-Date: 2022-03-23 19:10+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/zh_Hans/>\n"
@@ -90,16 +90,12 @@ msgid ""
 msgstr "此工具可以用来尽可能地查看或删除文件里的元数据。"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
-#, fuzzy
-#| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
-msgstr "改进了自适应用户界面"
+msgstr "改进了用户界面"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
-#, fuzzy
-#| msgid "New translations"
 msgid "Updated translations"
-msgstr "新增翻译"
+msgstr "更新了翻译"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
@@ -279,10 +275,8 @@ msgid "Clean Your Traces"
 msgstr "清理您的隐私信息"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "详细了解元数据及本软件将其删除过程的局限性。"
+msgstr "详细了解元数据及本软件将其删除过程的局限性"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -322,7 +316,7 @@ msgstr "属性信息删除器简介 (_A)"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "主菜单"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -362,56 +356,42 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "元数据删除出现了糟糕错误，删除完元数据的文件找不到了"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "文件的元数据删除完成。"
+msgstr "已清除文件元数据"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr "详细了解元数据及本软件将其删除过程的局限性。"
+msgstr "已删除已知的元数据，然而清理过程有一些限制。"
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "了解更多"
 
 #: application/metadatacleaner/ui/detailsview.py:74
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "文件无法读取。"
+msgstr "文件无法读取"
 
 #: application/metadatacleaner/ui/detailsview.py:75
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "文件类型不支持。"
+msgstr "文件类型不支持"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "元数据无法查看。"
+msgstr "无法检查元数据"
 
 #: application/metadatacleaner/ui/detailsview.py:78
 msgid "No Known Metadata"
-msgstr ""
+msgstr "无已知的元数据"
 
 #: application/metadatacleaner/ui/detailsview.py:80
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "元数据无法删除。"
+msgstr "元数据无法删除"
 
 #: application/metadatacleaner/ui/detailsview.py:84
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr "没有发现元数据，为了确保元数据清理彻底，还是会尝试删除元数据。"
+msgstr "没有发现元数据，为了确保万无一失，还是会尝试删除元数据。"
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
