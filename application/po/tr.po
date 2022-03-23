@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
+# Oğuz Ersen <oguz@ersen.moe>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-22 21:51+0100\n"
-"PO-Revision-Date: 2021-11-10 17:20+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
+"PO-Revision-Date: 2022-03-23 19:10+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/tr/>\n"
 "Language: tr\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -95,16 +96,12 @@ msgstr ""
 "onlardan kurtulmanızı sağlar."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
-#, fuzzy
-#| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
-msgstr "İyileştirilmiş uyarlanabilir kullanıcı arayüzü"
+msgstr "İyileştirilmiş kullanıcı arayüzü"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
-#, fuzzy
-#| msgid "New translations"
 msgid "Updated translations"
-msgstr "Yeni çeviriler"
+msgstr "Güncellenen çeviriler"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
@@ -284,12 +281,10 @@ msgid "Clean Your Traces"
 msgstr "İzlerinizi Temizleyin"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
 "Üst veriler ve temizleme işlemi sınırlamaları hakkında daha fazla bilgi "
-"edinin."
+"edinin"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -329,7 +324,7 @@ msgstr "Üst Veri Temizleyici _Hakkında"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Ana menü"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -369,60 +364,44 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Temizleme sırasında kötü bir şey oldu, temizlenen dosya bulunamadı"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Dosya temizlendi."
+msgstr "Dosya Temizlendi"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
-"Üst veriler ve temizleme işlemi sınırlamaları hakkında daha fazla bilgi "
-"edinin."
+"Bilinen üst veriler kaldırıldı, ancak temizleme işleminin bazı sınırlamaları "
+"vardır."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Daha fazla bilgi edin"
 
 #: application/metadatacleaner/ui/detailsview.py:74
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Dosya okunamıyor."
+msgstr "Dosya Okunamıyor"
 
 #: application/metadatacleaner/ui/detailsview.py:75
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Dosya türü desteklenmiyor."
+msgstr "Dosya Türü Desteklenmiyor"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Üst veriler denetlenemiyor."
+msgstr "Meta Veriler Denetlenemiyor"
 
 #: application/metadatacleaner/ui/detailsview.py:78
-#, fuzzy
-#| msgid "Metadata"
 msgid "No Known Metadata"
-msgstr "Üst veri"
+msgstr "Bilinen Üst Veri Yok"
 
 #: application/metadatacleaner/ui/detailsview.py:80
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Üst veriler kaldırılamıyor."
+msgstr "Üst Veriler Kaldırılamıyor"
 
 #: application/metadatacleaner/ui/detailsview.py:84
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr "Bilinen bir üst veri yok, emin olmak için dosya temizlenecek."
+msgstr "Dosya yine de emin olmak için temizlenecek."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
