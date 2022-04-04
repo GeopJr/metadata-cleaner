@@ -1,9 +1,9 @@
-# Allan Nordhøy <epost@anotheragency.no>, 2021.
+# Allan Nordhøy <epost@anotheragency.no>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2021-08-11 06:09+0000\n"
+"PO-Revision-Date: 2022-04-05 10:11+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/nb_NO/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -137,7 +137,7 @@ msgstr ""
 #. The application name. It can be translated.
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr "Metadatarenseren"
+msgstr "Metadatarenser"
 
 #. (itstool) path: page/p
 #: C/index.page:14
@@ -193,6 +193,12 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
+"Legg til hele mapper samtidig med pilknappen ved siden av <gui style=\"button"
+"\">Legg til filer</gui>-knappen og trykk <gui style=\"button\">Legg til "
+"mapper</gui>-knappen. En filvelger vil åpnes, der du kan velge mappene du "
+"vil legge til. Du kan alternativt velge å også legge til alle filer fra "
+"undermapper ved å huke av <gui style=\"checkbox\">Legg til filer fra "
+"undermapper</gui>-avkryssningsboksen."
 
 #. (itstool) path: section/title
 #: C/usage.page:26
@@ -260,6 +266,8 @@ msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."
 msgstr ""
+"Lettvektsmodus, som ikke er like grundig, og ikke gjør noen destruktive "
+"endringer i noen av filene dine."
 
 #, fuzzy
 #~ msgid ""
