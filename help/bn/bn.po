@@ -1,14 +1,18 @@
+# Bingo <eulises.leyendecker@easyonlinemail.net>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-19 22:33+0000\n"
+"Last-Translator: Bingo <eulises.leyendecker@easyonlinemail.net>\n"
+"Language-Team: Bengali <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -24,6 +28,11 @@ msgstr ""
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
 msgstr ""
+"ফাইলের মধ্যে মেটাডেটা আপনার সম্পর্কে অনেক কিছু বলে দিতে পারে. ক্যামেরার রেকর্"
+"ড তথ্য অর্থাৎ কখন এবং কোথায় ছবিটি তোলা হয়েছে এবং কোন ক্যামেরা ব্যবহৃত হয়েছি"
+"ল. অফিস আ্যপলিকেশনগুলো স্বয়ংক্রিয়ভাবে লেখক এবং কোম্পানির তথ্য ডকুমেন্ট ও "
+"স্প্রেডশিটে যুক্ত করে দেয়. এগুলো খুবই সূক্ষ্ম এবং গুরুত্বপূর্ণ তথ্য এবং আপনি "
+"হয়তো এগুলো প্রকাশ করতে চান না."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
@@ -64,7 +73,7 @@ msgstr ""
 #. The application name. It can be translated.
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "মেটাডেটা ক্লিনার"
 
 #. (itstool) path: page/p
 #: C/index.page:14
@@ -134,7 +143,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:48
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "সাধারন মেটাডেটা অপসারণ করুন"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
