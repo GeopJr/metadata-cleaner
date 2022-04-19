@@ -1,10 +1,11 @@
 # Bingo <eulises.leyendecker@easyonlinemail.net>, 2022.
+# hELLOwORLD <helloworld@allfreemail.net>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
 "PO-Revision-Date: 2022-04-19 22:33+0000\n"
-"Last-Translator: Bingo <eulises.leyendecker@easyonlinemail.net>\n"
+"Last-Translator: hELLOwORLD <helloworld@allfreemail.net>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/bn/>\n"
 "Language: bn\n"
@@ -17,12 +18,16 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "মেটাডেটা এবং গোপনীয়তা"
 
 #. (itstool) path: section/p
 #: C/general.page:15
 msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
 msgstr ""
+"মেটাডেটা হচ্ছে যা তথ্যের বৈশিষ্ট্য দান করে. কোনো তথ্যের সম্পর্কে বিস্তারিত "
+"তথ্য জানতে মেটাডেটা ব্যবহৃত হয়. সারমর্মে, মেটাডেটা একটি তথ্য কি, কে, কখন, "
+"কোথায়, কেন এবং কিভাবে তৈরি করেছে তা বলে দিতে পারে. মেটাডেটার কাজ হচ্ছে এই "
+"খুঁটিনাটি বিষয়গুলোকে নথিভুক্ত করা."
 
 #. (itstool) path: section/p
 #: C/general.page:16
@@ -37,32 +42,42 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "একটি ছবির ফাইলের মধ্যে মেটাডেটার নমুনা"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
 msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"ছবির ফাইলটি হার্ডওয়ার, সেটিংস, তারিখ, কোথায় ছবিটি তোলা ইত্যাদি সম্পর্কে তথ্য "
+"প্রকাশ করে দিচ্ছে. এটিতে সর্বমোট ৭৯টি মেটাডেটা রয়েছে."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "অপসারণের প্রক্রিয়া"
 
 #. (itstool) path: section/p
 #: C/general.page:28
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
+"যেহেতু <app>মেটাডেটা ক্লিনার</app> মেটাডেটা দেখাতে তার সর্বোচ্চ চেষ্টা করে, "
+"তার মানে এই নয় যে ফাইলটি মেটাডেটা থেকে মুক্ত যদি এটি কোনো মেটাডেটা না দেখায়. "
+"জটিল ফাইল ফরম্যাটের জন্য প্রতিটি সম্ভাব্য মেটাডেটা শনাক্ত করার নির্ভরযোগ্য "
+"কোনো উপায় নেই. তাই আপনার ফাইলের মেটাডেটাগুলো অপসারণ হয়েছে কিনা তা মেটাডেটার "
+"উপস্থিতির উপর নির্ধারণ করা উচিৎ নয়."
 
 #. (itstool) path: section/p
 #: C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>মেটাডেটা ক্লিনার</app> ফাইলের কন্টেন্ট নেয় এবং তা মেটাডেটা ছাড়া নতুন "
+"একটি ফাইলে রেখে দেয়, যা ধরা পড়েনা এমন মেটাডেটা যেন কন্টেন্টের সাথে চলে না যা"
+"য় তা নিশ্চিত করে."
 
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "সীমাবদ্ধতা"
 
 #. (itstool) path: section/p
 #: C/general.page:36
