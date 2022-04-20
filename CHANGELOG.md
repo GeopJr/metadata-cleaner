@@ -5,6 +5,25 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Changelog
 
+## [2.2.2] - 2022-04-20
+
+### Added
+- New Bengali translation (contributed by Bingo and hELLOwORLD)
+
+### Changed
+- Updated Czech translation (contributed by pavelzahradnik)
+- Updated Finnish translation (contributed by @artnay)
+- Updated German translation (contributed by Cgrieger)
+- Updated Indonesian translation (contributed by @cacing69)
+- Updated Italian translation (contributed by @albanobattistella)
+- Updated Norwegian Bokmål translation (contributed by @kingu)
+- Updated Occitan translation (contributed by @quenty_occitania)
+- Updated Russian translation (contributed by Sasha)
+
+### Fixed
+- Chinese translations were not loaded due to an incorrect language code
+
+
 ## [2.2.1] - 2022-03-28
 
 ### Changed
