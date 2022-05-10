@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-28 11:35+0200\n"
-"PO-Revision-Date: 2022-01-10 20:57+0000\n"
+"PO-Revision-Date: 2022-05-11 13:14+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/eu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -97,16 +97,12 @@ msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
-#, fuzzy
-#| msgid "New translations"
 msgid "Updated translations"
-msgstr "Itzulpen berriak"
+msgstr "Itzulpen eguneratuak"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
-#, fuzzy
-#| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
-msgstr "Erabiltzaile-interfaze egokigarri hobetua"
+msgstr "Erabiltzaile-interfaze hobetua"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
@@ -285,11 +281,9 @@ msgid "Clean Your Traces"
 msgstr "Garbitu zure oinatzak"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
-"Lortu informazio gehiago metadatuei eta garbiketa-prozesuaren mugei buruz."
+"Lortu informazio gehiago metadatuei eta garbiketa-prozesuaren mugei buruz"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -329,7 +323,7 @@ msgstr "_ Metadatuen Garbitzaileari buruz"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Menu nagusia"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -371,57 +365,44 @@ msgstr ""
 "aurkitu"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Fitxategia garbitu egin da."
+msgstr "Fitxategia garbitu egin da"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
-"Lortu informazio gehiago metadatuei eta garbiketa-prozesuaren mugei buruz."
+"Ezagutzen diren metadatuak ezabatu dira, baina garbiketa-prozesuak muga "
+"batzuk ditu."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Gehiago jakin"
 
 #: application/metadatacleaner/ui/detailsview.py:76
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Ezin da fitxategia irakurri."
+msgstr "Ezin da fitxategia irakurri"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Fitxategi mota ez da onartzen."
+msgstr "Fitxategi mota hau ez da onartzen"
 
 #: application/metadatacleaner/ui/detailsview.py:79
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Ezin dira metadatuak egiaztatu."
+msgstr "Ezin dira metadatuak egiaztatu"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "Metadatu ezagunik ez"
 
 #: application/metadatacleaner/ui/detailsview.py:82
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Ezin dira metadatuak kendu."
+msgstr "Ezin dira metadatuak ezabatu"
 
 #: application/metadatacleaner/ui/detailsview.py:86
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr "Ez dago metadatu ezagunik, artxiboa garbituko da ziurtatzeko."
+msgstr "Nolanahi ere, artxiboa garbituko da seguru egoteko."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
