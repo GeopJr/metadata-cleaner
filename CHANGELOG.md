@@ -5,6 +5,14 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Changelog
 
+## [2.2.3] - 2022-06-02
+
+### Added
+- New Ukrainian translation (contributed by @ihor_ck)
+
+### Changed
+- Updated Basque translation (contributed by @sergitroll9)
+
 ## [2.2.2] - 2022-04-20
 
 ### Added
