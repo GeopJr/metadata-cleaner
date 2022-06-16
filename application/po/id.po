@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# liimee <alt3753.7@gmail.com>, 2021.
+# liimee <alt3753.7@gmail.com>, 2021, 2022.
 # Reza Almanda <rezaalmanda27@gmail.com>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # neko <smurfkandy@tutanota.com>, 2021.
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-28 11:35+0200\n"
-"PO-Revision-Date: 2022-03-31 17:10+0000\n"
-"Last-Translator: Ibnul Mutaki <ibnuul@gmail.com>\n"
+"PO-Revision-Date: 2022-06-17 14:20+0000\n"
+"Last-Translator: liimee <alt3753.7@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/id/>\n"
 "Language: id\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -284,10 +284,8 @@ msgid "Clean Your Traces"
 msgstr "Hapus jejak Anda"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "Pelajari lebih lanjut tentang metadata dan batasan proses pembersihan."
+msgstr "Pelajari lebih lanjut tentang metadata dan batasan proses pembersihan"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -327,7 +325,7 @@ msgstr "_Tentang Metadata Cleaner"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Menu utama"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -372,60 +370,44 @@ msgstr ""
 "ditemukan"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Berkas telah dibersihkan."
+msgstr "Berkas Telah Dibersihkan"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr "Pelajari lebih lanjut tentang metadata dan batasan proses pembersihan."
+msgstr ""
+"Metadata yang dikenal telah dihapus, namun proses pembersihan memiliki "
+"beberapa batasan."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Pelajari lebih lanjut"
 
 #: application/metadatacleaner/ui/detailsview.py:76
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Tidak dapat membaca berkas."
+msgstr "Tidak dapat Membaca Berkas"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Jenis berkas tidak didukung."
+msgstr "Jenis Berkas tidak Didukung"
 
 #: application/metadatacleaner/ui/detailsview.py:79
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Gagal saat memeriksa metadata."
+msgstr "Gagal Memeriksa Metadata"
 
 #: application/metadatacleaner/ui/detailsview.py:80
-#, fuzzy
-#| msgid "Metadata"
 msgid "No Known Metadata"
-msgstr "Metadata"
+msgstr "Tak Ada Metadata yang Dikenal"
 
 #: application/metadatacleaner/ui/detailsview.py:82
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Tidak dapat menghapus metadata."
+msgstr "Tidak Dapat Menghapus Metadata"
 
 #: application/metadatacleaner/ui/detailsview.py:86
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
-"Tidak ada metadata yang ditemukan. Berkas akan tetap dibersihkan, lebih baik "
-"aman daripada menyesal."
+msgstr "Berkas akan tetap dibersihkan untuk memastikan."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
