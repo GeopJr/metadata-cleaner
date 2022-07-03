@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-28 11:35+0200\n"
+"POT-Creation-Date: 2022-07-03 13:24+0200\n"
 "PO-Revision-Date: 2021-07-21 18:34+0000\n"
 "Last-Translator: HelaBasa <R45XvezA@protonmail.ch>\n"
 "Language-Team: Sinhala <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -86,57 +86,59 @@ msgid ""
 msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
 #, fuzzy
 #| msgid "New translations"
 msgid "Updated translations"
 msgstr "නව පරිවර්තන"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
 msgid "Improved user interface"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:156
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:127
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:172
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:180
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:188
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:199
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:219
 msgid "New translations"
 msgstr "නව පරිවර්තන"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
 msgid "Bug fixes"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:144
 msgid "New button to add folders"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:161
 msgid "Improved adaptive user interface"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:146
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
 msgid "New help pages"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:147
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:163
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
 msgid "Persistent lightweight cleaning option"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
 msgid "Files with uppercase extension can now be added"
 msgstr ""
 
@@ -191,6 +193,10 @@ msgstr "යතුරුපුවරු කෙටිමං"
 msgid "Help"
 msgstr ""
 
+#: application/data/ui/AboutDialog.ui:38
+msgid "About"
+msgstr ""
+
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
 msgstr ""
@@ -205,6 +211,10 @@ msgstr ""
 
 #: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
+msgstr ""
+
+#: application/data/ui/AboutDialog.ui:148
+msgid "Credits"
 msgstr ""
 
 #: application/data/ui/AboutDialog.ui:170

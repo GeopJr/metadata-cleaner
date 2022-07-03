@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-28 11:35+0200\n"
+"POT-Creation-Date: 2022-07-03 13:24+0200\n"
 "PO-Revision-Date: 2022-03-23 19:10+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -90,55 +90,57 @@ msgid ""
 msgstr "此工具可以用来尽可能地查看或删除文件里的元数据。"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
 msgid "Updated translations"
 msgstr "更新了翻译"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
 msgid "Improved user interface"
 msgstr "改进了用户界面"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:156
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:127
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:172
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:180
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:188
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:199
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:219
 msgid "New translations"
 msgstr "新增翻译"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
 msgid "Bug fixes"
 msgstr "修正软件错误"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:144
 msgid "New button to add folders"
 msgstr "新增用来添加文件夹的按钮"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:161
 msgid "Improved adaptive user interface"
 msgstr "改进了自适应用户界面"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:146
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
 msgid "New help pages"
 msgstr "新增了帮助页面"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:147
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:163
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "一键删除元数据，删完后无需保存"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
 msgid "Persistent lightweight cleaning option"
 msgstr "可以记住浅层删除选项的选中状态了"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
 msgid "Files with uppercase extension can now be added"
 msgstr "现在扩展名大写的文件也可以添加了"
 
@@ -186,6 +188,10 @@ msgstr "键盘快捷键"
 msgid "Help"
 msgstr "调出帮助"
 
+#: application/data/ui/AboutDialog.ui:38
+msgid "About"
+msgstr ""
+
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
 msgstr "在 Matrix 上联系开发者"
@@ -201,6 +207,10 @@ msgstr "在 Weblate 上翻译软件"
 #: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
 msgstr "用 Liberapay 支持开发者"
+
+#: application/data/ui/AboutDialog.ui:148
+msgid "Credits"
+msgstr ""
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
