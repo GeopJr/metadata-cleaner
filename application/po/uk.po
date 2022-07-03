@@ -7,17 +7,17 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: 2022-05-29 11:20+0000\n"
+"PO-Revision-Date: 2022-07-04 15:51+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -196,7 +196,7 @@ msgstr "Довідка"
 
 #: application/data/ui/AboutDialog.ui:38
 msgid "About"
-msgstr ""
+msgstr "Про застосунок"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
@@ -216,7 +216,7 @@ msgstr "Підтримати нас на Liberapay"
 
 #: application/data/ui/AboutDialog.ui:148
 msgid "Credits"
-msgstr ""
+msgstr "Подяки"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
