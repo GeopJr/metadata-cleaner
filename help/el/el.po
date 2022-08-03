@@ -1,14 +1,19 @@
+# Athanasios Nektarios Karachalios Stagkas <nasos.karachalios.stagas@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-08-04 23:20+0000\n"
+"Last-Translator: Athanasios Nektarios Karachalios Stagkas <nasos.karachalios."
+"stagas@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -24,6 +29,12 @@ msgstr ""
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
 msgstr ""
+"Τα μεταδεδομένα μέσα σε ένα αρχείο μπορούν να πουν πολλά για εσάς. Οι "
+"φωτογραφικές μηχανές καταγράφουν δεδομένα σχετικά με το πότε και πού "
+"τραβήχτηκε μια φωτογραφία και ποια κάμερα χρησιμοποιήθηκε. Οι εφαρμογές "
+"γραφείου προσθέτουν αυτόματα πληροφορίες για τον συγγραφέα και την εταιρεία "
+"σε έγγραφα και λογιστικά φύλλα. Πρόκειται για ευαίσθητες πληροφορίες και "
+"ίσως δεν θέλετε να τις αποκαλύψετε."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
@@ -63,8 +74,9 @@ msgstr ""
 #. (itstool) path: page/title
 #. The application name. It can be translated.
 #: C/index.page:10
+#, fuzzy
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Καθαριστής μεταδεδομένων"
 
 #. (itstool) path: page/p
 #: C/index.page:14
@@ -134,7 +146,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:48
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Ελαφρό καθάρισμα"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
