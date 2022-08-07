@@ -1,10 +1,11 @@
 # Balázs Úr <balazs@urbalazs.hu>, 2021.
+# Szia Tomi <sziatomi01@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2021-10-28 08:49+0000\n"
-"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"PO-Revision-Date: 2022-08-08 08:33+0000\n"
+"Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/hu/>\n"
 "Language: hu\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -45,7 +46,7 @@ msgstr ""
 "adatokat rögzítenek arról, hogy mikor és hol készült a fénykép, illetve "
 "milyen fényképezőgépet használtak. Az irodai alkalmazások automatikusan "
 "hozzáadják a dokumentumokhoz és táblázatokhoz a szerző és a vállalat "
-"adatait. Ezek érzékeny információk, és nem biztos, hogy szeretné "
+"adatait. Ezek érzékeny információk és nem biztos, hogy szeretné "
 "nyilvánosságra hozni azokat."
 
 #. (itstool) path: figure/title
@@ -89,7 +90,7 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
-"A <app>Metaadattörlő</app> átveszi a fájl tartalmát, és egy új, metaadatok "
+"A <app>Metaadattörlő</app> átveszi a fájl tartalmát és egy új, metaadatok "
 "nélküli fájlba helyezi, biztosítva, hogy a fel nem fedezett metaadatok "
 "eltávolításra kerüljenek."
 
@@ -123,7 +124,7 @@ msgid ""
 "get rid of it, as much as possible."
 msgstr ""
 "A <app>Metaadattörlő</app> lehetővé teszi, hogy megtekinthesse a fájlokban "
-"lévő metaadatokat, és a lehető legnagyobb mértékben megszabaduljon tőlük."
+"lévő metaadatokat és a lehető legnagyobb mértékben megszabaduljon tőlük."
 
 #. (itstool) path: section/title
 #: C/index.page:17
