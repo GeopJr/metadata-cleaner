@@ -5,6 +5,34 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Changelog
 
+
+## [2.2.4] - 2022-09-24
+
+### Added
+- New Azerbaijani translation (contributed by Ümid Quliyev)
+- New Frisian translation (contributed by @vancha)
+- New Greek translation (contributed by @Pyrofanis)
+
+### Changed
+- Updated Basque translation (contributed by @sergitroll9)
+- Updated Chinese (Simplified) translation (contributed by Eric)
+- Updated Croatian translation (contributed by @milotype)
+- Updated Dutch translation (contributed by @Vistaus)
+- Updated Finnish translation (contributed by @artnay)
+- Updated French translation
+- Updated Hungarian translation (contributed by Szia Tomi)
+- Updated Indonesian translation (contributed by @t7260)
+- Updated Italian translation (contributed by @albanobattistella)
+- Updated Japanese translation (contributed by Kaede)
+- Updated Occitan translation (contributed by @quenty_occitania)
+- Updated Spanish translation (contributed by @oscfdezdz)
+- Updated Swedish translation (contributed by @eson)
+- Updated Turkish translation (contributed by @ersen and @libreajans)
+- Updated Ukrainian translation (contributed by @ihor_ck)
+
+## [2.2.2] - 2022-04-20
+
+
 ## [2.2.3] - 2022-06-02
 
 ### Added
@@ -14,6 +42,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 - Updated Basque translation (contributed by @sergitroll9)
 
 ## [2.2.2] - 2022-04-20
+
 
 ### Added
 - New Bengali translation (contributed by Bingo and hELLOwORLD)
