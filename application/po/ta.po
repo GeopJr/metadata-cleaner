@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: 2022-09-25 17:21+0000\n"
+"PO-Revision-Date: 2022-09-28 05:19+0000\n"
 "Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ta/>\n"
@@ -80,6 +80,11 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"ஒரு கோப்பில் உள்ள மெட்டாடேட்டா உங்களைப் பற்றி நிறைய சொல்ல முடியும். ஒரு படம் "
+"எப்போது, எங்கு எடுக்கப்பட்டது, எந்த கேமரா பயன்படுத்தப்பட்டது என்பது பற்றிய "
+"தரவை கேமராக்கள் பதிவு செய்கின்றன. அலுவலக பயன்பாடுகள் தானாக ஆசிரியர் மற்றும் "
+"நிறுவனத்தின் தகவல்களை ஆவணங்கள் மற்றும் விரிதாள்களில் சேர்க்கும். இது "
+"முக்கியமான தகவல் மற்றும் நீங்கள் அதை வெளியிட விரும்பாமல் இருக்கலாம்."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
@@ -140,101 +145,104 @@ msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
 msgid "Persistent lightweight cleaning option"
-msgstr ""
+msgstr "தொடர்ந்து இலகுரக சுத்தம் செய்யும் விருப்பம்"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "பெரிய எழுத்து நீட்டிப்பு கொண்ட கோப்புகளை இப்போது சேர்க்கலாம்"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "கோப்புகள்"
 
 #: application/data/gtk/help-overlay.ui:18
 msgid "Add files"
-msgstr ""
+msgstr "கோப்புகளைச் சேர்க்கவும்"
 
 #: application/data/gtk/help-overlay.ui:24
 msgid "Add folders"
-msgstr ""
+msgstr "கோப்புறைகளைச் சேர்க்கவும்"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr ""
+msgstr "மெட்டாடேட்டாவை சுத்தம் செய்யுங்கள்"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr ""
+msgstr "சாளரத்திலிருந்து எல்லா கோப்புகளையும் அழிக்கவும்"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr ""
+msgstr "பொது"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr ""
+msgstr "புதிய சாளரம்"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr ""
+msgstr "சாளரத்தை மூடு"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr ""
+msgstr "வெளியேறு"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "விசைப்பலகை குறுக்குவழிகள்"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr ""
+msgstr "உதவி"
 
 #: application/data/ui/AboutDialog.ui:38
 msgid "About"
-msgstr ""
+msgstr "பற்றி"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "மேட்ரிக்ஸில் பேசுங்கள்"
 
 #: application/data/ui/AboutDialog.ui:107
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "GitLab இல் குறியீட்டைக் காண்க"
 
 #: application/data/ui/AboutDialog.ui:117
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "வெப்லேட்டில் மொழிபெயர்க்கவும்"
 
 #: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "Liberapay இல் எங்களை ஆதரிக்கவும்"
 
 #: application/data/ui/AboutDialog.ui:148
 msgid "Credits"
-msgstr ""
+msgstr "வரவுகள்"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
-msgstr ""
+msgstr "குறியீடு"
 
 #: application/data/ui/AboutDialog.ui:176
 msgid "Artwork"
-msgstr ""
+msgstr "கலைப்படைப்பு"
 
 #: application/data/ui/AboutDialog.ui:182
 msgid "Documentation"
-msgstr ""
+msgstr "ஆவணப்படுத்தல்"
 
 #: application/data/ui/AboutDialog.ui:188
 msgid "Translation"
-msgstr ""
+msgstr "மொழிபெயர்ப்பு"
 
 #: application/data/ui/AboutDialog.ui:193
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
+"இந்த நிரல் மெட்டாடேட்டாவை அலசவும் சுத்தம் செய்யவும் <a href=\"https://0xacab."
+"org/jvoisin/mat2\">mat2</a> ஐப் பயன்படுத்துகிறது. அவர்களுக்கு கொஞ்சம் அன்பைக்"
+" காட்டுங்கள்!"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -243,178 +251,188 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"இந்த நிரலின் மூலக் குறியீடு <a href=\"https://www.gnu.org/licenses/gpl-3.0."
+"html\">GNU GPL 3.0 அல்லது அதற்குப் பிறகு</a> விதிமுறைகளின் கீழ் "
+"வெளியிடப்பட்டது. அசல் கலைப்படைப்பு மற்றும் மொழிபெயர்ப்புகள் <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> விதிமுறைகளின் "
+"கீழ் வெளியிடப்பட்டது."
 
 #: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
-msgstr ""
+msgstr "_கோப்புகளைச் சேர்க்கவும்"
 
 #: application/data/ui/AddFilesButton.ui:29
 msgid "Add _Folders"
-msgstr ""
+msgstr "கோப்புறைகளைச்_சேர்க்கவும்"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_சுத்தம்"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "உங்கள் கோப்புகளை காப்புப் பிரதி எடுத்திருப்பதை உறுதிசெய்யவும்!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "கோப்புகளை சுத்தம் செய்தவுடன், திரும்பப் போவதில்லை."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "மீண்டும் என்னிடம் சொல்லாதே"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
-msgstr ""
+msgstr "ரத்துசெய்"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "சுத்தம் செய்"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr ""
+msgstr "உங்கள் தடயங்களை சுத்தம் செய்யவும்"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
+"மெட்டாடேட்டா மற்றும் சுத்தம் செய்யும் செயல்முறை வரம்புகள் பற்றி மேலும் அறிக"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
-msgstr ""
+msgstr "பட்டியலிலிருந்து கோப்பை அகற்று"
 
 #: application/data/ui/FileRow.ui:124
 msgid "Warning"
-msgstr ""
+msgstr "எச்சரிக்கை"
 
 #: application/data/ui/FileRow.ui:142
 msgid "Error"
-msgstr ""
+msgstr "பிழை"
 
 #: application/data/ui/FileRow.ui:182
 msgid "Cleaned"
-msgstr ""
+msgstr "சுத்தம் செய்யப்பட்டது"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr ""
+msgstr "_புதிய சாளரம்"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr ""
+msgstr "_சாளரத்தை அழிக்கவும்"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_உதவி"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_விசைப்பலகை குறுக்குவழிகள்"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_மெட்டாடேட்டா கிளீனர் பற்றி"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "முதன்மை பட்டியல்"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "சுத்தம் செய்யும் அமைப்புகள்"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr ""
+msgstr "இலகுரக சுத்தம்"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "இலகுரக சுத்தம் செய்வது பற்றி மேலும் அறிக"
 
 #: application/data/ui/Window.ui:78
 msgid "Details"
-msgstr ""
+msgstr "விவரங்கள்"
 
 #: application/data/ui/Window.ui:84
 msgid "Close"
-msgstr ""
+msgstr "மூடுங்கள்"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:104
 msgid "translator-credits"
-msgstr ""
+msgstr "K.B.Dharun Krishna<kbdharunkrishna@gmail.com>"
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
-msgstr ""
+msgstr "சுத்தம் செய்ய கோப்புகளைத் தேர்ந்தெடுக்கவும்"
 
 #: application/data/ui/Window.ui:123
 msgid "Choose folders to clean"
-msgstr ""
+msgstr "சுத்தம் செய்ய கோப்புறைகளைத் தேர்ந்தெடுக்கவும்"
 
 #: application/metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
+"சுத்தம் செய்யும் போது ஏதோ தவறு நடந்தது, சுத்தம் செய்யப்பட்ட கோப்பு "
+"கிடைக்கவில்லை"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr ""
+msgstr "கோப்பு சுத்தம் செய்யப்பட்டுள்ளது"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
+"அறியப்பட்ட மெட்டாடேட்டா அகற்றப்பட்டது, இருப்பினும் சுத்தம் செய்யும் "
+"செயல்முறைக்கு சில வரம்புகள் உள்ளன."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "மேலும் அறிக"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr ""
+msgstr "கோப்பைப் படிக்க முடியவில்லை"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr ""
+msgstr "கோப்பு வகை ஆதரிக்கப்படவில்லை"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr ""
+msgstr "மெட்டாடேட்டாவைச் சரிபார்க்க முடியவில்லை"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "அறியப்பட்ட மெட்டாடேட்டா இல்லை"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr ""
+msgstr "மெட்டாடேட்டாவை அகற்ற முடியவில்லை"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
+msgstr "உறுதியாக இருக்க கோப்பு எப்படியும் சுத்தம் செய்யப்படும்."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "அனைத்து ஆதரிக்கப்படும் கோப்புகள்"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "துணை கோப்புறைகளிலிருந்து கோப்புகளைச் சேர்க்கவும்"
 
 #: application/metadatacleaner/ui/statusindicator.py:36
 msgid "Adding files…"
-msgstr ""
+msgstr "கோப்புகளைச் சேர்க்கிறது…"
 
 #: application/metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "{}/{} கோப்பைச் செயலாக்குகிறது"
 
 #: application/metadatacleaner/ui/statusindicator.py:40
 msgid "Cleaning file {}/{}"
-msgstr ""
+msgstr "கோப்பை சுத்தம் செய்கிறது {}/{}"
