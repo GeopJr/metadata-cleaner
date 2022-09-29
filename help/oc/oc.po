@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2022-01-03 10:06+0000\n"
+"PO-Revision-Date: 2022-09-30 16:19+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/oc/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -129,7 +129,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General information"
-msgstr "Informacions generals"
+msgstr "Informacions generalas"
 
 #. (itstool) path: section/title
 #: C/index.page:21
