@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Fran Diéguez <fran.dieguez@mabishu.com>, 2022.
 # Romain Vigier <romain@romainvigier.fr>, 2022.
+# gallegonovato <fran-carro@hotmail.es>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: 2022-01-03 10:05+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
-"Language-Team: Galician <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/gl/>\n"
+"PO-Revision-Date: 2022-10-06 19:19+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -99,16 +100,12 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
-#, fuzzy
-#| msgid "New translations"
 msgid "Updated translations"
-msgstr "Traducións novas"
+msgstr "Traducións actualizadas"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
-#, fuzzy
-#| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
-msgstr "Interface de usuario adaptativa mellorada"
+msgstr "Interface do usuario mellorada"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
@@ -200,7 +197,7 @@ msgstr "Axuda"
 
 #: application/data/ui/AboutDialog.ui:38
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
@@ -220,7 +217,7 @@ msgstr "Apóienos en Liberapay"
 
 #: application/data/ui/AboutDialog.ui:148
 msgid "Credits"
-msgstr ""
+msgstr "Créditos"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
@@ -295,11 +292,10 @@ msgid "Clean Your Traces"
 msgstr "Limpe as súas pegadas"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
-"Máis información sobre os metadatos e as limitacións do proceso de limpeza."
+"Obtén máis información sobre os metadatos e as limitacións do proceso de "
+"limpeza"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -339,7 +335,7 @@ msgstr "_Sobre Limpador de metadatos"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Menú principal"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -379,57 +375,44 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Produciuse un erro durante a limpeza, o ficheiro limpo non se atopou"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Limpouse o ficheiro."
+msgstr "O ficheiro foi limpo"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
-"Máis información sobre os metadatos e as limitacións do proceso de limpeza."
+"Elimináronse os metadatos coñecidos, pero o proceso de limpeza ten algunhas "
+"limitacións."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Aprender máis"
 
 #: application/metadatacleaner/ui/detailsview.py:76
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Non foi posíbel ler o ficheiro."
+msgstr "Non puidose ler o ficheiro"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Tipo de ficheiro non compatíbel."
+msgstr "Tipo de ficheiro non compatible"
 
 #: application/metadatacleaner/ui/detailsview.py:79
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Non foi posíbel comprobar os metadatos."
+msgstr "Non se poden comprobalos metadatos"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "Non se coñecen metadatos"
 
 #: application/metadatacleaner/ui/detailsview.py:82
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Non foi posíbel eliminar os metadatos."
+msgstr "Non se poden eliminalos metadatos"
 
 #: application/metadatacleaner/ui/detailsview.py:86
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr "Non hai metadatos coñecidos, limparase o ficheiro para asegurar."
+msgstr "O ficheiro limparase de todolos xeitos para atoparse seguro."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
