@@ -6,6 +6,18 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.2.5] - 2022-10-06
+
+### Added
+
+- New Tamil translation (contributed by @kbdharun)
+
+### Changed
+
+- Updated Korean translation (contributed by @Junghee_Lee)
+- Updated Occitan translation (contributed by @quenty_occitania)
+
+
 ## [2.2.4] - 2022-09-24
 
 ### Added
