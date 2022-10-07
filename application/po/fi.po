@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: 2022-09-21 21:16+0000\n"
+"PO-Revision-Date: 2022-10-07 12:33+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/fi/>\n"
@@ -46,7 +46,7 @@ msgstr "Siivoa tiedostot ilman, että varoitusikkunaa näytetään"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
-msgstr "Pienimuotoinen siivous"
+msgstr "Kevyt siivoaminen"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
