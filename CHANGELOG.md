@@ -6,6 +6,23 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.2.7] - 2022-11-17
+
+Fix of version 2.2.6 due to CI test failure.
+
+Notes from version 2.2.6:
+
+### Added
+
+- New Serbian translation (contributed by Andrija Djakovic)
+
+### Changed
+
+- Updated Finnish translation (contributed by @artnay)
+- Updated Galician translation (contributed by @gallegonovato)
+- Updated Lithuanian translation (contributed by @completed)
+
+
 ## [2.2.6] - 2022-11-17
 
 ### Added
