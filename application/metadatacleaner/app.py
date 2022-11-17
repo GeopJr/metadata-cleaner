@@ -5,7 +5,7 @@
 
 from gettext import gettext as _
 from gi.repository import Adw, Gdk, Gio, GLib, GObject, Gtk
-from typing import List
+from typing import List, Optional
 
 from metadatacleaner.ui.window import Window
 
@@ -110,7 +110,7 @@ class MetadataCleaner(Adw.Application):
 
     # PUBLIC #
 
-    def new_window(self, gfiles: List[Gio.File] = None) -> None:
+    def new_window(self, gfiles: Optional[List[Gio.File]] = None) -> None:
         """Create a new window.
 
         Args:

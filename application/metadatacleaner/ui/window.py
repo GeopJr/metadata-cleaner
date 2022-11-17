@@ -87,7 +87,7 @@ class Window(Adw.ApplicationWindow):
 
         def on_state_changed(
                 file_store: FileStore,
-                file_index: int = None) -> None:
+                file_index: int) -> None:
             self.lookup_action("clean-metadata").set_enabled(not (
                 file_store.state == FileStoreState.WORKING
                 or len(file_store.get_cleanable_files()) == 0))
