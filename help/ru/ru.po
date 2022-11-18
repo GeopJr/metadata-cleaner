@@ -1,11 +1,12 @@
 # BigmenPixel <bigmen.pixel@tuta.io>, 2021.
 # Sasha <maxminer88@gmail.com>, 2022.
+# Войнов Артем Романович <voynovar@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2022-01-21 14:52+0000\n"
-"Last-Translator: Sasha <maxminer88@gmail.com>\n"
+"PO-Revision-Date: 2022-11-19 15:48+0000\n"
+"Last-Translator: Войнов Артем Романович <voynovar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/ru/>\n"
 "Language: ru\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -39,7 +40,7 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Метаданные файла могут раскрыть много данных о вас. Камеры записывают когда "
+"Метаданные файла могут раскрыть много данных о Вас. Камеры записывают когда "
 "и где была заснята фотография и какой камерой. Офисные пакеты автоматически "
 "пишут автора и компанию в документы и презентации. Это личная информация и "
 "вы можете не хотеть её раскрывать."
@@ -104,7 +105,7 @@ msgstr ""
 #. The application name. It can be translated.
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr "Очистка Метаданных"
+msgstr "Очистка метаданных"
 
 #. (itstool) path: page/p
 #: C/index.page:14
@@ -201,7 +202,7 @@ msgstr "кнопка <gui style=\"button\">Очистить</gui>"
 #. (itstool) path: section/title
 #: C/usage.page:48
 msgid "Lightweight cleaning"
-msgstr "Легкое удаление"
+msgstr "Лёгкая очистка"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
