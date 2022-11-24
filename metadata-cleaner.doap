@@ -1,7 +1,8 @@
 <Project
 		xmlns="http://usefulinc.com/ns/doap#"
 		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-		xmlns:foaf="http://xmlns.com/foaf/0.1/">
+		xmlns:foaf="http://xmlns.com/foaf/0.1/"
+		xmlns:gnome="http://api.gnome.org/doap-extensions#>
 
 	<name xml:lang="en">Metadata Cleaner</name>
 	<shortdesc xml:lang="en">View and clean metadata in files</shortdesc>
