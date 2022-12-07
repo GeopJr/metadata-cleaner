@@ -6,6 +6,17 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.2.8] - 2022-12-07
+
+### Added
+
+- New Arabic translation (contributed by Ali Aljishi)
+
+### Changed
+
+- Updated Russian translation (contributed by @VoynovAR)
+
+
 ## [2.2.7] - 2022-11-17
 
 Fix of version 2.2.6 due to CI test failure.
