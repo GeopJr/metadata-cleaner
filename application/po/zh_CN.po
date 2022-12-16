@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # poi <erbaotao@outlook.com>, 2022.
 # Eric <alchemillatruth@purelymail.com>, 2022.
+# Ujhhgtg <feyxiexzf@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: 2022-07-04 15:51+0000\n"
-"Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
+"PO-Revision-Date: 2022-12-17 05:50+0000\n"
+"Last-Translator: Ujhhgtg <feyxiexzf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.15\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -170,7 +171,7 @@ msgstr "全局"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr "再打开一个窗口"
+msgstr "打开一个新窗口"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
@@ -243,11 +244,10 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"本程序源代码根据 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU "
-"GPL 3.0（有人称之为：GNU 通用公共许可协议 3.0），或者其更高版本</a> 的条款发"
-"布。原始美术设计作品和翻译根据 <a href=\"https://creativecommons.org/"
-"licenses/by-sa/4.0/\">CC BY-SA 4.0（有人称之为：知识共享 署名-相同方式共享 "
-"4.0 国际版）</a> 的条款发布。"
+"本程序源代码根据 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\"> GNU "
+"通用公共许可证，第 3 版及以上</a> 的条款发布。原始美术设计作品和翻译根据 <a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">知识共享版权归属-"
+"相同方式共享 4.0 国际 公共许可证</a> 的条款发布。"
 
 #: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
@@ -307,7 +307,7 @@ msgstr "删除完成"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr "再打开一个窗口 (_N)"
+msgstr "打开一个新窗口 (_N)"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
