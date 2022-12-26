@@ -24,9 +24,9 @@ DEVEL = "@devel@" == "True"
 VERSION = "@version@"
 LOCALE_DIR = "@localedir@"
 PKGDATA_DIR = "@pkgdatadir@"
-PYTHON_DIR = "@pythondir@"
+PKGSRC_DIR = "@pkgsrcdir@"
 
-sys.path.insert(1, PYTHON_DIR)
+sys.path.insert(1, PKGSRC_DIR)
 
 
 def setup_i18n() -> None:

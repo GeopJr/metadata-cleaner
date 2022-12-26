@@ -6,7 +6,7 @@ appsrcdir = meson.project_source_root() / 'application'
 bin_config = configuration_data()
 bin_config.set('localedir', localedir)
 bin_config.set('pkgdatadir', pkgdatadir)
-bin_config.set('pythondir', pythondir)
+bin_config.set('pkgsrcdir', pkgsrcdir)
 bin_config.set('schemasdir', schemasdir)
 bin_config.set('app_id', APP_ID)
 bin_config.set('devel', devel)

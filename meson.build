@@ -12,21 +12,19 @@ APP_ID = 'fr.romainvigier.MetadataCleaner'
 
 gnome = import('gnome')
 i18n = import('i18n')
-python = import('python').find_installation('python3')
 
 prefix = get_option('prefix')
 
 bindir = prefix / get_option('bindir')
 datadir = prefix / get_option('datadir')
 localedir = prefix / get_option('localedir')
-pythondir = prefix / python.get_install_dir()
 
 appdatadir = datadir / 'metainfo'
 applicationsdir = datadir / 'applications'
 dbusdir = datadir / 'dbus-1' / 'services'
 iconsdir = datadir / 'icons'
-metadatacleanerdir = pythondir / 'metadatacleaner'
-pkgdatadir = datadir / meson.project_name()
+pkgdatadir = datadir / meson.project_name() / 'data'
+pkgsrcdir = datadir / meson.project_name() / 'src'
 schemasdir = datadir / 'glib-2.0' / 'schemas'
 
 devel = get_option('devel')

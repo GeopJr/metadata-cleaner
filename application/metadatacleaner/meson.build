@@ -36,6 +36,6 @@ ui = [
   'ui/window.py',
 ]
 
-install_data(main, install_dir: metadatacleanerdir)
-install_data(modules, install_dir: metadatacleanerdir / 'modules')
-install_data(ui, install_dir: metadatacleanerdir / 'ui')
+install_data(main, install_dir: pkgsrcdir / 'metadatacleaner')
+install_data(modules, install_dir: pkgsrcdir / 'metadatacleaner' / 'modules')
+install_data(ui, install_dir: pkgsrcdir / 'metadatacleaner' / 'ui')
