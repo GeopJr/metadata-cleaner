@@ -81,13 +81,10 @@ class FileStore(Gio.ListStore):
         if state == self.state:
             return
         self.state = state
-        logger.debug(
-            f"State of file store changed to {str(self.state)}.")
         GLib.idle_add(self.emit, "state-changed", state)
 
     def _set_progress(self, current: int, total: int) -> None:
         self.progress = (current, total)
-        logger.debug(f"File store progress set to {self.progress}.")
         GLib.idle_add(self.emit, "progress-changed", current, total)
 
     def get_files(self) -> List[File]:
@@ -138,7 +135,6 @@ class FileStore(Gio.ListStore):
         all_gfiles: List[Gio.File] = []
         for gfile in gfiles:
             if not gfile:
-                logger.info("Invalid file, skipping.")
                 return
             f_type = gfile.query_file_type(Gio.FileQueryInfoFlags.NONE, None)
             if f_type == Gio.FileType.DIRECTORY:
@@ -146,7 +142,7 @@ class FileStore(Gio.ListStore):
             elif f_type == Gio.FileType.REGULAR:
                 all_gfiles.append(gfile)
             else:
-                logger.info(
+                logger.warning(
                     f"File {gfile.get_path()} is neither a directory nor a "
                     "regular file, skipping.")
         with ThreadPoolExecutor() as executor:
@@ -154,7 +150,6 @@ class FileStore(Gio.ListStore):
                 self._file_from_gfile,
                 all_gfiles)))
         if len(files) == 0:
-            logger.info("No files to add.")
             return
         self.splice(len(self), 0, files)
         thread = Thread(
@@ -192,10 +187,11 @@ class FileStore(Gio.ListStore):
 
     def _file_from_gfile(self, gfile: Gio.File) -> Optional[File]:
         if not gfile.query_exists(None):
-            logger.info(f"File {gfile.get_path()} does not exist, skipping.")
+            logger.warning(
+                f"File {gfile.get_path()} does not exist, skipping.")
             return None
         if bool(list(filter(lambda x: x.path == gfile.get_path(), self))):
-            logger.info(f"Skipping {gfile.get_path()}, already added.")
+            logger.warning(f"Skipping {gfile.get_path()}, already added.")
             return None
         f = File(gfile)
         f.connect("state-changed", self._on_file_state_changed)

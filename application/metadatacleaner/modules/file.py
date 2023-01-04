@@ -143,13 +143,11 @@ class File(GObject.GObject):
             self.message_type = message_types[state]
             self.has_message = self.message_type != "none"
             self.emit("state-changed", state)
-        logger.debug(f"State of {self.filename} changed to {str(state)}.")
         GLib.idle_add(update_state, state)
         self.state = state
 
     def setup_parser(self) -> None:
         """Set up the parser for this file."""
-        logger.info(f"Setting up parser for {self.filename}...")
         try:
             parser, mimetype = parser_factory.get_parser(self.path)
         except Exception as e:
@@ -172,17 +170,14 @@ class File(GObject.GObject):
                     self.mimetype)
             GLib.idle_add(update_mimetype, mimetype)
         if self._parser:
-            logger.info(f"{self.filename} is supported.")
             self._set_state(FileState.SUPPORTED)
         else:
-            logger.info(f"{self.filename} is unsupported.")
             self._set_state(FileState.UNSUPPORTED)
 
     def check_metadata(self) -> None:
         """Check the metadata present in the file."""
         if self.state != FileState.SUPPORTED:
             return
-        logger.info(f"Checking metadata for {self.filename}...")
         self._set_state(FileState.CHECKING_METADATA)
         try:
             metadata = self._parser.get_meta()
@@ -199,7 +194,6 @@ class File(GObject.GObject):
 
     def _check_metadata_finish(self, metadata) -> None:
         if not bool(metadata):
-            logger.info(f"Found no metadata for {self.filename}.")
             self._set_state(FileState.HAS_NO_METADATA)
             return
         total_metadata = 0
@@ -222,9 +216,6 @@ class File(GObject.GObject):
                 filename=self.filename,
                 metadata=metadata_list))
             total_metadata += len(metadata_list)
-        logger.info(
-            f"Found {total_metadata} metadata "
-            f"for {self.filename}.")
 
         def update_total_metadata(total_metadata) -> None:
             self.total_metadata = total_metadata
@@ -243,7 +234,6 @@ class File(GObject.GObject):
             FileState.HAS_NO_METADATA
         ]:
             return
-        logger.info(f"Cleaning metadata from {self.filename}...")
         self._set_state(FileState.REMOVING_METADATA)
         try:
             self._parser.output_filename = self._temp_path
@@ -274,5 +264,4 @@ class File(GObject.GObject):
         self._set_state(FileState.ERROR_WHILE_REMOVING_METADATA)
 
     def _clean_finish(self) -> None:
-        logger.info(f"{self.filename} has been cleaned.")
         self._set_state(FileState.CLEANED)
