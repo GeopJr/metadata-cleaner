@@ -240,7 +240,10 @@ pages:
   stage: deploy
   needs:
     - reuse
-  image: registry.gitlab.com/rmnvgr/metadata-cleaner/build-env:latest
+  image: debian:stable-slim
+  before_script:
+    - apt update
+    - apt install --no-install-recommends -y gzip brotli
   script:
     - cp -r website public
     - cp -r resources/screenshots public/screenshots
