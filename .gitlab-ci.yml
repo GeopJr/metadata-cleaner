@@ -213,8 +213,8 @@ screenshots:
       - help/LINGUAS
       - screenshots/**/*
   before_script:
-    - git config --global user.email "${GITLAB_USER_EMAIL}"
-    - git config --global user.name "${GITLAB_USER_NAME}"
+    - git config --global user.email "no-contact@romainvigier.fr"
+    - git config --global user.name "Screenshot Bot"
     - git remote set-url origin "https://${CI_GITLAB_USERNAME}:${CI_GITLAB_ACCESS_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
   script:
     - python3 screenshots/screenshot.py
