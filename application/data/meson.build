@@ -59,4 +59,6 @@ configure_file(
 
 
 install_data(APP_ID + '.gschema.xml', install_dir: schemasdir)
-install_subdir('icons/hicolor', install_dir: iconsdir)
+
+install_data('icons' / APP_ID + '.svg', install_dir: iconsdir / 'hicolor' / 'scalable' / 'apps')
+install_data('icons' / APP_ID + '-symbolic.svg', install_dir: iconsdir / 'hicolor' / 'symbolic' / 'apps')
