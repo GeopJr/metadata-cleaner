@@ -21,7 +21,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                 <property name="child">
                   <object class="AdwButtonContent">
                     <property name="label" translatable="yes">_Add Files</property>
-                    <property name="icon-name">document-new-symbolic</property>
+                    <property name="icon-name">metadatacleaner-add-file-symbolic</property>
                     <property name="use-underline">True</property>
                   </object>
                 </property>
@@ -56,7 +56,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                 <child>
                   <object class="GtkImage">
                     <property name="valign">center</property>
-                    <property name="icon-name">dialog-information-symbolic</property>
+                    <property name="icon-name">metadatacleaner-help-symbolic</property>
                   </object>
                 </child>
                 <child>

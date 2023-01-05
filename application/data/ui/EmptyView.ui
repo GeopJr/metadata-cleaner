@@ -30,7 +30,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                 <child>
                   <object class="GtkImage">
                     <property name="valign">center</property>
-                    <property name="icon-name">dialog-information-symbolic</property>
+                    <property name="icon-name">metadatacleaner-help-symbolic</property>
                   </object>
                 </child>
                 <child>

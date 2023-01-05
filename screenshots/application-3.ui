@@ -27,7 +27,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                     <property name="child">
                       <object class="AdwButtonContent">
                         <property name="label" translatable="yes">_Add Files</property>
-                        <property name="icon-name">document-new-symbolic</property>
+                        <property name="icon-name">metadatacleaner-add-file-symbolic</property>
                         <property name="use-underline">True</property>
                       </object>
                     </property>
@@ -119,7 +119,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                                 </child>
                                 <child>
                                   <object class="GtkImage">
-                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="icon-name">metadatacleaner-go-next-symbolic</property>
                                     <property name="valign">center</property>
                                   </object>
                                 </child>
@@ -191,7 +191,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                                 </child>
                                 <child>
                                   <object class="GtkImage">
-                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="icon-name">metadatacleaner-go-next-symbolic</property>
                                     <property name="valign">center</property>
                                   </object>
                                 </child>
@@ -263,7 +263,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                                 </child>
                                 <child>
                                   <object class="GtkImage">
-                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="icon-name">metadatacleaner-go-next-symbolic</property>
                                     <property name="valign">center</property>
                                   </object>
                                 </child>
@@ -336,7 +336,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                                 </child>
                                 <child>
                                   <object class="GtkImage">
-                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="icon-name">metadatacleaner-go-next-symbolic</property>
                                     <property name="valign">center</property>
                                   </object>
                                 </child>
@@ -408,7 +408,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                                 </child>
                                 <child>
                                   <object class="GtkImage">
-                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="icon-name">metadatacleaner-go-next-symbolic</property>
                                     <property name="valign">center</property>
                                   </object>
                                 </child>
@@ -480,7 +480,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                                 </child>
                                 <child>
                                   <object class="GtkImage">
-                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="icon-name">metadatacleaner-go-next-symbolic</property>
                                     <property name="valign">center</property>
                                   </object>
                                 </child>
@@ -552,7 +552,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                                 </child>
                                 <child>
                                   <object class="GtkImage">
-                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="icon-name">metadatacleaner-go-next-symbolic</property>
                                     <property name="valign">center</property>
                                   </object>
                                 </child>
@@ -624,7 +624,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                                 </child>
                                 <child>
                                   <object class="GtkImage">
-                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="icon-name">metadatacleaner-go-next-symbolic</property>
                                     <property name="valign">center</property>
                                   </object>
                                 </child>
@@ -649,7 +649,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                     <property name="spacing">6</property>
                     <child>
                       <object class="GtkButton">
-                        <property name="icon-name">emblem-system-symbolic</property>
+                        <property name="icon-name">metadatacleaner-settings-symbolic</property>
                       </object>
                     </child>
                     <child>
@@ -685,7 +685,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                 </property>
                 <child type="start">
                   <object class="GtkButton">
-                    <property name="icon-name">go-previous-symbolic</property>
+                    <property name="icon-name">metadatacleaner-go-previous-symbolic</property>
                   </object>
                 </child>
               </object>

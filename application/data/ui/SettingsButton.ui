@@ -7,7 +7,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <template class="SettingsButton" parent="GtkMenuButton">
     <property name="direction">up</property>
     <property name="tooltip-text" translatable="yes">Cleaning settings</property>
-    <property name="icon-name">emblem-system-symbolic</property>
+    <property name="icon-name">metadatacleaner-settings-symbolic</property>
     <property name="popover">settings-popover</property>
     <property name="valign">center</property>
     <style>
@@ -28,7 +28,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
             <property name="activatable-widget">_lightweight_switch</property>
             <child>
               <object class="GtkButton">
-                <property name="icon-name">dialog-information-symbolic</property>
+                <property name="icon-name">metadatacleaner-help-symbolic</property>
                 <property name="tooltip-text" translatable="yes">Learn more about the lightweight cleaning</property>
                 <property name="valign">center</property>
                 <property name="action-name">app.help</property>

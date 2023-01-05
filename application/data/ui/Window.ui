@@ -80,7 +80,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                 </property>
                 <child type="start">
                   <object class="GtkButton">
-                    <property name="icon-name">go-previous-symbolic</property>
+                    <property name="icon-name">metadatacleaner-go-previous-symbolic</property>
                     <property name="tooltip-text" translatable="yes">Close</property>
                     <property name="action-name">win.close-details-view</property>
                   </object>
