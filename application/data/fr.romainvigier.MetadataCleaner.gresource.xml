@@ -5,45 +5,45 @@ SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <gresources>
 	<gresource prefix="/fr/romainvigier/MetadataCleaner">
-		<file compressed="true" alias="style.css">css/style.css</file>
-		<file compressed="true" alias="style-dark.css">css/style-dark.css</file>
-		<file compressed="true" preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/metadatacleaner-illustration.svg">icons/illustration.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-about-symbolic.svg">icons/about-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-add-file-symbolic.svg">icons/add-file-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-add-folder-symbolic.svg">icons/add-folder-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-chat-symbolic.svg">icons/chat-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-code-symbolic.svg">icons/code-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-credits-symbolic.svg">icons/credits-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-go-next-symbolic.svg">icons/go-next-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-go-next-symbolic-rtl.svg">icons/go-previous-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-go-previous-symbolic.svg">icons/go-previous-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-go-previous-symbolic-rtl.svg">icons/go-next-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-help-symbolic.svg">icons/help-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-remove-symbolic.svg">icons/remove-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-settings-symbolic.svg">icons/settings-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-support-symbolic.svg">icons/support-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-translate-symbolic.svg">icons/translate-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-ok-symbolic.svg">icons/ok-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-error-symbolic.svg">icons/error-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-warning-symbolic.svg">icons/warning-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/AboutDialog.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/AddFilesButton.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/Badge.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/CleaningWarningDialog.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/CleanMetadataButton.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/CreditsRole.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/DetailsView.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/EmptyView.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/FileRow.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/FilesView.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/MenuButton.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataDetails.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataDetailsRow.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataView.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/OutButton.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/SettingsButton.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/StatusIndicator.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/Window.ui</file>
+		<file alias="style.css">css/style.css</file>
+		<file alias="style-dark.css">css/style-dark.css</file>
+		<file preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
+		<file preprocess="xml-stripblanks" alias="icons/metadatacleaner-illustration.svg">icons/illustration.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-about-symbolic.svg">icons/about-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-add-file-symbolic.svg">icons/add-file-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-add-folder-symbolic.svg">icons/add-folder-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-chat-symbolic.svg">icons/chat-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-code-symbolic.svg">icons/code-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-credits-symbolic.svg">icons/credits-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-go-next-symbolic.svg">icons/go-next-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-go-next-symbolic-rtl.svg">icons/go-previous-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-go-previous-symbolic.svg">icons/go-previous-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-go-previous-symbolic-rtl.svg">icons/go-next-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-help-symbolic.svg">icons/help-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-remove-symbolic.svg">icons/remove-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-settings-symbolic.svg">icons/settings-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-support-symbolic.svg">icons/support-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-translate-symbolic.svg">icons/translate-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-ok-symbolic.svg">icons/ok-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-error-symbolic.svg">icons/error-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-warning-symbolic.svg">icons/warning-symbolic.svg</file>
+		<file preprocess="xml-stripblanks">ui/AboutDialog.ui</file>
+		<file preprocess="xml-stripblanks">ui/AddFilesButton.ui</file>
+		<file preprocess="xml-stripblanks">ui/Badge.ui</file>
+		<file preprocess="xml-stripblanks">ui/CleaningWarningDialog.ui</file>
+		<file preprocess="xml-stripblanks">ui/CleanMetadataButton.ui</file>
+		<file preprocess="xml-stripblanks">ui/CreditsRole.ui</file>
+		<file preprocess="xml-stripblanks">ui/DetailsView.ui</file>
+		<file preprocess="xml-stripblanks">ui/EmptyView.ui</file>
+		<file preprocess="xml-stripblanks">ui/FileRow.ui</file>
+		<file preprocess="xml-stripblanks">ui/FilesView.ui</file>
+		<file preprocess="xml-stripblanks">ui/MenuButton.ui</file>
+		<file preprocess="xml-stripblanks">ui/MetadataDetails.ui</file>
+		<file preprocess="xml-stripblanks">ui/MetadataDetailsRow.ui</file>
+		<file preprocess="xml-stripblanks">ui/MetadataView.ui</file>
+		<file preprocess="xml-stripblanks">ui/OutButton.ui</file>
+		<file preprocess="xml-stripblanks">ui/SettingsButton.ui</file>
+		<file preprocess="xml-stripblanks">ui/StatusIndicator.ui</file>
+		<file preprocess="xml-stripblanks">ui/Window.ui</file>
 	</gresource>
 </gresources>
