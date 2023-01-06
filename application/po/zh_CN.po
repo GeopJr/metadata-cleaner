@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-03 13:24+0200\n"
+"POT-Creation-Date: 2023-01-06 00:14+0000\n"
 "PO-Revision-Date: 2022-12-17 05:50+0000\n"
 "Last-Translator: Ujhhgtg <feyxiexzf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -93,55 +93,60 @@ msgstr "此工具可以用来尽可能地查看或删除文件里的元数据。
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:110
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
 msgid "Updated translations"
 msgstr "更新了翻译"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
 msgid "Improved user interface"
 msgstr "改进了用户界面"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:127
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:172
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:180
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:188
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:199
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:219
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:167
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:176
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:185
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:193
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:228
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:250
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
 msgid "New translations"
 msgstr "新增翻译"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
 msgid "Bug fixes"
 msgstr "修正软件错误"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:144
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
 msgid "New button to add folders"
 msgstr "新增用来添加文件夹的按钮"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:161
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
 msgid "Improved adaptive user interface"
 msgstr "改进了自适应用户界面"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:202
 msgid "New help pages"
 msgstr "新增了帮助页面"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:163
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "一键删除元数据，删完后无需保存"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
 msgid "Persistent lightweight cleaning option"
 msgstr "可以记住浅层删除选项的选中状态了"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:251
 msgid "Files with uppercase extension can now be added"
 msgstr "现在扩展名大写的文件也可以添加了"
 
@@ -246,8 +251,8 @@ msgid ""
 msgstr ""
 "本程序源代码根据 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\"> GNU "
 "通用公共许可证，第 3 版及以上</a> 的条款发布。原始美术设计作品和翻译根据 <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">知识共享版权归属-"
-"相同方式共享 4.0 国际 公共许可证</a> 的条款发布。"
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">知识共享版权归属-相"
+"同方式共享 4.0 国际 公共许可证</a> 的条款发布。"
 
 #: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
@@ -350,19 +355,23 @@ msgid "Close"
 msgstr "关闭"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:104
+#: application/data/ui/Window.ui:105
 msgid "translator-credits"
 msgstr "翻译者致谢"
 
-#: application/data/ui/Window.ui:113
+#: application/data/ui/Window.ui:114
 msgid "Choose files to clean"
 msgstr "选择待清理文件"
 
-#: application/data/ui/Window.ui:123
+#: application/data/ui/Window.ui:124
 msgid "Choose folders to clean"
 msgstr "选择待清理文件夹"
 
-#: application/metadatacleaner/modules/file.py:254
+#: application/metadatacleaner/modules/file.py:243
+msgid "An error occured during the cleaning."
+msgstr ""
+
+#: application/metadatacleaner/modules/file.py:246
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "元数据删除出现了糟糕错误，删除完元数据的文件找不到了"
 

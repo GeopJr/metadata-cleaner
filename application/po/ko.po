@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-03 13:24+0200\n"
+"POT-Creation-Date: 2023-01-06 00:14+0000\n"
 "PO-Revision-Date: 2022-09-30 11:16+0000\n"
 "Last-Translator: 이정희 <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -33,7 +33,8 @@ msgstr "사용자의 파일에서 메타데이터 정리하기"
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr "Metadata;Remover;Cleaner;메타데이터;클리너;제거도구;정리도구;청소도구;리무버;"
+msgstr ""
+"Metadata;Remover;Cleaner;메타데이터;클리너;제거도구;정리도구;청소도구;리무버;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
@@ -49,8 +50,9 @@ msgstr "가벼운 정리"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr "파일을 파괴적으로 변경하지 않습니다. 하지만 일부 메타데이터를 남길 수 "
-"있습니다"
+msgstr ""
+"파일을 파괴적으로 변경하지 않습니다. 하지만 일부 메타데이터를 남길 수 있습니"
+"다"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -81,69 +83,74 @@ msgid ""
 "disclose it."
 msgstr ""
 "파일 내의 메타데이터는 사용자에 대해 많은 것을 말해 줄 수 있습니다. 카메라는 "
-"사진이 언제 어디서 촬영되었고 어떤 카메라가 사용되었는지에 대한 데이터를 "
-"기록합니다. 오피스 응용프로그램은 문서 및 스프레드시트에 작성자 및 회사 "
-"정보를 자동으로 추가합니다. 이것은 민감한 정보이므로 공개하고 싶지 않을 수 "
-"있습니다."
+"사진이 언제 어디서 촬영되었고 어떤 카메라가 사용되었는지에 대한 데이터를 기록"
+"합니다. 오피스 응용프로그램은 문서 및 스프레드시트에 작성자 및 회사 정보를 자"
+"동으로 추가합니다. 이것은 민감한 정보이므로 공개하고 싶지 않을 수 있습니다."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
-msgstr "이 도구를 사용하면 파일에서 메타데이터를 보고 최대한 제거할 수 있습니다."
+msgstr ""
+"이 도구를 사용하면 파일에서 메타데이터를 보고 최대한 제거할 수 있습니다."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:110
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
 msgid "Updated translations"
 msgstr "업데이트된 번역"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
 msgid "Improved user interface"
 msgstr "향상된 사용자 인터페이스"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:127
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:172
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:180
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:188
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:199
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:219
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:167
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:176
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:185
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:193
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:228
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:250
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
 msgid "New translations"
 msgstr "새로운 번역"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
 msgid "Bug fixes"
 msgstr "버그 수정"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:144
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
 msgid "New button to add folders"
 msgstr "폴더를 추가하는 새 단추"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:161
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
 msgid "Improved adaptive user interface"
 msgstr "향상된 적응형 사용자 인터페이스"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:202
 msgid "New help pages"
 msgstr "새로운 도움말 페이지"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:163
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "원-클릭 정리, 정리 후 저장할 필요 없음"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
 msgid "Persistent lightweight cleaning option"
 msgstr "지속적인 가벼운 정리 옵션"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:251
 msgid "Files with uppercase extension can now be added"
 msgstr "이제 대문자 확장자를 가진 파일을 추가할 수 있습니다"
 
@@ -236,9 +243,8 @@ msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
-"이 프로그램은 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a>를 "
-"사용하여 메타데이터를 구문 분석하고 정리합니다. 그들에게 약간의 사랑을 "
-"보여주세요!"
+"이 프로그램은 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a>를 사용하"
+"여 메타데이터를 구문 분석하고 정리합니다. 그들에게 약간의 사랑을 보여주세요!"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -247,10 +253,10 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"이 프로그램의 소스 코드는 <a href=\"https://www.gnu.org/licenses/gpl-3.0."
-"html\">GNU GPL 3.0 이상</a>의 조건에 따라 공개됩니다. 원본 아트워크와 번역은 "
-"<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> "
-"조건에 따라 공개됩니다."
+"이 프로그램의 소스 코드는 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html"
+"\">GNU GPL 3.0 이상</a>의 조건에 따라 공개됩니다. 원본 아트워크와 번역은 <a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> 조"
+"건에 따라 공개됩니다."
 
 #: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
@@ -353,19 +359,23 @@ msgid "Close"
 msgstr "닫기"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:104
+#: application/data/ui/Window.ui:105
 msgid "translator-credits"
 msgstr "이정희 <daemul72@gmail.com>"
 
-#: application/data/ui/Window.ui:113
+#: application/data/ui/Window.ui:114
 msgid "Choose files to clean"
 msgstr "정리할 파일 고르기"
 
-#: application/data/ui/Window.ui:123
+#: application/data/ui/Window.ui:124
 msgid "Choose folders to clean"
 msgstr "정리할 폴더 고르기"
 
-#: application/metadatacleaner/modules/file.py:254
+#: application/metadatacleaner/modules/file.py:243
+msgid "An error occured during the cleaning."
+msgstr ""
+
+#: application/metadatacleaner/modules/file.py:246
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "정리하는 동안 문제가 발생했습니다. 정리된 파일을 찾을 수 없습니다"
 
@@ -377,8 +387,9 @@ msgstr "파일이 정리되었습니다"
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr "알려진 메타데이터가 제거되었지만, 정리 프로세스에는 몇 가지 제한 사항이 "
-"있습니다."
+msgstr ""
+"알려진 메타데이터가 제거되었지만, 정리 프로세스에는 몇 가지 제한 사항이 있습"
+"니다."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"

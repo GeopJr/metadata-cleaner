@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-03 13:24+0200\n"
+"POT-Creation-Date: 2023-01-06 00:14+0000\n"
 "PO-Revision-Date: 2022-11-29 12:12+0000\n"
 "Last-Translator: Войнов Артем Романович <voynovar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -99,55 +99,60 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:110
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
 msgid "Updated translations"
 msgstr "Обновлённые перевод"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
 msgid "Improved user interface"
 msgstr "Улучшен пользовательский интерфейс"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:127
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:172
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:180
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:188
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:199
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:219
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:167
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:176
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:185
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:193
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:228
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:250
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
 msgid "New translations"
 msgstr "Новые переводы"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
 msgid "Bug fixes"
 msgstr "Исправление ошибок"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:144
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
 msgid "New button to add folders"
 msgstr "Новая кнопка для добавления папок"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:161
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
 msgid "Improved adaptive user interface"
 msgstr "Пользовательский интерфейс стал более адаптивным"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:202
 msgid "New help pages"
 msgstr "Новые страницы справки"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:163
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Очистка в один клик, не надо сохранять после операции"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
 msgid "Persistent lightweight cleaning option"
 msgstr "Лёгкий вариант очистки"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:251
 msgid "Files with uppercase extension can now be added"
 msgstr "Теперь можно добавлять файлы с расширением в верхнем регистре"
 
@@ -250,10 +255,10 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"Исходный код этой программы распространяется под лицензией <a href=\"https"
-"://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. "
-"Оригинальная графика и переводы распространяются под лицензией <a href="
-"\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
+"Исходный код этой программы распространяется под лицензией <a href=\"https://"
+"www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. Оригинальная "
+"графика и переводы распространяются под лицензией <a href=\"https://"
+"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
@@ -356,19 +361,23 @@ msgid "Close"
 msgstr "Закрыть"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:104
+#: application/data/ui/Window.ui:105
 msgid "translator-credits"
 msgstr "переводчик-кредиты"
 
-#: application/data/ui/Window.ui:113
+#: application/data/ui/Window.ui:114
 msgid "Choose files to clean"
 msgstr "Выберите файлы для очистки"
 
-#: application/data/ui/Window.ui:123
+#: application/data/ui/Window.ui:124
 msgid "Choose folders to clean"
 msgstr "Выберите папки для очистки"
 
-#: application/metadatacleaner/modules/file.py:254
+#: application/metadatacleaner/modules/file.py:243
+msgid "An error occured during the cleaning."
+msgstr ""
+
+#: application/metadatacleaner/modules/file.py:246
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Что-то плохое произошло во время очистки, очищенный файл не найден"
 

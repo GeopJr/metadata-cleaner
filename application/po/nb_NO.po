@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-03 13:24+0200\n"
+"POT-Creation-Date: 2023-01-06 00:14+0000\n"
 "PO-Revision-Date: 2022-04-05 10:09+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
@@ -106,64 +106,69 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:110
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
 #, fuzzy
 #| msgid "New translations"
 msgid "Updated translations"
 msgstr "Nye oversettelser"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
 #, fuzzy
 #| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
 msgstr "Forbedret tillpassbart brukergrensesnitt"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:127
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:172
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:180
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:188
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:199
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:219
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:167
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:176
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:185
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:193
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:228
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:250
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
 msgid "New translations"
 msgstr "Nye oversettelser"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
 #, fuzzy
 msgid "Bug fixes"
 msgstr "Feilfikser:"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:144
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
 msgid "New button to add folders"
 msgstr "Ny knapp for å legge til mapper"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:161
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
 msgid "Improved adaptive user interface"
 msgstr "Forbedret tillpassbart brukergrensesnitt"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:202
 msgid "New help pages"
 msgstr "Nye hjelpesider"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:163
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
 #, fuzzy
 #| msgid "One-click cleaning, no need to clean then save anymore"
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Rensing med ett klikk. Ingen grunn til å rense for så å lagre."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
 #, fuzzy
 #| msgid "Lightweight cleaning option is now saved"
 msgid "Persistent lightweight cleaning option"
 msgstr "Valg om lett rensing er nå vedvarende"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:251
 msgid "Files with uppercase extension can now be added"
 msgstr "Filer med filendelser som bruker store bokstaver kan nå legges til"
 
@@ -397,21 +402,25 @@ msgid "Close"
 msgstr "Lukk"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:104
+#: application/data/ui/Window.ui:105
 msgid "translator-credits"
 msgstr "Allan Nordhøy <epost@anotheragency.no>"
 
-#: application/data/ui/Window.ui:113
+#: application/data/ui/Window.ui:114
 #, fuzzy
 msgid "Choose files to clean"
 msgstr "Velg filer"
 
-#: application/data/ui/Window.ui:123
+#: application/data/ui/Window.ui:124
 #, fuzzy
 msgid "Choose folders to clean"
 msgstr "Velg filer"
 
-#: application/metadatacleaner/modules/file.py:254
+#: application/metadatacleaner/modules/file.py:243
+msgid "An error occured during the cleaning."
+msgstr ""
+
+#: application/metadatacleaner/modules/file.py:246
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Noe gikk galt under renseprosessen. Finner ikke den rensede filen."
 
