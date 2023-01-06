@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-24 23:48+0200\n"
+"POT-Creation-Date: 2023-01-06 00:43+0000\n"
 "PO-Revision-Date: 2022-10-01 18:18+0000\n"
 "Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -15,185 +15,220 @@ msgstr ""
 "X-Generator: Weblate 4.14.1\n"
 
 #. (itstool) path: section/title
-#: C/general.page:14
+#: ../help/C/general.page:14
 msgid "Metadata and privacy"
 msgstr "மெட்டாடேட்டா மற்றும் தனியுரிமை"
 
 #. (itstool) path: section/p
-#: C/general.page:15
-msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
+#: ../help/C/general.page:15
+msgid ""
+"Metadata consists of information that characterizes data. Metadata is used "
+"to provide documentation for data products. In essence, metadata answers "
+"who, what, when, where, why, and how about every facet of the data that is "
+"being documented."
 msgstr ""
-"மெட்டாடேட்டா என்பது தரவை வகைப்படுத்தும் தகவலைக் கொண்டுள்ளது. தரவு "
-"தயாரிப்புகளுக்கான ஆவணங்களை வழங்க மெட்டாடேட்டா பயன்படுத்தப்படுகிறது. "
-"சாராம்சத்தில், ஆவணப்படுத்தப்படும் தரவின் ஒவ்வொரு அம்சத்தையும் யார், என்ன, "
-"எப்போது, எங்கே, ஏன், எப்படி என்று மெட்டாடேட்டா பதிலளிக்கிறது."
+"மெட்டாடேட்டா என்பது தரவை வகைப்படுத்தும் தகவலைக் கொண்டுள்ளது. தரவு தயாரிப்புகளுக்கான "
+"ஆவணங்களை வழங்க மெட்டாடேட்டா பயன்படுத்தப்படுகிறது. சாராம்சத்தில், ஆவணப்படுத்தப்படும் தரவின் "
+"ஒவ்வொரு அம்சத்தையும் யார், என்ன, எப்போது, எங்கே, ஏன், எப்படி என்று மெட்டாடேட்டா "
+"பதிலளிக்கிறது."
 
 #. (itstool) path: section/p
-#: C/general.page:16
-msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
+#: ../help/C/general.page:16
+msgid ""
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when and where a picture was taken and which camera was used. Office "
+"applications automatically add author and company information to documents "
+"and spreadsheets. This is sensitive information and you may not want to "
+"disclose it."
 msgstr ""
-"ஒரு கோப்பில் உள்ள மெட்டாடேட்டா உங்களைப் பற்றி நிறைய சொல்ல முடியும். ஒரு படம் "
-"எப்போது, எங்கு எடுக்கப்பட்டது, எந்த கேமரா பயன்படுத்தப்பட்டது என்பது பற்றிய "
-"தரவை கேமராக்கள் பதிவு செய்கின்றன. அலுவலக பயன்பாடுகள் தானாக ஆசிரியர் மற்றும் "
-"நிறுவனத்தின் தகவல்களை ஆவணங்கள் மற்றும் விரிதாள்களில் சேர்க்கும். இது "
-"முக்கியமான தகவல் மற்றும் நீங்கள் அதை வெளியிட விரும்பாமல் இருக்கலாம்."
+"ஒரு கோப்பில் உள்ள மெட்டாடேட்டா உங்களைப் பற்றி நிறைய சொல்ல முடியும். ஒரு படம் எப்போது, "
+"எங்கு எடுக்கப்பட்டது, எந்த கேமரா பயன்படுத்தப்பட்டது என்பது பற்றிய தரவை கேமராக்கள் பதிவு "
+"செய்கின்றன. அலுவலக பயன்பாடுகள் தானாக ஆசிரியர் மற்றும் நிறுவனத்தின் தகவல்களை ஆவணங்கள் "
+"மற்றும் விரிதாள்களில் சேர்க்கும். இது முக்கியமான தகவல் மற்றும் நீங்கள் அதை வெளியிட "
+"விரும்பாமல் இருக்கலாம்."
 
 #. (itstool) path: figure/title
-#: C/general.page:18
+#: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
 msgstr "படக் கோப்பில் உள்ள மெட்டாடேட்டாவின் எடுத்துக்காட்டு"
 
 #. (itstool) path: figure/desc
-#: C/general.page:20
-msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
+#: ../help/C/general.page:20
+msgid ""
+"The file discloses information about the hardware, settings, date, location "
+"of the shoot. It contains a total of 79 metadata."
 msgstr ""
 "வன்பொருள், அமைப்புகள், தேதி, படப்பிடிப்பின் இடம் பற்றிய தகவல்களை கோப்பு "
 "வெளிப்படுத்துகிறது. இது மொத்தம் 79 மெட்டாடேட்டாவைக் கொண்டுள்ளது."
 
 #. (itstool) path: section/title
-#: C/general.page:27
+#: ../help/C/general.page:27
 msgid "Cleaning process"
 msgstr "சுத்தம் செயல்முறை"
 
 #. (itstool) path: section/p
-#: C/general.page:28
-msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
+#: ../help/C/general.page:28
+msgid ""
+"While <app>Metadata Cleaner</app> is doing its very best to display "
+"metadata, it doesn't mean that a file is clean from metadata if it doesn't "
+"show any. There is no reliable way to detect every single possible metadata "
+"for complex file formats. This is why you shouldn't rely on metadata's "
+"presence to decide if your file must be cleaned or not."
 msgstr ""
-"<app>மெட்டாடேட்டா க்ளீனர்</app> மெட்டாடேட்டாவைக் காண்பிப்பதில் மிகச் "
-"சிறப்பாகச் செய்துகொண்டிருக்கும்போது, எந்தக் கோப்பும் மெட்டாடேட்டாவைக் "
-"காட்டவில்லை என்றால், அது மெட்டாடேட்டாவிலிருந்து சுத்தமாக இருக்கிறது என்று "
-"அர்த்தமில்லை. சிக்கலான கோப்பு வடிவங்களுக்கு சாத்தியமான ஒவ்வொரு "
-"மெட்டாடேட்டாவையும் கண்டறிய நம்பகமான வழி எதுவுமில்லை. அதனால்தான் உங்கள் கோப்பு"
-" சுத்தம் செய்யப்பட வேண்டுமா இல்லையா என்பதைத் தீர்மானிக்க மெட்டாடேட்டாவின் "
-"இருப்பை நீங்கள் நம்பக்கூடாது."
+"<app>மெட்டாடேட்டா க்ளீனர்</app> மெட்டாடேட்டாவைக் காண்பிப்பதில் மிகச் சிறப்பாகச் "
+"செய்துகொண்டிருக்கும்போது, எந்தக் கோப்பும் மெட்டாடேட்டாவைக் காட்டவில்லை என்றால், அது "
+"மெட்டாடேட்டாவிலிருந்து சுத்தமாக இருக்கிறது என்று அர்த்தமில்லை. சிக்கலான கோப்பு "
+"வடிவங்களுக்கு சாத்தியமான ஒவ்வொரு மெட்டாடேட்டாவையும் கண்டறிய நம்பகமான வழி எதுவுமில்லை. "
+"அதனால்தான் உங்கள் கோப்பு சுத்தம் செய்யப்பட வேண்டுமா இல்லையா என்பதைத் தீர்மானிக்க "
+"மெட்டாடேட்டாவின் இருப்பை நீங்கள் நம்பக்கூடாது."
 
 #. (itstool) path: section/p
-#: C/general.page:29
-msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
+#: ../help/C/general.page:29
+msgid ""
+"<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
+"new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
-"<app>மெட்டாடேட்டா கிளீனர்</app> கோப்பின் உள்ளடக்கத்தை எடுத்து, மெட்டாடேட்டா "
-"இல்லாமல் புதியதாக வைக்கிறது, கண்டறியப்படாத மெட்டாடேட்டா அகற்றப்படுவதை உறுதி "
-"செய்கிறது."
+"<app>மெட்டாடேட்டா கிளீனர்</app> கோப்பின் உள்ளடக்கத்தை எடுத்து, மெட்டாடேட்டா இல்லாமல் "
+"புதியதாக வைக்கிறது, கண்டறியப்படாத மெட்டாடேட்டா அகற்றப்படுவதை உறுதி செய்கிறது."
 
 #. (itstool) path: section/title
-#: C/general.page:35
+#: ../help/C/general.page:35
 msgid "Limitations"
 msgstr "வரம்புகள்"
 
 #. (itstool) path: section/p
-#: C/general.page:36
-msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
+#: ../help/C/general.page:36
+msgid ""
+"Be aware that metadata is not the only way of marking a file. If the content "
+"itself discloses personal information or has been watermarked, traditionally "
+"or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
-"ஒரு கோப்பைக் குறிப்பதற்கான ஒரே வழி மெட்டாடேட்டா அல்ல என்பதை அறிந்து "
-"கொள்ளுங்கள். உள்ளடக்கமே தனிப்பட்ட தகவலை வெளிப்படுத்தினால் அல்லது "
-"வாட்டர்மார்க் செய்யப்பட்டிருந்தால், பாரம்பரியமாக அல்லது ஸ்டீகனோகிராஃபி மூலம்"
-", <app>மெட்டாடேட்டா கிளீனர்</app> உங்களைப் பாதுகாக்காது."
+"ஒரு கோப்பைக் குறிப்பதற்கான ஒரே வழி மெட்டாடேட்டா அல்ல என்பதை அறிந்து கொள்ளுங்கள். "
+"உள்ளடக்கமே தனிப்பட்ட தகவலை வெளிப்படுத்தினால் அல்லது வாட்டர்மார்க் செய்யப்பட்டிருந்தால், "
+"பாரம்பரியமாக அல்லது ஸ்டீகனோகிராஃபி மூலம், <app>மெட்டாடேட்டா கிளீனர்</app> உங்களைப் "
+"பாதுகாக்காது."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
-#: C/index.page:10
+#: ../help/C/index.page:10
 msgid "Metadata Cleaner"
 msgstr "மெட்டாடேட்டா கிளீனர்"
 
 #. (itstool) path: page/p
-#: C/index.page:14
-msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of it, as much as possible."
+#: ../help/C/index.page:14
+msgid ""
+"<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
+"get rid of it, as much as possible."
 msgstr ""
-"<app>மெட்டாடேட்டா கிளீனர்</app> உங்கள் கோப்புகளில் உள்ள மெட்டாடேட்டாவைப் "
-"பார்க்கவும், முடிந்தவரை அதிலிருந்து விடுபடவும் உங்களை அனுமதிக்கிறது."
+"<app>மெட்டாடேட்டா கிளீனர்</app> உங்கள் கோப்புகளில் உள்ள மெட்டாடேட்டாவைப் பார்க்கவும், "
+"முடிந்தவரை அதிலிருந்து விடுபடவும் உங்களை அனுமதிக்கிறது."
 
 #. (itstool) path: section/title
-#: C/index.page:17
+#: ../help/C/index.page:17
 msgid "General information"
 msgstr "பொதுவான தகவல்"
 
 #. (itstool) path: section/title
-#: C/index.page:21
+#: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
 msgstr "<app>மெட்டாடேட்டா கிளீனர்</app> ஐப் பயன்படுத்துகிறது"
 
 #. (itstool) path: section/title
-#: C/usage.page:14
+#: ../help/C/usage.page:14
 msgid "Adding files"
 msgstr "கோப்புகளைச் சேர்த்தல்"
 
 #. (itstool) path: section/p
-#: C/usage.page:15
-msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
+#: ../help/C/usage.page:15
+msgid ""
+"To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
+"chooser will open, select the files you want to clean."
 msgstr ""
-"கோப்புகளைச் சேர்க்க, <gui style=\"button\">கோப்புகளைச் சேர்</gui> பொத்தானை "
-"அழுத்தவும். ஒரு கோப்புத் தேர்வி திறக்கும், நீங்கள் சுத்தம் செய்ய விரும்பும் "
-"கோப்புகளைத் தேர்ந்தெடுக்கவும்."
+"கோப்புகளைச் சேர்க்க, <gui style=\"button\">கோப்புகளைச் சேர்</gui> பொத்தானை அழுத்தவும். "
+"ஒரு கோப்புத் தேர்வி திறக்கும், நீங்கள் சுத்தம் செய்ய விரும்பும் கோப்புகளைத் தேர்ந்தெடுக்கவும்."
 
 #. (itstool) path: figure/title
-#: C/usage.page:17
+#: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
 msgstr "<gui style=\"button\">கோப்புகளைச் சேர்</gui> பொத்தான்"
 
 #. (itstool) path: section/p
-#: C/usage.page:20
-msgid "To add whole folders at once, press the arrow next to the <gui style=\"button\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</gui> button. A file chooser will open, select the folders you want to add. You can optionally choose to also add all files from all subfolders by checking the <gui style=\"checkbox\">Add files from subfolders</gui> checkbox."
+#: ../help/C/usage.page:20
+msgid ""
+"To add whole folders at once, press the arrow next to the <gui style=\"button"
+"\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
+"gui> button. A file chooser will open, select the folders you want to add. "
+"You can optionally choose to also add all files from all subfolders by "
+"checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
+"checkbox."
 msgstr ""
-"ஒரே நேரத்தில் முழு கோப்புறைகளையும் சேர்க்க, <gui style=\"button\">கோப்புகளைச்"
-" சேர்</gui> பொத்தானுக்கு அடுத்துள்ள அம்புக்குறியை அழுத்தி, <gui style="
-"\"button\">கோப்புறைகளைச் சேர்</gui> பொத்தானை அழுத்தவும். ஒரு கோப்புத் தேர்வி "
-"திறக்கும், நீங்கள் சேர்க்க விரும்பும் கோப்புறைகளைத் தேர்ந்தெடுக்கவும். <gui "
-"style=\"checkbox\">துணைக் கோப்புறைகளிலிருந்து கோப்புகளைச் சேர்</gui> "
-"தேர்வுப்பெட்டியைச் சரிபார்ப்பதன் மூலம், அனைத்து துணைக் கோப்புறைகளிலிருந்தும் "
-"எல்லா கோப்புகளையும் சேர்க்க விருப்பமாகத் தேர்வுசெய்யலாம்."
+"ஒரே நேரத்தில் முழு கோப்புறைகளையும் சேர்க்க, <gui style=\"button\">கோப்புகளைச் சேர்</"
+"gui> பொத்தானுக்கு அடுத்துள்ள அம்புக்குறியை அழுத்தி, <gui style=\"button"
+"\">கோப்புறைகளைச் சேர்</gui> பொத்தானை அழுத்தவும். ஒரு கோப்புத் தேர்வி திறக்கும், நீங்கள் "
+"சேர்க்க விரும்பும் கோப்புறைகளைத் தேர்ந்தெடுக்கவும். <gui style=\"checkbox\">துணைக் "
+"கோப்புறைகளிலிருந்து கோப்புகளைச் சேர்</gui> தேர்வுப்பெட்டியைச் சரிபார்ப்பதன் மூலம், அனைத்து "
+"துணைக் கோப்புறைகளிலிருந்தும் எல்லா கோப்புகளையும் சேர்க்க விருப்பமாகத் தேர்வுசெய்யலாம்."
 
 #. (itstool) path: section/title
-#: C/usage.page:26
+#: ../help/C/usage.page:26
 msgid "Viewing metadata"
 msgstr "மெட்டாடேட்டாவைப் பார்க்கிறது"
 
 #. (itstool) path: section/p
-#: C/usage.page:27
-msgid "Click on a file in the list to open the detailed view. If it has metadata, it will be shown there."
+#: ../help/C/usage.page:27
+msgid ""
+"Click on a file in the list to open the detailed view. If it has metadata, "
+"it will be shown there."
 msgstr ""
-"விரிவான காட்சியைத் திறக்க பட்டியலில் உள்ள கோப்பில் கிளிக் செய்யவும். "
-"மெட்டாடேட்டா இருந்தால், அது அங்கு காண்பிக்கப்படும்."
+"விரிவான காட்சியைத் திறக்க பட்டியலில் உள்ள கோப்பில் கிளிக் செய்யவும். மெட்டாடேட்டா "
+"இருந்தால், அது அங்கு காண்பிக்கப்படும்."
 
 #. (itstool) path: figure/title
-#: C/usage.page:29
+#: ../help/C/usage.page:29
 msgid "Detailed view of the metadata"
 msgstr "மெட்டாடேட்டாவின் விரிவான பார்வை"
 
 #. (itstool) path: section/title
-#: C/usage.page:37
+#: ../help/C/usage.page:37
 msgid "Cleaning files"
 msgstr "கோப்புகளை சுத்தப்படுத்துதல்"
 
 #. (itstool) path: section/p
-#: C/usage.page:38
-msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
+#: ../help/C/usage.page:38
+msgid ""
+"To clean all the files in the window, press the <gui style=\"button\">Clean</"
+"gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"சாளரத்தில் உள்ள அனைத்து கோப்புகளையும் சுத்தம் செய்ய, <gui style=\"button\""
-">சுத்தம்</gui> பொத்தானை அழுத்தவும். துப்புரவு செயல்முறை முடிவதற்கு சிறிது "
-"நேரம் ஆகலாம்."
+"சாளரத்தில் உள்ள அனைத்து கோப்புகளையும் சுத்தம் செய்ய, <gui style=\"button\">சுத்தம்</"
+"gui> பொத்தானை அழுத்தவும். துப்புரவு செயல்முறை முடிவதற்கு சிறிது நேரம் ஆகலாம்."
 
 #. (itstool) path: figure/title
-#: C/usage.page:40
+#: ../help/C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "<gui style=\"button\">சுத்தம்</gui> பொத்தான்"
 
 #. (itstool) path: section/title
-#: C/usage.page:48
+#: ../help/C/usage.page:48
 msgid "Lightweight cleaning"
 msgstr "இலகுரக சுத்தப்படுத்துதல்"
 
 #. (itstool) path: section/p
-#: C/usage.page:49
-msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
+#: ../help/C/usage.page:49
+msgid ""
+"By default, the removal process might alter a bit the data of your files, in "
+"order to remove as much metadata as possible. For example, texts in PDF "
+"might not be selectable anymore, compressed images might get compressed "
+"again…"
 msgstr ""
-"இயல்பாக, முடிந்தவரை மெட்டாடேட்டாவை அகற்ற, அகற்றும் செயல்முறை உங்கள் "
-"கோப்புகளின் தரவை சிறிது மாற்றியமைக்கலாம். எடுத்துக்காட்டாக, PDF இல் உள்ள "
-"உரைகள் இனி தேர்ந்தெடுக்கப்படாமல் இருக்கலாம், சுருக்கப்பட்ட படங்கள் மீண்டும் "
-"சுருக்கப்படலாம்…"
+"இயல்பாக, முடிந்தவரை மெட்டாடேட்டாவை அகற்ற, அகற்றும் செயல்முறை உங்கள் கோப்புகளின் தரவை "
+"சிறிது மாற்றியமைக்கலாம். எடுத்துக்காட்டாக, PDF இல் உள்ள உரைகள் இனி தேர்ந்தெடுக்கப்படாமல் "
+"இருக்கலாம், சுருக்கப்பட்ட படங்கள் மீண்டும் சுருக்கப்படலாம்…"
 
 #. (itstool) path: section/p
-#: C/usage.page:50
-msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
+#: ../help/C/usage.page:50
+msgid ""
+"The lightweight mode, while not as thorough, will not make destructive "
+"changes to your files."
 msgstr ""
 "இலகுரக பயன்முறை, முழுமையானதாக இல்லாவிட்டாலும், உங்கள் கோப்புகளில் அழிவுகரமான "
 "மாற்றங்களைச் செய்யாது."

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-24 23:48+0200\n"
+"POT-Creation-Date: 2023-01-06 00:43+0000\n"
 "PO-Revision-Date: 2022-02-11 00:14+0000\n"
 "Last-Translator: poi <erbaotao@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -15,149 +15,205 @@ msgstr ""
 "X-Generator: Weblate 4.11-dev\n"
 
 #. (itstool) path: section/title
-#: C/general.page:14
+#: ../help/C/general.page:14
 msgid "Metadata and privacy"
 msgstr "文件元数据和隐私"
 
 #. (itstool) path: section/p
-#: C/general.page:15
-msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
+#: ../help/C/general.page:15
+msgid ""
+"Metadata consists of information that characterizes data. Metadata is used "
+"to provide documentation for data products. In essence, metadata answers "
+"who, what, when, where, why, and how about every facet of the data that is "
+"being documented."
 msgstr ""
-"元数据是数据本身的特征信息，可以用来提供计算机数据产品本身的信息。元数据的作用是回答一些数据是什么数据，是什么时候、在哪儿、被谁、为了什么如何记录下来的等"
-"等问题。"
+"元数据是数据本身的特征信息，可以用来提供计算机数据产品本身的信息。元数据的作"
+"用是回答一些数据是什么数据，是什么时候、在哪儿、被谁、为了什么如何记录下来的"
+"等等问题。"
 
 #. (itstool) path: section/p
-#: C/general.page:16
-msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
+#: ../help/C/general.page:16
+msgid ""
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when and where a picture was taken and which camera was used. Office "
+"applications automatically add author and company information to documents "
+"and spreadsheets. This is sensitive information and you may not want to "
+"disclose it."
 msgstr ""
-"文件的元数据暗藏着许多重要的隐私信息。照相机会在元数据中记录拍照的时间地点，还会记录照片是由哪台照相机拍的；办公软件会自动把文档作者和公司信息添加到文档和"
-"电子表格文件中。这些信息可能很敏感，人们可能不想披露这些信息。"
+"文件的元数据暗藏着许多重要的隐私信息。照相机会在元数据中记录拍照的时间地点，"
+"还会记录照片是由哪台照相机拍的；办公软件会自动把文档作者和公司信息添加到文档"
+"和电子表格文件中。这些信息可能很敏感，人们可能不想披露这些信息。"
 
 #. (itstool) path: figure/title
-#: C/general.page:18
+#: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
 msgstr "图片文件元数据的实例"
 
 #. (itstool) path: figure/desc
-#: C/general.page:20
-msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
+#: ../help/C/general.page:20
+msgid ""
+"The file discloses information about the hardware, settings, date, location "
+"of the shoot. It contains a total of 79 metadata."
 msgstr "此照片文件包含关于硬件、设置、日期、拍摄地点的信息，共 79 项元数据。"
 
 #. (itstool) path: section/title
-#: C/general.page:27
+#: ../help/C/general.page:27
 msgid "Cleaning process"
 msgstr "删除流程"
 
 #. (itstool) path: section/p
-#: C/general.page:28
-msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
+#: ../help/C/general.page:28
+msgid ""
+"While <app>Metadata Cleaner</app> is doing its very best to display "
+"metadata, it doesn't mean that a file is clean from metadata if it doesn't "
+"show any. There is no reliable way to detect every single possible metadata "
+"for complex file formats. This is why you shouldn't rely on metadata's "
+"presence to decide if your file must be cleaned or not."
 msgstr ""
-"<app>属性信息删除器</app>会尽力地解码显示出文件的元数据，但是一个文件没有显示有元数据不意味着它就没有元数据了。对于构成复杂的文件格式，没有一定"
-"能解码显示出它每一项元数据的方法。因此，您不能因为没看到元数据显示出来就觉得不用清理文件的元数据了。"
+"<app>属性信息删除器</app>会尽力地解码显示出文件的元数据，但是一个文件没有显示"
+"有元数据不意味着它就没有元数据了。对于构成复杂的文件格式，没有一定能解码显示"
+"出它每一项元数据的方法。因此，您不能因为没看到元数据显示出来就觉得不用清理文"
+"件的元数据了。"
 
 #. (itstool) path: section/p
-#: C/general.page:29
-msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
-msgstr "<app>属性信息删除器</app>会提取文件的内容，然后把这些内容放到一个没有元数据的新文件中，确保未检测到的元数据也会全部和文件内容分离。"
+#: ../help/C/general.page:29
+msgid ""
+"<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
+"new one without metadata, ensuring that any undetected metadata is stripped."
+msgstr ""
+"<app>属性信息删除器</app>会提取文件的内容，然后把这些内容放到一个没有元数据的"
+"新文件中，确保未检测到的元数据也会全部和文件内容分离。"
 
 #. (itstool) path: section/title
-#: C/general.page:35
+#: ../help/C/general.page:35
 msgid "Limitations"
 msgstr "局限性"
 
 #. (itstool) path: section/p
-#: C/general.page:36
-msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
+#: ../help/C/general.page:36
+msgid ""
+"Be aware that metadata is not the only way of marking a file. If the content "
+"itself discloses personal information or has been watermarked, traditionally "
+"or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
-"要注意，元数据不是记录文件本身信息的唯一方式。如果文件内容本身包含个人信息，或者以传统方式打上了水印，或通过隐写术打上了水印，<app>属性信息删除器</"
-"app>就无法保护您的隐私了。"
+"要注意，元数据不是记录文件本身信息的唯一方式。如果文件内容本身包含个人信息，"
+"或者以传统方式打上了水印，或通过隐写术打上了水印，<app>属性信息删除器</app>就"
+"无法保护您的隐私了。"
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
-#: C/index.page:10
+#: ../help/C/index.page:10
 msgid "Metadata Cleaner"
 msgstr "属性信息删除器"
 
 #. (itstool) path: page/p
-#: C/index.page:14
-msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of it, as much as possible."
+#: ../help/C/index.page:14
+msgid ""
+"<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
+"get rid of it, as much as possible."
 msgstr "<app>属性信息删除器</app>可以用来尽可能地查看、删除文件的元数据。"
 
 #. (itstool) path: section/title
-#: C/index.page:17
+#: ../help/C/index.page:17
 msgid "General information"
 msgstr "总体信息"
 
 #. (itstool) path: section/title
-#: C/index.page:21
+#: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
 msgstr "使用<app>属性信息删除器</app>"
 
 #. (itstool) path: section/title
-#: C/usage.page:14
+#: ../help/C/usage.page:14
 msgid "Adding files"
 msgstr "添加文件"
 
 #. (itstool) path: section/p
-#: C/usage.page:15
-msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
+#: ../help/C/usage.page:15
+msgid ""
+"To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
+"chooser will open, select the files you want to clean."
 msgstr ""
-"按下<gui style=\"button\">添加文件</gui>按钮就可以添加文件。软件会弹出一个文件选择窗口，您可以选择要删除元数据的文件。"
+"按下<gui style=\"button\">添加文件</gui>按钮就可以添加文件。软件会弹出一个文"
+"件选择窗口，您可以选择要删除元数据的文件。"
 
 #. (itstool) path: figure/title
-#: C/usage.page:17
+#: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
 msgstr "<gui style=\"button\">添加文件</gui>按钮"
 
 #. (itstool) path: section/p
-#: C/usage.page:20
-msgid "To add whole folders at once, press the arrow next to the <gui style=\"button\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</gui> button. A file chooser will open, select the folders you want to add. You can optionally choose to also add all files from all subfolders by checking the <gui style=\"checkbox\">Add files from subfolders</gui> checkbox."
+#: ../help/C/usage.page:20
+msgid ""
+"To add whole folders at once, press the arrow next to the <gui style=\"button"
+"\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
+"gui> button. A file chooser will open, select the folders you want to add. "
+"You can optionally choose to also add all files from all subfolders by "
+"checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
+"checkbox."
 msgstr ""
-"要是想添加文件夹，可以按<gui style=\"button\">添加文件</gui>按钮旁边的箭头，然后按<gui style=\"button\""
-">添加文件夹</gui>按钮。软件会弹出一个文件选择窗口，您可以选择要添加的文件夹。如果您想添加文件夹的子文件夹里的文件，可以勾选<gui style="
-"\"checkbox\">也添加子文件夹中文件</gui>复选框。"
+"要是想添加文件夹，可以按<gui style=\"button\">添加文件</gui>按钮旁边的箭头，"
+"然后按<gui style=\"button\">添加文件夹</gui>按钮。软件会弹出一个文件选择窗"
+"口，您可以选择要添加的文件夹。如果您想添加文件夹的子文件夹里的文件，可以勾选"
+"<gui style=\"checkbox\">也添加子文件夹中文件</gui>复选框。"
 
 #. (itstool) path: section/title
-#: C/usage.page:26
+#: ../help/C/usage.page:26
 msgid "Viewing metadata"
 msgstr "查看元数据"
 
 #. (itstool) path: section/p
-#: C/usage.page:27
-msgid "Click on a file in the list to open the detailed view. If it has metadata, it will be shown there."
-msgstr "点击列表中的一个文件，打开元数据详情视图。文件如果有元数据的话，元数据就显示出来了。"
+#: ../help/C/usage.page:27
+msgid ""
+"Click on a file in the list to open the detailed view. If it has metadata, "
+"it will be shown there."
+msgstr ""
+"点击列表中的一个文件，打开元数据详情视图。文件如果有元数据的话，元数据就显示"
+"出来了。"
 
 #. (itstool) path: figure/title
-#: C/usage.page:29
+#: ../help/C/usage.page:29
 msgid "Detailed view of the metadata"
 msgstr "元数据详情视图"
 
 #. (itstool) path: section/title
-#: C/usage.page:37
+#: ../help/C/usage.page:37
 msgid "Cleaning files"
 msgstr "删除文件元数据"
 
 #. (itstool) path: section/p
-#: C/usage.page:38
-msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
-msgstr "删除窗口中显示的文件的元数据，可以按<gui style=\"button\">删除元数据</gui>按钮。删除过程可能需要一段时间。"
+#: ../help/C/usage.page:38
+msgid ""
+"To clean all the files in the window, press the <gui style=\"button\">Clean</"
+"gui> button. The cleaning process may take some time to complete."
+msgstr ""
+"删除窗口中显示的文件的元数据，可以按<gui style=\"button\">删除元数据</gui>按"
+"钮。删除过程可能需要一段时间。"
 
 #. (itstool) path: figure/title
-#: C/usage.page:40
+#: ../help/C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "<gui style=\"button\">删除元数据</gui>按钮"
 
 #. (itstool) path: section/title
-#: C/usage.page:48
+#: ../help/C/usage.page:48
 msgid "Lightweight cleaning"
 msgstr "浅层删除"
 
 #. (itstool) path: section/p
-#: C/usage.page:49
-msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
-msgstr "默认情况下，为了尽量彻底地删除元数据，删除流程可能会更改文件内容的数据。例如， PDF 中的文本可能会无法选中，压缩的图像可能再次被压缩……"
+#: ../help/C/usage.page:49
+msgid ""
+"By default, the removal process might alter a bit the data of your files, in "
+"order to remove as much metadata as possible. For example, texts in PDF "
+"might not be selectable anymore, compressed images might get compressed "
+"again…"
+msgstr ""
+"默认情况下，为了尽量彻底地删除元数据，删除流程可能会更改文件内容的数据。例"
+"如， PDF 中的文本可能会无法选中，压缩的图像可能再次被压缩……"
 
 #. (itstool) path: section/p
-#: C/usage.page:50
-msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
+#: ../help/C/usage.page:50
+msgid ""
+"The lightweight mode, while not as thorough, will not make destructive "
+"changes to your files."
 msgstr "浅层模式虽然删除得不那么彻底，但不会破坏性地修改文件。"

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-24 23:48+0200\n"
+"POT-Creation-Date: 2023-01-06 00:43+0000\n"
 "PO-Revision-Date: 2022-01-09 19:55+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -15,12 +15,12 @@ msgstr ""
 "X-Generator: Weblate 4.10.1\n"
 
 #. (itstool) path: section/title
-#: C/general.page:14
+#: ../help/C/general.page:14
 msgid "Metadata and privacy"
 msgstr "Metadatuak eta pribatutasuna"
 
 #. (itstool) path: section/p
-#: C/general.page:15
+#: ../help/C/general.page:15
 msgid ""
 "Metadata consists of information that characterizes data. Metadata is used "
 "to provide documentation for data products. In essence, metadata answers "
@@ -33,7 +33,7 @@ msgstr ""
 "noiz, non, zergatik eta nola."
 
 #. (itstool) path: section/p
-#: C/general.page:16
+#: ../help/C/general.page:16
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -48,12 +48,12 @@ msgstr ""
 "delikatua da, eta baliteke jakinarazi nahi ez izatea."
 
 #. (itstool) path: figure/title
-#: C/general.page:18
+#: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
 msgstr "Irudi-fitxategi bateko metadatuen adibidea"
 
 #. (itstool) path: figure/desc
-#: C/general.page:20
+#: ../help/C/general.page:20
 msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
@@ -62,12 +62,12 @@ msgstr ""
 "informazioa ematen du. Guztira 79 metadatu ditu."
 
 #. (itstool) path: section/title
-#: C/general.page:27
+#: ../help/C/general.page:27
 msgid "Cleaning process"
 msgstr "Garbiketa-prozesua"
 
 #. (itstool) path: section/p
-#: C/general.page:28
+#: ../help/C/general.page:28
 msgid ""
 "While <app>Metadata Cleaner</app> is doing its very best to display "
 "metadata, it doesn't mean that a file is clean from metadata if it doesn't "
@@ -83,7 +83,7 @@ msgstr ""
 "erabakitzeko."
 
 #. (itstool) path: section/p
-#: C/general.page:29
+#: ../help/C/general.page:29
 msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
@@ -93,12 +93,12 @@ msgstr ""
 "desegiten direla ziurtatuz."
 
 #. (itstool) path: section/title
-#: C/general.page:35
+#: ../help/C/general.page:35
 msgid "Limitations"
 msgstr "Mugak"
 
 #. (itstool) path: section/p
-#: C/general.page:36
+#: ../help/C/general.page:36
 msgid ""
 "Be aware that metadata is not the only way of marking a file. If the content "
 "itself discloses personal information or has been watermarked, traditionally "
@@ -110,12 +110,12 @@ msgstr ""
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
-#: C/index.page:10
+#: ../help/C/index.page:10
 msgid "Metadata Cleaner"
 msgstr "Metadatuen garbitzailea"
 
 #. (itstool) path: page/p
-#: C/index.page:14
+#: ../help/C/index.page:14
 msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
@@ -124,22 +124,22 @@ msgstr ""
 "metadatuak ikusteko eta, ahal den neurrian, horiek kentzeko."
 
 #. (itstool) path: section/title
-#: C/index.page:17
+#: ../help/C/index.page:17
 msgid "General information"
 msgstr "Informazio orokorra"
 
 #. (itstool) path: section/title
-#: C/index.page:21
+#: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
 msgstr "<app>Metadatuen garbitzailea</app> erabiltzen"
 
 #. (itstool) path: section/title
-#: C/usage.page:14
+#: ../help/C/usage.page:14
 msgid "Adding files"
 msgstr "Gehitu fitxategiak"
 
 #. (itstool) path: section/p
-#: C/usage.page:15
+#: ../help/C/usage.page:15
 msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
@@ -149,12 +149,12 @@ msgstr ""
 "dituzun fitxategiak."
 
 #. (itstool) path: figure/title
-#: C/usage.page:17
+#: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
 msgstr "<gui style=\"button\">Gehitu fitxategiak</gui> botoia"
 
 #. (itstool) path: section/p
-#: C/usage.page:20
+#: ../help/C/usage.page:20
 msgid ""
 "To add whole folders at once, press the arrow next to the <gui style=\"button"
 "\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
@@ -164,19 +164,19 @@ msgid ""
 "checkbox."
 msgstr ""
 "Karpeta osoak batera gehitzeko, sakatu botoiaren ondoan dagoen gezia<gui "
-"style=\"button\">Gehitu fitxategiak</gui> eta sakatu <gui style=\"button\""
-">Gehitu karpetak</gui>. Fitxategien hautagailu bat irekiko da, eta aukeratu "
-"gehitu nahi dituzun karpetak. Aukeran, azpikarpeta guztietako fitxategi "
-"guztiak eranstea ere aukera dezakezu,<gui style=\"checkbox\">Azpikarpetetako "
-"fitxategiak</gui> laukitxoa markatuz."
+"style=\"button\">Gehitu fitxategiak</gui> eta sakatu <gui style=\"button"
+"\">Gehitu karpetak</gui>. Fitxategien hautagailu bat irekiko da, eta "
+"aukeratu gehitu nahi dituzun karpetak. Aukeran, azpikarpeta guztietako "
+"fitxategi guztiak eranstea ere aukera dezakezu,<gui style=\"checkbox"
+"\">Azpikarpetetako fitxategiak</gui> laukitxoa markatuz."
 
 #. (itstool) path: section/title
-#: C/usage.page:26
+#: ../help/C/usage.page:26
 msgid "Viewing metadata"
 msgstr "Metadatuak bistaratu"
 
 #. (itstool) path: section/p
-#: C/usage.page:27
+#: ../help/C/usage.page:27
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -185,17 +185,17 @@ msgstr ""
 "baditu, han agertuko dira."
 
 #. (itstool) path: figure/title
-#: C/usage.page:29
+#: ../help/C/usage.page:29
 msgid "Detailed view of the metadata"
 msgstr "Metadatuen ikuspegi xehatua"
 
 #. (itstool) path: section/title
-#: C/usage.page:37
+#: ../help/C/usage.page:37
 msgid "Cleaning files"
 msgstr "Artxiboak garbitu"
 
 #. (itstool) path: section/p
-#: C/usage.page:38
+#: ../help/C/usage.page:38
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
@@ -204,17 +204,17 @@ msgstr ""
 "gui> botoia. Garbiketa-prozesua osatzeko denbora behar izan daiteke."
 
 #. (itstool) path: figure/title
-#: C/usage.page:40
+#: ../help/C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "<gui style=\"button\">Garbitu</gui> botoia"
 
 #. (itstool) path: section/title
-#: C/usage.page:48
+#: ../help/C/usage.page:48
 msgid "Lightweight cleaning"
 msgstr "Garbiketa arina"
 
 #. (itstool) path: section/p
-#: C/usage.page:49
+#: ../help/C/usage.page:49
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
@@ -226,7 +226,7 @@ msgstr ""
 "ez hautatzea, konprimitutako irudiak berriro konprimitu daitezke …"
 
 #. (itstool) path: section/p
-#: C/usage.page:50
+#: ../help/C/usage.page:50
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."

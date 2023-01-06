@@ -2,11 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-24 23:48+0200\n"
+"POT-Creation-Date: 2023-01-06 00:43+0000\n"
 "PO-Revision-Date: 2021-10-29 09:47+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/help/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/help/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,12 +16,12 @@ msgstr ""
 "X-Generator: Weblate 4.9-dev\n"
 
 #. (itstool) path: section/title
-#: C/general.page:14
+#: ../help/C/general.page:14
 msgid "Metadata and privacy"
 msgstr "Metapodaci i privatnost"
 
 #. (itstool) path: section/p
-#: C/general.page:15
+#: ../help/C/general.page:15
 msgid ""
 "Metadata consists of information that characterizes data. Metadata is used "
 "to provide documentation for data products. In essence, metadata answers "
@@ -34,7 +34,7 @@ msgstr ""
 "za sve aspekte podataka koji se dokumentiraju."
 
 #. (itstool) path: section/p
-#: C/general.page:16
+#: ../help/C/general.page:16
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -48,12 +48,12 @@ msgstr ""
 "proračunske tablice. Možda ne želiš da te informacije budu dostupne drugima."
 
 #. (itstool) path: figure/title
-#: C/general.page:18
+#: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
 msgstr "Primjer metapodataka u slikovnoj datoteci"
 
 #. (itstool) path: figure/desc
-#: C/general.page:20
+#: ../help/C/general.page:20
 msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
@@ -62,12 +62,12 @@ msgstr ""
 "itd. Ukupno sadrži 79 metapodataka."
 
 #. (itstool) path: section/title
-#: C/general.page:27
+#: ../help/C/general.page:27
 msgid "Cleaning process"
 msgstr "Postupak čišćenja"
 
 #. (itstool) path: section/p
-#: C/general.page:28
+#: ../help/C/general.page:28
 msgid ""
 "While <app>Metadata Cleaner</app> is doing its very best to display "
 "metadata, it doesn't mean that a file is clean from metadata if it doesn't "
@@ -82,7 +82,7 @@ msgstr ""
 "(ne)prisutnosti metapodataka."
 
 #. (itstool) path: section/p
-#: C/general.page:29
+#: ../help/C/general.page:29
 msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
@@ -91,12 +91,12 @@ msgstr ""
 "bez metapodataka, osiguravajući uklanjanje svih neotkrivenih metapodataka."
 
 #. (itstool) path: section/title
-#: C/general.page:35
+#: ../help/C/general.page:35
 msgid "Limitations"
 msgstr "Ograničenja"
 
 #. (itstool) path: section/p
-#: C/general.page:36
+#: ../help/C/general.page:36
 msgid ""
 "Be aware that metadata is not the only way of marking a file. If the content "
 "itself discloses personal information or has been watermarked, traditionally "
@@ -108,12 +108,12 @@ msgstr ""
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
-#: C/index.page:10
+#: ../help/C/index.page:10
 msgid "Metadata Cleaner"
 msgstr "Brisač metapodataka"
 
 #. (itstool) path: page/p
-#: C/index.page:14
+#: ../help/C/index.page:14
 msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
@@ -122,22 +122,22 @@ msgstr ""
 "svih) metapodataka u datotekama."
 
 #. (itstool) path: section/title
-#: C/index.page:17
+#: ../help/C/index.page:17
 msgid "General information"
 msgstr "Opće informacije"
 
 #. (itstool) path: section/title
-#: C/index.page:21
+#: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
 msgstr "Korištenje programa <app>Brisač metapodataka</app>"
 
 #. (itstool) path: section/title
-#: C/usage.page:14
+#: ../help/C/usage.page:14
 msgid "Adding files"
 msgstr "Dodavanje datoteka"
 
 #. (itstool) path: section/p
-#: C/usage.page:15
+#: ../help/C/usage.page:15
 msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
@@ -146,12 +146,12 @@ msgstr ""
 "gui>. U sljedećem prozoru odaberi datoteke koje želiš očistiti."
 
 #. (itstool) path: figure/title
-#: C/usage.page:17
+#: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
 msgstr "Gumb <gui style=\"button\">Dodaj datoteke</gui>"
 
 #. (itstool) path: section/p
-#: C/usage.page:20
+#: ../help/C/usage.page:20
 msgid ""
 "To add whole folders at once, press the arrow next to the <gui style=\"button"
 "\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
@@ -167,12 +167,12 @@ msgstr ""
 "potvrđivanjem okvira <gui style=\"checkbox\">Dodaj datoteke iz podmapa</gui>."
 
 #. (itstool) path: section/title
-#: C/usage.page:26
+#: ../help/C/usage.page:26
 msgid "Viewing metadata"
 msgstr "Prikaz metapodataka"
 
 #. (itstool) path: section/p
-#: C/usage.page:27
+#: ../help/C/usage.page:27
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -181,17 +181,17 @@ msgstr ""
 "sadrži metapodatke, tamo će se prikazati."
 
 #. (itstool) path: figure/title
-#: C/usage.page:29
+#: ../help/C/usage.page:29
 msgid "Detailed view of the metadata"
 msgstr "Detaljan prikaz metapodataka"
 
 #. (itstool) path: section/title
-#: C/usage.page:37
+#: ../help/C/usage.page:37
 msgid "Cleaning files"
 msgstr "Čišćenje datoteka"
 
 #. (itstool) path: section/p
-#: C/usage.page:38
+#: ../help/C/usage.page:38
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
@@ -200,17 +200,17 @@ msgstr ""
 "\">Očisti</gui>. Postpak čišćenja može potrajati."
 
 #. (itstool) path: figure/title
-#: C/usage.page:40
+#: ../help/C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "Gumb <gui style=\"button\">Očisti</gui>"
 
 #. (itstool) path: section/title
-#: C/usage.page:48
+#: ../help/C/usage.page:48
 msgid "Lightweight cleaning"
 msgstr "Jednostavno čišćenje"
 
 #. (itstool) path: section/p
-#: C/usage.page:49
+#: ../help/C/usage.page:49
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
@@ -222,7 +222,7 @@ msgstr ""
 "moći odabrati, komprimirane slike će se možda ponovo komprimirati …"
 
 #. (itstool) path: section/p
-#: C/usage.page:50
+#: ../help/C/usage.page:50
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."

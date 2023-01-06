@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-24 23:48+0200\n"
+"POT-Creation-Date: 2023-01-06 00:43+0000\n"
 "PO-Revision-Date: 2022-03-29 14:08+0000\n"
 "Last-Translator: Ibnul Mutaki <ibnuul@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/help/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/help/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,12 +19,12 @@ msgstr ""
 "X-Generator: Weblate 4.12-dev\n"
 
 #. (itstool) path: section/title
-#: C/general.page:14
+#: ../help/C/general.page:14
 msgid "Metadata and privacy"
 msgstr "Metadata dan privasi"
 
 #. (itstool) path: section/p
-#: C/general.page:15
+#: ../help/C/general.page:15
 msgid ""
 "Metadata consists of information that characterizes data. Metadata is used "
 "to provide documentation for data products. In essence, metadata answers "
@@ -37,7 +37,7 @@ msgstr ""
 "didokumentasikan."
 
 #. (itstool) path: section/p
-#: C/general.page:16
+#: ../help/C/general.page:16
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -52,12 +52,12 @@ msgstr ""
 "Anda mungkin tidak ingin mengungkapkannya."
 
 #. (itstool) path: figure/title
-#: C/general.page:18
+#: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
 msgstr "Contoh metadata dari berkas gambar"
 
 #. (itstool) path: figure/desc
-#: C/general.page:20
+#: ../help/C/general.page:20
 msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
@@ -66,12 +66,12 @@ msgstr ""
 "tanggal, lokasi pemotretan. File tersebut berisi total 79 metadata."
 
 #. (itstool) path: section/title
-#: C/general.page:27
+#: ../help/C/general.page:27
 msgid "Cleaning process"
 msgstr "Proses pembersihan"
 
 #. (itstool) path: section/p
-#: C/general.page:28
+#: ../help/C/general.page:28
 msgid ""
 "While <app>Metadata Cleaner</app> is doing its very best to display "
 "metadata, it doesn't mean that a file is clean from metadata if it doesn't "
@@ -87,7 +87,7 @@ msgstr ""
 "untuk memutuskan apakah file Anda harus dibersihkan atau tidak."
 
 #. (itstool) path: section/p
-#: C/general.page:29
+#: ../help/C/general.page:29
 msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
@@ -96,12 +96,12 @@ msgstr ""
 "file baru tanpa metadata, memastikan metadata yang tidak terdeteksi dihapus."
 
 #. (itstool) path: section/title
-#: C/general.page:35
+#: ../help/C/general.page:35
 msgid "Limitations"
 msgstr "Batasan"
 
 #. (itstool) path: section/p
-#: C/general.page:36
+#: ../help/C/general.page:36
 msgid ""
 "Be aware that metadata is not the only way of marking a file. If the content "
 "itself discloses personal information or has been watermarked, traditionally "
@@ -114,12 +114,12 @@ msgstr ""
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
-#: C/index.page:10
+#: ../help/C/index.page:10
 msgid "Metadata Cleaner"
 msgstr "Pembersih Metadata"
 
 #. (itstool) path: page/p
-#: C/index.page:14
+#: ../help/C/index.page:14
 msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
@@ -128,22 +128,22 @@ msgstr ""
 "file Anda danmenyingkirkannya, sebanyak mungkin."
 
 #. (itstool) path: section/title
-#: C/index.page:17
+#: ../help/C/index.page:17
 msgid "General information"
 msgstr "Informasi Umum"
 
 #. (itstool) path: section/title
-#: C/index.page:21
+#: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
 msgstr "Menggunakan <app>Metadata Cleaner</app>"
 
 #. (itstool) path: section/title
-#: C/usage.page:14
+#: ../help/C/usage.page:14
 msgid "Adding files"
 msgstr "Menambah berkas"
 
 #. (itstool) path: section/p
-#: C/usage.page:15
+#: ../help/C/usage.page:15
 msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
@@ -152,12 +152,12 @@ msgstr ""
 "gui>. Pemilih berkas akan terbuka, pilih berkas yang ingin Anda bersihkan."
 
 #. (itstool) path: figure/title
-#: C/usage.page:17
+#: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
 msgstr "Tombol <gui style=\"button\">Tambah File</gui>"
 
 #. (itstool) path: section/p
-#: C/usage.page:20
+#: ../help/C/usage.page:20
 msgid ""
 "To add whole folders at once, press the arrow next to the <gui style=\"button"
 "\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
@@ -174,12 +174,12 @@ msgstr ""
 "file dari subfolder</gui>."
 
 #. (itstool) path: section/title
-#: C/usage.page:26
+#: ../help/C/usage.page:26
 msgid "Viewing metadata"
 msgstr "Melihat metadata"
 
 #. (itstool) path: section/p
-#: C/usage.page:27
+#: ../help/C/usage.page:27
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -188,37 +188,37 @@ msgstr ""
 "metadata, ia akan ditampilkan di sana."
 
 #. (itstool) path: figure/title
-#: C/usage.page:29
+#: ../help/C/usage.page:29
 msgid "Detailed view of the metadata"
 msgstr "Tampilan rinci dari metadata"
 
 #. (itstool) path: section/title
-#: C/usage.page:37
+#: ../help/C/usage.page:37
 msgid "Cleaning files"
 msgstr "Membersihkan berkas"
 
 #. (itstool) path: section/p
-#: C/usage.page:38
+#: ../help/C/usage.page:38
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Untuk membersihkan semua file di jendela, tekan tombol <gui style=\"button\""
-">Bersihkan</gui>. Proses pembersihan mungkin membutuhkan waktu untuk "
+"Untuk membersihkan semua file di jendela, tekan tombol <gui style=\"button"
+"\">Bersihkan</gui>. Proses pembersihan mungkin membutuhkan waktu untuk "
 "diselesaikan."
 
 #. (itstool) path: figure/title
-#: C/usage.page:40
+#: ../help/C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "Tombol <gui style=\"button\">Bersihkan</gui>"
 
 #. (itstool) path: section/title
-#: C/usage.page:48
+#: ../help/C/usage.page:48
 msgid "Lightweight cleaning"
 msgstr "Pembersihan ringan"
 
 #. (itstool) path: section/p
-#: C/usage.page:49
+#: ../help/C/usage.page:49
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
@@ -231,7 +231,7 @@ msgstr ""
 "lagi…"
 
 #. (itstool) path: section/p
-#: C/usage.page:50
+#: ../help/C/usage.page:50
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."

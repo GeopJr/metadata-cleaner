@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-24 23:48+0200\n"
+"POT-Creation-Date: 2023-01-06 00:43+0000\n"
 "PO-Revision-Date: 2022-11-29 12:12+0000\n"
 "Last-Translator: Войнов Артем Романович <voynovar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -18,12 +18,12 @@ msgstr ""
 "X-Generator: Weblate 4.15-dev\n"
 
 #. (itstool) path: section/title
-#: C/general.page:14
+#: ../help/C/general.page:14
 msgid "Metadata and privacy"
 msgstr "Метаданные и конфиденциальность"
 
 #. (itstool) path: section/p
-#: C/general.page:15
+#: ../help/C/general.page:15
 msgid ""
 "Metadata consists of information that characterizes data. Metadata is used "
 "to provide documentation for data products. In essence, metadata answers "
@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/general.page:16
+#: ../help/C/general.page:16
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -46,12 +46,12 @@ msgstr ""
 "вы можете не хотеть её раскрывать."
 
 #. (itstool) path: figure/title
-#: C/general.page:18
+#: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
 msgstr "Пример метаданных на скриншоте"
 
 #. (itstool) path: figure/desc
-#: C/general.page:20
+#: ../help/C/general.page:20
 msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
@@ -60,12 +60,12 @@ msgstr ""
 "съёмок. Он содержит 79 метатега."
 
 #. (itstool) path: section/title
-#: C/general.page:27
+#: ../help/C/general.page:27
 msgid "Cleaning process"
 msgstr "Процесс очистки"
 
 #. (itstool) path: section/p
-#: C/general.page:28
+#: ../help/C/general.page:28
 msgid ""
 "While <app>Metadata Cleaner</app> is doing its very best to display "
 "metadata, it doesn't mean that a file is clean from metadata if it doesn't "
@@ -80,7 +80,7 @@ msgstr ""
 "содержит ли ваш файл их или нет."
 
 #. (itstool) path: section/p
-#: C/general.page:29
+#: ../help/C/general.page:29
 msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
@@ -89,12 +89,12 @@ msgstr ""
 "метаданных, гарантируя, что все метаданные сотрутся."
 
 #. (itstool) path: section/title
-#: C/general.page:35
+#: ../help/C/general.page:35
 msgid "Limitations"
 msgstr "Ограничения"
 
 #. (itstool) path: section/p
-#: C/general.page:36
+#: ../help/C/general.page:36
 msgid ""
 "Be aware that metadata is not the only way of marking a file. If the content "
 "itself discloses personal information or has been watermarked, traditionally "
@@ -103,12 +103,12 @@ msgstr ""
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
-#: C/index.page:10
+#: ../help/C/index.page:10
 msgid "Metadata Cleaner"
 msgstr "Metadata Cleaner"
 
 #. (itstool) path: page/p
-#: C/index.page:14
+#: ../help/C/index.page:14
 msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
@@ -117,22 +117,22 @@ msgstr ""
 "файлах и избавляться от них настолько, насколько это возможно."
 
 #. (itstool) path: section/title
-#: C/index.page:17
+#: ../help/C/index.page:17
 msgid "General information"
 msgstr "Общая информация"
 
 #. (itstool) path: section/title
-#: C/index.page:21
+#: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
 msgstr "Использование <app>Очистка Метаданных</app>"
 
 #. (itstool) path: section/title
-#: C/usage.page:14
+#: ../help/C/usage.page:14
 msgid "Adding files"
 msgstr "Добавление файлов"
 
 #. (itstool) path: section/p
-#: C/usage.page:15
+#: ../help/C/usage.page:15
 msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
@@ -141,12 +141,12 @@ msgstr ""
 "gui>. Выберите файлы для очистки."
 
 #. (itstool) path: figure/title
-#: C/usage.page:17
+#: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
 msgstr "Кнопка <gui style=\"button\">Добавить файлы</gui>"
 
 #. (itstool) path: section/p
-#: C/usage.page:20
+#: ../help/C/usage.page:20
 msgid ""
 "To add whole folders at once, press the arrow next to the <gui style=\"button"
 "\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
@@ -155,19 +155,19 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Чтобы добавить папки, нажмите стрелку рядом с кнопкой <gui style=\"button\""
-">Добавить файлы</gui> и нажмите <gui style=\"button\">Добавить папки</gui>. "
-"Выберите папки которые хотите добавить. Вы можете добавить файлы из "
+"Чтобы добавить папки, нажмите стрелку рядом с кнопкой <gui style=\"button"
+"\">Добавить файлы</gui> и нажмите <gui style=\"button\">Добавить папки</"
+"gui>. Выберите папки которые хотите добавить. Вы можете добавить файлы из "
 "подпапок, отметив галочку <gui style=\"checkbox\">Добавить файлы из "
 "подпапок</gui>."
 
 #. (itstool) path: section/title
-#: C/usage.page:26
+#: ../help/C/usage.page:26
 msgid "Viewing metadata"
 msgstr "Просмотр метаданных"
 
 #. (itstool) path: section/p
-#: C/usage.page:27
+#: ../help/C/usage.page:27
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -176,36 +176,36 @@ msgstr ""
 "они будут показаны здесь."
 
 #. (itstool) path: figure/title
-#: C/usage.page:29
+#: ../help/C/usage.page:29
 msgid "Detailed view of the metadata"
 msgstr "Подробности о метаданных"
 
 #. (itstool) path: section/title
-#: C/usage.page:37
+#: ../help/C/usage.page:37
 msgid "Cleaning files"
 msgstr "Очистка файлов"
 
 #. (itstool) path: section/p
-#: C/usage.page:38
+#: ../help/C/usage.page:38
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Чтобы отчистить все файлы в списке, нажмите кнопку <gui style=\"button\""
-">Очистить</gui>. Процесс очистки может занять некоторое время."
+"Чтобы отчистить все файлы в списке, нажмите кнопку <gui style=\"button"
+"\">Очистить</gui>. Процесс очистки может занять некоторое время."
 
 #. (itstool) path: figure/title
-#: C/usage.page:40
+#: ../help/C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "кнопка <gui style=\"button\">Очистить</gui>"
 
 #. (itstool) path: section/title
-#: C/usage.page:48
+#: ../help/C/usage.page:48
 msgid "Lightweight cleaning"
 msgstr "Лёгкая очистка"
 
 #. (itstool) path: section/p
-#: C/usage.page:49
+#: ../help/C/usage.page:49
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
@@ -217,7 +217,7 @@ msgstr ""
 "больше нельзя будет выделять, а сжатые изображения ещё раз сожмуться…"
 
 #. (itstool) path: section/p
-#: C/usage.page:50
+#: ../help/C/usage.page:50
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."

@@ -2,11 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-24 23:48+0200\n"
+"POT-Creation-Date: 2023-01-06 00:43+0000\n"
 "PO-Revision-Date: 2022-08-06 06:54+0000\n"
 "Last-Translator: Ümid Quliyev <lucifer25x@protonmail.com>\n"
-"Language-Team: Azerbaijani <https://hosted.weblate.org/projects/"
-"metadata-cleaner/help/az/>\n"
+"Language-Team: Azerbaijani <https://hosted.weblate.org/projects/metadata-"
+"cleaner/help/az/>\n"
 "Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,13 +15,17 @@ msgstr ""
 "X-Generator: Weblate 4.14-dev\n"
 
 #. (itstool) path: section/title
-#: C/general.page:14
+#: ../help/C/general.page:14
 msgid "Metadata and privacy"
 msgstr "Metadata və gizlilik"
 
 #. (itstool) path: section/p
-#: C/general.page:15
-msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
+#: ../help/C/general.page:15
+msgid ""
+"Metadata consists of information that characterizes data. Metadata is used "
+"to provide documentation for data products. In essence, metadata answers "
+"who, what, when, where, why, and how about every facet of the data that is "
+"being documented."
 msgstr ""
 "Metadata, datanın özü haqqında ayırd edici bilgilərdən ibarətdir. Metadata, "
 "data məhsulları üçün sertifikatlaşdırmanı təmin etmək üçün istifadə olunur. "
@@ -29,8 +33,13 @@ msgstr ""
 "sənədləşdirilmiş məlumatların hər tərəfi ilə bağlı suallara cavab verir."
 
 #. (itstool) path: section/p
-#: C/general.page:16
-msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
+#: ../help/C/general.page:16
+msgid ""
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when and where a picture was taken and which camera was used. Office "
+"applications automatically add author and company information to documents "
+"and spreadsheets. This is sensitive information and you may not want to "
+"disclose it."
 msgstr ""
 "Bir fayldakı metadata sizin haqqınızda bir çox şey söyləyə bilər. Kameralar "
 "bir şəkilin nə zaman və harada çəkildiyi və hansı kameranın istifadə "
@@ -39,25 +48,32 @@ msgstr ""
 "edir. Bunlar həssas bilgilərdir və açıqlamaq istəməyə bilərsiniz."
 
 #. (itstool) path: figure/title
-#: C/general.page:18
+#: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
 msgstr "Bir şəkil faylının metadata örnəyi"
 
 #. (itstool) path: figure/desc
-#: C/general.page:20
-msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
+#: ../help/C/general.page:20
+msgid ""
+"The file discloses information about the hardware, settings, date, location "
+"of the shoot. It contains a total of 79 metadata."
 msgstr ""
 "Faylda avadanlıq, parametrlər, çəkilişin tarixi və yeri haqqında məlumat "
 "verilir. Cəmi 79 metadata'dan ibarətdir."
 
 #. (itstool) path: section/title
-#: C/general.page:27
+#: ../help/C/general.page:27
 msgid "Cleaning process"
 msgstr "Təmizləmə prosesi"
 
 #. (itstool) path: section/p
-#: C/general.page:28
-msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
+#: ../help/C/general.page:28
+msgid ""
+"While <app>Metadata Cleaner</app> is doing its very best to display "
+"metadata, it doesn't mean that a file is clean from metadata if it doesn't "
+"show any. There is no reliable way to detect every single possible metadata "
+"for complex file formats. This is why you shouldn't rely on metadata's "
+"presence to decide if your file must be cleaned or not."
 msgstr ""
 "<app>Metadata Təmizləyici</app>, metadata'nı görüntüləmək üçün əlindən "
 "gələnin ən yaxşısını etsə də, hər hansı metadata'nı göstərmirsə bu, bir "
@@ -67,21 +83,26 @@ msgstr ""
 "üçün metadata'nın varlığına güvənməməlisiniz."
 
 #. (itstool) path: section/p
-#: C/general.page:29
-msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
+#: ../help/C/general.page:29
+msgid ""
+"<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
+"new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
 "<app>Metadata Təmizləyicisi</app>, faylının tərkibini alır və metadata "
 "olmayan yeni bir fayla yerləşdirir və aşkarlanmamış metadata'nın "
 "qaldırıldığından əmin olunmasını təmin edir."
 
 #. (itstool) path: section/title
-#: C/general.page:35
+#: ../help/C/general.page:35
 msgid "Limitations"
 msgstr "Limitlər"
 
 #. (itstool) path: section/p
-#: C/general.page:36
-msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
+#: ../help/C/general.page:36
+msgid ""
+"Be aware that metadata is not the only way of marking a file. If the content "
+"itself discloses personal information or has been watermarked, traditionally "
+"or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
 "Bir faylı işarətləmənin tək yolunun metadatalar olmadığını unutmayın. "
 "Tərkibin özü özəl bilgiləri aşkar edirsə və ya ənənəvi olaraq ya da "
@@ -90,99 +111,117 @@ msgstr ""
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
-#: C/index.page:10
+#: ../help/C/index.page:10
 msgid "Metadata Cleaner"
 msgstr "Metadata Təmizləyicisi"
 
 #. (itstool) path: page/p
-#: C/index.page:14
-msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of it, as much as possible."
+#: ../help/C/index.page:14
+msgid ""
+"<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
+"get rid of it, as much as possible."
 msgstr ""
 "<app>Metadata Təmizləyicisi</app>, fayllarınızdakı metadata'nı "
 "görüntüləməyinizi və mümkün olduqca onlardan qurtulmağınızı təmin edir."
 
 #. (itstool) path: section/title
-#: C/index.page:17
+#: ../help/C/index.page:17
 msgid "General information"
 msgstr "Əsas bilgilər"
 
 #. (itstool) path: section/title
-#: C/index.page:21
+#: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
 msgstr "<app>Metadata Təmizləyicisi</app> istifadəsi"
 
 #. (itstool) path: section/title
-#: C/usage.page:14
+#: ../help/C/usage.page:14
 msgid "Adding files"
 msgstr "Fayl əlavə etmə"
 
 #. (itstool) path: section/p
-#: C/usage.page:15
-msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
+#: ../help/C/usage.page:15
+msgid ""
+"To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
+"chooser will open, select the files you want to clean."
 msgstr ""
 "Fayl əlavə etmək üçün <gui style=\"button\">Fayl Əlavə Et</gui> düyməsinə "
 "basın. Bir fayl seçici açılacaqdır, təmizləmək istədiyiniz faylları seçin."
 
 #. (itstool) path: figure/title
-#: C/usage.page:17
+#: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
 msgstr "<gui style=\"button\">Fayl Əlavə Et</gui> düyməsi"
 
 #. (itstool) path: section/p
-#: C/usage.page:20
-msgid "To add whole folders at once, press the arrow next to the <gui style=\"button\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</gui> button. A file chooser will open, select the folders you want to add. You can optionally choose to also add all files from all subfolders by checking the <gui style=\"checkbox\">Add files from subfolders</gui> checkbox."
+#: ../help/C/usage.page:20
+msgid ""
+"To add whole folders at once, press the arrow next to the <gui style=\"button"
+"\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
+"gui> button. A file chooser will open, select the folders you want to add. "
+"You can optionally choose to also add all files from all subfolders by "
+"checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
+"checkbox."
 msgstr ""
 "Bütün qovluqları bir dəfədə əlavə etmək üçün, <gui style=\"button\">Fayl "
-"Əlavə Et</gui> düyməsinin yanındaki oxa və ardından <gui style=\"button\""
-">Qovluq Əlavə Et</gui> düyməsinə basın. Bir fayl seçici açılacaqdır, əlavə "
+"Əlavə Et</gui> düyməsinin yanındaki oxa və ardından <gui style=\"button"
+"\">Qovluq Əlavə Et</gui> düyməsinə basın. Bir fayl seçici açılacaqdır, əlavə "
 "etmək istədiyiniz qovluqları seçin. İstəyə bağlı olaraq, <gui style="
 "\"checkbox\">Alt qovluqlardan fayl əlavə et</gui> təsdiqləmə qutusunu "
 "işarətləyərək bütün alt qovluqlardakı bütün faylları əlavə etməyi də seçə "
 "bilərsiniz."
 
 #. (itstool) path: section/title
-#: C/usage.page:26
+#: ../help/C/usage.page:26
 msgid "Viewing metadata"
 msgstr "Metadata'nı görüntüləmə"
 
 #. (itstool) path: section/p
-#: C/usage.page:27
-msgid "Click on a file in the list to open the detailed view. If it has metadata, it will be shown there."
+#: ../help/C/usage.page:27
+msgid ""
+"Click on a file in the list to open the detailed view. If it has metadata, "
+"it will be shown there."
 msgstr ""
 "Detallı görünümü açmaq üçün siyahıdakı bir fayla basın. Metadata'ları varsa, "
 "orada göstəriləcəkdir."
 
 #. (itstool) path: figure/title
-#: C/usage.page:29
+#: ../help/C/usage.page:29
 msgid "Detailed view of the metadata"
 msgstr "Metadata'ların detallı görünümü"
 
 #. (itstool) path: section/title
-#: C/usage.page:37
+#: ../help/C/usage.page:37
 msgid "Cleaning files"
 msgstr "Faylları təmizləmə"
 
 #. (itstool) path: section/p
-#: C/usage.page:38
-msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
+#: ../help/C/usage.page:38
+msgid ""
+"To clean all the files in the window, press the <gui style=\"button\">Clean</"
+"gui> button. The cleaning process may take some time to complete."
 msgstr ""
 "Pəncərədəki bütün faylları təmizləmək üçün <gui style=\"button\">Təmizlə</"
 "gui> düyməsinə basın. Təmizləmə prosesinin tamamlanması bir az zaman ala "
 "bilər."
 
 #. (itstool) path: figure/title
-#: C/usage.page:40
+#: ../help/C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "<gui style=\"button\">Təmizlə</gui> düyməsi"
 
 #. (itstool) path: section/title
-#: C/usage.page:48
+#: ../help/C/usage.page:48
 msgid "Lightweight cleaning"
 msgstr "Yüngül təmizləmə"
 
 #. (itstool) path: section/p
-#: C/usage.page:49
-msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
+#: ../help/C/usage.page:49
+msgid ""
+"By default, the removal process might alter a bit the data of your files, in "
+"order to remove as much metadata as possible. For example, texts in PDF "
+"might not be selectable anymore, compressed images might get compressed "
+"again…"
 msgstr ""
 "Varsayılan olaraq mümkün olduqca çox metadata'nı qaldırmaq üçün qaldırma "
 "prosesi fayllarınızın məlumatını bir az dəyişdirə bilər. Məsələn, PDF "
@@ -190,8 +229,10 @@ msgstr ""
 "sıxışdırıla bilər…"
 
 #. (itstool) path: section/p
-#: C/usage.page:50
-msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
+#: ../help/C/usage.page:50
+msgid ""
+"The lightweight mode, while not as thorough, will not make destructive "
+"changes to your files."
 msgstr ""
 "Yüngül mod, o qədər əhatəli olmasa da fayllarınızda ciddi deyişikliklər "
 "etməyəcəkdir."
