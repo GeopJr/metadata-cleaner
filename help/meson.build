@@ -14,4 +14,5 @@ gnome.yelp(
     'figures/clean-button.png',
     'figures/metadata-example.png',
   ],
+  symlink_media: false,
 )
