@@ -235,6 +235,7 @@ screenshots:
         git add website
         git commit -m "Website: Update screenshots"
       fi
+    - git pull
     - git push origin HEAD:main
 
 translations:
@@ -269,6 +270,7 @@ translations:
         git add .
         git commit -m "Translations: Update translation files"
       fi
+    - git pull
     - git push -o ci.skip origin HEAD:main
 
 pages:
