@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
-# Oğuz Ersen <oguz@ersen.moe>, 2022.
+# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023.
 # Sabri Ünal <libreajans@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-06 00:43+0000\n"
-"PO-Revision-Date: 2022-08-05 20:04+0000\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"PO-Revision-Date: 2023-01-06 09:44+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/tr/>\n"
 "Language: tr\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -378,7 +378,7 @@ msgstr "Temizlenecek klasörleri seçin"
 
 #: application/metadatacleaner/modules/file.py:243
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "Temizleme sırasında bir hata oluştu."
 
 #: application/metadatacleaner/modules/file.py:246
 msgid "Something bad happened during the cleaning, cleaned file not found"
