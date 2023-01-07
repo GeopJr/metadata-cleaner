@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-06 00:43+0000\n"
+"POT-Creation-Date: 2023-01-07 10:38+0000\n"
 "PO-Revision-Date: 2022-04-19 22:35+0000\n"
 "Last-Translator: hELLOwORLD <helloworld@allfreemail.net>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -100,55 +100,56 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:110
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
 msgid "Updated translations"
 msgstr "হালনাগাদকৃত অনুবাদ"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:142
 msgid "Improved user interface"
 msgstr "উন্নত ইউজার ইন্টারফেস"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:167
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:176
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:185
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:193
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:228
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:250
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:236
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:267
 msgid "New translations"
 msgstr "নতুন অনুবাদ"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
 msgid "Bug fixes"
 msgstr "বাগ সংশোধন"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:192
 msgid "New button to add folders"
 msgstr "ফোল্ডার যোগ করতে নতুন বাটন"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:209
 msgid "Improved adaptive user interface"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:202
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
 msgid "New help pages"
 msgstr "নতুন সাহায্য পৃষ্ঠা"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "এক-ক্লিকের অপসারণ, অপসারণের পর সংরক্ষণের প্রয়োজন নেই"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
 msgid "Persistent lightweight cleaning option"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:251
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
 msgid "Files with uppercase extension can now be added"
 msgstr "বড় হাতের অক্ষরের এক্সটেনশন যুক্ত ফাইল এখন যুক্ত করা যাবে"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-06 00:43+0000\n"
+"POT-Creation-Date: 2023-01-07 10:38+0000\n"
 "PO-Revision-Date: 2022-07-21 15:21+0000\n"
 "Last-Translator: Kaede <contact@kaede.ch>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/metadata-"
@@ -100,55 +100,56 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:110
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
 msgid "Updated translations"
 msgstr "翻訳の更新"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:142
 msgid "Improved user interface"
 msgstr "ユーザーインターフェースの改善"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:167
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:176
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:185
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:193
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:228
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:250
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:236
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:267
 msgid "New translations"
 msgstr "新しい翻訳"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
 msgid "Bug fixes"
 msgstr "バグ修正"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:192
 msgid "New button to add folders"
 msgstr "新しいフォルダ追加ボタン"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:209
 msgid "Improved adaptive user interface"
 msgstr "Adaptive User Interface の改善"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:202
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
 msgid "New help pages"
 msgstr "新しいヘルプページ"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "ワンクリック除去、除去後の保存は不要"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
 msgid "Persistent lightweight cleaning option"
 msgstr "永続的な簡易除去オプション"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:251
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
 msgid "Files with uppercase extension can now be added"
 msgstr "拡張子が大文字のファイルを追加できるようになりました"
 

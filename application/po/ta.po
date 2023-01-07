@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-06 00:43+0000\n"
+"POT-Creation-Date: 2023-01-07 10:38+0000\n"
 "PO-Revision-Date: 2023-01-07 09:45+0000\n"
 "Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -101,55 +101,56 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:110
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
 msgid "Updated translations"
 msgstr "புதுப்பிக்கப்பட்ட மொழிபெயர்ப்புகள்"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:142
 msgid "Improved user interface"
 msgstr "மேம்படுத்தப்பட்ட பயனர் இடைமுகம்"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:167
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:176
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:185
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:193
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:228
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:250
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:236
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:267
 msgid "New translations"
 msgstr "புதிய மொழிபெயர்ப்புகள்"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
 msgid "Bug fixes"
 msgstr "பிழை திருத்தங்கள்"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:192
 msgid "New button to add folders"
 msgstr "கோப்புறைகளைச் சேர்க்க புதிய பொத்தான்"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:209
 msgid "Improved adaptive user interface"
 msgstr "மேம்படுத்தப்பட்ட தகவமைப்பு பயனர் இடைமுகம்"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:202
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
 msgid "New help pages"
 msgstr "புதிய உதவி பக்கங்கள்"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "ஒரே கிளிக்கில் சுத்தம் செய்தல், சுத்தம் செய்த பிறகு சேமிக்க வேண்டிய அவசியமில்லை"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
 msgid "Persistent lightweight cleaning option"
 msgstr "தொடர்ந்து இலகுரக சுத்தம் செய்யும் விருப்பம்"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:251
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
 msgid "Files with uppercase extension can now be added"
 msgstr "பெரிய எழுத்து நீட்டிப்பு கொண்ட கோப்புகளை இப்போது சேர்க்கலாம்"
 
