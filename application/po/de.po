@@ -7,14 +7,14 @@
 # Milo Ivir <mail@milotype.de>, 2021.
 # eladyn <f+weblate@piored.de>, 2021.
 # Cgrieger <translate@cgrieger.org>, 2022.
-# Ettore Atalan <atalanttore@googlemail.com>, 2022.
+# Ettore Atalan <atalanttore@googlemail.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-07 10:38+0000\n"
-"PO-Revision-Date: 2023-01-07 09:45+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
+"PO-Revision-Date: 2023-01-08 02:05+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/de/>\n"
 "Language: de\n"
@@ -384,7 +384,7 @@ msgstr "Ordner zum Bereinigen auswählen"
 
 #: application/metadatacleaner/modules/file.py:243
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "Während der Bereinigung ist ein Fehler aufgetreten."
 
 #: application/metadatacleaner/modules/file.py:246
 msgid "Something bad happened during the cleaning, cleaned file not found"
