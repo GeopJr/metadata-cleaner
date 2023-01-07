@@ -138,8 +138,7 @@ def run_uishooter(
         css: str = None,
         scale: int = None,
         dark: bool = False,
-        libadwaita: bool = False,
-        language: str = None) -> int:
+        libadwaita: bool = False) -> int:
     """Shoot the given UI file.
 
     Args:
@@ -183,8 +182,6 @@ def run_uishooter(
         args.append(f"--dark")
     if libadwaita:
         args.append(f"--libadwaita")
-    if language:
-        env["LANGUAGE"] = language
     args.append(ui_file)
     env["WAYLAND_DISPLAY"] = SOCKET_2X if scale == 2 else SOCKET
     return subprocess.run(["uishooter"] + args, env=env).returncode
@@ -232,8 +229,7 @@ def shoot_help() -> None:
                 resource_file=RESOURCE_FILE,
                 css=widget.css_file,
                 output=widget.image_file,
-                libadwaita=True,
-                language=lang)
+                libadwaita=True)
             if exit_code != 0:
                 raise RuntimeError(f"Error while shooting {widget.ui_file}.")
             write_license_file(widget.license_file)
