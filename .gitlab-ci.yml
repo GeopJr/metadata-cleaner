@@ -320,7 +320,7 @@ push:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   before_script:
     - git config --global user.email "${CI_BOT_EMAIL}"
-    - git config --global user.name "{$CI_BOT_USERNAME}"
+    - git config --global user.name "${CI_BOT_USERNAME}"
     - git remote set-url origin "https://ci-bot:${CI_BOT_ACCESS_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
   script:
     - git status
