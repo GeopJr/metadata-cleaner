@@ -6,6 +6,20 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.3.1] - 2023-01-09
+
+### Changed
+
+- Updated Galician translation (contributed by @gallegonovato)
+- Updated German translation (contributed by @Atalanttore)
+- Updated Italian translation (contributed by @albanobattistella)
+- Updated Portuguese (Brazil) translation (contributed by Daniel Abrante)
+
+### Fixed
+
+- Screenshots in RTL languages were not in the correct direction
+
+
 ## [2.3.0] - 2023-01-07
 
 Note to packagers: the application Python modules are now installed in the data directory.
