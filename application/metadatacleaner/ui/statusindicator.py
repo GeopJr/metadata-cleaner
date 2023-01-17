@@ -33,13 +33,13 @@ class StatusIndicator(Gtk.Stack):
         if not self.file_store or not self.file_store.last_action:
             return
         text = {
-            FileStoreAction.CHECKING:
+            FileStoreAction.ADDING:
                 _("Processing file {}/{}").format(current, total),
             FileStoreAction.CLEANING:
                 _("Cleaning file {}/{}").format(current, total),
         }
         self._progressbar.set_text(text[self.file_store.last_action])
-        self._progressbar.set_fraction(current / total)
+        self._progressbar.set_fraction(current / total if total > 0 else 0)
 
     @Gtk.Template.Callback()
     def _on_file_store_changed(
@@ -52,6 +52,13 @@ class StatusIndicator(Gtk.Stack):
         self.file_store.connect(
             "progress-changed",
             self._on_file_store_progress_changed)
+
+    @Gtk.Template.Callback()
+    def _on_cancel_button_clicked(self, button: Gtk.Button) -> None:
+        if self.file_store.last_action == FileStoreAction.ADDING:
+            self.file_store.cancel_addding_gfiles()
+        elif self.file_store.last_action == FileStoreAction.CLEANING:
+            self.file_store.cancel_cleaning_files()
 
     def _on_file_store_state_changed(
             self,

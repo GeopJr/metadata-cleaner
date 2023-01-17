@@ -24,10 +24,25 @@ SPDX-License-Identifier: GPL-3.0-or-later
       <object class="GtkStackPage">
         <property name="name">working</property>
         <property name="child">
-          <object class="GtkProgressBar" id="_progressbar">
-            <property name="valign">center</property>
-            <property name="show-text">True</property>
-            <property name="pulse-step">0.005</property>
+          <object class="GtkBox">
+            <property name="spacing">6</property>
+            <child>
+              <object class="GtkProgressBar" id="_progressbar">
+                <property name="valign">center</property>
+                <property name="show-text">True</property>
+                <property name="pulse-step">0.005</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton">
+                <property name="icon-name">metadatacleaner-cancel-symbolic</property>
+                <property name="tooltip-text" translatable="yes">Cancel</property>
+                <signal name="clicked" handler="_on_cancel_button_clicked"/>
+                <style>
+                  <class name="circular"/>
+                </style>
+              </object>
+            </child>
           </object>
         </property>
       </object>

@@ -12,6 +12,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-about-symbolic.svg">icons/about-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-add-file-symbolic.svg">icons/add-file-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-add-folder-symbolic.svg">icons/add-folder-symbolic.svg</file>
+		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-cancel-symbolic.svg">icons/cancel-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-chat-symbolic.svg">icons/chat-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-code-symbolic.svg">icons/code-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-credits-symbolic.svg">icons/credits-symbolic.svg</file>

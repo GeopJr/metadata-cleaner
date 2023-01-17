@@ -43,7 +43,7 @@ class FileStoreState(IntEnum):
 class FileStoreAction(IntEnum):
     """Actions the Files manager can do."""
 
-    CHECKING = auto()
+    ADDING = auto()
     CLEANING = auto()
 
 
@@ -69,6 +69,8 @@ class FileStore(Gio.ListStore):
         self.state = FileStoreState.IDLE
         self.last_action: Optional[FileStoreAction] = None
         self.progress = (0, 0)
+        self.add_files_executor = ThreadPoolExecutor()
+        self.clean_files_executor = ThreadPoolExecutor()
 
     def _on_file_state_changed(self, f: File, new_state: FileState) -> None:
         GLib.idle_add(
@@ -131,10 +133,38 @@ class FileStore(Gio.ListStore):
             recursive (bool, optional): If subdirectories should also be looked
             into. Defaults to True.
         """
+        thread = Thread(
+            target=self._add_gfiles_async,
+            args=(gfiles, recursive),
+            daemon=True)
+        thread.start()
+
+    def _add_gfiles_async(
+            self, gfiles: List[Gio.File], recursive: bool = True) -> None:
+        self._set_state(FileStoreState.WORKING)
+        all_gfiles = self._gather_all_gfiles(gfiles, recursive)
+        self._set_progress(
+            self.progress[0], self.progress[1] + len(all_gfiles))
+        self.last_action = FileStoreAction.ADDING
+        futures = {
+            self.add_files_executor.submit(self._add_gfile, gfile)
+            for gfile in all_gfiles
+        }
+        for future in as_completed(futures):
+            current = self.progress[0] + 1
+            total = self.progress[1]
+            self._set_progress(current, total)
+            if current == total:
+                self._stop_adding_gfiles()
+
+    def _gather_all_gfiles(
+            self,
+            gfiles: List[Gio.File],
+            recursive: bool = True) -> List[Gio.File]:
         all_gfiles: List[Gio.File] = []
         for gfile in gfiles:
             if not gfile:
-                return
+                continue
             f_type = gfile.query_file_type(Gio.FileQueryInfoFlags.NONE, None)
             if f_type == Gio.FileType.DIRECTORY:
                 all_gfiles.extend(self._get_gfiles_from_dir(gfile, recursive))
@@ -144,18 +174,7 @@ class FileStore(Gio.ListStore):
                 logger.warning(
                     f"File {gfile.get_path()} is neither a directory nor a "
                     "regular file, skipping.")
-        with ThreadPoolExecutor() as executor:
-            files = list(filter(None, executor.map(
-                self._file_from_gfile,
-                all_gfiles)))
-        if len(files) == 0:
-            return
-        self.splice(len(self), 0, files)
-        thread = Thread(
-            target=self._check_metadata_of_files_async,
-            args=(files,),
-            daemon=False)
-        thread.start()
+        return all_gfiles
 
     def _get_gfiles_from_dir(
             self, dir: Gio.File, recursive: bool) -> List[Gio.File]:
@@ -184,30 +203,33 @@ class FileStore(Gio.ListStore):
                 gfiles.extend(subgfiles)
         return gfiles
 
-    def _file_from_gfile(self, gfile: Gio.File) -> Optional[File]:
+    def _add_gfile(self, gfile: Gio.File) -> None:
         if not gfile.query_exists(None):
             logger.warning(
                 f"File {gfile.get_path()} does not exist, skipping.")
-            return None
+            return
+
         if bool(list(filter(lambda x: x.path == gfile.get_path(), self))):
             logger.warning(f"Skipping {gfile.get_path()}, already added.")
-            return None
-        f = File(gfile)
-        f.connect("state-changed", self._on_file_state_changed)
-        return f
+            return
 
-    def _check_metadata_of_files_async(self, files: List[File]) -> None:
-        self._set_progress(0, len(files))
-        self._set_state(FileStoreState.WORKING)
-        self.last_action = FileStoreAction.CHECKING
-        with ThreadPoolExecutor() as executor:
-            futures = {
-                executor.submit(f.check_metadata)
-                for f in files
-            }
-            for i, future in enumerate(as_completed(futures)):
-                self._set_progress(i + 1, len(files))
+        f = File(gfile)
+        f.check_metadata()
+
+        def finish() -> None:
+            self.append(f)
+            f.connect("state-changed", self._on_file_state_changed)
+        GLib.idle_add(finish)
+
+    def _stop_adding_gfiles(self) -> None:
+        self.add_files_executor.shutdown(wait=False, cancel_futures=True)
+        self.add_files_executor = ThreadPoolExecutor()
         self._set_state(FileStoreState.IDLE)
+        self._set_progress(0, 0)
+
+    def cancel_addding_gfiles(self) -> None:
+        """Cancel adding GFiles."""
+        self._stop_adding_gfiles()
 
     def remove_file(self, f: File) -> None:
         """Remove a file from the File Store.
@@ -231,23 +253,34 @@ class FileStore(Gio.ListStore):
 
     def clean_files(self) -> None:
         """Remove metadata from all the cleanable files."""
-        thread = Thread(target=self._clean_files_async, daemon=False)
+        thread = Thread(target=self._clean_files_async, daemon=True)
         thread.start()
 
     def _clean_files_async(self) -> None:
         cleanable_files = self.get_cleanable_files()
-        number_of_cleanable_files = len(cleanable_files)
-        self._set_progress(0, number_of_cleanable_files)
+        self._set_progress(
+            self.progress[0], self.progress[1] + len(cleanable_files))
         self._set_state(FileStoreState.WORKING)
         self.last_action = FileStoreAction.CLEANING
-        with ThreadPoolExecutor() as executor:
-            futures = {
-                executor.submit(f.clean, self.lightweight_mode)
-                for f in cleanable_files
-            }
-            for i, future in enumerate(as_completed(futures)):
-                self._set_progress(i + 1, number_of_cleanable_files)
+        futures = {
+            self.clean_files_executor.submit(f.clean, self.lightweight_mode)
+            for f in cleanable_files
+        }
+        for future in as_completed(futures):
+            current = self.progress[0] + 1
+            total = self.progress[1]
+            self._set_progress(current, total)
+        self._stop_cleaning_files()
+
+    def _stop_cleaning_files(self) -> None:
+        self.clean_files_executor.shutdown(wait=False, cancel_futures=True)
+        self.clean_files_executor = ThreadPoolExecutor()
         self._set_state(FileStoreState.IDLE)
+        self._set_progress(0, 0)
+
+    def cancel_cleaning_files(self) -> None:
+        """Cancel the cleaning process."""
+        self._stop_cleaning_files()
 
     def get_cleanable_files(self) -> List[File]:
         """Get all the cleanable files.
