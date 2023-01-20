@@ -6,17 +6,21 @@ SPDX-License-Identifier: GPL-3.0-or-later
 <interface>
   <template class="FileRow" parent="GtkBox">
     <property name="orientation">horizontal</property>
-    <property name="spacing">6</property>
     <child>
       <object class="GtkButton">
         <property name="tooltip-text" translatable="yes">Remove file from list</property>
         <property name="icon-name">metadatacleaner-remove-symbolic</property>
-        <property name="valign">center</property>
+        <property name="vexpand">True</property>
         <signal name="clicked" handler="_on_remove_file_button_clicked"/>
         <style>
-          <class name="circular"/>
+          <class name="remove"/>
           <class name="flat"/>
         </style>
+      </object>
+    </child>
+    <child>
+      <object class="GtkSeparator">
+        <property name="orientation">vertical</property>
       </object>
     </child>
     <child>

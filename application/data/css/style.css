@@ -57,57 +57,30 @@ button.help:not(.small)
 	margin: 0 18px 18px;
 }
 
-listview.files
-{
-	background: none;
-}
-
 listview.files>row
 {
-	padding: 0 0 0 6px;
+	padding: 0;
 	border-bottom: 1px solid @borders;
-	background: @card_bg_color;
-	transition: all 0.2s ease-out;
 }
 
-listview.files>row:dir(rtl)
-{
-	padding-left: 0;
-	padding-right: 6px;
-}
-
-listview.files>row:selected
-{
-	background: alpha(@card_fg_color, 0.1);
-}
-
-listview.files .file
-{
-	border: 0 solid transparent;
-	border-left-width: 1px;
+listview.files .remove,
+listview.files .file {
 	border-radius: unset;
-	background: unset;
 	font-weight: unset;
-	transition: all 0.2s ease-out;
 }
 
-listview.files .file:dir(rtl){
-	border-width: 0 1px 0 0;
+listview.files .remove {
+	padding: 6px 12px;
 }
 
-listview.files .file:hover
-{
-	background-image: image(alpha(@card_fg_color, 0.03));
+listview.files separator {
+	opacity: 0;
+	transition: 0.1s opacity;
 }
 
-listview.files .file:active
-{
-	background-image: image(alpha(@card_fg_color, 0.08));
-}
-
-listview.files>row:hover .file
-{
-	border-color: @borders;
+listview.files> row:hover separator {
+	opacity: 1;
+	transition: none;
 }
 
 listview.metadata
