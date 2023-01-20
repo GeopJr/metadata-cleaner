@@ -131,6 +131,11 @@ row.metadata>box
 	border-spacing: 12px;
 }
 
+.toolbar.details {
+	background-color: @headerbar_bg_color;
+	color: @headerbar_fg_color;
+}
+
 .badge
 {
 	border-radius: 11px;

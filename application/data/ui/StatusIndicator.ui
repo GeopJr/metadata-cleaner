@@ -7,16 +7,12 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <template class="StatusIndicator" parent="GtkStack">
     <property name="valign">center</property>
     <property name="transition-type">crossfade</property>
-    <property name="hhomogeneous">False</property>
-    <property name="vhomogeneous">False</property>
-    <property name="margin-start">12</property>
-    <property name="margin-end">30</property>
     <signal name="notify::file-store" handler="_on_file_store_changed"/>
     <child>
       <object class="GtkStackPage">
         <property name="name">idle</property>
         <property name="child">
-          <object class="GtkLabel" id="_idle_label"/>
+          <object class="GtkBox"/>
         </property>
       </object>
     </child>
@@ -28,15 +24,18 @@ SPDX-License-Identifier: GPL-3.0-or-later
             <property name="spacing">6</property>
             <child>
               <object class="GtkProgressBar" id="_progressbar">
+                <property name="hexpand">true</property>
                 <property name="valign">center</property>
+                <property name="text"></property>
                 <property name="show-text">True</property>
-                <property name="pulse-step">0.005</property>
+                <property name="ellipsize">middle</property>
               </object>
             </child>
             <child>
               <object class="GtkButton">
                 <property name="icon-name">metadatacleaner-cancel-symbolic</property>
                 <property name="tooltip-text" translatable="yes">Cancel</property>
+                <property name="valign">center</property>
                 <signal name="clicked" handler="_on_cancel_button_clicked"/>
                 <style>
                   <class name="circular"/>
@@ -52,6 +51,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <property name="name">done</property>
         <property name="child">
           <object class="GtkLabel" id="_done_label">
+            <property name="valign">center</property>
             <property name="xalign">0</property>
             <property name="wrap">True</property>
             <property name="single-line-mode">True</property>
