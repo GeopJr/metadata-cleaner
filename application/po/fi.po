@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2022-10-07 12:33+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -287,6 +287,7 @@ msgid "Don't tell me again"
 msgstr "Älä varoita uudelleen"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "Peru"
 
@@ -375,11 +376,11 @@ msgstr "Valitse siivottavat tiedostot"
 msgid "Choose folders to clean"
 msgstr "Valitse siivottavat kansiot"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Jotain pahaa tapahtui siivouksen aikana, siivottua tiedostoa ei löydy"
 
@@ -431,17 +432,16 @@ msgstr "Kaikki tuetut tiedostot"
 msgid "Add files from subfolders"
 msgstr "Lisää tiedostoja alikansioista"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "Lisätään tiedostoja…"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "Käsitellään tiedostoa {}/{}"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Siivotaan tiedostoa {}/{}"
+
+#~ msgid "Adding files…"
+#~ msgstr "Lisätään tiedostoja…"
 
 #~ msgid "Warn before saving cleaned files"
 #~ msgstr "Varoita ennen siivottujen tiedostojen tallennusta"

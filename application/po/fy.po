@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2022-08-08 13:00+0000\n"
 "Last-Translator: Vancha March <tjipkevdh@gmail.com>\n"
 "Language-Team: Frisian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -282,6 +282,7 @@ msgid "Don't tell me again"
 msgstr "My nea wer fertelle"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "Ofbrekke"
 
@@ -371,11 +372,11 @@ msgstr "Triemen selektearje om op te skjinjen"
 msgid "Choose folders to clean"
 msgstr "Mappen selektearje om op te skjinjen"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Der is eat ferkeard gien wylst de opskjinne waard, opskjinne triem net fûn"
@@ -427,14 +428,13 @@ msgstr "Alle stipe triemen"
 msgid "Add files from subfolders"
 msgstr "Triemen fan ûnderlizzende mappen tafoegje"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "Triemen oan it tafoegjen…"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "Triem oan it ferwurkjen {}/{}"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Triem oan it opskjinjen {}/{}"
+
+#~ msgid "Adding files…"
+#~ msgstr "Triemen oan it tafoegjen…"

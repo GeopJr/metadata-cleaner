@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2023-01-07 09:45+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted."
 "weblate.org>\n"
@@ -292,6 +292,7 @@ msgid "Don't tell me again"
 msgstr "No volver a mostrar este mensaje"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -382,11 +383,11 @@ msgstr "Elija los archivos que desee limpiar"
 msgid "Choose folders to clean"
 msgstr "Elija las carpetas que desee limpiar"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr "Se ha producido un error durante la limpieza."
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Algo malo sucedió durante la limpieza, archivo limpio no encontrado"
 
@@ -438,17 +439,16 @@ msgstr "Todos los archivos compatibles"
 msgid "Add files from subfolders"
 msgstr "Añadir archivos desde subcarpetas"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "Añadir archivos…"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "Procesando archivo {}/{}"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Limpiando el archivo {}/{}"
+
+#~ msgid "Adding files…"
+#~ msgstr "Añadir archivos…"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Traducción al croata (aportada por Milo Ivir)"

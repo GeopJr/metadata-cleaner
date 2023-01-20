@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2022-08-06 06:53+0000\n"
 "Last-Translator: Ümid Quliyev <lucifer25x@protonmail.com>\n"
 "Language-Team: Azerbaijani <https://hosted.weblate.org/projects/metadata-"
@@ -285,6 +285,7 @@ msgid "Don't tell me again"
 msgstr "Bir daha söyləmə"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "Ləğv et"
 
@@ -374,11 +375,11 @@ msgstr "Təmizlənəcək faylları seçin"
 msgid "Choose folders to clean"
 msgstr "Təmizlənəcək qovluqları seçin"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Təmizləmə prosesi zamanı pis bir şey baş verdi, təmizlənən fayl tapılmadı"
@@ -431,14 +432,13 @@ msgstr "Dəstəklənən bütün fayllar"
 msgid "Add files from subfolders"
 msgstr "Alt qovluqlardan fayl əlavə et"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "Fayllar əlavə edilir…"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "Fayl emal olunur {}/{}"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Fayl təmizlənir {}/{}"
+
+#~ msgid "Adding files…"
+#~ msgstr "Fayllar əlavə edilir…"

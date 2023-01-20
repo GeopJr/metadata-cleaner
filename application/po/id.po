@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2022-06-17 14:20+0000\n"
 "Last-Translator: liimee <alt3753.7@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
@@ -289,6 +289,7 @@ msgid "Don't tell me again"
 msgstr "Jangan beritahu lagi"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "Batal"
 
@@ -380,11 +381,11 @@ msgstr "Pilih berkas yang ingin dibersihkan"
 msgid "Choose folders to clean"
 msgstr "Pilih folder yang ingin dibersihkan"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Sesuatu buruk terjadi ketika pembersihan, berkas yang dibersihkan tidak "
@@ -438,17 +439,16 @@ msgstr "Semua berkas yang didukung"
 msgid "Add files from subfolders"
 msgstr "Tambahkan berkas dari subfolder"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "Tambahkan berkas…"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "Memproses berkas {}/{}"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Membersihkan berkas {}/{}"
+
+#~ msgid "Adding files…"
+#~ msgstr "Tambahkan berkas…"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Terjemahan Bahasa Kroasia (dikontribusikan oleh Milo Ivir)"

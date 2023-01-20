@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2023-01-13 03:51+0000\n"
 "Last-Translator: Ujhhgtg <feyxiexzf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -281,6 +281,7 @@ msgid "Don't tell me again"
 msgstr "不再提示此警告"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "取消"
 
@@ -369,11 +370,11 @@ msgstr "选择待清理文件"
 msgid "Choose folders to clean"
 msgstr "选择待清理文件夹"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr "在清理过程中发生了一个错误。"
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "元数据删除出现了糟糕错误，删除完元数据的文件找不到了"
 
@@ -423,14 +424,13 @@ msgstr "支持清理的所有文件"
 msgid "Add files from subfolders"
 msgstr "也添加子文件夹中文件"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "添加文件……"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "正在处理文件 {}/{}"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "正在删除元数据 {}/{}"
+
+#~ msgid "Adding files…"
+#~ msgstr "添加文件……"

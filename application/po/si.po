@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2021-07-21 18:34+0000\n"
 "Last-Translator: HelaBasa <R45XvezA@protonmail.ch>\n"
 "Language-Team: Sinhala <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -284,6 +284,7 @@ msgid "Don't tell me again"
 msgstr ""
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr ""
 
@@ -375,11 +376,11 @@ msgstr ""
 msgid "Choose folders to clean"
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 
@@ -429,19 +430,18 @@ msgstr ""
 msgid "Add files from subfolders"
 msgstr ""
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-#, fuzzy
-#| msgid "Add files"
-msgid "Adding files…"
-msgstr "ගොනු එකතු කරන්න"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr ""
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Add files"
+#~ msgid "Adding files…"
+#~ msgstr "ගොනු එකතු කරන්න"
 
 #~ msgctxt "shortcut window"
 #~ msgid "Add files"

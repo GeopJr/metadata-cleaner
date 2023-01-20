@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2023-01-10 17:48+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
@@ -286,6 +286,7 @@ msgid "Don't tell me again"
 msgstr "Nemoj me više podsjećivati"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "Odustani"
 
@@ -374,11 +375,11 @@ msgstr "Odaberi datoteke koje želiš očistiti"
 msgid "Choose folders to clean"
 msgstr "Odaberi mape koje želiš očistiti"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr "Dogodila se greška tijkom čišćenja."
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Tijekom čišćenja se dogodila greška, očišćena datoteka nije pronađena"
 
@@ -430,17 +431,16 @@ msgstr "Sve podržane datoteke"
 msgid "Add files from subfolders"
 msgstr "Dodaj datoteke iz podmapa"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "Dodavanje datoteka …"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "Obrađivanje datoteke {}/{}"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Čićenje datoteke {}/{}"
+
+#~ msgid "Adding files…"
+#~ msgstr "Dodavanje datoteka …"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Hrvatski prijevod (Milo Ivir)"

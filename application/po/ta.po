@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2023-01-07 09:45+0000\n"
 "Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -284,6 +284,7 @@ msgid "Don't tell me again"
 msgstr "மீண்டும் என்னிடம் சொல்லாதே"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "ரத்துசெய்"
 
@@ -372,11 +373,11 @@ msgstr "சுத்தம் செய்ய கோப்புகளைத் 
 msgid "Choose folders to clean"
 msgstr "சுத்தம் செய்ய கோப்புறைகளைத் தேர்ந்தெடுக்கவும்"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr "சுத்தம் செய்யும் போது ஒரு பிழை ஏற்பட்டது."
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "சுத்தம் செய்யும் போது ஏதோ தவறு நடந்தது, சுத்தம் செய்யப்பட்ட கோப்பு கிடைக்கவில்லை"
 
@@ -428,14 +429,13 @@ msgstr "அனைத்து ஆதரிக்கப்படும் கோ�
 msgid "Add files from subfolders"
 msgstr "துணை கோப்புறைகளிலிருந்து கோப்புகளைச் சேர்க்கவும்"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "கோப்புகளைச் சேர்க்கிறது…"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "{}/{} கோப்பைச் செயலாக்குகிறது"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "கோப்பை சுத்தம் செய்கிறது {}/{}"
+
+#~ msgid "Adding files…"
+#~ msgstr "கோப்புகளைச் சேர்க்கிறது…"

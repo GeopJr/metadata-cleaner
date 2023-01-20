@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2022-07-17 17:16+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -286,6 +286,7 @@ msgid "Don't tell me again"
 msgstr "Ez erakutsi berriro mezu hau"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "Ezeztatu"
 
@@ -375,11 +376,11 @@ msgstr "Aukeratu garbitu nahi dituzun fitxategiak"
 msgid "Choose folders to clean"
 msgstr "Aukeratu garbitu nahi dituzun karpetak"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Zerbait txarra gertatu zen garbiketan, garbitu gabeko fitxategia ez da "
@@ -433,17 +434,16 @@ msgstr "Onartutako fitxategi guztiak"
 msgid "Add files from subfolders"
 msgstr "Gehitu fitxategiak azpikarpetetatik"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "Fitxategiak gehitzen…"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "{} / {} Fitxategia prozesatzen"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "{} / {} Fitxategia garbitzen"
+
+#~ msgid "Adding files…"
+#~ msgstr "Fitxategiak gehitzen…"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Kroazierazko itzulpena (Milo Ivir-ek emana)"

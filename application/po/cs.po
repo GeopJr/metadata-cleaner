@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2022-04-15 18:08+0000\n"
 "Last-Translator: pavelzahradnik <pavel.zahradnik@centrum.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -284,6 +284,7 @@ msgid "Don't tell me again"
 msgstr "Už neopakovat"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "Zrušit"
 
@@ -372,11 +373,11 @@ msgstr "Vyberte soubory pro vyčištění"
 msgid "Choose folders to clean"
 msgstr "Vyberte složky pro vyčištění"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Během čištění nastal problém, vyčištěný soubor nebyl nalezen"
 
@@ -427,14 +428,13 @@ msgstr "Všechny podporované soubory"
 msgid "Add files from subfolders"
 msgstr "Přidat soubory z podsložek"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "Přidávání souborů…"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "Zpracování souboru {}/{}"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Čištění souboru {}/{}"
+
+#~ msgid "Adding files…"
+#~ msgstr "Přidávání souborů…"

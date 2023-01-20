@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-09 16:29+0000\n"
+"POT-Creation-Date: 2023-01-20 11:04+0000\n"
 "PO-Revision-Date: 2022-08-16 20:18+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -287,6 +287,7 @@ msgid "Don't tell me again"
 msgstr "Me demandar pas mai"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
 msgstr "Anullar"
 
@@ -377,11 +378,11 @@ msgstr "Causir los fichièrs de netejar"
 msgid "Choose folders to clean"
 msgstr "Causir los dossièrs de netejar"
 
-#: application/metadatacleaner/modules/file.py:243
+#: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:246
+#: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Quicòm a trucat pendent lo netejatge, lo fichièr netejat es introbable"
 
@@ -433,17 +434,16 @@ msgstr "Totes los fichièrs preses en carga"
 msgid "Add files from subfolders"
 msgstr "Ajustar los fichièrs dels jos-dossièrs"
 
-#: application/metadatacleaner/ui/statusindicator.py:36
-msgid "Adding files…"
-msgstr "Ajustar de dossièrs…"
-
-#: application/metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
 msgstr "Tractament del fichièr {}/{}"
 
-#: application/metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Netejatge del fichièr {}/{}"
+
+#~ msgid "Adding files…"
+#~ msgstr "Ajustar de dossièrs…"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Traduccion en croat (contribucion de Milo Ivir)"
