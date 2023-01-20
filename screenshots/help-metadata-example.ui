@@ -131,7 +131,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
             </child>
             <child>
               <object class="GtkActionBar">
-                <property name="vexpand">true</property>
                 <property name="valign">end</property>
                 <child type="center">
                   <object class="GtkBox">
