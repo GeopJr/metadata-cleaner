@@ -51,6 +51,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                 <property name="vexpand">true</property>
                 <property name="hexpand">false</property>
                 <property name="propagate-natural-width">true</property>
+                <style>
+                  <class name="view"/>
+                </style>
                 <child>
                   <object class="GtkViewport">
                     <child>

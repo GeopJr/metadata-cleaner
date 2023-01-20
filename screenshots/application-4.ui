@@ -43,6 +43,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <child>
           <object class="GtkScrolledWindow">
             <property name="vexpand">true</property>
+            <style>
+              <class name="view"/>
+            </style>
             <child>
               <object class="GtkViewport">
                 <child>
