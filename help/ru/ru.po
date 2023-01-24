@@ -1,12 +1,13 @@
 # BigmenPixel <bigmen.pixel@tuta.io>, 2021.
 # Sasha <maxminer88@gmail.com>, 2022.
 # Войнов Артем Романович <voynovar@gmail.com>, 2022, 2023.
+# Deleted User <noreply+39970@weblate.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-23 10:08+0000\n"
 "PO-Revision-Date: 2023-01-25 12:51+0000\n"
-"Last-Translator: Войнов Артем Романович <voynovar@gmail.com>\n"
+"Last-Translator: Deleted User <noreply+39970@weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/ru/>\n"
 "Language: ru\n"
@@ -210,7 +211,7 @@ msgstr "кнопка <gui style=\"button\">Очистить</gui>"
 #. (itstool) path: section/title
 #: ../help/C/usage.page:48
 msgid "Lightweight cleaning"
-msgstr "Лёгкая очистка"
+msgstr "Легкая очистка"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:49
