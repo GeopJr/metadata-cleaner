@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# Quentin PAGÈS <quentinantonin@free.fr>, 2021, 2022.
+# Quentin PAGÈS <quentinantonin@free.fr>, 2021, 2022, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-23 10:08+0000\n"
-"PO-Revision-Date: 2022-08-16 20:18+0000\n"
+"PO-Revision-Date: 2023-01-26 09:51+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/oc/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -380,7 +380,7 @@ msgstr "Causir los dossièrs de netejar"
 
 #: application/metadatacleaner/modules/file.py:241
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "S’es producha una error pendent lo netejatge."
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "Something bad happened during the cleaning, cleaned file not found"
