@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # minn _ <xxxzm8818@gmail.com>, 2021.
 # 이정희 <daemul72@gmail.com>, 2022.
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-26 11:17+0000\n"
-"PO-Revision-Date: 2022-09-30 11:16+0000\n"
-"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"PO-Revision-Date: 2023-01-27 17:46+0000\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ko/>\n"
 "Language: ko\n"
@@ -17,14 +18,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "Metadata Cleaner"
+msgstr "메타데이터 클리너"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
@@ -38,7 +39,7 @@ msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr "경고없이 정리하기"
+msgstr "경고 없이 정리"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
@@ -46,13 +47,12 @@ msgstr "경고 대화상자를 표시하지 않고 파일 정리하기"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
-msgstr "가벼운 정리"
+msgstr "간편 정리"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
-"파일을 파괴적으로 변경하지 않습니다. 하지만 일부 메타데이터를 남길 수 있습니"
-"다"
+msgstr "파일을 손상하는 수준으로 변경하지 않습니다. 하지만 일부 메타데이터를 남길 수 "
+"있습니다"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -60,7 +60,7 @@ msgstr "창 너비"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr "저장된 창의 너비"
+msgstr "저장하는 창의 너비"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
@@ -68,7 +68,7 @@ msgstr "창 높이"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr "저장된 창의 높이"
+msgstr "저장하는 창의 높이"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -82,17 +82,16 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"파일 내의 메타데이터는 사용자에 대해 많은 것을 말해 줄 수 있습니다. 카메라는 "
-"사진이 언제 어디서 촬영되었고 어떤 카메라가 사용되었는지에 대한 데이터를 기록"
-"합니다. 오피스 응용프로그램은 문서 및 스프레드시트에 작성자 및 회사 정보를 자"
-"동으로 추가합니다. 이것은 민감한 정보이므로 공개하고 싶지 않을 수 있습니다."
+"파일의 메타데이터는 사용자의 여러 정보가 담겨있습니다. 카메라는 어디서 "
+"사진을 찍었고 어떤 카메라를 사용했는지 데이터를 기록합니다. 오피스 "
+"프로그램은 작성자와 회사 정보를 문서와 스프레드 시트에 추가합니다. 이는 "
+"파일에 넣고 싶지 않은 민감한 정보입니다."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
-msgstr ""
-"이 도구를 사용하면 파일에서 메타데이터를 보고 최대한 제거할 수 있습니다."
+msgstr "이 도구를 사용하면 파일의 메타데이터를 보고 최대한 제거할 수 있습니다."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
@@ -106,11 +105,11 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
 msgid "Updated translations"
-msgstr "업데이트된 번역"
+msgstr "최신 번역"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
 msgid "Improved user interface"
-msgstr "향상된 사용자 인터페이스"
+msgstr "개선한 사용자 인터페이스"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
@@ -126,7 +125,7 @@ msgstr "향상된 사용자 인터페이스"
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
 msgid "New translations"
-msgstr "새로운 번역"
+msgstr "새 번역"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
 msgid "Bug fixes"
@@ -138,23 +137,23 @@ msgstr "폴더를 추가하는 새 단추"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
 msgid "Improved adaptive user interface"
-msgstr "향상된 적응형 사용자 인터페이스"
+msgstr "개선한 적응형 사용자 인터페이스"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
 msgid "New help pages"
-msgstr "새로운 도움말 페이지"
+msgstr "새 도움말 페이지"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr "원-클릭 정리, 정리 후 저장할 필요 없음"
+msgstr "원-클릭으로 정리하여, 정리 후 저장할 필요가 없음"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
 msgid "Persistent lightweight cleaning option"
-msgstr "지속적인 가벼운 정리 옵션"
+msgstr "지속적인 간편 정리 옵션"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
 msgid "Files with uppercase extension can now be added"
-msgstr "이제 대문자 확장자를 가진 파일을 추가할 수 있습니다"
+msgstr "이제 대문자 확장자 파일을 추가할 수 있습니다"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -162,19 +161,19 @@ msgstr "파일"
 
 #: application/data/gtk/help-overlay.ui:18
 msgid "Add files"
-msgstr "파일 추가하기"
+msgstr "파일 추가"
 
 #: application/data/gtk/help-overlay.ui:24
 msgid "Add folders"
-msgstr "폴더 추가하기"
+msgstr "폴더 추가"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr "메타데이터 정리하기"
+msgstr "메타데이터 정리"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr "창에서 모든 파일 비우기"
+msgstr "창의 모든 파일 정리"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
@@ -190,15 +189,15 @@ msgstr "창 닫기"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr "종료"
+msgstr "끝내기"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr "키보드 단축키"
+msgstr "키보드 바로 가기 키"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr "돕다"
+msgstr "도움말"
 
 #: application/data/ui/AboutDialog.ui:38
 msgid "About"
@@ -206,23 +205,23 @@ msgstr "정보"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
-msgstr "Matrix에서 채팅"
+msgstr "매트릭스에서 대화"
 
 #: application/data/ui/AboutDialog.ui:107
 msgid "View the code on GitLab"
-msgstr "GitLab에서 코드보기"
+msgstr "깃랩 코드 보기"
 
 #: application/data/ui/AboutDialog.ui:117
 msgid "Translate on Weblate"
-msgstr "Weblate에서 번역하기"
+msgstr "웹레이트에서 번역"
 
 #: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
-msgstr "Liberapay에서 지원하기"
+msgstr "리베라페이에서 지원하기"
 
 #: application/data/ui/AboutDialog.ui:148
 msgid "Credits"
-msgstr "크레딧"
+msgstr "제작자"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
@@ -234,7 +233,7 @@ msgstr "아트워크"
 
 #: application/data/ui/AboutDialog.ui:182
 msgid "Documentation"
-msgstr "기록문서"
+msgstr "문서"
 
 #: application/data/ui/AboutDialog.ui:188
 msgid "Translation"
@@ -245,8 +244,8 @@ msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
-"이 프로그램은 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a>를 사용하"
-"여 메타데이터를 구문 분석하고 정리합니다. 그들에게 약간의 사랑을 보여주세요!"
+"이 프로그램은 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a>를 "
+"사용하여 메타데이터를 해석하고 정리합니다. 애정을 표현해주세요!"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -255,55 +254,55 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"이 프로그램의 소스 코드는 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html"
-"\">GNU GPL 3.0 이상</a>의 조건에 따라 공개됩니다. 원본 아트워크와 번역은 <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> 조"
-"건에 따라 공개됩니다."
+"이 프로그램의 소스 코드는 <a href=\"https://www.gnu.org/licenses/gpl-3.0."
+"html\">GNU GPL 3.0 이상</a>의 조항에 따라 출시합니다. 원본 아트워크와 번역은 "
+"<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> "
+"조건에 따라 출시합니다."
 
 #: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
-msgstr "파일 추가하기(_A)"
+msgstr "파일 추가(_A)"
 
 #: application/data/ui/AddFilesButton.ui:29
 msgid "Add _Folders"
-msgstr "폴더 추가하기(_F)"
+msgstr "폴더 추가(_F)"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr "정리하기(_C)"
+msgstr "정리(_C)"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr "사용자의 파일을 백업했는지 확인하십시오!"
+msgstr "파일을 백업했는지 확인하십시오!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr "파일이 정리되면 되돌릴 수 없습니다."
+msgstr "파일을 정리하고 나면 되돌릴 수 없습니다."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr "다시 내게 알리지 않습니다"
+msgstr "다시 알리지 않음"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 #: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
-msgstr "취소하기"
+msgstr "취소"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr "정리하기"
+msgstr "정리"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr "사용자의 흔적 정리하기"
+msgstr "흔적을 정리하십시오"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "메타데이터 및 정리 프로세스 제한 사항에 대해 자세히 알아보기"
+msgstr "메타데이터와 정리 과정의 제한 사항을 더 알아봅니다"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
-msgstr "목록에서 파일 제거하기"
+msgstr "목록에서 파일 제거"
 
 #: application/data/ui/FileRow.ui:128
 msgid "Warning"
@@ -315,7 +314,7 @@ msgstr "오류"
 
 #: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
-msgstr "정리됨"
+msgstr "정리함"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
@@ -331,15 +330,15 @@ msgstr "도움말(_H)"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr "키보드 단축키(_K)"
+msgstr "키보드 바로 가기 키(_K)"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "Metadata Cleaner 정보(_A)"
+msgstr "메타데이터 클리너 정보(_A)"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr "기본 메뉴"
+msgstr "주 메뉴"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -347,11 +346,11 @@ msgstr "정리 설정"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr "가벼운 정리"
+msgstr "간편 정리"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr "가벼운 정리에 대해 자세히 알아보기"
+msgstr "간편 정리에 대해 더 알아봅니다"
 
 #: application/data/ui/Window.ui:78
 msgid "Details"
@@ -364,35 +363,35 @@ msgstr "닫기"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:105
 msgid "translator-credits"
-msgstr "이정희 <daemul72@gmail.com>"
+msgstr ""
+"이정희 <daemul72@gmail.com>\n"
+"조성호 <shcho@gnome.org>"
 
 #: application/data/ui/Window.ui:114
 msgid "Choose files to clean"
-msgstr "정리할 파일 고르기"
+msgstr "정리할 파일 선택"
 
 #: application/data/ui/Window.ui:124
 msgid "Choose folders to clean"
-msgstr "정리할 폴더 고르기"
+msgstr "정리할 폴더 선택"
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "정리를 수행하는 동안 오류가 나타났습니다."
 
 #: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr "정리하는 동안 문제가 발생했습니다. 정리된 파일을 찾을 수 없습니다"
+msgstr "정리하는 동안 문제가 발생했습니다. 정리한 파일을 찾을 수 없습니다"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr "파일이 정리되었습니다"
+msgstr "파일을 정리했습니다"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr ""
-"알려진 메타데이터가 제거되었지만, 정리 프로세스에는 몇 가지 제한 사항이 있습"
-"니다."
+msgstr "발견한 메타데이터를 제거했지만, 정리 과정에 일부 제한이 있었습니다."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
@@ -404,7 +403,7 @@ msgstr "파일을 읽을 수 없습니다"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr "지원되지 않는 파일 형식"
+msgstr "지원하지 않는 파일 형식"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
@@ -412,7 +411,7 @@ msgstr "메타데이터를 확인할 수 없습니다"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr "알려진 메타데이터 없음"
+msgstr "발견한 메타데이터 없음"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
@@ -420,15 +419,15 @@ msgstr "메타데이터를 제거할 수 없습니다"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr "그래도 파일은 확실하게 정리됩니다."
+msgstr "어쨌든 파일을 확실하게 정리해드립니다."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr "지원되는 모든 파일"
+msgstr "지원하는 모든 파일"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr "하위 폴더에서 파일 추가하기"
+msgstr "하위 폴더에서 파일 추가"
 
 #: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
