@@ -21,7 +21,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
               <object class="AdwHeaderBar">
                 <property name="show-end-title-buttons" bind-property="reveal-flap" bind-source="_mode_flap" bind-flags="invert-boolean"/>
                 <property name="title-widget">
-                  <object class="GtkLabel"/>
+                  <object class="GtkBox"/>
                 </property>
                 <child type="start">
                   <object class="AddFilesButton"/>
