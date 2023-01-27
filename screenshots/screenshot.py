@@ -9,6 +9,7 @@ import os
 import subprocess
 
 from datetime import date
+from langcodes import Language, LanguageTagError
 from typing import Optional
 
 
@@ -64,7 +65,7 @@ class ApplicationWidget(Widget):
 class HelpWidget(Widget):
     """Help widget."""
 
-    def __init__(self, name: str, lang: str, css: bool) -> None:
+    def __init__(self, name: str, langcode: str, css: bool) -> None:
         """Create a new help widget.
 
         Args:
@@ -73,7 +74,7 @@ class HelpWidget(Widget):
             css (bool): If the widget uses a custom stylesheet.
         """
         ui_file = os.path.join("screenshots", f"help-{name}.ui")
-        image_file = os.path.join("help", lang, "figures", f"{name}.png")
+        image_file = os.path.join("help", langcode, "figures", f"{name}.png")
         css_file = os.path.join("screenshots", f"help-{name}.css") if css \
             else None
         super().__init__(ui_file, image_file, css_file)
@@ -210,20 +211,20 @@ def shoot_help() -> None:
     """Shoot widgets for the help pages."""
     print("Shooting help widgets…")
     with open(os.path.join("help", "LINGUAS")) as f:
-        languages = [lang for lang in f.read().splitlines()
-                     if lang != "" and lang[0] != "#"]
-    languages.sort()
-    total = len(languages) + 1
-    for i, lang in enumerate(["C"] + languages, 1):
+        langcodes = [code for code in f.read().splitlines()
+                     if code != "" and code[0] != "#"]
+    langcodes.sort()
+    total = len(langcodes) + 1
+    for i, langcode in enumerate(langcodes, 1):
         for widget in [
-                HelpWidget("add-files-button", lang, True),
-                HelpWidget("add-folders-button", lang, True),
-                HelpWidget("clean-button", lang, False),
-                HelpWidget("metadata-example", lang, True)]:
-            print(f"[{i}/{total}|{lang}] Shooting {widget.ui_file}…")
+                HelpWidget("add-files-button", langcode, True),
+                HelpWidget("add-folders-button", langcode, True),
+                HelpWidget("clean-button", langcode, False),
+                HelpWidget("metadata-example", langcode, True)]:
+            print(f"[{i}/{total}|{langcode}] Shooting {widget.ui_file}…")
             exit_code = run_uishooter(
                 ui_file=widget.ui_file,
-                locale=locale_from_lang(lang),
+                locale=locale_from_langcode(langcode),
                 locale_dir=LOCALE_DIR,
                 textdomain=TEXTDOMAIN,
                 resource_path=RESOURCE_PATH,
@@ -273,169 +274,24 @@ def write_license_file(path: str) -> None:
         ])
 
 
-def locale_from_lang(lang: str) -> str:
-    """Get a locale string from a language code.
+def locale_from_langcode(langcode: str) -> str:
+    """Get the locale string from a language code.
 
     Args:
-        lang (str): The language code.
+        langcode (str): Language code.
 
     Returns:
-        str: The locale string.
+        str: Locale string.
     """
+    # Likely territory for "pt" is "BR", force "PT"
+    if langcode == "pt":
+        langcode = "pt-PT"
     try:
-        return {
-            "aa": "aa_DJ.utf-8",
-            "af": "af_ZA.utf-8",
-            "ak": "ak_GH.utf-8",
-            "am": "am_ET.utf-8",
-            "an": "an_ES.utf-8",
-            "ar": "ar_TN.utf-8",
-            "as": "as_IN.utf-8",
-            "az": "az_AZ.utf-8",
-            "be": "be_BY.utf-8",
-            "bg": "BG.utf-8",
-            "bho": "bho_IN.utf-8",
-            "bi": "bi_VU.utf-8",
-            "bn": "bn_IN.utf-8",
-            "bo": "bo_CN.utf-8",
-            "br": "br_FR.utf-8",
-            "bs": "bs_BA.utf-8",
-            "ca": "ca_ES.utf-8",
-            "ce": "ce_RU.utf-8",
-            "cs": "cs_CZ.utf-8",
-            "cv": "cv_RU.utf-8",
-            "cy": "cy_GB.utf-8",
-            "da": "da_DK.utf-8",
-            "de": "de_DE.utf-8",
-            "doi": "doi_IN.utf-8",
-            "dv": "dv_MV.utf-8",
-            "dz": "dz_BT.utf-8",
-            "el": "el_GR.utf-8",
-            "en": "en_US.utf-8",
-            "es": "es_ES.utf-8",
-            "et": "et_EE.utf-8",
-            "eu": "eu_ES.utf-8",
-            "fa": "da_IR.utf-8",
-            "ff": "ff_SN.utf-8",
-            "fi": "fi_FI.utf-8",
-            "fil": "fil_PH.utf-8",
-            "fo": "fo_FO.utf-8",
-            "fr": "fr_FR.utf-8",
-            "fy": "fy_DE.utf-8",
-            "ga": "ga_IE.utf-8",
-            "gd": "gd_GB.utf-8",
-            "gl": "gl_ES.utf-8",
-            "gu": "gu_IN.utf-8",
-            "gv": "gv_GB.utf-8",
-            "ha": "ha_NG.utf-8",
-            "he": "he_IL.utf-8",
-            "hi": "hi_IN.utf-8",
-            "hr": "hr_HR.utf-8",
-            "ht": "ht_HT.utf-8",
-            "hu": "hu_HU.utf-8",
-            "hy": "hy_AM.utf-8",
-            "ia": "ia_FR.utf-8",
-            "id": "id_ID.utf-8",
-            "ig": "ig_NG.utf-8",
-            "ik": "ik_CA.utf-8",
-            "is": "is_IS.utf-8",
-            "it": "it_IT.utf-8",
-            "iu": "iu_CA.utf-8",
-            "ja": "ja_JP.utf-8",
-            "kab": "kab_DZ.utf-8",
-            "ka": "ka_GE.utf-8",
-            "kk": "kk_KZ.utf-8",
-            "kl": "kl_GL.utf-8",
-            "km": "km_KH.utf-8",
-            "kn": "kn_IN.utf-8",
-            "ko": "ko_KR.utf-8",
-            "ks": "ks_IN.utf-8",
-            "ku": "ku_TR.utf-8",
-            "kw": "kw_GB.utf-8",
-            "ky": "ky_KG.utf-8",
-            "lb": "lb_LU.utf-8",
-            "lg": "lg_UG.utf-8",
-            "li": "li_BE.utf-8",
-            "ln": "ln_CS.utf-8",
-            "lo": "lo_LA.utf-8",
-            "lt": "lt_LT.utf-8",
-            "lv": "lv_LV.utf-8",
-            "mag": "mag_IN.utf-8",
-            "mai": "mai_IN.utf-8",
-            "mg": "mg_MG.utf-8",
-            "mi": "mi_NZ.utf-8",
-            "mk": "mk_MK.utf-8",
-            "ml": "ml_IN.utf-8",
-            "mni": "mni_IN.utf-8",
-            "mn": "mn_MN.utf-8",
-            "mr": "mr_IN.utf-8",
-            "ms": "ms_MY.utf-8",
-            "mt": "mt_MT.utf-8",
-            "my": "my_MM.utf-8",
-            "nb": "nb_NO.utf-8",
-            "ne": "ne_NP.utf-8",
-            "nl": "nl_NL.utf-8",
-            "nn": "nn_NO.utf-8",
-            "nr": "nr_ZA.utf-8",
-            "nso": "nso_ZA.utf-8",
-            "oc": "oc_FR.utf-8",
-            "om": "om_ET.utf-8",
-            "or": "or_IN.utf-8",
-            "os": "os_RU.utf-8",
-            "pa": "pa_IN.utf-8",
-            "pl": "pl_PL.utf-8",
-            "pt": "pt_PT.utf-8",
-            "raj": "raj_IN.utf-8",
-            "ro": "ro_RO.utf-8",
-            "ru": "ru_RU.utf-8",
-            "rw": "rw_RW.utf-8",
-            "sa": "sa_IN.utf-8",
-            "sc": "sc_IT.utf-8",
-            "sd": "sd_IN.utf-8",
-            "se": "se_NO.utf-8",
-            "shn": "shn_MM.utf-8",
-            "sid": "sid_ET.utf-8",
-            "si": "si_LK.utf-8",
-            "sk": "sk_SK.utf-8",
-            "sl": "sl_SI.utf-8",
-            "sm": "sm_WS.utf-8",
-            "so": "so_SO.utf-8",
-            "sq": "sq_AL.utf-8",
-            "sr": "sr_RS.utf-8",
-            "ss": "ss_ZA.utf-8",
-            "st": "st_ZA.utf-8",
-            "sv": "sv_SE.utf-8",
-            "sw": "sw_TZ.utf-8",
-            "ta": "ta_IN.utf-8",
-            "te": "te_IN.utf-8",
-            "tg": "tg_TJ.utf-8",
-            "th": "th_TH.utf-8",
-            "ti": "ti_ER.utf-8",
-            "tk": "tk_TM.utf-8",
-            "tl": "tl_PH.utf-8",
-            "tn": "tn_ZA.utf-8",
-            "to": "to_TO.utf-8",
-            "tr": "tr_TR.utf-8",
-            "ts": "ts_ZA.utf-8",
-            "tt": "tt_RU.utf-8",
-            "ug": "ug_CN.utf-8",
-            "uk": "uk_UA.utf-8",
-            "ur": "ur_PK.utf-8",
-            "uz": "uz_UZ.utf-8",
-            "ve": "ve_ZA.utf-8",
-            "vi": "vi_VN.utf-8",
-            "wa": "wa_BE.utf-8",
-            "wo": "wo_SN.utf-8",
-            "xh": "xh_ZA.utf-8",
-            "yi": "yi_US.utf-8",
-            "yo": "yo_NG.utf-8",
-            "zh": "zh_CN.utf-8",
-            "zh_CN": "zh_CN.utf-8",
-            "zh_TW": "zh_TW.utf-8",
-            "zu": "zu_ZA.utf-8",
-        }[lang]
-    except KeyError:
-        return lang
+        language = Language.get(langcode)
+        language = language.fill_likely_values()
+        return f"{language.language}_{language.territory}.utf8"
+    except LanguageTagError:
+        return "C"
 
 
 if __name__ == "__main__":

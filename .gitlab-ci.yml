@@ -47,6 +47,8 @@ screenshots:
       - application/po/*.po
       - help/LINGUAS
       - screenshots/**/*
+  before_script:
+    - pip install langcodes
   script:
     - python3 screenshots/screenshot.py
   artifacts:
