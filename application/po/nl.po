@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Heimen Stoffels <vistausss@fastmail.com>, 2021, 2022, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
+# Philip Goto <philip.goto@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-26 11:17+0000\n"
-"PO-Revision-Date: 2023-01-07 09:45+0000\n"
-"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"PO-Revision-Date: 2023-02-18 19:12+0000\n"
+"Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/nl/>\n"
 "Language: nl\n"
@@ -17,14 +18,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "Metagegevensopruiming"
+msgstr "Metadata Cleaner"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
@@ -47,7 +48,7 @@ msgstr "Schoon bestanden op zonder een waarschuwingsvenster te tonen"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
-msgstr "Eenvoudige modus"
+msgstr "Lichte schoonmaak"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
@@ -94,7 +95,7 @@ msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
-"Met deze toepassing kun je die metagegevens bekijken en ze zo goed als "
+"Met deze app kunt u metagegevens van uw bestanden bekijken en ze zo goed "
 "mogelijk verwijderen."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
@@ -250,8 +251,8 @@ msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
-"Deze toepassing maakt gebruik van <a href=\"https://0xacab.org/jvoisin/"
-"mat2\">mat2</a> om metagegevens op te schonen. Bekijk hun code ook eens!"
+"Deze app maakt gebruik van <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
+"a> om metagegevens op te schonen. Bekijk hun code ook eens!"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -342,7 +343,7 @@ msgstr "_Sneltoetsen"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "Over Met_agegevensopruiming"
+msgstr "_Over Metadata Cleaner"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
