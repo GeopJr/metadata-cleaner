@@ -1,10 +1,11 @@
 # Heimen Stoffels <vistausss@fastmail.com>, 2021.
+# Philip Goto <philip.goto@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-01-26 11:17+0000\n"
-"PO-Revision-Date: 2021-10-29 09:47+0000\n"
-"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"PO-Revision-Date: 2023-02-18 11:39+0000\n"
+"Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/nl/>\n"
 "Language: nl\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -111,7 +112,7 @@ msgstr ""
 #. The application name. It can be translated.
 #: ../help/C/index.page:10
 msgid "Metadata Cleaner"
-msgstr "Metagegevensopruiming"
+msgstr "Metadata Cleaner"
 
 #. (itstool) path: page/p
 #: ../help/C/index.page:14
@@ -209,7 +210,7 @@ msgstr "<gui style=\"button\">Opschonen</gui>-knop"
 #. (itstool) path: section/title
 #: ../help/C/usage.page:48
 msgid "Lightweight cleaning"
-msgstr "Eenvoudige modus"
+msgstr "Lichte schoonmaak"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:49
