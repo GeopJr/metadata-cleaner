@@ -2,22 +2,23 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Victor Mihalache <vmhl.ph@gmail.com>, 2021.
+# Matt C <matei.gurzu@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-26 11:17+0000\n"
-"PO-Revision-Date: 2021-11-10 12:47+0000\n"
-"Last-Translator: Victor Mihalache <vmhl.ph@gmail.com>\n"
-"Language-Team: Romanian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/ro/>\n"
+"PO-Revision-Date: 2023-02-18 19:12+0000\n"
+"Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -106,16 +107,12 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-#, fuzzy
-#| msgid "New translations"
 msgid "Updated translations"
-msgstr "Traduceri noi"
+msgstr "Traduceri actualizate"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-#, fuzzy
-#| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
-msgstr "Interfață de utilizator adaptabilă îmbunătățită"
+msgstr "Interfață de utilizator îmbunătățită"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
@@ -135,7 +132,7 @@ msgstr "Traduceri noi"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
 msgid "Bug fixes"
-msgstr ""
+msgstr "Remedieri de erori"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
 msgid "New button to add folders"
@@ -207,7 +204,7 @@ msgstr "Ajutor"
 
 #: application/data/ui/AboutDialog.ui:38
 msgid "About"
-msgstr ""
+msgstr "Despre"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
@@ -227,7 +224,7 @@ msgstr "Susține-ne pe Liberapay"
 
 #: application/data/ui/AboutDialog.ui:148
 msgid "Credits"
-msgstr ""
+msgstr "Credite"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
@@ -304,11 +301,9 @@ msgid "Clean Your Traces"
 msgstr "Curăță-ți urmele"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
-"Află mai multe despre metadate și despre limitările procesului de curățare."
+"Aflați mai multe despre metadate și despre limitările procesului de curățare"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
@@ -348,7 +343,7 @@ msgstr "_Despre Curățător de Metadate"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Meniu principal"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -385,7 +380,7 @@ msgstr "Alege dosarele de curățat"
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "A apărut o eroare în timpul curățării."
 
 #: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -393,58 +388,44 @@ msgstr ""
 "S-a întâmplat ceva rău în timpul curățării, fișierul curățat nu a fost găsit"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Fișierul a fost curățat."
+msgstr "Fișierul a fost curățat"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
-"Află mai multe despre metadate și despre limitările procesului de curățare."
+"Metadatele cunoscute au fost eliminate, însă procesul de curățare are unele "
+"limitări."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Află mai multe"
 
 #: application/metadatacleaner/ui/detailsview.py:76
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Imposibil de citit fișierul."
+msgstr "Nu se poate citi fișierul"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Tip de fișier nu suportat."
+msgstr "Tipul de fișier nu este suportat"
 
 #: application/metadatacleaner/ui/detailsview.py:79
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Imposibil de verificat metadatele."
+msgstr "Imposibil de verificat metadate"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "Metadate necunoscute"
 
 #: application/metadatacleaner/ui/detailsview.py:82
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Imposibil de eliminat metadatele."
+msgstr "Imposibil de eliminat metadatele"
 
 #: application/metadatacleaner/ui/detailsview.py:86
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
-"Nu există metadate cunoscute, fișierul va fi curățat pentru a fi sigur."
+msgstr "Fișierul va fi curățat oricum, pentru a fi siguri."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
