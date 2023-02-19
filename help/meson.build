@@ -11,6 +11,7 @@ gnome.yelp(
   media: [
     'figures/icon.svg',
     'figures/add-files-button.png',
+    'figures/add-folders-button.png',
     'figures/clean-button.png',
     'figures/metadata-example.png',
   ],
