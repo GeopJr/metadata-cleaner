@@ -17,7 +17,6 @@ application/data/ui/MenuButton.ui
 application/data/ui/MetadataDetails.ui
 application/data/ui/MetadataDetailsRow.ui
 application/data/ui/MetadataView.ui
-application/data/ui/OutButton.ui
 application/data/ui/SettingsButton.ui
 application/data/ui/StatusIndicator.ui
 application/data/ui/Window.ui
@@ -40,7 +39,6 @@ application/metadatacleaner/ui/menubutton.py
 application/metadatacleaner/ui/metadatadetails.py
 application/metadatacleaner/ui/metadatadetailsrow.py
 application/metadatacleaner/ui/metadataview.py
-application/metadatacleaner/ui/outbutton.py
 application/metadatacleaner/ui/settingsbutton.py
 application/metadatacleaner/ui/statusindicator.py
 application/metadatacleaner/ui/window.py

@@ -29,7 +29,6 @@ ui = [
   'ui/metadatadetails.py',
   'ui/metadatadetailsrow.py',
   'ui/metadataview.py',
-  'ui/outbutton.py',
   'ui/settingsbutton.py',
   'ui/statusindicator.py',
   'ui/window.py',
