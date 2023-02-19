@@ -6,6 +6,36 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.5.0] - 2023-02-19
+
+Packagers: Metadata Cleaner now depends on at least version 1.2 of Libadwaita.
+
+### Added
+
+- The maximized state of the window is now saved
+
+### Changed
+
+- The Add files and Add folders buttons are now on the same level
+- The About window is now provided by Libadwaita
+- Updated Arabic translation (contributed by @Ali-98)
+- Updated Chinese (Traditional) translation (contributed by yenyu chen)
+- Updated Dutch translation (contributed by @philip.goto)
+- Updated French translation
+- Updated German translation (contributed by @eladyn)
+- Updated Hungarian translation (contributed by @Szia Tomi)
+- Updated Indonesian translation (contributed by Ciki Momogi)
+- Updated Italian translation (contributed by @albanobattistella)
+- Updated Korean translation (contributed by @darkcircle.0426)
+- Updated Occitan translation (contributed by @quenty_occitania)
+- Updated Portuguese translation (contributed by @SantosSi)
+- Updated Russian translation (contributed by @VoynovAR)
+- Updated Spanish translation (contributed by @gallegonovato)
+- Updated Swedish translation (contributed by @bittin1)
+- Updated Turkish translation (contributed by @sabriunal)
+- Updated Ukrainian translation (contributed by @ihor_ck)
+
+
 ## [2.4.0] - 2023-01-23
 
 ### Added
