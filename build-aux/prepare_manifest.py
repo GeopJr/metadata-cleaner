@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: Metadata Cleaner contributors
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 """Prepare the Flatpak manifest for a release build."""

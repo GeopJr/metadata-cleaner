@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: Metadata Cleaner contributors
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 """Run the screenshooter in a headless compositor."""
@@ -271,7 +271,7 @@ def write_license_file(path: str) -> None:
     """
     with open(path, "w") as f:
         f.writelines([
-            f"SPDX-FileCopyrightText: {date.today().year} "
+            f"SPDX-FileCopyrightText: Metadata Cleaner contributors
             "Romain Vigier <contact AT romainvigier.fr>\n",
             "SPDX-License-Identifier: CC-BY-SA-4.0"
         ])

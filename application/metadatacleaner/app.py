@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: Metadata Cleaner contributors
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 """Application for Metadata Cleaner."""

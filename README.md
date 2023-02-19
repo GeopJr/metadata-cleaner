@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: Metadata Cleaner contributors
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
