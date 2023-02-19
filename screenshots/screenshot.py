@@ -218,7 +218,7 @@ def shoot_help() -> None:
                      if code != "" and code[0] != "#"]
     langcodes.sort()
     total = len(langcodes) + 1
-    for i, langcode in enumerate(langcodes, 1):
+    for i, langcode in enumerate(["C"] + langcodes, 1):
         for widget in [
                 HelpWidget("add-files-button", langcode, True),
                 HelpWidget("add-folders-button", langcode, True),
