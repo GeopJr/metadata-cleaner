@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 13:14+0000\n"
-"PO-Revision-Date: 2023-02-18 19:12+0000\n"
+"PO-Revision-Date: 2023-02-19 18:03+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/nl/>\n"
@@ -292,7 +292,7 @@ msgstr "Bezig met opschonen van bestand {}/{}…"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Bibliotheken"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Geen opschoonwaarschuwing tonen"
