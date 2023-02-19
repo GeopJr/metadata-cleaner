@@ -1,12 +1,12 @@
-# albanobattistella <albano_battistella@hotmail.com>, 2021.
+# albanobattistella <albano_battistella@hotmail.com>, 2021, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # Victor Mihalache <vmhl.ph@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-02-19 11:09+0000\n"
-"PO-Revision-Date: 2021-11-10 12:43+0000\n"
-"Last-Translator: Victor Mihalache <vmhl.ph@gmail.com>\n"
+"PO-Revision-Date: 2023-02-19 13:16+0000\n"
+"Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/it/>\n"
 "Language: it\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -158,14 +158,6 @@ msgstr "<gui style=\"button\">pulsante</gui> aggiungi file"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
-#, fuzzy
-#| msgid ""
-#| "To add whole folders at once, press the arrow next to the <gui style="
-#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
-#| "Folders</gui> button. A file chooser will open, select the folders you "
-#| "want to add. You can optionally choose to also add all files from all "
-#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
-#| "subfolders</gui> checkbox."
 msgid ""
 "To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
@@ -173,20 +165,17 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Per aggiungere intere cartelle in una volta sola, premi la freccia accanto "
-"al pulsante <gui style=\"button\">Aggiungi file</gui> e premi il pulsante "
-"<gui style=\"button\">Aggiungi cartelle</gui>. Si aprirà un selezionatore di "
-"file, seleziona le cartelle che vuoi aggiungere. Puoi opzionalmente "
-"scegliere di aggiungere anche tutti i file di tutte le sottocartelle "
+"Per aggiungere intere cartelle in una volta, premi il pulsante <gui style="
+"\"button\">Aggiungi cartelle</gui>. Si aprirà un selettore di file, "
+"selezionare le cartelle che si desidera aggiungere. Puoi facoltativamente "
+"scegliere di aggiungere anche tutti i file da tutte le sottocartelle "
 "selezionando la casella <gui style=\"checkbox\">Aggiungi file dalle "
 "sottocartelle</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
-#, fuzzy
-#| msgid "<gui style=\"button\">Add Files</gui> button"
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr "<gui style=\"button\">pulsante</gui> aggiungi file"
+msgstr "Pulsante <gui style=\"button\">Aggiungi cartelle</gui>"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
