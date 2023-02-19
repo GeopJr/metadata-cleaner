@@ -13,12 +13,6 @@ This tool allows you to view metadata in your files and to get rid of it, as muc
 
 Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse and remove the metadata.
 
----
-
-[[_TOC_]]
-
----
-
 ## Screenshots
 
 <a href="./resources/screenshots/1.png"><img src="./resources/screenshots/1.png" alt="Welcome screen" height="250"></a>
