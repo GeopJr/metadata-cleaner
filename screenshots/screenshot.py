@@ -271,8 +271,7 @@ def write_license_file(path: str) -> None:
     """
     with open(path, "w") as f:
         f.writelines([
-            f"SPDX-FileCopyrightText: Metadata Cleaner contributors
-            "Romain Vigier <contact AT romainvigier.fr>\n",
+            "SPDX-FileCopyrightText: Metadata Cleaner contributors\n"
             "SPDX-License-Identifier: CC-BY-SA-4.0"
         ])
 
