@@ -4,7 +4,6 @@
 application/data/fr.romainvigier.MetadataCleaner.desktop.in
 application/data/fr.romainvigier.MetadataCleaner.metainfo.xml
 application/data/gtk/help-overlay.ui
-application/data/ui/AboutDialog.ui
 application/data/ui/AddFilesButton.ui
 application/data/ui/Badge.ui
 application/data/ui/CleaningWarningDialog.ui
@@ -26,7 +25,6 @@ application/metadatacleaner/app.py
 application/metadatacleaner/modules/file.py
 application/metadatacleaner/modules/filestore.py
 application/metadatacleaner/modules/logger.py
-application/metadatacleaner/ui/aboutdialog.py
 application/metadatacleaner/ui/addfilesbutton.py
 application/metadatacleaner/ui/badge.py
 application/metadatacleaner/ui/cleaningwarningdialog.py
