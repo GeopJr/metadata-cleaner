@@ -8,13 +8,14 @@
 # eladyn <f+weblate@piored.de>, 2021.
 # Cgrieger <translate@cgrieger.org>, 2022.
 # Ettore Atalan <atalanttore@googlemail.com>, 2022, 2023.
+# eladyn <eladyn@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 11:09+0000\n"
-"PO-Revision-Date: 2023-01-08 02:05+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2023-02-19 13:16+0000\n"
+"Last-Translator: eladyn <eladyn@protonmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/de/>\n"
 "Language: de\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -218,7 +219,9 @@ msgstr "Schließen"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr "lux"
+msgstr ""
+"lux\n"
+"eladyn <eladyn@protonmail.com>"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
@@ -295,7 +298,7 @@ msgstr "Bereinige Datei {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Bibliotheken"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Ohne Warnung bereinigen"
