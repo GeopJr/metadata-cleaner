@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 18:36+0000\n"
+"POT-Creation-Date: 2023-02-20 11:08+0000\n"
 "PO-Revision-Date: 2023-01-26 09:51+0000\n"
 "Last-Translator: Войнов Артем Романович <voynovar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -41,7 +41,7 @@ msgstr "Метаданные;Удаление;Очистка;"
 msgid "View and clean metadata in files"
 msgstr "Показать и очистить метаданные в файлах"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -54,7 +54,7 @@ msgstr ""
 "пишут автора и компанию в документы и презентации. Это личная информация и "
 "вы можете не хотеть её раскрывать."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
