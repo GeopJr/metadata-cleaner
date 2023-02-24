@@ -1,10 +1,11 @@
 # Oğuz Ersen <oguzersen@protonmail.com>, 2021.
+# Sabri Ünal <libreajans@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-02-20 11:08+0000\n"
-"PO-Revision-Date: 2021-10-27 18:04+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"PO-Revision-Date: 2023-02-25 12:40+0000\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/tr/>\n"
 "Language: tr\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -155,14 +156,6 @@ msgstr "<gui style=\"button\">Dosya Ekle</gui> düğmesi"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
-#, fuzzy
-#| msgid ""
-#| "To add whole folders at once, press the arrow next to the <gui style="
-#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
-#| "Folders</gui> button. A file chooser will open, select the folders you "
-#| "want to add. You can optionally choose to also add all files from all "
-#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
-#| "subfolders</gui> checkbox."
 msgid ""
 "To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
@@ -170,19 +163,16 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Tüm klasörleri bir kerede eklemek için, <gui style=\"button\">Dosya Ekle</"
-"gui> düğmesinin yanındaki oka ve ardından <gui style=\"button\">Klasör Ekle</"
+"Tüm klasörleri bir kerede eklemek için <gui style=\"button\">Klasör Ekle</"
 "gui> düğmesine basın. Bir dosya seçici açılacaktır, eklemek istediğiniz "
-"klasörleri seçin. İsteğe bağlı olarak, <gui style=\"checkbox\">Alt "
-"klasörlerden dosya ekle</gui> onay kutusunu işaretleyerek tüm alt "
-"klasörlerdeki tüm dosyaları eklemeyi de seçebilirsiniz."
+"klasörleri seçin. İsteğe bağlı olarak <gui style=\"checkbox\">Alt "
+"klasörlerdeki dosyaları ekle</gui> onay kutusunu işaretleyerek tüm alt "
+"klasörlerdeki tüm dosyaları da eklemeyi seçebilirsiniz."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
-#, fuzzy
-#| msgid "<gui style=\"button\">Add Files</gui> button"
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr "<gui style=\"button\">Dosya Ekle</gui> düğmesi"
+msgstr "<gui style=\"button\"> Klasör Ekle</gui> düğmesi"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
