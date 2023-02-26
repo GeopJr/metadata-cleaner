@@ -7,13 +7,14 @@
 # Davi Patricio <davipatricio@pm.me>, 2021.
 # Gabriel Gian <gabrielgian@live.com>, 2021.
 # Daniel Abrante <danielabrante@protonmail.com>, 2023.
+# Felipe Kinoshita <kinofhek@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-20 11:08+0000\n"
-"PO-Revision-Date: 2023-01-09 15:43+0000\n"
-"Last-Translator: Daniel Abrante <danielabrante@protonmail.com>\n"
+"PO-Revision-Date: 2023-02-27 11:39+0000\n"
+"Last-Translator: Felipe Kinoshita <kinofhek@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -217,7 +218,8 @@ msgstr "Fechar"
 msgid "translator-credits"
 msgstr ""
 "Gustavo Costa <xfgusta@gmail.com>\n"
-"Gabriel Gian <gabrielgian@protonmail.com>"
+"Gabriel Gian <gabrielgian@protonmail.com>\n"
+"Felipe Kinoshita <kinofhek@gmail.com>"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
@@ -293,7 +295,7 @@ msgstr "Limpando arquivo {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Bibliotecas"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Limpar sem avisar"
