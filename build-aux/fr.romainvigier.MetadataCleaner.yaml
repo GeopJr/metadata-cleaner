@@ -4,7 +4,7 @@
 app-id: fr.romainvigier.MetadataCleaner
 default-branch: develop
 runtime: org.gnome.Platform
-runtime-version: '43'
+runtime-version: '44'
 sdk: org.gnome.Sdk
 command: metadata-cleaner
 separate-locales: false
