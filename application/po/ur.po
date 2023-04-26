@@ -7,33 +7,36 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-27 09:38+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-27 13:49+0000\n"
+"Last-Translator: duckienome <xvchattw@duck.com>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/metadata-cleaner/"
+"application/ur/>\n"
 "Language: ur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "میٹاڈیٹا کلینر"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "آپکی فائلوں سے میٹا ڈیٹا صاف کرتاہے"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "میٹا ڈیٹا; ہٹانے والا; صفاءئکرنےوالا;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "فائلوں کا میٹا ڈیٹا دیکھتا اور صاف کرتاہے"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
@@ -43,235 +46,242 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"فائل کے اندر موجود میٹا ڈیٹا آپ کے بارے میں بہت کچھ بتا سکتا ہے۔ کیمرے اس "
+"بارے میں ڈیٹا ریکارڈ کرتے ہیں کہ تصویر کب اور کہاں لی گئی تھی اور کون سا "
+"کیمرہ استعمال کیا گیا تھا۔ آفس ایپلیکیشنز خود بخود مصنف اور کمپنی کی معلومات "
+"کو دستاویزات اور اسپریڈ شیٹس میں شامل کر دیتی ہیں۔ یہ حساس معلومات ہے اور ہو "
+"سکتا ہے آپ اسے ظاہر نہ کرنا چاہیں۔"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
+"یہ آیپ آپ کو اپنی فائلوں میں میٹا ڈیٹا دیکھنے اور جتنا ممکن ہو اس سے چھٹکارا "
+"حاصل کرنے میں مدد کرتا ہے۔"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "فائلوں"
 
 #: application/data/gtk/help-overlay.ui:18
 #: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
-msgstr ""
+msgstr "فائلیں شامل کریں"
 
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
-msgstr ""
+msgstr "فولڈرز شامل کریں"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr ""
+msgstr "میٹا ڈیٹا کو صاف کریں"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr ""
+msgstr "ونڈو سے تمام فائلیں صاف کریں"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr ""
+msgstr "عام"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr ""
+msgstr "نئ/جدید وندو"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr ""
+msgstr "وندو بند کریں"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr ""
+msgstr "بند کریں"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "کی بورڈ شارٹ کٹس"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr ""
+msgstr "مدد"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr ""
+msgstr "_فائلیں شامل کریں"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
-msgstr ""
+msgstr "فولدرز شامل کریں"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_صاف"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "یقینی بنائیں کہ آپ نے اپنی فائلوں کا بیک اپ لیا ہے!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "ایک مرتبہ فائلوں کو صاف کرنے کے بعد واپس لوٹا نہیں جاسکتا۔"
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "مجھے دوبارہ مت کہنا"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 #: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
-msgstr ""
+msgstr "منسوخ کریں"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "صاف"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr ""
+msgstr "اپنے نشانات کو صاف کریں"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr ""
+msgstr "میٹا ڈیٹا اور صفائی کے عمل کی حدود کے بارے میں مزید جانیں"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
-msgstr ""
+msgstr "فہرست سے فائل کو ہٹا دیں"
 
 #: application/data/ui/FileRow.ui:128
 msgid "Warning"
-msgstr ""
+msgstr "تنبیہ"
 
 #: application/data/ui/FileRow.ui:146
 msgid "Error"
-msgstr ""
+msgstr "خرابی"
 
 #: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
-msgstr ""
+msgstr "صاف کردیاگیا"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr ""
+msgstr "_نئ وندو"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr ""
+msgstr "_ ونڈو صاف کریں"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_مدد"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_کی بورڈ شارٹ کٹس"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_میٹا ڈیٹا کلینر کا تعارف"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "مرکزی فہرست"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "صفائی کی ترتیبات"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr ""
+msgstr "ہلکی صفائی"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "ہلکی صفائی کے بارے میں مزید جانیں"
 
 #: application/data/ui/Window.ui:80
 msgid "Details"
-msgstr ""
+msgstr "تفصیلات"
 
 #: application/data/ui/Window.ui:86
 msgid "Close"
-msgstr ""
+msgstr "بند کریں"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr ""
+msgstr "duckienome"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
-msgstr ""
+msgstr "صاف کرنے کے لیے فائلوں کا انتخاب کریں"
 
 #: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
-msgstr ""
+msgstr "صاف کرنے کے لیے فولڈرز کو منتخب کریں"
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "صفائی کے دوران ایک خرابی پیش آگئی۔"
 
 #: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
+msgstr "صفائی کے دوران کچھ برا ہوا، صاف فائل نہیں مل سکی"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr ""
+msgstr "فائل کو صاف کر دیا گیا ہے"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr ""
+msgstr "معلوم شدہ میٹا ڈیٹا ہٹا دیا گیا ہے، تاہم صفائی کے عمل کی کچھ حدود ہیں۔"
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "اورجانیے"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr ""
+msgstr "فراہم کردہ فائل پڑھنے سے قاصر ہے"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr ""
+msgstr "فائل کی قسم تعاون یافتہ نہیں ہے"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr ""
+msgstr "میٹا ڈیٹا چیک کرنے سے قاصر"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "کوئی بھی معلوم شدہ میٹا ڈیٹا موجود نھیں ہے"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr ""
+msgstr "میٹا ڈیٹا کو ہٹانے سے قاصر"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
+msgstr "فائل کو بہرحال صاف کیا جائے گا۔"
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "تمام معاون فائلیں"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "ذیلی فولڈرز سے فائلیں شامل کریں"
 
 #: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "فائل پر کارروائی ہو رہی ہے {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
-msgstr ""
+msgstr "فائل کی صفائی ہورہی ہے {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "لائبریریاں"
