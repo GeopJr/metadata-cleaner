@@ -1,11 +1,11 @@
 # Athanasios Nektarios Karachalios Stagkas <nasos.karachalios.stagas@gmail.com>, 2022.
+# Athanasios <nikolaoutns@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-03-27 09:38+0000\n"
-"PO-Revision-Date: 2022-08-04 23:20+0000\n"
-"Last-Translator: Athanasios Nektarios Karachalios Stagkas <nasos.karachalios."
-"stagas@gmail.com>\n"
+"PO-Revision-Date: 2023-05-08 19:24+0000\n"
+"Last-Translator: Athanasios <nikolaoutns@protonmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/el/>\n"
 "Language: el\n"
@@ -13,12 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Μεταδεδομένα και ιδιωτικότητα"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:15
@@ -48,7 +48,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Παράδειγμα μεταδεδομένων σε ένα αρχείο εικόνας"
 
 #. (itstool) path: figure/desc
 #: ../help/C/general.page:20
@@ -60,7 +60,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: ../help/C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Διαδικασία καθαρισμού"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:28
@@ -82,7 +82,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: ../help/C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Περιορισμοί"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:36
@@ -109,7 +109,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: ../help/C/index.page:17
 msgid "General information"
-msgstr ""
+msgstr "Γενικές πληροφορίες"
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:21
