@@ -7,33 +7,36 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-08 19:53+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-18 12:51+0000\n"
+"Last-Translator: Viktor Broov <broov2024@gmail.com>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Purigo de metadatumo"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "Purigas matadatumon el viaj dosieroj"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "Metadatumo;Purigilo;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "Rigardi kaj purigi metadatojn en dosieroj"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
@@ -43,235 +46,242 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"Metadatumo povas malfermi multe datumon pri via. Via kamero skribas datumo "
+"pri tio kiam, kie kaj kiu kamera uzis. Oficeja pakajo aŭtomate aldonas "
+"aŭtoran kaj kompanian informadon en dokumentoj, tabelkalkuloj kaj "
+"prizentadoj. Tio estas sentema informado kaj vi povas ne komuniki ties."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
+"Ĉi tio utilaĵo ebligas rigardi metadatumojn kaj purigi ilin kie ajn eblas."
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "Dosieroj"
 
 #: application/data/gtk/help-overlay.ui:18
 #: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
-msgstr ""
+msgstr "Aldoni dosieroj"
 
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
-msgstr ""
+msgstr "Aldoni dosieruloj"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr ""
+msgstr "Purigi metadatumon"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Forigi liston"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr ""
+msgstr "Ĝenerala"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr ""
+msgstr "Nova fenestro"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr ""
+msgstr "Malfermi la fenestron"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr ""
+msgstr "Eliri"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Klavara mallongirejo"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr ""
+msgstr "Halpo"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr ""
+msgstr "_Aldoni dosierojn"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
-msgstr ""
+msgstr "Aldoni _dosierulojn"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_Purigi"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "Certiĝгu, kio vi rezervas viajn dosierojn!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "Se la dosireojn puriĝas - ne estos reveno."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Ankoraŭ ne rememorigi"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 #: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
-msgstr ""
+msgstr "Forigi"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "Purigi"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr ""
+msgstr "Purigi viajn spurojn"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr ""
+msgstr "Eksciu pli pri metadatumo kaj malvastigaĵo de proceso de purigo"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
-msgstr ""
+msgstr "Forigi dosieron el listo"
 
 #: application/data/ui/FileRow.ui:128
 msgid "Warning"
-msgstr ""
+msgstr "Atando"
 
 #: application/data/ui/FileRow.ui:146
 msgid "Error"
-msgstr ""
+msgstr "Eraro"
 
 #: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
-msgstr ""
+msgstr "Puriĝis"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr ""
+msgstr "_Nova fenestro"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr ""
+msgstr "_Purigi fenestron"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_Helpon"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Klavara mallongirejo"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_Pri purigilo de metadatumo"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Ĉefa menuo"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "Parametroj de agordo"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr ""
+msgstr "Facila purigo"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Eksciu pli pri facila purigi"
 
 #: application/data/ui/Window.ui:80
 msgid "Details"
-msgstr ""
+msgstr "Detaloj"
 
 #: application/data/ui/Window.ui:86
 msgid "Close"
-msgstr ""
+msgstr "Malfermi"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr ""
+msgstr "Paŭlo PANISTO <broov2024@gmail.com>"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
-msgstr ""
+msgstr "Elektu dosieroj pri purigo"
 
 #: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
-msgstr ""
+msgstr "Elektu dosieruloj pri purigo"
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "La eraro okazis en puriga tempo."
 
 #: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
+msgstr "Io malbona okazis en puriga tempo, ne eblas trovi puriĝa dosiero"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr ""
+msgstr "La dosiero estis purigita"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
+"Fama metadatumo estis forigita, sed la procezo de purigo havi kelkajn "
+"restriktojn."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Ekscii pli"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr ""
+msgstr "Ne povas legi dosieron"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr ""
+msgstr "Datumtipo ne subtenas"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr ""
+msgstr "Ne povas kontrloi haveblajn metadatumojn"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "Malfamaj metadatumoj malestas"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr ""
+msgstr "Nekapablas forigi metadatumojn"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
+msgstr "La dosiero estos puriĝi ĉiukaze por certeco."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "Ĉiu subtenata dosiero"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Aldoni dosierojn el subsodieruloj"
 
 #: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "Procesada dosiero {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
-msgstr ""
+msgstr "Purigas dosierojn {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Libraroj"
