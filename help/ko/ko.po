@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-08 19:53+0000\n"
+"POT-Creation-Date: 2023-06-25 07:40+0000\n"
 "PO-Revision-Date: 2023-06-14 02:12+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -41,10 +41,10 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"파일의 메타데이터는 사용자의 여러 정보가 담겨있습니다. 카메라는 어디서 "
-"사진을 찍었고 어떤 카메라를 사용했는지 데이터를 기록합니다. 오피스 "
-"프로그램은 작성자와 회사 정보를 문서와 스프레드 시트에 추가합니다. 이런 "
-"민감한 정보는 파일에 넣고 싶지 않습니다."
+"파일의 메타데이터는 사용자의 여러 정보가 담겨있습니다. 카메라는 어디서 사진"
+"을 찍었고 어떤 카메라를 사용했는지 데이터를 기록합니다. 오피스 프로그램은 작"
+"성자와 회사 정보를 문서와 스프레드 시트에 추가합니다. 이런 민감한 정보는 파일"
+"에 넣고 싶지 않습니다."
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
