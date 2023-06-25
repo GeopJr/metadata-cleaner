@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-08 19:53+0000\n"
+"POT-Creation-Date: 2023-06-25 07:40+0000\n"
 "PO-Revision-Date: 2023-02-18 19:12+0000\n"
 "Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/metadata-"
@@ -188,7 +188,9 @@ msgid "_About Metadata Cleaner"
 msgstr "_Despre Curățător de Metadate"
 
 #: application/data/ui/MenuButton.ui:38
-msgid "Main menu"
+#, fuzzy
+#| msgid "Main menu"
+msgid "Main Menu"
 msgstr "Meniu principal"
 
 #: application/data/ui/SettingsButton.ui:9

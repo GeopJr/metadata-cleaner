@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-08 19:53+0000\n"
+"POT-Creation-Date: 2023-06-25 07:40+0000\n"
 "PO-Revision-Date: 2023-01-13 03:51+0000\n"
 "Last-Translator: Ujhhgtg <feyxiexzf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -182,7 +182,9 @@ msgid "_About Metadata Cleaner"
 msgstr "属性信息删除器简介 (_A)"
 
 #: application/data/ui/MenuButton.ui:38
-msgid "Main menu"
+#, fuzzy
+#| msgid "Main menu"
+msgid "Main Menu"
 msgstr "主菜单"
 
 #: application/data/ui/SettingsButton.ui:9
