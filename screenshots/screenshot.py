@@ -285,6 +285,9 @@ def locale_from_langcode(langcode: str) -> str:
     Returns:
         str: Locale string.
     """
+    # Esperanto doesn't has a territory
+    if langcode == "eo":
+        return "eo.utf8"
     # Likely territory for "pt" is "BR", force "PT"
     if langcode == "pt":
         langcode = "pt-PT"
