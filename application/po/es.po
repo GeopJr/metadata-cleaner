@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-25 07:57+0000\n"
-"PO-Revision-Date: 2023-06-27 15:48+0000\n"
+"PO-Revision-Date: 2023-07-08 07:49+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted.weblate"
 ".org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -236,7 +236,8 @@ msgstr "Se ha producido un error durante la limpieza."
 
 #: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr "Algo malo sucedió durante la limpieza, archivo limpio no encontrado"
+msgstr ""
+"Algo malo ha ocurrido durante la limpieza, archivo limpiado no encontrado"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
@@ -292,7 +293,7 @@ msgstr "Procesando archivo {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
-msgstr "Limpiando el archivo {}/{}"
+msgstr "Limpiando archivo {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
