@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # pavelzahradnik <pavel.zahradnik@centrum.cz>, 2021, 2022.
+# Písek Pískovec <pisekpiskovec@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-25 07:57+0000\n"
-"PO-Revision-Date: 2022-04-15 18:08+0000\n"
-"Last-Translator: pavelzahradnik <pavel.zahradnik@centrum.cz>\n"
+"PO-Revision-Date: 2023-07-09 20:47+0000\n"
+"Last-Translator: Písek Pískovec <pisekpiskovec@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/cs/>\n"
 "Language: cs\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -184,10 +185,8 @@ msgid "_About Metadata Cleaner"
 msgstr "_O aplikaci Čistič metadat"
 
 #: application/data/ui/MenuButton.ui:38
-#, fuzzy
-#| msgid "Main menu"
 msgid "Main Menu"
-msgstr "Hlavní nabídka"
+msgstr "Hlavní Nabídka"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -212,7 +211,9 @@ msgstr "Zavřít"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr "PavelZ"
+msgstr ""
+"PavelZ\n"
+"Písek Pískovec"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
@@ -224,7 +225,7 @@ msgstr "Vyberte složky pro vyčištění"
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "Vyskytla se chyba během čištění."
 
 #: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -287,7 +288,7 @@ msgstr "Čištění souboru {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Knihovny"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Vyčistit bez varování"
