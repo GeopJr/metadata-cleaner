@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 08:18+0000\n"
-"PO-Revision-Date: 2023-07-09 20:47+0000\n"
+"PO-Revision-Date: 2023-08-20 14:47+0000\n"
 "Last-Translator: Písek Pískovec <pisekpiskovec@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/cs/>\n"
@@ -194,7 +194,7 @@ msgstr "Nastavení čištění"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr "Opatrné čištění"
+msgstr "Lehké čištění"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
@@ -233,7 +233,7 @@ msgstr "Během čištění nastal problém, vyčištěný soubor nebyl nalezen"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr "Soubor byl vyčištěn."
+msgstr "Soubor byl vyčištěn"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
@@ -248,7 +248,7 @@ msgstr "Dozvědět se více"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr "Nelze načíst soubor."
+msgstr "Nelze načíst soubor"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
