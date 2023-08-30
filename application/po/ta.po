@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-29 20:11+0000\n"
-"PO-Revision-Date: 2023-04-11 06:48+0000\n"
+"PO-Revision-Date: 2023-08-31 17:53+0000\n"
 "Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ta/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -185,8 +185,6 @@ msgid "_About Metadata Cleaner"
 msgstr "_மெட்டாடேட்டா கிளீனர் பற்றி"
 
 #: application/data/ui/MenuButton.ui:38
-#, fuzzy
-#| msgid "Main menu"
 msgid "Main Menu"
 msgstr "முதன்மை பட்டியல்"
 
@@ -291,15 +289,15 @@ msgstr "கோப்பை சுத்தம் செய்கிறது {}/
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%i கோப்பு சுத்தம் செய்யப்பட்டது."
+msgstr[1] "%i கோப்புகள் சுத்தம் செய்யப்பட்டன."
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
 msgid "%i error occured."
 msgid_plural "%i errors occured."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%i பிழை ஏற்பட்டது."
+msgstr[1] "%i பிழைகள் ஏற்பட்டன."
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
