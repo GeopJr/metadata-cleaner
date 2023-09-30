@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Zszywek <zszywek+weblate@gmail.com>, 2022.
 # Anon Ymous <mivon27841@shackvine.com>, 2022.
+# Eryk Michalak <gnu.ewm@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2022-03-01 06:55+0000\n"
-"Last-Translator: Anon Ymous <mivon27841@shackvine.com>\n"
+"PO-Revision-Date: 2023-10-01 11:00+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/pl/>\n"
 "Language: pl\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -41,7 +42,6 @@ msgid "View and clean metadata in files"
 msgstr "Wyświetl i wyczyść metadane w plikach"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
-#, fuzzy
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -49,11 +49,11 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Metadane w pliku mogą wiele o Tobie powiedzieć. Kamery rejestrują dane o "
-"tym, kiedy i gdzie zostało zrobione zdjęcie oraz jakiego aparatu użyto. "
-"Aplikacje pakietu Office automatycznie dodają informacje o autorze i firmie "
-"do dokumentów i arkuszy kalkulacyjnych. Są to informacje poufne i możesz nie "
-"chcieć ich ujawniać."
+"Metadane w pliku mogą wiele o tobie powiedzieć. Aparaty fotograficzne "
+"zapisują dane o tym, kiedy i gdzie zostało wykonane zdjęcie oraz który "
+"aparat został użyty. Aplikacje biurowe automatycznie dodają informacje o "
+"autorze i firmie do dokumentów i arkuszy kalkulacyjnych. Są to informacje "
+"wrażliwe i możesz nie chcieć ich ujawniać."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -147,10 +147,8 @@ msgid "Clean Your Traces"
 msgstr "Wyczyść Swoje Ślady"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "Dowiedz się więcej o metadanych i ograniczeniach procesu czyszczenia."
+msgstr "Dowiedz się więcej o metadanych i ograniczeniach procesu czyszczenia"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
@@ -190,7 +188,7 @@ msgstr "_O Czyścicielu Metadanych"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
-msgstr ""
+msgstr "Menu główne"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -214,9 +212,10 @@ msgstr "Zamknij"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
-#, fuzzy
 msgid "translator-credits"
-msgstr "Anonim <nie@dam.maila>"
+msgstr ""
+"Anonim <nie@dam.maila>\n"
+"ewm https://ewm.codeberg.page/"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
@@ -228,7 +227,7 @@ msgstr "Wybierz foldery do wyczyszczenia"
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "Wystąpił błąd podczas czyszczenia."
 
 #: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -237,56 +236,44 @@ msgstr ""
 "pliku"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Plik został wyczyszczony."
+msgstr "Plik został wyczyszczony"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr "Dowiedz się więcej o metadanych i ograniczeniach procesu czyszczenia."
+msgstr ""
+"Znane nam metadane zostały usunięte, jednak proces czyszczenia ma pewne "
+"ograniczenia."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Dowiedz się więcej"
 
 #: application/metadatacleaner/ui/detailsview.py:76
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Nie można odczytać pliku."
+msgstr "Nie można odczytać pliku"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Nieobsługiwany typ pliku."
+msgstr "Nieobsługiwany typ pliku"
 
 #: application/metadatacleaner/ui/detailsview.py:79
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Nie można sprawdzić metadanych."
+msgstr "Nie można sprawdzić metadanych"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "Brak znanych metadanych"
 
 #: application/metadatacleaner/ui/detailsview.py:82
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Nie można usunąć metadanych."
+msgstr "Nie można usunąć metadanych"
 
 #: application/metadatacleaner/ui/detailsview.py:86
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr "Brak znanych metadanych, dla pewności plik zostanie wyczyszczony."
+msgstr "Dla pewności plik i tak zostanie wyczyszczony."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
@@ -308,21 +295,21 @@ msgstr "Czyszczenie pliku {}/{}"
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Wyczyszczono %i plik."
+msgstr[1] "Wyczyszczono %i pliki."
+msgstr[2] "Wyczyszczono %i plików."
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
 msgid "%i error occured."
 msgid_plural "%i errors occured."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Wystąpił %i błąd."
+msgstr[1] "Wystąpiły %i błędy."
+msgstr[2] "Wystąpiło %i błędów."
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Biblioteki"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Czyść bez ostrzeżenia"
