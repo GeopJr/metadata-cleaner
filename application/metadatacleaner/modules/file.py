@@ -12,6 +12,7 @@ from enum import IntEnum, auto
 from gettext import gettext as _
 from gi.repository import Gio, GLib, GObject
 from libmat2 import parser_factory
+from pathlib import Path
 from typing import Dict, Optional
 
 from metadatacleaner.modules.logger import Logger as logger
@@ -174,6 +175,10 @@ class File(GObject.GObject):
 
     def _setup_parser_finish(self, parser, mimetype) -> None:
         self._parser = parser
+        # Disable sandbox in Flatpak, see
+        # https://github.com/flathub/fr.romainvigier.MetadataCleaner/pull/124
+        if Path("/.flatpak-info").exists():
+            self._parser.sandbox = False
         if mimetype:
             def update_mimetype(mimetype) -> bool:
                 self.mimetype = mimetype
