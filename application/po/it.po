@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # albanobattistella <albano_battistella@hotmail.com>, 2021, 2022, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
+# Andrea Andre <andrea.tsg19@slmail.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2023-09-04 19:50+0000\n"
-"Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
+"PO-Revision-Date: 2023-11-16 13:05+0000\n"
+"Last-Translator: Andrea Andre <andrea.tsg19@slmail.me>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/it/>\n"
 "Language: it\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -85,7 +86,7 @@ msgstr "Cancella tutti i file dalla finestra"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr "Generale"
+msgstr "Generali"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
@@ -300,8 +301,8 @@ msgstr[1] "%i file puliti."
 #, python-format
 msgid "%i error occured."
 msgid_plural "%i errors occured."
-msgstr[0] "%i verificato un errore."
-msgstr[1] "%i verificati degli errori."
+msgstr[0] "Si è verificato %i errore."
+msgstr[1] "Si sono verificati %i errori."
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
