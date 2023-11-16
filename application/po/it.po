@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2023-11-16 13:05+0000\n"
+"PO-Revision-Date: 2023-11-17 17:03+0000\n"
 "Last-Translator: Andrea Andre <andrea.tsg19@slmail.me>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/it/>\n"
@@ -34,7 +34,7 @@ msgstr "Pulisci i metadati dai tuoi file"
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr "Metadati;Rimuovitore;Pulitore;"
+msgstr "Metadata;Remover;Cleaner;Metadati;Rimuovitore;Pulitore;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -69,7 +69,7 @@ msgstr "File"
 #: application/data/gtk/help-overlay.ui:18
 #: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
-msgstr "Aggiungere file"
+msgstr "Aggiungi file"
 
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
@@ -110,7 +110,7 @@ msgstr "Aiuto"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr "_Aggiungere file"
+msgstr "_Aggiungi file"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
@@ -186,11 +186,11 @@ msgstr "_Scorciatoie da tastiera"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "_Informazioni su Metadata Cleaner"
+msgstr "_Informazioni su Pulitore di Metadati"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
-msgstr "Menù Principale"
+msgstr "Opzioni"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -256,7 +256,7 @@ msgstr "Impossibile leggere il file"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr "Tipo di file non supportato"
+msgstr "Tipo di file non accettato"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
@@ -264,7 +264,7 @@ msgstr "Impossibile controllare i metadati"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr "Nessun metadato noto"
+msgstr "Metadati sconosciuti"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
@@ -276,7 +276,7 @@ msgstr "Il file verrà comunque pulito per sicurezza."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr "Tutti i file supportati"
+msgstr "Tutti i file accettati"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
