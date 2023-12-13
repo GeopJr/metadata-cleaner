@@ -4,13 +4,14 @@
 # poi <erbaotao@outlook.com>, 2022.
 # Eric <alchemillatruth@purelymail.com>, 2022.
 # Ujhhgtg <feyxiexzf@gmail.com>, 2022, 2023.
+# D XC <hello_cmd@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2023-01-13 03:51+0000\n"
-"Last-Translator: Ujhhgtg <feyxiexzf@gmail.com>\n"
+"PO-Revision-Date: 2023-12-14 06:04+0000\n"
+"Last-Translator: D XC <hello_cmd@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 5.3-rc\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -182,8 +183,6 @@ msgid "_About Metadata Cleaner"
 msgstr "属性信息删除器简介 (_A)"
 
 #: application/data/ui/MenuButton.ui:38
-#, fuzzy
-#| msgid "Main menu"
 msgid "Main Menu"
 msgstr "主菜单"
 
@@ -286,13 +285,13 @@ msgstr "正在删除元数据 {}/{}"
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] ""
+msgstr[0] "清理了 %i 个文件的元数据。"
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
 msgid "%i error occured."
 msgid_plural "%i errors occured."
-msgstr[0] ""
+msgstr[0] "遇到 %i 个错误。"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
