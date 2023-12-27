@@ -1,13 +1,13 @@
 # Óscar Fernández Díaz <oscfdezdz@tuta.io>, 2021.
 # gallegonovato <fran-carro@hotmail.es>, 2023.
 # Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted.weblate.org>, 2023.
+# Héctor Cortés <frewilfis@protonmail.ch>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2023-06-27 15:48+0000\n"
-"Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted."
-"weblate.org>\n"
+"PO-Revision-Date: 2023-12-28 22:11+0000\n"
+"Last-Translator: Héctor Cortés <frewilfis@protonmail.ch>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/es/>\n"
 "Language: es\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -218,7 +218,7 @@ msgstr "Botón de <gui style=\"button\">Limpiar</gui>"
 #. (itstool) path: section/title
 #: ../help/C/usage.page:52
 msgid "Lightweight cleaning"
-msgstr "Limpieza ligera"
+msgstr "Limpieza rápida"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:53
