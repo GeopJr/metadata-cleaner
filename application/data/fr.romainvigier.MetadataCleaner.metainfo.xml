@@ -8,10 +8,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
 
   <name>Metadata Cleaner</name>
   <summary>View and clean metadata in files</summary>
-  <categories>
-    <category>Utility</category>
-  </categories>
-
   <metadata_license>CC-BY-SA-4.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
 
