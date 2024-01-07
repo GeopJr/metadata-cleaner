@@ -6,13 +6,14 @@
 # Войнов Артем Романович <voynovar@gmail.com>, 2022, 2023.
 # Ash Ed <craysy@gmail.com>, 2023.
 # Коекто Никто <sineptic0@gmail.com>, 2023.
+# mittwerk <mittwerk3@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2023-11-16 13:05+0000\n"
-"Last-Translator: Коекто Никто <sineptic0@gmail.com>\n"
+"PO-Revision-Date: 2024-01-08 17:06+0000\n"
+"Last-Translator: mittwerk <mittwerk3@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ru/>\n"
 "Language: ru\n"
@@ -21,18 +22,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "Metadata Cleaner"
+msgstr "Очиститель метаданных"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr "Очистите файлы от метаданных"
+msgstr "Очистка метаданных из ваших файлов"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
@@ -41,7 +42,7 @@ msgstr "Метаданные;Удаление;Очистка;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr "Показать и очистить метаданные в файлах"
+msgstr "Просмотр и очистка метаданных в файлах"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
@@ -51,18 +52,19 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Метаданные файла могут раскрыть много данных о Вас. Камеры записывают данные "
-"о том когда, где и чем была снята фотография. Офисные пакеты автоматически "
-"пишут автора и компанию в документы и презентации. Это - личная информация и "
-"вы можете не желать её разглашения."
+"Метаданные в файле могут многое о вас рассказать. Фотоаппараты записывают "
+"данные о том, когда и где был сделан снимок и какая камера использовалась. "
+"Офисные приложения автоматически добавляют информацию об авторе и компании в "
+"документы и электронные таблицы. Это конфиденциальная информация, и вы "
+"можете не захотеть ее раскрывать."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
-"Эта утилита позволяет просматривать метаданные и избавляться от них там, где "
-"это возможно."
+"Этот инструмент позволяет просматривать метаданные в файлах и по возможности "
+"избавляться от них."
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -84,7 +86,7 @@ msgstr "Очистить метаданные"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr "Очистить список"
+msgstr "Очистить все файлы в окне"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
@@ -214,7 +216,7 @@ msgstr "Закрыть"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr "переводчик-кредиты"
+msgstr "Vladyslav Stepanov <mittwerk@duck.com>"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
@@ -262,7 +264,7 @@ msgstr "Не удается проверить наличие метаданны
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr "Неизвестные метаданные отсутствуют"
+msgstr "Без видимых метаданных"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
@@ -270,7 +272,7 @@ msgstr "Не удается удалить метаданные"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr "Файл будет очищен в любом случае, чтобы быть уверенным."
+msgstr "Для уверенности файл все равно будет очищен."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
@@ -292,17 +294,17 @@ msgstr "Очистка файла {}/{}"
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%i файл очищен."
+msgstr[1] "%i файла очищено."
+msgstr[2] "%i файлов очищены."
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
 msgid "%i error occured."
 msgid_plural "%i errors occured."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%i произошла ошибка."
+msgstr[1] "случились %i ошибки."
+msgstr[2] "случилось %i ошибок."
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
