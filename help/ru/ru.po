@@ -3,21 +3,22 @@
 # Войнов Артем Романович <voynovar@gmail.com>, 2022, 2023.
 # Deleted User <noreply+39970@weblate.org>, 2023.
 # Ash Ed <craysy@gmail.com>, 2023.
+# mittwerk <mittwerk3@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2023-04-02 12:38+0000\n"
-"Last-Translator: Ash Ed <craysy@gmail.com>\n"
+"PO-Revision-Date: 2024-01-08 17:06+0000\n"
+"Last-Translator: mittwerk <mittwerk3@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -46,10 +47,11 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Метаданные файла могут раскрыть много данных о Вас. Камеры записывают данные "
-"о том когда, где и чем была снята фотография. Офисные пакеты автоматически "
-"пишут автора и компанию в документы и презентации. Это - личная информация и "
-"вы можете не желать её разглашения."
+"Метаданные в файле могут многое о вас рассказать. Фотоаппараты записывают "
+"данные о том, когда и где был сделан снимок и какая камера использовалась. "
+"Офисные приложения автоматически добавляют информацию об авторе и компании в "
+"документы и электронные таблицы. Это конфиденциальная информация, и вы "
+"можете не захотеть ее раскрывать."
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
@@ -115,7 +117,7 @@ msgstr ""
 #. The application name. It can be translated.
 #: ../help/C/index.page:10
 msgid "Metadata Cleaner"
-msgstr "Metadata Cleaner"
+msgstr "Очиститель метаданных"
 
 #. (itstool) path: page/p
 #: ../help/C/index.page:14
