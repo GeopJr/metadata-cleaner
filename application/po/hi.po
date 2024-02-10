@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2024-02-09 16:01+0000\n"
+"PO-Revision-Date: 2024-02-11 16:02+0000\n"
 "Last-Translator: Nitin Khalia <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/hi/>\n"
@@ -24,11 +24,11 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "Metadata Cleaner"
+msgstr "मेटाडेटा क्लीनर"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr "अपनी फ़ाइलों से मेटाडेटा साफ़ करें"
+msgstr "अपनी फाइलों से मेटाडेटा साफ़ करें"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
@@ -37,7 +37,7 @@ msgstr "मेटाडेटा; रिमूवर; क्लीनर;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr "फ़ाइलों में मेटाडेटा देखें और साफ़ करें"
+msgstr "फाइलों में मेटाडेटा देखें और साफ़ करें"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
@@ -47,7 +47,7 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"किसी फ़ाइल का मेटाडेटा आपके बारे में बहुत कुछ बता सकता है। कैमरे इस बारे में "
+"किसी फाइल का मेटाडेटा आपके बारे में बहुत कुछ बता सकता है। कैमरे इस बारे में "
 "डेटा रिकॉर्ड करते हैं कि कोई तस्वीर कब और कहाँ ली गई थी और किस कैमरे का उपयो"
 "ग किया गया था। कार्यालय एप्लिकेशन स्वचालित रूप से दस्तावेज़ों और स्प्रैडशीट्"
 "स में लेखक और कंपनी की जानकारी जोड़ते हैं। यह संवेदनशील जानकारी है और आप शा"
@@ -58,22 +58,22 @@ msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
-"यह टूल आपको अपनी फ़ाइलों में मेटाडेटा देखने और यथासंभव उससे छुटकारा पाने की "
+"यह टूल आपको अपनी फाइलों में मेटाडेटा देखने और यथासंभव उससे छुटकारा पाने की "
 "अनुमति देता है।"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr "फ़ाइलें"
+msgstr "फाइलें"
 
 #: application/data/gtk/help-overlay.ui:18
 #: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
-msgstr "फ़ाइलें जोड़ें"
+msgstr "फाइलें जोड़ें"
 
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
-msgstr "फ़ोल्डर्स जोड़ें"
+msgstr "फोल्डर्स जोड़ें"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
@@ -81,7 +81,7 @@ msgstr "मेटाडेटा साफ़ करें"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr "विंडो से सभी फ़ाइलें साफ़ करें"
+msgstr "विंडो से सभी फाइलें साफ़ करें"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
@@ -109,23 +109,23 @@ msgstr "सहायता"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr "_फ़ाइलें जोड़ें"
+msgstr "_फाइलें जोड़ें"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
-msgstr "_फ़ोल्डर्स जोड़ें"
+msgstr "_फोल्डर्स जोड़ें"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr "_साफ़ करें"
+msgstr "_साफ़"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr "सुनिश्चित करें कि आपने अपनी फ़ाइलों का बैकअप ले लिया है!"
+msgstr "सुनिश्चित करें कि आपने अपनी फाइलों का बैकअप ले लिया है!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr "एक बार फ़ाइलें साफ़ हो जाने के बाद, वापस नहीं जाया जा सकता।"
+msgstr "एक बार फाइलें साफ़ हो जाने के बाद, वापस नहीं जाया जा सकता।"
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
@@ -150,7 +150,7 @@ msgstr "मेटाडेटा और सफ़ाई प्रक्रिय
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
-msgstr "फ़ाइल को सूची से हटाएँ"
+msgstr "फाइल को सूची से हटाएँ"
 
 #: application/data/ui/FileRow.ui:128
 msgid "Warning"
@@ -182,7 +182,7 @@ msgstr "_कीबोर्ड शॉर्टकट"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "_Metadata Cleaner के बारे में"
+msgstr "_मेटाडेटा क्लीनर के बारे में"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
@@ -215,11 +215,11 @@ msgstr "Scrambled777 <weblate.scrambled777@simplelogin.com>"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
-msgstr "साफ़ करने के लिए फ़ाइलें चुनें"
+msgstr "साफ़ करने के लिए फाइलें चुनें"
 
 #: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
-msgstr "साफ़ करने के लिए फ़ोल्डर चुनें"
+msgstr "साफ़ करने के लिए फोल्डर्स चुनें"
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
@@ -227,11 +227,11 @@ msgstr "सफ़ाई के दौरान कोई त्रुटि उ�
 
 #: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr "सफ़ाई के दौरान कुछ ख़राब हुआ, साफ़ की गई फ़ाइल नहीं मिली"
+msgstr "सफ़ाई के दौरान कुछ ख़राब हुआ, साफ़ की गई फाइल नहीं मिली"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr "फ़ाइल साफ़ कर दी गई है"
+msgstr "फाइल साफ़ कर दी गई है"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
@@ -246,11 +246,11 @@ msgstr "और अधिक जानें"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr "फ़ाइल को पढ़ने में असमर्थ"
+msgstr "फाइल को पढ़ने में असमर्थ"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr "फ़ाइल प्रकार समर्थित नहीं है"
+msgstr "फाइल प्रकार समर्थित नहीं है"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
@@ -266,30 +266,30 @@ msgstr "मेटाडेटा निकालने में असमर्
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr "सुनिश्चित करने के लिए फ़ाइल को वैसे भी साफ़ कर दिया जाएगा।"
+msgstr "सुनिश्चित करने के लिए फाइल को वैसे भी साफ़ कर दिया जाएगा।"
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr "सभी समर्थित फ़ाइलें"
+msgstr "सभी समर्थित फाइलें"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr "सबफ़ोल्डर्स से फ़ाइलें जोड़ें"
+msgstr "सबफोल्डर्स से फाइलें जोड़ें"
 
 #: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
-msgstr "फ़ाइल संसाधित हो रही है {}/{}"
+msgstr "फाइल संसाधित हो रही है {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
-msgstr "फ़ाइल सफ़ाई {}/{}"
+msgstr "फाइल सफ़ाई {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:79
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] "%i फ़ाइल साफ़ की गई।"
-msgstr[1] "%i फ़ाइलें साफ़ की गईं।"
+msgstr[0] "%i फाइल साफ़ की गई।"
+msgstr[1] "%i फाइलें साफ़ की गईं।"
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
