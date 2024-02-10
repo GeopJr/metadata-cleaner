@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2024-02-09 16:01+0000\n"
+"PO-Revision-Date: 2024-02-11 16:02+0000\n"
 "Last-Translator: Nitin Khalia <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/hi/>\n"
@@ -33,7 +33,7 @@ msgstr ""
 #: ../help/C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
 msgstr ""
-"किसी फ़ाइल का मेटाडेटा आपके बारे में बहुत कुछ बता सकता है। कैमरे इस बारे में "
+"किसी फाइल का मेटाडेटा आपके बारे में बहुत कुछ बता सकता है। कैमरे इस बारे में "
 "डेटा रिकॉर्ड करते हैं कि कोई तस्वीर कब और कहाँ ली गई थी और किस कैमरे का उपयो"
 "ग किया गया था। कार्यालय एप्लिकेशन स्वचालित रूप से दस्तावेज़ों और स्प्रैडशीट्"
 "स में लेखक और कंपनी की जानकारी जोड़ते हैं। यह संवेदनशील जानकारी है और आप शा"
@@ -42,14 +42,14 @@ msgstr ""
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr "चित्र फ़ाइल में मेटाडेटा का उदाहरण"
+msgstr "चित्र फाइल में मेटाडेटा का उदाहरण"
 
 #. (itstool) path: figure/desc
 #: ../help/C/general.page:20
 msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
-"फ़ाइल हार्डवेयर, सेटिंग्स, दिनांक, शूट के स्थान के बारे में जानकारी का खुलासा"
-" करती है। इसमें कुल 79 मेटाडेटा शामिल हैं।"
+"फाइल हार्डवेयर, सेटिंग्स, दिनांक, शूट के स्थान के बारे में जानकारी का खुलासा "
+"करती है। इसमें कुल 79 मेटाडेटा शामिल हैं।"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:27
@@ -61,30 +61,30 @@ msgstr "सफाई प्रक्रिया"
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
 "जबकि <app>Metadata Cleaner</app> मेटाडेटा प्रदर्शित करने के लिए अपना "
-"सर्वश्रेष्ठ प्रयास कर रहा है, लेकिन इसका मतलब यह नहीं है कि यदि कोई फ़ाइल "
-"मेटाडेटा नहीं दिखाती है तो वह मेटाडेटा से साफ़ है। जटिल फ़ाइल स्वरूपों के लि"
-"ए प्रत्येक संभावित मेटाडेटा का पता लगाने का कोई विश्वसनीय तरीका नहीं है। यही "
-"कारण है कि आपको यह तय करने के लिए मेटाडेटा की उपस्थिति पर भरोसा नहीं करना "
-"चाहिए कि आपकी फ़ाइल को साफ़ किया जाना चाहिए या नहीं।"
+"सर्वश्रेष्ठ प्रयास कर रहा है, लेकिन इसका मतलब यह नहीं है कि यदि कोई फाइल "
+"मेटाडेटा नहीं दिखाती है तो वह मेटाडेटा से साफ़ है। जटिल फाइल स्वरूपों के लिए "
+"प्रत्येक संभावित मेटाडेटा का पता लगाने का कोई विश्वसनीय तरीका नहीं है। यही का"
+"रण है कि आपको यह तय करने के लिए मेटाडेटा की उपस्थिति पर भरोसा नहीं करना चाहि"
+"ए कि आपकी फाइल को साफ़ किया जाना चाहिए या नहीं।"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
-"<app>Metadata Cleaner</app> फ़ाइल की सामग्री लेता है और इसे मेटाडेटा के बिना "
+"<app>Metadata Cleaner</app> फाइल की सामग्री लेता है और इसे मेटाडेटा के बिना "
 "एक नए में डालता है, यह सुनिश्चित करता है कि कोई भी अज्ञात मेटाडेटा हटा दिया "
 "गया है।"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:35
 msgid "Limitations"
-msgstr "सीमाएँ"
+msgstr "सीमाएं"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:36
 msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
-"ध्यान रखें कि मेटाडेटा किसी फ़ाइल को चिह्नित करने का एकमात्र तरीका नहीं है। "
+"ध्यान रखें कि मेटाडेटा किसी फाइल को चिह्नित करने का एकमात्र तरीका नहीं है। "
 "यदि सामग्री स्वयं व्यक्तिगत जानकारी का खुलासा करती है या पारंपरिक रूप से या "
 "स्टेग्नोग्राफ़ी के माध्यम से वॉटरमार्क की गई है, तो <app>Metadata Cleaner</"
 "app> आपकी सुरक्षा नहीं करेगा।"
@@ -93,13 +93,13 @@ msgstr ""
 #. The application name. It can be translated.
 #: ../help/C/index.page:10
 msgid "Metadata Cleaner"
-msgstr "Metadata Cleaner"
+msgstr "मेटाडेटा क्लीनर"
 
 #. (itstool) path: page/p
 #: ../help/C/index.page:14
 msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of it, as much as possible."
 msgstr ""
-"<app>Metadata Cleaner</app> आपको अपनी फ़ाइलों में मेटाडेटा देखने और जितना सं"
+"<app>Metadata Cleaner</app> आपको अपनी फाइलों में मेटाडेटा देखने और जितना सं"
 "भव हो सके उससे छुटकारा पाने की अनुमति देता है।"
 
 #. (itstool) path: section/title
@@ -115,35 +115,35 @@ msgstr "<app>Metadata Cleaner</app> का उपयोग करना"
 #. (itstool) path: section/title
 #: ../help/C/usage.page:14
 msgid "Adding files"
-msgstr "फ़ाइलें जोड़ी जा रही है"
+msgstr "फाइलें जोड़ी जा रही है"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:15
 msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
 msgstr ""
-"फ़ाइलें जोड़ने के लिए, <gui style=\"button\">फ़ाइलें जोड़ें</gui> बटन दबाएँ। "
-"एक फ़ाइल चयनकर्ता खुल जाएगा, उन फ़ाइलों का चयन करें जिन्हें आप साफ़ करना "
-"चाहते हैं।"
+"फाइलें जोड़ने के लिए, <gui style=\"button\">फाइलें जोड़ें</gui> बटन दबाएँ। "
+"एक फाइल चयनकर्ता खुल जाएगा, उन फाइलों का चयन करें जिन्हें आप साफ़ करना चाहते "
+"हैं।"
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr "<gui style=\"button\">फ़ाइलें जोड़ें</gui> बटन"
+msgstr "<gui style=\"button\">फाइलें जोड़ें</gui> बटन"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
 msgid "To add whole folders at once, press the <gui style=\"button\">Add Folders</gui> button. A file chooser will open, select the folders you want to add. You can optionally choose to also add all files from all subfolders by checking the <gui style=\"checkbox\">Add files from subfolders</gui> checkbox."
 msgstr ""
-"एक साथ संपूर्ण फ़ोल्डर जोड़ने के लिए, <gui style=\"button\">फ़ोल्डर जोड़ें</"
-"gui> बटन दबाएँ। एक फ़ाइल चयनकर्ता खुल जाएगा, उन फ़ोल्डरों का चयन करें जिन्हें"
-" आप जोड़ना चाहते हैं। आप वैकल्पिक रूप से <gui style=\"checkbox\">सबफ़ोल्डर्स "
-"से फ़ाइलें जोड़ें</gui> चेकबॉक्स को चेक करके सभी सबफ़ोल्डर्स से सभी फ़ाइलों "
-"को जोड़ना भी चुन सकते हैं।"
+"एक साथ संपूर्ण फोल्डर जोड़ने के लिए, <gui style=\"button\">फोल्डर जोड़ें</"
+"gui> बटन दबाएँ। एक फाइल चयनकर्ता खुल जाएगा, उन फोल्डरों का चयन करें जिन्हें "
+"आप जोड़ना चाहते हैं। आप वैकल्पिक रूप से <gui style=\"checkbox\">सबफोल्डर्स से"
+" फाइलें जोड़ें</gui> चेकबॉक्स को चेक करके सभी सबफोल्डर्स से सभी फाइलों को "
+"जोड़ना भी चुन सकते हैं।"
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr "<gui style=\"button\">फ़ोल्डर जोड़ें</gui> बटन"
+msgstr "<gui style=\"button\">फोल्डर जोड़ें</gui> बटन"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
@@ -154,7 +154,7 @@ msgstr "मेटाडेटा देखना"
 #: ../help/C/usage.page:31
 msgid "Click on a file in the list to open the detailed view. If it has metadata, it will be shown there."
 msgstr ""
-"विस्तृत दृश्य खोलने के लिए सूची में किसी फ़ाइल पर क्लिक करें। यदि इसमें "
+"विस्तृत दृश्य खोलने के लिए सूची में किसी फाइल पर क्लिक करें। यदि इसमें "
 "मेटाडेटा है, तो इसे वहां दिखाया जाएगा।"
 
 #. (itstool) path: figure/title
@@ -165,19 +165,19 @@ msgstr "मेटाडेटा का विस्तृत दृश्य"
 #. (itstool) path: section/title
 #: ../help/C/usage.page:41
 msgid "Cleaning files"
-msgstr "फ़ाइलें साफ़ करना"
+msgstr "फाइलें साफ़ करना"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:42
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"विंडो में सभी फ़ाइलों को साफ़ करने के लिए, <gui style=\"button\">Clean</gui> "
+"विंडो में सभी फाइलों को साफ़ करने के लिए, <gui style=\"button\">साफ</gui> "
 "बटन दबाएँ। सफाई प्रक्रिया को पूरा होने में कुछ समय लग सकता है।"
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr "<gui style=\"button\">साफ़ करें</gui> बटन"
+msgstr "<gui style=\"button\">साफ</gui> बटन"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:52
@@ -189,7 +189,7 @@ msgstr "हल्की सफाई"
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
 "डिफ़ॉल्ट रूप से, जितना संभव हो उतना मेटाडेटा हटाने के लिए, हटाने की प्रक्रिया"
-" आपकी फ़ाइलों के डेटा में थोड़ा बदलाव कर सकती है। उदाहरण के लिए, PDF में "
+" आपकी फाइलों के डेटा में थोड़ा बदलाव कर सकती है। उदाहरण के लिए, PDF में "
 "टेक्स्ट अब चयन योग्य नहीं हो सकते हैं, संपीड़ित छवियां फिर से संपीड़ित हो "
 "सकती हैं…"
 
@@ -197,5 +197,5 @@ msgstr ""
 #: ../help/C/usage.page:54
 msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
 msgstr ""
-"लाइटवेट मोड, हालांकि उतना गहन नहीं है, आपकी फ़ाइलों में विनाशकारी परिवर्तन "
+"लाइटवेट मोड, हालांकि उतना गहन नहीं है, आपकी फाइलों में विनाशकारी परिवर्तन "
 "नहीं करेगा।"
