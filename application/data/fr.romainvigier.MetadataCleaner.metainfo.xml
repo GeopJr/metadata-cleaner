@@ -13,7 +13,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 
   <!-- developer_name tag deprecated with Appstream 1.0 -->
   <developer_name its:translate="no">Romain Vigier</developer_name>
-  <developer id="romainvigier.fr">
+  <developer id="fr.romainvigier">
       <name translatable="no">Romain Vigier</name>
   </developer>
 
