@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2024-01-05 04:08+0000\n"
+"PO-Revision-Date: 2024-03-11 18:33+0000\n"
 "Last-Translator: D0735 <D0735@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/zh_Hant/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -106,15 +106,15 @@ msgstr "幫助"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr "_添加檔案"
+msgstr "添加檔案(_A)"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
-msgstr "添加_資料夾"
+msgstr "添加資料夾(_A)"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr "_刪除"
+msgstr "刪除(_C)"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
@@ -163,23 +163,23 @@ msgstr "已刪除"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr "_新增視窗"
+msgstr "新增視窗(_N)"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr "_清空視窗"
+msgstr "清空視窗(_C)"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr "_幫助"
+msgstr "幫助(_H)"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr "_鍵盤快捷鍵"
+msgstr "鍵盤快捷鍵(_K)"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "_關於元資料刪除器"
+msgstr "關於元資料刪除器(_A)"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
