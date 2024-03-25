@@ -4,13 +4,14 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2021, 2022, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # Janne <mutikaane@gmail.com>, 2021.
+# Roosa Huovinen <roosa.h@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-11 18:32+0000\n"
-"PO-Revision-Date: 2023-09-14 09:04+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2024-03-26 19:02+0000\n"
+"Last-Translator: Roosa Huovinen <roosa.h@proton.me>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/fi/>\n"
 "Language: fi\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -52,11 +53,11 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Tiedoston metatiedot voivat kertoa paljon sinusta. Kamerat tallentavat "
-"tietoa, esimerkiksi milloin ja missä kuva otettiin ja minkälaista kameraa "
-"kuvan ottamiseen käytettiin. Tuottavuusohjelmistot lisäävät automaattisesti "
-"tekijän ja organisaation tiedot tekstiasiakirjoihin ja taulukkoihin. Saatat "
-"haluta rajoittaa tai estää näiden tietojen päätymisen muille."
+"Tiedostojen metadata voi kertoa sinusta paljon. Kamerat tallentavat tietoa "
+"milloin ja missä kuva on otettu ja mitä kameraa on käytetty. "
+"Toimistosovellukset lisäävät yleensä tekijän ja yrityksen tiedot "
+"asiakirjoihin ja laskentataulukoihin. Tämä on arkaluonteista tietoa, etkä "
+"ehkä halua paljastaa sitä."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
