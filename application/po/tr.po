@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 11:08+0000\n"
+"POT-Creation-Date: 2024-04-01 12:14+0000\n"
 "PO-Revision-Date: 2023-08-31 17:53+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -225,11 +225,11 @@ msgstr "Temizlenecek dosyaları seçin"
 msgid "Choose folders to clean"
 msgstr "Temizlenecek klasörleri seçin"
 
-#: application/metadatacleaner/modules/file.py:244
+#: application/metadatacleaner/modules/file.py:249
 msgid "An error occured during the cleaning."
 msgstr "Temizleme sırasında bir hata oluştu."
 
-#: application/metadatacleaner/modules/file.py:247
+#: application/metadatacleaner/modules/file.py:252
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Temizleme sırasında kötü bir şey oldu, temizlenen dosya bulunamadı"
 

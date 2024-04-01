@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 11:08+0000\n"
+"POT-Creation-Date: 2024-04-01 12:14+0000\n"
 "PO-Revision-Date: 2022-07-17 17:16+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -224,11 +224,11 @@ msgstr "Aukeratu garbitu nahi dituzun fitxategiak"
 msgid "Choose folders to clean"
 msgstr "Aukeratu garbitu nahi dituzun karpetak"
 
-#: application/metadatacleaner/modules/file.py:244
+#: application/metadatacleaner/modules/file.py:249
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:247
+#: application/metadatacleaner/modules/file.py:252
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Zerbait txarra gertatu zen garbiketan, garbitu gabeko fitxategia ez da "

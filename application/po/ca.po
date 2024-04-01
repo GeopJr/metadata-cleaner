@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 11:08+0000\n"
+"POT-Creation-Date: 2024-04-01 12:14+0000\n"
 "PO-Revision-Date: 2023-09-04 19:50+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -223,11 +223,11 @@ msgstr "Trieu els fitxers a netejar"
 msgid "Choose folders to clean"
 msgstr "Trieu les carpetes a netejar"
 
-#: application/metadatacleaner/modules/file.py:244
+#: application/metadatacleaner/modules/file.py:249
 msgid "An error occured during the cleaning."
 msgstr "S'ha produït un error durant la neteja."
 
-#: application/metadatacleaner/modules/file.py:247
+#: application/metadatacleaner/modules/file.py:252
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "S'ha produït un error durant la neteja, no s'ha trobat el fitxer netejat"
