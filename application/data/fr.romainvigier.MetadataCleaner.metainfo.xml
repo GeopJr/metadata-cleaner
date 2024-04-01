@@ -28,6 +28,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <p>This tool allows you to view metadata in your files and to get rid of it, as much as possible.</p>
   </description>
 
+  <branding>
+    <color type="primary" scheme_preference="light">#dabbe7</color>
+    <color type="primary" scheme_preference="dark">#613583</color>
+  </branding>
+
   <launchable type="desktop-id">fr.romainvigier.MetadataCleaner.desktop</launchable>
 
   <screenshots>
