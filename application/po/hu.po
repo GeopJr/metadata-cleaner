@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 11:03+0000\n"
+"POT-Creation-Date: 2024-04-01 11:08+0000\n"
 "PO-Revision-Date: 2024-03-13 03:01+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/metadata-"
@@ -39,10 +39,6 @@ msgstr "Metaadat;Eltávolító;Tisztító;"
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "Metaadatok megtekintése és tisztítása a fájlokból"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
-msgid "Romain Vigier"
-msgstr "Romain Vigier"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -312,6 +308,9 @@ msgstr[1] "%i hiba történt."
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
 msgstr "Könyvtárak"
+
+#~ msgid "Romain Vigier"
+#~ msgstr "Romain Vigier"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Tisztítás figyelmeztetés nélkül"

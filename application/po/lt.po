@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 11:03+0000\n"
+"POT-Creation-Date: 2024-04-01 11:08+0000\n"
 "PO-Revision-Date: 2022-10-25 10:02+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
@@ -41,10 +41,6 @@ msgstr "Metaduomenys;Šalintojas;Valytojas;"
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "Peržiūrėti ir išvalyti failų metaduomenis"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
-msgid "Romain Vigier"
-msgstr "Romain Vigier"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -313,6 +309,9 @@ msgstr[2] ""
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
 msgstr ""
+
+#~ msgid "Romain Vigier"
+#~ msgstr "Romain Vigier"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Valyti be įspėjimo"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 11:03+0000\n"
+"POT-Creation-Date: 2024-04-01 11:08+0000\n"
 "PO-Revision-Date: 2023-06-14 02:12+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -41,10 +41,6 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "파일의 메타데이터를 보고 정리합니다"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
-msgid "Romain Vigier"
-msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""

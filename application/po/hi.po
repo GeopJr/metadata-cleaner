@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 11:03+0000\n"
+"POT-Creation-Date: 2024-04-01 11:08+0000\n"
 "PO-Revision-Date: 2024-03-28 21:01+0000\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -38,10 +38,6 @@ msgstr "मेटाडेटा; रिमूवर; क्लीनर;"
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "फाइलों में मेटाडेटा देखें और साफ़ करें"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
-msgid "Romain Vigier"
-msgstr "रोमेन विगियर"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -302,3 +298,6 @@ msgstr[1] "%i त्रुटियां हुईं।"
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
 msgstr "लाइब्रेरीज"
+
+#~ msgid "Romain Vigier"
+#~ msgstr "रोमेन विगियर"

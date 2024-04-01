@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 11:03+0000\n"
+"POT-Creation-Date: 2024-04-01 11:08+0000\n"
 "PO-Revision-Date: 2023-08-31 17:53+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -38,10 +38,6 @@ msgstr "Métadonnées;Metadata;Supprimer;Effacer;Nettoyer;"
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "Affiche et nettoie les métadonnées des fichiers"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
-msgid "Romain Vigier"
-msgstr "Romain Vigier"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -311,6 +307,9 @@ msgstr[1] "%i erreurs sont survenues."
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
 msgstr "Librairies"
+
+#~ msgid "Romain Vigier"
+#~ msgstr "Romain Vigier"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Nettoyer sans avertissement"

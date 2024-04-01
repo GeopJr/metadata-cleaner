@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 11:03+0000\n"
+"POT-Creation-Date: 2024-04-01 11:08+0000\n"
 "PO-Revision-Date: 2024-03-13 03:01+0000\n"
 "Last-Translator: 大王叫我来巡山 <hamburger2048@users.noreply.hosted.weblate."
 "org>\n"
@@ -43,10 +43,6 @@ msgstr "元数据;属性;删除;清理;"
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "查看、删除文件里的元数据"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
-msgid "Romain Vigier"
-msgstr "Romain Vigier"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -303,6 +299,9 @@ msgstr[0] "遇到 %i 个错误。"
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
 msgstr "库"
+
+#~ msgid "Romain Vigier"
+#~ msgstr "Romain Vigier"
 
 #~ msgid "Clean without warning"
 #~ msgstr "要删除时不进行警告"

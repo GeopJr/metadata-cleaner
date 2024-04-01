@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 11:03+0000\n"
+"POT-Creation-Date: 2024-04-01 11:08+0000\n"
 "PO-Revision-Date: 2024-04-01 10:20+0000\n"
 "Last-Translator: Athanasios Nektarios Karachalios Stagkas <nasos.karachalios."
 "stagas@gmail.com>\n"
@@ -38,10 +38,6 @@ msgstr "Μεταδεδομένα;Αφαιρετής;Καθαριστής;"
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "Δες και καθάρισε μεταδεδόμενα αρχείων"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
-msgid "Romain Vigier"
-msgstr "Romain Vigier"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -312,6 +308,9 @@ msgstr[1] "%i σφάλματα προέκυψαν."
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
 msgstr "Βιβλιοθήκες"
+
+#~ msgid "Romain Vigier"
+#~ msgstr "Romain Vigier"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Καθάρισε χωρίς ειδοποίηση"
