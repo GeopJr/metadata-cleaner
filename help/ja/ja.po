@@ -1,19 +1,20 @@
 # Kaede <contact@kaede.ch>, 2021, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
+# Himmel <anonymous.colt330@aleeas.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-11 18:32+0000\n"
-"PO-Revision-Date: 2023-03-01 11:36+0000\n"
-"Last-Translator: Kaede <contact@kaede.ch>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/metadata-"
-"cleaner/help/ja/>\n"
+"PO-Revision-Date: 2024-04-01 10:21+0000\n"
+"Last-Translator: Himmel <anonymous.colt330@aleeas.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"metadata-cleaner/help/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16-rc\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -43,9 +44,9 @@ msgid ""
 "disclose it."
 msgstr ""
 "ファイル内のメタデータは、あなたのことをよく表しています。カメラは、いつ、ど"
-"こで、どの機種で撮影したかを画像ファイルに記録します。オフィスアプリケーショ"
-"ンは、作成者や会社の情報を文書ファイルや表計算ファイルに自動的に追加します。"
-"これらの情報は機密情報であり、公開したくない場合もあります。"
+"こで、どの機種で撮影したかを画像ファイルに記録します。Office アプリケーション"
+"は、作成者や会社の情報を文書ファイルや表計算ファイルに自動的に追加します。こ"
+"れらの情報は機密情報であり、公開したくない場合もあります。"
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
@@ -75,11 +76,11 @@ msgid ""
 "for complex file formats. This is why you shouldn't rely on metadata's "
 "presence to decide if your file must be cleaned or not."
 msgstr ""
-"<app>メタデータクリーナー</app>は細心の注意を払ってメタデータを表示しています"
-"が、何も表示されないからといってそのファイルにメタデータがないとは限りませ"
-"ん。様々なファイル形式が存在するため、ありとあらゆるメタデータを検出する確実"
-"な方法はありません。そのため、メタデータが表示されていないからと言って、その"
-"ファイルのメタデータ除去は必要ないと判断するべきではありません。"
+"<app>Metadata Cleaner</app>は細心の注意を払ってメタデータを表示していますが、"
+"何も表示されないからといってそのファイルにメタデータがないとは限りません。様"
+"々なファイル形式が存在するため、ありとあらゆるメタデータを検出する確実な方法"
+"はありません。そのため、メタデータが表示されていないからと言って、そのファイ"
+"ルのメタデータ除去は必要ないと判断するべきではありません。"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:29
@@ -87,8 +88,8 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
-"<app>メタデータクリーナー</app>は、メタデータを含まないファイルのコンテンツ部"
-"分を新しいファイルに出力するため、未検出のメタデータが確実に取り除かれます。"
+"<app>Metadata Cleaner</app>は、メタデータを含まないファイルのコンテンツ部分を"
+"新しいファイルに出力するため、未検出のメタデータが確実に取り除かれます。"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:35
@@ -104,22 +105,21 @@ msgid ""
 msgstr ""
 "ファイルにマーキングする方法はメタデータ以外にも存在します。コンテンツ自体に"
 "個人情報が含まれる場合や、伝統的なまたはステガノグラフィによる電子透かしが施"
-"されている場合、<app>メタデータクリーナー</app>はあなたを保護しません。"
+"されている場合、<app>Metadata Cleaner</app>はあなたを保護できません。"
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
 #: ../help/C/index.page:10
 msgid "Metadata Cleaner"
-msgstr "メタデータクリーナー"
+msgstr "Metadata Cleaner"
 
 #. (itstool) path: page/p
 #: ../help/C/index.page:14
 msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
-msgstr ""
-"<app>メタデータクリーナー</app>を使用すると、ファイル内のメタデータを確認し、"
-"可能な範囲で除去できます。"
+msgstr "<app>Metadata Cleaner</app>を使用すると、ファイル内のメタデータをご確認いただ"
+"き、可能な範囲で除去できます。"
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:17
@@ -129,7 +129,7 @@ msgstr "一般的な情報"
 #. (itstool) path: section/title
 #: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr "<app>メタデータクリーナー</app>の使い方"
+msgstr "<app>Metadata Cleaner</app>の使い方"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:14
@@ -142,14 +142,14 @@ msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
 msgstr ""
-"ファイルを追加するには<gui style=\"button\">ファイル追加</gui>ボタンを押しま"
-"す。ファイル選択画面が開くので、メタデータを除去したいファイルを選択してくだ"
-"さい。"
+"ファイルを追加するには<gui style=\"button\">ファイルを追加</gui>ボタンを押し"
+"ます。ファイル選択画面が開くので、メタデータを除去したいファイルをお選び下さ"
+"い。"
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr "<gui style=\"button\">ファイル追加</gui>ボタン"
+msgstr "<gui style=\"button\">ファイルを追加</gui>ボタン"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
@@ -160,16 +160,16 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"フォルダ全体を追加するには、<gui style=\"button\">フォルダ追加</gui>ボタンを"
-"押してください。ファイル選択画面が表示されるので、追加したいフォルダを選択し"
-"てください。<gui style=\"checkbox\">サブフォルダ内のファイルを追加</gui>の"
-"チェックボックスにチェックを入れると、全サブフォルダ内の全ファイルを追加する"
-"こともできます。"
+"フォルダ全体を追加するには、<gui style=\"button\">フォルダを追加</gui>ボタン"
+"を押してください。ファイル選択画面が表示されるので、追加したいフォルダをお選"
+"び下さい。<gui style=\"checkbox\">サブフォルダ内のファイルを追加</gui>のチェ"
+"ックボックスにチェックを入れると、全サブフォルダ内の全ファイルを追加すること"
+"もできます。"
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr "<gui style=\"button\">フォルダ追加</gui>ボタン"
+msgstr "<gui style=\"button\">フォルダを追加</gui>ボタン"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
