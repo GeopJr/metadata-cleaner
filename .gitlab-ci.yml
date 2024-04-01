@@ -59,7 +59,7 @@ screenshots:
     expire_in: 1 day
 
 translations:
-  image: freedesktopsdk/sdk:22.08
+  image: freedesktopsdk/sdk:23.08
   stage: prepare
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
@@ -203,7 +203,7 @@ app:
   needs:
     - job: flatpak-repo
       artifacts: true
-  image: freedesktopsdk/flatpak:22.08
+  image: freedesktopsdk/flatpak:23.08
   rules:
     - if: $CI_MERGE_REQUEST_IID
     - if: $CI_COMMIT_TAG
@@ -222,7 +222,7 @@ debug:
   needs:
     - job: flatpak-repo
       artifacts: true
-  image: freedesktopsdk/flatpak:22.08
+  image: freedesktopsdk/flatpak:23.08
   rules:
     - if: $CI_MERGE_REQUEST_IID
     - if: $CI_COMMIT_TAG
