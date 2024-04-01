@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-03-11 18:32+0000\n"
+"POT-Creation-Date: 2024-04-01 10:21+0000\n"
 "PO-Revision-Date: 2024-04-01 10:21+0000\n"
 "Last-Translator: Athanasios Nektarios Karachalios Stagkas <nasos.karachalios."
 "stagas@gmail.com>\n"
@@ -208,9 +208,9 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Για να καθαρίσετε όλα τα αρχεία στο παράθυρο, πατήστε το κουμπί <gui style="
-"\"button\" >Καθαρισμός</gui>. Η διαδικασία καθαρισμού ενδέχεται να χρειαστεί "
-"κάποιο χρονικό διάστημα για να ολοκληρωθεί."
+"Για να καθαρίσετε όλα τα αρχεία στο παράθυρο, πατήστε το κουμπί <gui "
+"style=\"button\" >Καθαρισμός</gui>. Η διαδικασία καθαρισμού ενδέχεται να "
+"χρειαστεί κάποιο χρονικό διάστημα για να ολοκληρωθεί."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44
