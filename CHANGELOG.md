@@ -6,6 +6,34 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.5.5] - 2024-04-01
+
+### Added
+
+- New Belarusian translation (contributed by @kapatych)
+- New Bulgarian translation (contributed by @twlvnn)
+- New Hindi translation (contributed by @Scrambled777)
+
+### Changed
+
+- Disable mat2 sandbox in a Flatpak environment
+- Improved AppStream metadata (contributed by @yakushabb)
+- Updated Chinese (Traditional) translation (contributed by D0735 and Héctor Cortés)
+- Updated Chinese (Simplified) translation (contributed by @voyage200 and Eric)
+- Updated Czech translation (contributed by @pisekpiskovec)
+- Updated Dutch translation (contributed by @philip.goto)
+- Updated Finnish translation (contributed by @artnay and @dremdau)
+- Updated Greek translation (contributed by @Pyrofanis)
+- Updated Italian translation (contributed by Andrea Andre)
+- Updated Japanese translation (contributed by Himmel and Kaede)
+- Updated Polish translation (contributed by Eryk Michalak)
+- Updated Portuguese translation (contributed by @SantosSi)
+- Updated Portuguese (Brazil) translation (contributed by Gabriel Camargo and Jener Gomes)
+- Updated Romanian translation (contributed by Andrea Andre)
+- Updated Russian translation (contributed by @mittwerk and @sineptic0)
+- Updated Spanish translation (contributed by Héctor Cortés and Óscar Fernández Díaz)
+
+
 ## [2.5.4] - 2023-09-11
 
 ### Changed
