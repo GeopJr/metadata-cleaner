@@ -1,12 +1,13 @@
 # Athanasios Nektarios Karachalios Stagkas <nasos.karachalios.stagas@gmail.com>, 2022, 2024.
 # Athanasios <nikolaoutns@protonmail.com>, 2023.
+# Athanasios Nektarios Karachalios Stagkas <nasos.karachalios.stagkas@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-04-01 10:21+0000\n"
+"PO-Revision-Date: 2024-04-18 00:03+0000\n"
 "Last-Translator: Athanasios Nektarios Karachalios Stagkas <nasos.karachalios."
-"stagas@gmail.com>\n"
+"stagkas@proton.me>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/el/>\n"
 "Language: el\n"
@@ -116,7 +117,7 @@ msgstr ""
 #. The application name. It can be translated.
 #: ../help/C/index.page:10
 msgid "Metadata Cleaner"
-msgstr "Καθαριστής Μεταδεδομένων"
+msgstr ""
 
 #. (itstool) path: page/p
 #: ../help/C/index.page:14
