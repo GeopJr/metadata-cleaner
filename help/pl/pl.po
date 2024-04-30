@@ -1,21 +1,22 @@
 # Zszywek <zszywek+weblate@gmail.com>, 2022.
 # Anon Ymous <mivon27841@shackvine.com>, 2022.
 # Eryk Michalak <gnu.ewm@protonmail.com>, 2023.
+# Jakub Rączkowski <jakubr@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2023-10-01 10:59+0000\n"
-"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
+"PO-Revision-Date: 2024-04-23 13:07+0000\n"
+"Last-Translator: Jakub Rączkowski <jakubr@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -30,6 +31,10 @@ msgid ""
 "who, what, when, where, why, and how about every facet of the data that is "
 "being documented."
 msgstr ""
+"Metadane składają się z informacji charakteryzujących dane. Metadane służą "
+"do dostarczania dokumentacji produktów z danymi. Zasadniczo metadane "
+"odpowiadają na pytania: kto, co, kiedy, gdzie, dlaczego i jak w odniesieniu "
+"do każdego aspektu dokumentowanych danych."
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:16
@@ -49,7 +54,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Przykład metadanych w pliku obrazu"
 
 #. (itstool) path: figure/desc
 #: ../help/C/general.page:20
@@ -57,11 +62,13 @@ msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"W pliku znajdują się informacje o sprzęcie, ustawieniach, dacie i miejscu "
+"realizacji zdjęć. Zawiera łącznie 79 metadanych."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Proces czyszczenia"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:28
@@ -72,6 +79,12 @@ msgid ""
 "for complex file formats. This is why you shouldn't rely on metadata's "
 "presence to decide if your file must be cleaned or not."
 msgstr ""
+"Chociaż <app>Czyściciel Metadanych</app> robi wszystko, co w jego mocy, aby "
+"wyświetlić metadane, nie oznacza to, że plik jest wolny od metadanych, jeśli "
+"ich nie wyświetla. Nie ma niezawodnego sposobu na wykrycie wszystkich "
+"możliwych metadanych w przypadku złożonych formatów plików. Dlatego nie "
+"powinno się polegać na obecności metadanych przy podejmowaniu decyzji, czy "
+"plik wymaga wyczyszczenia, czy nie."
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:29
@@ -79,11 +92,14 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Czyściciel Metadanych</app> pobiera zawartość pliku i umieszcza ją w "
+"nowym pliku bez metadanych, zapewniając usunięcie wszelkich niewykrytych "
+"metadanych."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Ograniczenia"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:36
@@ -92,6 +108,10 @@ msgid ""
 "itself discloses personal information or has been watermarked, traditionally "
 "or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Należy pamiętać, że metadane nie są jedynym sposobem oznaczania pliku. Jeśli "
+"sama treść ujawnia dane osobowe lub została oznaczona znakiem wodnym, "
+"tradycyjnie lub za pomocą steganografii, <app>Czyściciel Metadanych</app> "
+"nie zapewni Ci ochrony."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
@@ -105,21 +125,23 @@ msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
 msgstr ""
+"<app>Czyściciel Metadanych</app> umożliwia przeglądanie metadanych w Twoich "
+"plikach i pozbycie się ich w miarę możliwości."
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:17
 msgid "General information"
-msgstr ""
+msgstr "Informacje ogólne"
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Korzystanie z <app>Czyściciel Metadanych</app>"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Dodawania plików"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:15
@@ -127,11 +149,13 @@ msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
 msgstr ""
+"Aby dodać pliki, naciśnij przycisk <gui style=\"button\">Dodaj Pliki</gui>. "
+"Otworzy się okno wyboru plików, wybierz pliki, które chcesz wyczyścić."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "Przycisk <gui style=\"button\">Dodaj Pliki</gui>"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
@@ -142,16 +166,21 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
+"Aby dodać całe foldery na raz, naciśnij przycisk <gui style=\"button\">Dodaj "
+"Foldery</gui>. Otworzy się okno wyboru plików, wybierz foldery które chcesz "
+"dodać. Opcjonalnie możesz także dodać wszystkie pliki ze wszystkich "
+"podfolderów, zaznaczając pole wyboru <gui style=\"checkbox\">Dodaj pliki z "
+"podfolderów</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr ""
+msgstr "Przycisk <gui style=\"button\">Dodaj Foldery</gui>"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Przeglądanie metadanych"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:31
@@ -159,16 +188,18 @@ msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
 msgstr ""
+"Kliknij na plik z listy, aby otworzyć widok szczegółowy. Jeśli zawiera "
+"metadane, zostaną tam pokazane."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:33
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Szczegółowy widok metadanych"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:41
 msgid "Cleaning files"
-msgstr ""
+msgstr "Czyszczenie plików"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:42
@@ -176,11 +207,13 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Aby wyczyścić wszystkie pliki w oknie, naciśnij przycisk <gui style=\"button"
+"\">Wyczyść</gui>. Proces czyszczenia może zająć trochę czasu."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "Przycisk <gui style=\"button\">Wyczyść</gui>"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:52
@@ -195,6 +228,9 @@ msgid ""
 "might not be selectable anymore, compressed images might get compressed "
 "again…"
 msgstr ""
+"Domyślnie proces usuwania może odrobinę zmienić pliki, aby usunąć jak "
+"najwięcej metadanych. Dla przykładu, zaznaczanie tekstu w plikach PDF może "
+"nie być już możliwe, skompresowane obrazy mogą zostać ponownie skompresowane…"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:54
@@ -202,3 +238,5 @@ msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."
 msgstr ""
+"Tryb lekki, choć nie tak dokładny, nie spowoduje destrukcyjnych zmian w "
+"plikach."
