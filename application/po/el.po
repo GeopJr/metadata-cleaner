@@ -2,14 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Athanasios Nektarios Karachalios Stagkas <nasos.karachalios.stagas@gmail.com>, 2022, 2024.
+# Athanasios Nektarios Karachalios Stagkas <nasos.karachalios.stagkas@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-04-01 10:20+0000\n"
+"PO-Revision-Date: 2024-04-18 00:03+0000\n"
 "Last-Translator: Athanasios Nektarios Karachalios Stagkas <nasos.karachalios."
-"stagas@gmail.com>\n"
+"stagkas@proton.me>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/el/>\n"
 "Language: el\n"
@@ -24,7 +25,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "Καθαριστής Μεταδεδομένων"
+msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
