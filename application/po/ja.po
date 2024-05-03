@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-04-30 01:07+0000\n"
+"PO-Revision-Date: 2024-05-04 06:07+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/ja/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.2\n"
+"X-Generator: Weblate 5.5.3\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -83,7 +83,7 @@ msgstr "メタデータを除去"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr "ウィンドウ内の全ファイルからメタデータを除去"
+msgstr "ウィンドウから全ファイルをクリア"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
