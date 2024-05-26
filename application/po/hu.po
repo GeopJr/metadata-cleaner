@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-03-13 03:01+0000\n"
+"PO-Revision-Date: 2024-05-28 00:09+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -185,7 +185,7 @@ msgstr "_Gyorsbillentyűk"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "A Metaadattörlő _névjegye"
+msgstr "A Metaadat-tisztító _névjegye"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
