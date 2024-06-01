@@ -1,11 +1,12 @@
 # Languages add-on <noreply-addon-languages@weblate.org>, 2024.
 # Nitin Khalia <weblate.scrambled777@simplelogin.com>, 2024.
+# Scrambled777 <weblate.scrambled777@simplelogin.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-02-11 16:02+0000\n"
-"Last-Translator: Nitin Khalia <weblate.scrambled777@simplelogin.com>\n"
+"PO-Revision-Date: 2024-06-02 17:09+0000\n"
+"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/hi/>\n"
 "Language: hi\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -42,10 +43,11 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"किसी फाइल का मेटाडेटा आपके बारे में बहुत कुछ बता सकता है। कैमरे इस बारे में डेटा रिकॉर्ड करते "
-"हैं कि कोई तस्वीर कब और कहाँ ली गई थी और किस कैमरे का उपयोग किया गया था। कार्यालय "
-"एप्लिकेशन स्वचालित रूप से दस्तावेज़ों और स्प्रैडशीट्स में लेखक और कंपनी की जानकारी जोड़ते हैं। यह "
-"संवेदनशील जानकारी है और आप शायद इसका खुलासा नहीं करना चाहेंगे।"
+"किसी फाइल का मेटाडेटा आपके बारे में बहुत कुछ बता सकता है। कैमरे इस बारे में "
+"डेटा रिकॉर्ड करते हैं कि कोई तस्वीर कब और कहाँ ली गई थी और किस कैमरे का उपयो"
+"ग किया गया था। कार्यालय अनुप्रयोग स्वचालित रूप से दस्तावेज़ों और स्प्रैडशीट्"
+"स में लेखक और कंपनी की जानकारी जोड़ते हैं। यह संवेदनशील जानकारी है और आप शा"
+"यद इसका खुलासा नहीं करना चाहेंगे।"
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
