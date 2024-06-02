@@ -1,11 +1,11 @@
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2022.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2022, 2024.
 # Roosa Huovinen <roosa.h@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-03-26 19:01+0000\n"
-"Last-Translator: Roosa Huovinen <roosa.h@proton.me>\n"
+"PO-Revision-Date: 2024-06-02 17:09+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/fi/>\n"
 "Language: fi\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -97,7 +97,7 @@ msgstr ""
 #. The application name. It can be translated.
 #: ../help/C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Metatietojen puhdistus"
 
 #. (itstool) path: page/p
 #: ../help/C/index.page:14
@@ -105,6 +105,9 @@ msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
 msgstr ""
+"<app>Metatietojen puhdistus</app> -sovelluksen avulla voit katsella "
+"tiedostojen metatietoja ja hankkiutua niistä eroon niin kattavasti kuin "
+"mahdollista."
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:17
@@ -114,7 +117,7 @@ msgstr "Yleistä tietoa"
 #. (itstool) path: section/title
 #: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "<app>Metatietojen puhdistus</app> -sovelluksen käyttäminen"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:14
