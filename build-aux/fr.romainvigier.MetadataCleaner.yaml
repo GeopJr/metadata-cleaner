@@ -64,7 +64,7 @@ modules:
           - type: git
             url: https://0xacab.org/jvoisin/mat2.git
             branch: master
-            commit: 94ef57c9941d56dff3a5f669dcfc5ba17f88d056
+            commit: a47ac01eb626859fda3a25996ed3d9665f6001fe
         modules:
           - name: exiftool
             buildsystem: simple
@@ -76,8 +76,8 @@ modules:
             sources:
               - type: git
                 url: https://github.com/exiftool/exiftool.git
-                tag: '12.80'
-                commit: da736f3d8894b233dfa44a6b68d793b1fc78b0cb
+                tag: '12.88'
+                commit: de702162a10a5a16ca74adb72a7438977fcd01aa
             modules:
               - name: perl
                 buildsystem: simple
@@ -123,8 +123,8 @@ modules:
                 sources:
                   - type: git
                     url: https://github.com/Perl/perl5.git
-                    tag: v5.38.2
-                    commit: 55dd2f792ffc8cefe614350a411f785374281b24
+                    tag: v5.40.0
+                    commit: f22a16ecf4821b7e93d2569f630817a2631fddd9
 
           - name: poppler
             buildsystem: cmake
@@ -142,17 +142,17 @@ modules:
               - -DENABLE_QT6=OFF
             sources:
               - type: git
-                url: https://anongit.freedesktop.org/git/poppler/poppler.git
-                tag: poppler-24.04.0
-                commit: 0aa1fe5c30a6c467c91bad8d81bd6c2f57fcb726
+                url: https://gitlab.freedesktop.org/poppler/poppler.git
+                tag: poppler-24.06.1
+                commit: c670e8e1fd8cc4630b8e02f195681027edd4c19a
             modules:
               - name: poppler-data
                 buildsystem: cmake
                 sources:
                   - type: git
-                    url: https://anongit.freedesktop.org/git/poppler/poppler-data.git
-                    tag: POPPLER_DATA_0_4_11
-                    commit: 0ea8e08c257f58cc967f7da59e2d0eac20f1b455
+                    url: https://gitlab.freedesktop.org/poppler/poppler-data.git
+                    tag: POPPLER_DATA_0_4_12
+                    commit: af9f452b427d5ce8abe81ff98cc40c5f39fad90b
 
           - name: python3-mutagen
             buildsystem: simple
