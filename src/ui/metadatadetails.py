@@ -3,7 +3,7 @@
 
 """List of a file's metadata."""
 
-from gi.repository import GObject, Gtk
+from gi.repository import GObject, Gtk, Adw
 
 from metadatacleaner.modules.metadata import MetadataList
 
@@ -13,7 +13,7 @@ from metadatacleaner.ui.metadatadetailsrow import MetadataDetailsRow
 @Gtk.Template(
     resource_path="/dev/geopjr/MetadataCleaner/ui/MetadataDetails.ui"
 )
-class MetadataDetails(Gtk.Box):
+class MetadataDetails(Adw.PreferencesGroup):
     """List of a file's metadata."""
 
     __gtype_name__ = "MetadataDetails"
@@ -21,8 +21,6 @@ class MetadataDetails(Gtk.Box):
     filename = GObject.Property(type=str)
 
     _metadata_list = MetadataList()
-
-    _list: Gtk.ListBox = Gtk.Template.Child()
 
     @GObject.Property(type=MetadataList)
     def metadata_list(self) -> MetadataList:
@@ -36,7 +34,7 @@ class MetadataDetails(Gtk.Box):
     @metadata_list.setter  # type: ignore
     def metadata_list(self, metadata_list):
         self._metadata_list = metadata_list
-        self._list.bind_model(metadata_list, _create_row)
+        self.bind_model(metadata_list, _create_row)
 
 
 def _create_row(metadata):
