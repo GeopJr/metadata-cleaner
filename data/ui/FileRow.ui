@@ -6,198 +6,109 @@ SPDX-License-Identifier: GPL-3.0-or-later
 <interface>
   <template class="FileRow" parent="GtkBox">
     <property name="orientation">horizontal</property>
+    <property name="spacing">8</property>
+    <property name="margin-top">8</property>
+    <property name="margin-bottom">8</property>
+    <property name="margin-start">8</property>
+    <property name="margin-end">8</property>
     <child>
       <object class="GtkButton">
-        <property name="tooltip-text" translatable="yes">Remove file from list</property>
+        <property name="tooltip-text" translatable="yes">Remove</property>
         <property name="icon-name">metadatacleaner-remove-symbolic</property>
-        <property name="vexpand">True</property>
-        <signal name="clicked" handler="_on_remove_file_button_clicked"/>
+        <property name="valign">center</property>
+        <property name="halign">center</property>
+        <signal name="clicked" handler="_on_remove_file_button_clicked" />
         <style>
-          <class name="remove"/>
-          <class name="flat"/>
+          <class name="error" />
+          <class name="flat" />
+          <class name="circular" />
         </style>
       </object>
     </child>
     <child>
-      <object class="GtkSeparator">
-        <property name="orientation">vertical</property>
+      <object class="GtkImage">
+        <property name="valign">center</property>
+        <property name="icon-size">large</property>
+        <style>
+          <class name="mime-icon" />
+        </style>
+        <binding name="icon-name">
+          <lookup name="icon-name" type="File">
+            <lookup name="file">FileRow</lookup>
+          </lookup>
+        </binding>
       </object>
     </child>
     <child>
-      <object class="GtkButton">
-        <signal name="clicked" handler="_on_file_clicked"/>
-        <style>
-          <class name="file"/>
-          <class name="flat"/>
-        </style>
+      <object class="GtkBox">
+        <property name="orientation">horizontal</property>
+        <property name="spacing">12</property>
         <child>
           <object class="GtkBox">
-            <property name="orientation">horizontal</property>
-            <property name="margin-top">6</property>
-            <property name="margin-bottom">6</property>
-            <property name="spacing">12</property>
+            <property name="orientation">vertical</property>
+            <property name="valign">center</property>
+            <property name="hexpand">1</property>
             <child>
-              <object class="GtkBox">
-                <property name="orientation">horizontal</property>
-                <property name="hexpand">True</property>
-                <property name="valign">center</property>
-                <property name="spacing">12</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="valign">center</property>
-                    <property name="icon-size">large</property>
-                    <binding name="icon-name">
-                      <lookup name="icon-name" type="File"><lookup name="file">FileRow</lookup></lookup>
-                    </binding>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkBox">
-                    <property name="orientation">vertical</property>
-                    <property name="valign">center</property>
-                    <child>
-                      <object class="GtkLabel">
-                        <property name="xalign">0</property>
-                        <property name="ellipsize">middle</property>
-                        <binding name="label">
-                          <lookup name="filename" type="File"><lookup name="file">FileRow</lookup></lookup>
-                        </binding>
-                        <binding name="tooltip-text">
-                          <lookup name="filename" type="File"><lookup name="file">FileRow</lookup></lookup>
-                        </binding>
-                      </object>
-                    </child>
-                    <child>
-                      <object class="GtkLabel">
-                        <property name="xalign">0</property>
-                        <property name="ellipsize">middle</property>
-                        <binding name="label">
-                          <lookup name="directory" type="File"><lookup name="file">FileRow</lookup></lookup>
-                        </binding>
-                        <binding name="tooltip-text">
-                          <lookup name="directory" type="File"><lookup name="file">FileRow</lookup></lookup>
-                        </binding>
-                        <binding name="visible">
-                          <lookup name="display-directory" type="File"><lookup name="file">FileRow</lookup></lookup>
-                        </binding>
-                        <style>
-                          <class name="subtitle"/>
-                        </style>
-                      </object>
-                    </child>
-                  </object>
-                </child>
-              </object>
-            </child>
-            <child>
-              <object class="GtkStack">
-                <property name="transition-type">crossfade</property>
-                <property name="hhomogeneous">False</property>
-                <property name="valign">center</property>
-                <binding name="visible-child-name">
-                  <lookup name="simple-state" type="File"><lookup name="file">FileRow</lookup></lookup>
+              <object class="GtkLabel">
+                <property name="xalign">0</property>
+                <property name="ellipsize">middle</property>
+                <binding name="label">
+                  <lookup name="filename" type="File">
+                    <lookup name="file">FileRow</lookup>
+                  </lookup>
                 </binding>
-                <child>
-                  <object class="GtkStackPage">
-                    <property name="name">working</property>
-                    <property name="child">
-                      <object class="Badge">
-                        <style>
-                          <class name="flat"/>
-                        </style>
-                        <child>
-                          <object class="GtkSpinner">
-                            <property name="spinning">True</property>
-                          </object>
-                        </child>
-                      </object>
-                    </property>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkStackPage">
-                    <property name="name">warning</property>
-                    <property name="child">
-                      <object class="Badge">
-                        <style>
-                          <class name="warning"/>
-                        </style>
-                        <child>
-                          <object class="GtkImage">
-                            <property name="icon-name">metadatacleaner-warning-symbolic</property>
-                            <property name="tooltip-text" translatable="yes">Warning</property>
-                          </object>
-                        </child>
-                      </object>
-                    </property>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkStackPage">
-                    <property name="name">error</property>
-                    <property name="child">
-                      <object class="Badge">
-                        <style>
-                          <class name="error"/>
-                        </style>
-                        <child>
-                          <object class="GtkImage">
-                            <property name="icon-name">metadatacleaner-error-symbolic</property>
-                            <property name="tooltip-text" translatable="yes">Error</property>
-                          </object>
-                        </child>
-                      </object>
-                    </property>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkStackPage">
-                    <property name="name">has-metadata</property>
-                    <property name="child">
-                      <object class="Badge">
-                        <style>
-                          <class name="metadata"/>
-                        </style>
-                        <child>
-                          <object class="GtkLabel">
-                            <binding name="label">
-                              <lookup name="total-metadata" type="File"><lookup name="file">FileRow</lookup></lookup>
-                            </binding>
-                            <style>
-                              <class name="numeric"/>
-                            </style>
-                          </object>
-                        </child>
-                      </object>
-                    </property>
-                  </object>
-                </child>
-                <child>
-                  <object class="GtkStackPage">
-                    <property name="name">clean</property>
-                    <property name="child">
-                      <object class="Badge">
-                        <style>
-                          <class name="success"/>
-                        </style>
-                        <child>
-                          <object class="GtkImage">
-                            <property name="icon-name">metadatacleaner-ok-symbolic</property>
-                            <property name="tooltip-text" translatable="yes">Cleaned</property>
-                          </object>
-                        </child>
-                      </object>
-                    </property>
-                  </object>
-                </child>
+                <binding name="tooltip-text">
+                  <lookup name="filename" type="File">
+                    <lookup name="file">FileRow</lookup>
+                  </lookup>
+                </binding>
               </object>
             </child>
             <child>
-              <object class="GtkImage">
-                <property name="icon-name">metadatacleaner-go-next-symbolic</property>
-                <property name="valign">center</property>
+              <object class="GtkLabel">
+                <property name="xalign">0</property>
+                <property name="ellipsize">middle</property>
+                <binding name="label">
+                  <lookup name="directory" type="File">
+                    <lookup name="file">FileRow</lookup>
+                  </lookup>
+                </binding>
+                <binding name="tooltip-text">
+                  <lookup name="directory" type="File">
+                    <lookup name="file">FileRow</lookup>
+                  </lookup>
+                </binding>
+                <binding name="visible">
+                  <lookup name="display-directory" type="File">
+                    <lookup name="file">FileRow</lookup>
+                  </lookup>
+                </binding>
+                <style>
+                  <class name="subtitle" />
+                </style>
               </object>
             </child>
+          </object>
+        </child>
+        <child>
+          <object class="Badge">
+            <property name="valign">center</property>
+            <binding name="label">
+              <lookup name="total-metadata" type="File">
+                <lookup name="file">FileRow</lookup>
+              </lookup>
+            </binding>
+            <binding name="state">
+              <lookup name="simple-state" type="File">
+                <lookup name="file">FileRow</lookup>
+              </lookup>
+            </binding>
+          </object>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="icon-name">metadatacleaner-go-next-symbolic</property>
+            <property name="valign">center</property>
           </object>
         </child>
       </object>

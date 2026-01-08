@@ -9,7 +9,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 
 listview.files>row {
 	padding: 0;
-	border-bottom: 1px solid @borders;
+	border-bottom: 1px solid var(--border-color);
 }
 
 listview.files .remove,
@@ -20,16 +20,6 @@ listview.files .file {
 
 listview.files .remove {
 	padding: 6px 12px;
-}
-
-listview.files separator {
-	opacity: 0;
-	transition: 0.1s opacity;
-}
-
-listview.files>row:hover separator {
-	opacity: 1;
-	transition: none;
 }
 
 listview.metadata {
@@ -46,7 +36,7 @@ listview.metadata {
 
 .badge.flat {
 	background: none;
-	color: @theme_fg_color;
+	color: var(--window-fg-color);
 }
 
 .badge label {
@@ -54,21 +44,29 @@ listview.metadata {
 }
 
 .badge.metadata {
-	background-color: @accent_color;
+	background-color: var(--accent-bg-color);
+	color: var(--accent-fg-color);
 }
 
 .badge.warning {
-	background-color: @warning_color;
+	background-color: var(--warning-bg-color);
+	color: var(--warning-fg-color);
 }
 
 .badge.error {
-	background-color: @error_color;
+	background-color: var(--error-bg-color);
+	color: var(--error-fg-color);
 }
 
 .badge.success {
-	background-color: @success_color;
+	background-color: var(--success-bg-color);
+	color: var(--success-fg-color);
 }
 
 .badge label {
 	padding: 0 0.4em;
+}
+
+.mime-icon {
+	filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.4));
 }

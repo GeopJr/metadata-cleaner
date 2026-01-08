@@ -26,9 +26,3 @@ class FileRow(Gtk.Box):
         self.activate_action(
             "win.remove-file",
             GLib.Variant.new_uint32(self.position))
-
-    @Gtk.Template.Callback()
-    def _on_file_clicked(self, button: Gtk.Button) -> None:
-        self.activate_action(
-            "files.select",
-            GLib.Variant.new_uint32(self.position))

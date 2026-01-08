@@ -11,16 +11,12 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <attribute name="action">app.new-window</attribute>
       </item>
       <item>
-        <attribute name="label" translatable="yes">_Clear Window</attribute>
+        <attribute name="label" translatable="yes">_Clear</attribute>
         <attribute name="action">win.clear-files</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
       </item>
     </section>
     <section>
-      <item>
-        <attribute name="label" translatable="yes">_Help</attribute>
-        <attribute name="action">app.help</attribute>
-        <attribute name="target">/index</attribute>
-      </item>
       <item>
         <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
         <attribute name="action">win.show-help-overlay</attribute>
