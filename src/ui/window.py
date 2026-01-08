@@ -204,6 +204,13 @@ class Window(Adw.ApplicationWindow):
     # SIGNALS
 
     @Gtk.Template.Callback()
+    def _on_sidebar_toggled(self,
+            widget: Gtk.Widget,
+            pspec: GObject.ParamSpec) -> None:
+        if self._split_view.get_show_sidebar() == False:
+            self._view_stack.get_child_by_name("files").clear_selected_file()
+
+    @Gtk.Template.Callback()
     def _on_file_chooser_dialog_response(
             self,
             dialog: FileChooserDialog,
@@ -253,4 +260,3 @@ class Window(Adw.ApplicationWindow):
     def close_details_view(self) -> None:
         """Close the details view."""
         self._split_view.set_show_sidebar(False)
-        self._view_stack.get_child_by_name("files").clear_selected_file()

@@ -29,6 +29,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <property name="show-sidebar">0</property>
         <property name="min-sidebar-width">260</property>
         <property name="max-sidebar-width">300</property>
+        <signal name="notify::show-sidebar" handler="_on_sidebar_toggled" />
         <property name="content">
           <object class="AdwBreakpointBin">
             <!-- <child>
@@ -123,16 +124,16 @@ SPDX-License-Identifier: GPL-3.0-or-later
           <object class="AdwToolbarView">
             <child type="top">
               <object class="AdwHeaderBar">
-                <property name="show-start-title-buttons">False</property>
-                <!-- TODO RTL COLLAPSED TITLE BUTTONS -->
+                <property name="show-start-title-buttons" bind-property="collapsed" bind-source="_split_view" bind-flags="invert-boolean" />
+                <property name="show-end-title-buttons" bind-property="collapsed" bind-source="_split_view" bind-flags="invert-boolean" />
                 <property name="title-widget">
                   <object class="AdwWindowTitle">
-                    <property name="title" translatable="yes">Details</property>
+                    <property name="title" translatable="yes">Metadata</property>
                   </object>
                 </property>
                 <child type="start">
                   <object class="GtkButton">
-                    <property name="visible" bind-property="collapsed" bind-source="_split_view" bind-flags="invert-boolean" />
+                    <property name="visible" bind-property="collapsed" bind-source="_split_view" />
                     <property name="icon-name">metadatacleaner-go-previous-symbolic</property>
                     <property name="tooltip-text" translatable="yes">Close</property>
                     <property name="action-name">win.close-details-view</property>
