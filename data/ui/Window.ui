@@ -4,6 +4,16 @@ SPDX-FileCopyrightText: Metadata Cleaner contributors
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
+  <menu id="add-menu-model">
+		<item>
+			<attribute name="label" translatable="yes">Add Files</attribute>
+			<attribute name="action">win.add-files</attribute>
+		</item>
+		<item>
+			<attribute name="label" translatable="yes">Add Folders</attribute>
+			<attribute name="action">win.add-folders</attribute>
+		</item>
+	</menu>
   <template class="Window" parent="AdwApplicationWindow">
     <child>
       <object class="AdwBreakpoint">
@@ -21,25 +31,26 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <property name="max-sidebar-width">300</property>
         <property name="content">
           <object class="AdwBreakpointBin">
-            <child>
+            <!-- <child>
               <object class="AdwBreakpoint">
                 <condition>min-width: 400sp</condition>
                 <setter object="_add_files_button" property="collapsed">0</setter>
               </object>
-            </child>
+            </child> -->
             <property name="width-request">100</property>
             <property name="height-request">100</property>
             <property name="child">
               <object class="AdwToolbarView">
                 <child type="top">
-                  <object class="AdwHeaderBar">
+                  <object class="AdwHeaderBar" id="_header">
                     <property name="show-end-title-buttons" bind-property="show-sidebar" bind-source="_split_view" bind-flags="invert-boolean" />
-                    <property name="title-widget">
-                      <object class="GtkBox" />
-                    </property>
+                    <property name="show-title">0</property>
                     <child type="start">
-                      <object class="AddFilesButton" id="_add_files_button">
+                      <object class="GtkMenuButton" id="_add_files_button">
                         <property name="visible">0</property>
+                        <property name="menu-model">add-menu-model</property>
+                        <property name="icon-name">metadatacleaner-plus-symbolic</property>
+                        <property name="tooltip-text" translatable="yes">Add</property>
                       </object>
                     </child>
                     <child type="end">

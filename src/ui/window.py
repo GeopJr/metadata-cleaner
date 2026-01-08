@@ -9,7 +9,6 @@ from typing import Any
 
 from metadatacleaner.modules.filestore import FileStore, FileStoreState
 
-from metadatacleaner.ui.addfilesbutton import AddFilesButton
 from metadatacleaner.ui.filechooserdialog import FileChooserDialog
 from metadatacleaner.ui.filesview import FilesView
 from metadatacleaner.ui.folderchooserdialog import FolderChooserDialog
@@ -34,7 +33,7 @@ class Window(Adw.ApplicationWindow):
     _file_chooser_dialog: FileChooserDialog = Gtk.Template.Child()
     _folder_chooser_dialog: FolderChooserDialog = Gtk.Template.Child()
     _cleaning_warning_dialog: CleaningWarningDialog = Gtk.Template.Child()
-    _add_files_button: AddFilesButton = Gtk.Template.Child()
+    _add_files_button: Gtk.MenuButton = Gtk.Template.Child()
 
     def __init__(
         self,

@@ -1,6 +1,5 @@
 sources = [
     '__init__.py',
-    'addfilesbutton.py',
     'badge.py',
     'cleaningwarningdialog.py',
     'cleanmetadatabutton.py',
