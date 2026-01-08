@@ -33,6 +33,7 @@ class Window(Adw.ApplicationWindow):
     _file_chooser_dialog: FileChooserDialog = Gtk.Template.Child()
     _folder_chooser_dialog: FolderChooserDialog = Gtk.Template.Child()
     _cleaning_warning_dialog: CleaningWarningDialog = Gtk.Template.Child()
+    _header: Adw.HeaderBar = Gtk.Template.Child()
     _add_files_button: Gtk.MenuButton = Gtk.Template.Child()
 
     def __init__(
@@ -245,12 +246,14 @@ class Window(Adw.ApplicationWindow):
         """Show an empty view."""
         self._add_files_button.set_visible(False)
         self._view_stack.set_visible_child_name("empty")
+        self._header.set_show_title(False)
         self.lookup_action("clear-files").set_enabled(False)
 
     def show_files_view(self) -> None:
         """Show the files."""
         self._add_files_button.set_visible(True)
         self._view_stack.set_visible_child_name("files")
+        self._header.set_show_title(True)
         self.lookup_action("clear-files").set_enabled(True)
 
     def open_details_view(self) -> None:
