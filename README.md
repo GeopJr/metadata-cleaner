@@ -32,7 +32,7 @@ Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse an
 
 Metadata Cleaner is available as a Flatpak on Flathub:
 
-<a href="https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner"><img src="https://flathub.org/api/badge?svg&locale=en" alt="Download on Flathub" width="240"></a>
+<a href="https://flathub.org/apps/details/dev.geopjr.MetadataCleaner"><img src="https://flathub.org/api/badge?svg&locale=en" alt="Download on Flathub" width="240"></a>
 
 ## Building from source
 
@@ -54,7 +54,7 @@ meson install -C builddir
 Flatpak building is also available and requires the GNOME platform and SDK runtimes:
 
 ```sh
-flatpak-builder --force-clean --user --install builddir build-aux/fr.romainvigier.MetadataCleaner.yaml
+flatpak-builder --force-clean --user --install builddir build-aux/dev.geopjr.MetadataCleaner.yaml
 ```
 
 ## Contributing
@@ -62,3 +62,6 @@ flatpak-builder --force-clean --user --install builddir build-aux/fr.romainvigie
 You can contribute to the documentation, translation or code, see [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 The application is part of [GNOME Circle](https://circle.gnome.org/), so the [GNOME Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct) applies to this project.
+
+
+- The original artwork, translations, `metadata-cleaner.doap` are released under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International](./LICENSES/CC-BY-SA-4.0.txt).

@@ -1,0 +1,21 @@
+sources = [
+    '__init__.py',
+    'addfilesbutton.py',
+    'badge.py',
+    'cleaningwarningdialog.py',
+    'cleanmetadatabutton.py',
+    'creditsrole.py',
+    'detailsview.py',
+    'filechooserdialog.py',
+    'filerow.py',
+    'filesview.py',
+    'folderchooserdialog.py',
+    'menubutton.py',
+    'metadatadetails.py',
+    'metadatadetailsrow.py',
+    'metadataview.py',
+    'settingsbutton.py',
+    'statusindicator.py',
+    'window.py',
+]
+install_data(sources, install_dir: join_paths(moduledir, 'ui'))

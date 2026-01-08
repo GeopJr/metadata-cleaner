@@ -8,7 +8,7 @@
 	<shortdesc xml:lang="en">View and clean metadata in files</shortdesc>
 
 	<homepage rdf:resource="https://metadatacleaner.romainvigier.fr"/>
-	<download-page rdf:resource="https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner"/>
+	<download-page rdf:resource="https://flathub.org/apps/details/dev.geopjr.MetadataCleaner"/>
 	<bug-database rdf:resource="https://gitlab.com/rmnvgr/metadata-cleaner/-/issues"/>
 
 	<repository>

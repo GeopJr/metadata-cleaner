@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: Metadata Cleaner contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[Desktop Entry]
+Name=Metadata Cleaner
+GenericName=Metadata Cleaner
+Comment=Clean metadata from your files
+Icon=dev.geopjr.MetadataCleaner
+Exec=@bindir@/metadata-cleaner %F
+Type=Application
+DBusActivatable=true
+Categories=GNOME;GTK;Utility;
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=Metadata;Remover;Cleaner;

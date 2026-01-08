@@ -4,18 +4,16 @@
 .cache
 .venv
 .vscode
-
-# Build directories
 build
 builddir
 build-dir
-
-# Flatpak temporary files
-.flatpak-builder
-
-# Glade temporary files
 **/*.ui~
 **/*.ui#
-
-# Python cache
 **/__pycache__
+.flatpak-builder/
+.ruff_cache/
+.devbox/
+builddir
+pyfiglet-*.tar.gz
+pyfiglet-*/
+po/*~

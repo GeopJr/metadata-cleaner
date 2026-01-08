@@ -2,36 +2,45 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 project(
-  'metadata-cleaner',
-  version: '2.5.6',
+  'dev.geopjr.MetadataCleaner',
+  version: '0.1.0',
   license: ['GPL-3.0-or-later', 'CC-BY-SA-4.0'],
   meson_version: '>= 0.59.0'
 )
-
-APP_ID = 'fr.romainvigier.MetadataCleaner'
 
 gnome = import('gnome')
 i18n = import('i18n')
 
 prefix = get_option('prefix')
-
 bindir = prefix / get_option('bindir')
 datadir = prefix / get_option('datadir')
 localedir = prefix / get_option('localedir')
-
-appdatadir = datadir / 'metainfo'
-applicationsdir = datadir / 'applications'
 dbusdir = datadir / 'dbus-1' / 'services'
-iconsdir = datadir / 'icons'
-pkgdatadir = datadir / meson.project_name() / 'data'
-pkgsrcdir = datadir / meson.project_name() / 'src'
-schemasdir = datadir / 'glib-2.0' / 'schemas'
 
 devel = get_option('devel')
+pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
+moduledir = join_paths(pkgdatadir, 'metadatacleaner')
 
-subdir('application')
-subdir('help')
-subdir('tests')
+bin_config = configuration_data()
+bin_config.set('localedir', localedir)
+bin_config.set('pkgdatadir', pkgdatadir)
+bin_config.set('app_id', meson.project_name())
+bin_config.set('devel', devel)
+bin_config.set('version', meson.project_version())
+
+if devel
+  git = find_program('git')
+  if git.found()
+    branch = run_command('git', 'branch', '--show-current', check: true).stdout().strip()
+    revision = run_command('git', 'rev-parse', '--short', 'HEAD', check: true).stdout().strip()
+    version = '@0@-@1@'.format(branch, revision)
+    bin_config.set('VERSION', version)
+  endif
+endif
+
+subdir('data')
+subdir('src')
+subdir('po')
 
 gnome.post_install(
   glib_compile_schemas: true,
