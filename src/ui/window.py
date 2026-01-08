@@ -26,7 +26,7 @@ class Window(Adw.ApplicationWindow):
 
     file_store = GObject.Property(type=FileStore, nick="file-store")
 
-    _mode_flap: Adw.Flap = Gtk.Template.Child()
+    _split_view: Adw.OverlaySplitView = Gtk.Template.Child()
     _view_stack: Gtk.Stack = Gtk.Template.Child()
     _details_view: DetailsView = Gtk.Template.Child()
 
@@ -205,14 +205,6 @@ class Window(Adw.ApplicationWindow):
     # SIGNALS
 
     @Gtk.Template.Callback()
-    def _on_mode_flap_revealed(
-            self,
-            flap: Adw.Flap,
-            p_spec: GObject.ParamSpec) -> None:
-        if not flap.get_reveal_flap():
-            self.close_details_view()
-
-    @Gtk.Template.Callback()
     def _on_file_chooser_dialog_response(
             self,
             dialog: FileChooserDialog,
@@ -257,9 +249,9 @@ class Window(Adw.ApplicationWindow):
 
     def open_details_view(self) -> None:
         """Show the details view."""
-        self._mode_flap.set_reveal_flap(True)
+        self._split_view.set_show_sidebar(True)
 
     def close_details_view(self) -> None:
         """Close the details view."""
-        self._mode_flap.set_reveal_flap(False)
+        self._split_view.set_show_sidebar(False)
         self._view_stack.get_child_by_name("files").clear_selected_file()

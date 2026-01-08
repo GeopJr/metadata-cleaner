@@ -4,26 +4,26 @@ SPDX-FileCopyrightText: Metadata Cleaner contributors
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
-  <template class="FilesView" parent="GtkBox">
-    <property name="orientation">vertical</property>
-    <property name="width-request">340</property>
+  <template class="FilesView" parent="AdwBin">
     <child>
-      <object class="GtkScrolledWindow">
-        <property name="vexpand">True</property>
-        <property name="hscrollbar-policy">never</property>
-        <child>
-          <object class="GtkListView">
-            <property name="model">
-              <object class="GtkSingleSelection" id="_selection_model">
-                <property name="autoselect">False</property>
-                <property name="can-unselect">True</property>
-                <property name="model" bind-source="FilesView" bind-property="file-store"/>
-                <signal name="selection-changed" handler="_on_selection_changed"/>
-              </object>
-            </property>
-            <property name="factory">
-              <object class="GtkBuilderListItemFactory">
-                <property name="bytes">
+      <object class="AdwToolbarView">
+        <property name="content">
+          <object class="GtkScrolledWindow">
+            <property name="vexpand">True</property>
+            <property name="hscrollbar-policy">never</property>
+            <child>
+              <object class="GtkListView">
+                <property name="model">
+                  <object class="GtkSingleSelection" id="_selection_model">
+                    <property name="autoselect">False</property>
+                    <property name="can-unselect">True</property>
+                    <property name="model" bind-source="FilesView" bind-property="file-store" />
+                    <signal name="selection-changed" handler="_on_selection_changed" />
+                  </object>
+                </property>
+                <property name="factory">
+                  <object class="GtkBuilderListItemFactory">
+                    <property name="bytes">
                   <![CDATA[
                     <interface>
                       <template class="GtkListItem">
@@ -41,46 +41,46 @@ SPDX-License-Identifier: GPL-3.0-or-later
                     </interface>
                   ]]>
                 </property>
+                  </object>
+                </property>
+                <style>
+                  <class name="files" />
+                </style>
               </object>
-            </property>
-            <style>
-              <class name="files"/>
-            </style>
+            </child>
           </object>
-        </child>
-      </object>
-    </child>
-    <child>
-      <object class="GtkSeparator"/>
-    </child>
-    <child>
-      <object class="GtkBox">
-        <property name="spacing">24</property>
-        <style>
-          <class name="toolbar"/>
-          <class name="details"/>
-        </style>
-        <child>
-          <object class="AdwClamp">
-            <property name="halign">start</property>
-            <property name="child">
-              <object class="StatusIndicator">
-                <property name="file-store" bind-source="FilesView" bind-property="file-store"/>
-                <property name="hexpand">True</property>
-                <property name="margin-start">6</property>
-              </object>
-            </property>
-          </object>
-        </child>
-        <child>
+        </property>
+        <child type="bottom">
           <object class="GtkBox">
-            <property name="orientation">horizontal</property>
-            <property name="spacing">6</property>
+            <property name="spacing">24</property>
+            <property name="visible">0</property>
+            <style>
+              <class name="toolbar" />
+              <class name="details" />
+            </style>
             <child>
-              <object class="SettingsButton"/>
+              <object class="AdwClamp">
+                <property name="halign">start</property>
+                <property name="child">
+                  <object class="StatusIndicator">
+                    <property name="file-store" bind-source="FilesView" bind-property="file-store" />
+                    <property name="hexpand">True</property>
+                    <property name="margin-start">6</property>
+                  </object>
+                </property>
+              </object>
             </child>
             <child>
-              <object class="CleanMetadataButton"/>
+              <object class="GtkBox">
+                <property name="orientation">horizontal</property>
+                <property name="spacing">6</property>
+                <child>
+                  <object class="SettingsButton" />
+                </child>
+                <child>
+                  <object class="CleanMetadataButton" />
+                </child>
+              </object>
             </child>
           </object>
         </child>

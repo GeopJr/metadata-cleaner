@@ -3,7 +3,7 @@
 
 """View showing all the files."""
 
-from gi.repository import Gio, GLib, GObject, Gtk
+from gi.repository import Gio, GLib, GObject, Gtk, Adw
 
 from metadatacleaner.modules.filestore import FileStore
 
@@ -14,7 +14,7 @@ from metadatacleaner.ui.statusindicator import StatusIndicator
 
 
 @Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/FilesView.ui")
-class FilesView(Gtk.Box):
+class FilesView(Adw.Bin):
     """View showing all the files."""
 
     __gtype_name__ = "FilesView"

@@ -15,12 +15,10 @@ from metadatacleaner.ui.metadataview import MetadataView
 @Gtk.Template(
     resource_path="/dev/geopjr/MetadataCleaner/ui/DetailsView.ui"
 )
-class DetailsView(Gtk.Widget):
+class DetailsView(Adw.Bin):
     """View details of a file."""
 
     __gtype_name__ = "DetailsView"
-
-    _child: Optional[Gtk.Widget] = None
 
     def view_file(self, f: File) -> None:
         """Set the file to view.
@@ -28,7 +26,7 @@ class DetailsView(Gtk.Widget):
         Args:
             f (File): The file to view.
         """
-        self.clear()
+        self.set_child(None)
         if f.state == FileState.HAS_METADATA:
             self._setup_metadata_details(f)
         elif f.state == FileState.CLEANED:
@@ -41,19 +39,12 @@ class DetailsView(Gtk.Widget):
                 FileState.UNSUPPORTED]:
             self._setup_error_details(f)
 
-    def set_child(self, w) -> None:
+    def set_content(self, w) -> None:
         """Set the widget's child."""
-        self.clear()
-        w.set_parent(self)
-        self._child = w
-
-    def clear(self) -> None:
-        """Clear the view."""
-        if self._child:
-            self._child.unparent()
+        self.set_child(w)
 
     def _setup_cleaned_details(self) -> None:
-        self.set_child(
+        self.set_content(
             Adw.StatusPage(
                 title=_("The File Has Been Cleaned"),
                 description=_(
@@ -69,7 +60,7 @@ class DetailsView(Gtk.Widget):
                 css_classes=["compact"]))
 
     def _setup_metadata_details(self, f: File) -> None:
-        self.set_child(MetadataView(metadata=f.metadata))
+        self.set_content(MetadataView(metadata=f.metadata))
 
     def _setup_error_details(self, f: File) -> None:
         info_titles = {
@@ -84,7 +75,7 @@ class DetailsView(Gtk.Widget):
         info_details = str(f.error or "")
         if f.state == FileState.HAS_NO_METADATA:
             info_details = _("The file will be cleaned anyway to be sure.")
-        self.set_child(
+        self.set_content(
             Adw.StatusPage(
                 title=info_titles[f.state],
                 description=info_details,

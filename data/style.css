@@ -3,6 +3,10 @@ SPDX-FileCopyrightText: Metadata Cleaner contributors
 SPDX-License-Identifier: GPL-3.0-or-later
 */
 
+.files {
+	background: none;
+}
+
 listview.files>row {
 	padding: 0;
 	border-bottom: 1px solid @borders;
@@ -30,19 +34,6 @@ listview.files>row:hover separator {
 
 listview.metadata {
 	background: none;
-}
-
-listview.metadata>row {
-	margin: 12px 24px;
-}
-
-listview.metadata>row:last-child {
-	margin-bottom: 24px;
-}
-
-row.metadata>box {
-	margin: 6px;
-	border-spacing: 12px;
 }
 
 .badge {

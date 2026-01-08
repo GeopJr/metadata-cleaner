@@ -3,13 +3,13 @@
 
 """Row displaying a metadata."""
 
-from gi.repository import GObject, Gtk
+from gi.repository import GObject, Gtk, Adw
 
 
 @Gtk.Template(
     resource_path="/dev/geopjr/MetadataCleaner/ui/MetadataDetailsRow.ui"
 )
-class MetadataDetailsRow(Gtk.ListBoxRow):
+class MetadataDetailsRow(Adw.ActionRow):
     """Row displaying a metadata."""
 
     __gtype_name__ = "MetadataDetailsRow"

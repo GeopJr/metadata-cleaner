@@ -8,15 +8,21 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <property name="vexpand">True</property>
     <property name="hscrollbar-policy">never</property>
     <child>
-      <object class="GtkListView">
-        <property name="model">
-          <object class="GtkNoSelection">
-            <property name="model" bind-source="MetadataView" bind-property="metadata" bind-flags="sync-create"/>
-          </object>
-        </property>
-        <property name="factory">
-          <object class="GtkBuilderListItemFactory">
-            <property name="bytes">
+      <object class="AdwClampScrollable">
+        <property name="maximum-size">300</property>
+        <property name="margin-start">8</property>
+        <property name="margin-end">8</property>
+        <property name="margin-bottom">8</property>
+        <property name="child">
+          <object class="GtkListView">
+            <property name="model">
+              <object class="GtkNoSelection">
+                <property name="model" bind-source="MetadataView" bind-property="metadata" bind-flags="sync-create" />
+              </object>
+            </property>
+            <property name="factory">
+              <object class="GtkBuilderListItemFactory">
+                <property name="bytes">
               <![CDATA[
                 <interface>
                   <template class="GtkListItem">
@@ -39,11 +45,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
                 </interface>
               ]]>
             </property>
+              </object>
+            </property>
+            <style>
+              <class name="metadata" />
+            </style>
           </object>
         </property>
-        <style>
-          <class name="metadata"/>
-        </style>
       </object>
     </child>
   </template>
