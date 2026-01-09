@@ -5,6 +5,7 @@ sources = [
     'cleanmetadatabutton.py',
     'creditsrole.py',
     'detailsview.py',
+    'dropoverlay.py',
     'filechooserdialog.py',
     'filerow.py',
     'filesview.py',

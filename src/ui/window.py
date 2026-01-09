@@ -10,6 +10,7 @@ from typing import Any
 from metadatacleaner.modules.filestore import FileStore, FileStoreState
 from metadatacleaner.modules.pride import get_celebration
 
+from metadatacleaner.ui.dropoverlay import DropOverlay
 from metadatacleaner.ui.filechooserdialog import FileChooserDialog
 from metadatacleaner.ui.filesview import FilesView
 from metadatacleaner.ui.folderchooserdialog import FolderChooserDialog
@@ -34,6 +35,7 @@ class Window(Adw.ApplicationWindow):
     _cleaning_warning_dialog: CleaningWarningDialog = Gtk.Template.Child()
     _header: Adw.HeaderBar = Gtk.Template.Child()
     _add_files_button: Gtk.MenuButton = Gtk.Template.Child()
+    _drop_overlay: DropOverlay = Gtk.Template.Child()
 
     def __init__(
         self,
@@ -112,11 +114,21 @@ class Window(Adw.ApplicationWindow):
                 value: Any,
                 x: int,
                 y: int):
+            self._drop_overlay.dropping = False
             if isinstance(value, Gdk.FileList):
                 self.file_store.add_gfiles(value.get_files())
 
+        def on_leave(widget: Gtk.DropTarget):
+            self._drop_overlay.dropping = False
+
+        def on_enter(widget: Gtk.DropTarget, x: int, y: int):
+            self._drop_overlay.dropping = True
+            return Gdk.DragAction.COPY
+
         drop_target = Gtk.DropTarget.new(Gdk.FileList, Gdk.DragAction.COPY)
         drop_target.connect("drop", on_drop)
+        drop_target.connect("enter", on_enter)
+        drop_target.connect("leave", on_leave)
         self.add_controller(drop_target)
 
     def _present_about(self) -> None:
