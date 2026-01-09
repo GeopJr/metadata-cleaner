@@ -8,6 +8,7 @@ from gi.repository import Adw, Gdk, Gio, GLib, GObject, Gtk
 from typing import Any
 
 from metadatacleaner.modules.filestore import FileStore, FileStoreState
+from metadatacleaner.modules.pride import get_celebration
 
 from metadatacleaner.ui.filechooserdialog import FileChooserDialog
 from metadatacleaner.ui.filesview import FilesView
@@ -29,7 +30,6 @@ class Window(Adw.ApplicationWindow):
     _view_stack: Gtk.Stack = Gtk.Template.Child()
     _details_view: DetailsView = Gtk.Template.Child()
 
-    _about_window: Adw.AboutWindow = Gtk.Template.Child()
     _file_chooser_dialog: Gtk.FileDialog = Gtk.Template.Child()
     _cleaning_warning_dialog: CleaningWarningDialog = Gtk.Template.Child()
     _header: Adw.HeaderBar = Gtk.Template.Child()
@@ -50,7 +50,6 @@ class Window(Adw.ApplicationWindow):
         self._setup_size()
         self._setup_devel_style()
         self._setup_file_store()
-        self._setup_about_window()
         self._setup_drop_target()
         self._setup_actions()
 
@@ -106,10 +105,6 @@ class Window(Adw.ApplicationWindow):
             "lightweight-mode",
             Gio.SettingsBindFlags.DEFAULT)
 
-    def _setup_about_window(self) -> None:
-        self._about_window.add_acknowledgement_section(
-            _("Libraries"), ["mat2 https://0xacab.org/jvoisin/mat2"])
-
     def _setup_drop_target(self) -> None:
 
         def on_drop(
@@ -124,6 +119,63 @@ class Window(Adw.ApplicationWindow):
         drop_target.connect("drop", on_drop)
         self.add_controller(drop_target)
 
+    def _present_about(self) -> None:
+        about = Adw.AboutDialog.new()
+        about.set_application_icon("dev.geopjr.MetadataCleaner")
+        about.set_application_name(self.get_application().name)
+        about.set_version(self.get_application().version)
+        about.set_license_type(Gtk.License.GPL_3_0_ONLY)
+        about.set_developer_name("Evangelos \"GeopJr\" Paterakis")
+        # TODO set website, issue_url etc
+
+        about.set_artists(
+            [
+                "Romain Vigier https://www.romainvigier.fr",
+                "GNOME Design Team https://gitlab.gnome.org/Teams/Design"
+            ]
+        )
+        about.set_developers(
+            [
+                "Evangelos \"GeopJr\" Paterakis https://geopjr.dev/",
+                "Romain Vigier https://www.romainvigier.fr/",
+            ]
+        )
+
+        # translators: Translate this string as your translator credits.
+        # Name only:    Gregor Niehl
+        # Name + URL:   Gregor Niehl https://gitlab.gnome.org/gregorni/
+        # Name + Email: Gregor Niehl <gregorniehl@web.de>
+        # Do not remove existing names.
+        # Names are separated with newlines.
+        about.set_translator_credits(_("translator-credits"))
+
+        # translators: Application metainfo for the app "Archives". <https://gitlab.gnome.org/GeopJr/Archives/>
+        about.add_other_app(
+            "dev.geopjr.Archives", _("Archives"), _("Create and view web archives")
+        )
+        # translators: Application metainfo for the app "Calligraphy". <https://gitlab.gnome.org/GeopJr/Calligraphy>
+        about.add_other_app(
+            "dev.geopjr.Calligraphy", _("Calligraphy"), _("Turn text into ASCII banners")
+        )
+        # translators: Application metainfo for the app "Collision". <https://github.com/GeopJr/Collision>
+        about.add_other_app(
+            "dev.geopjr.Collision", _("Collision"), _("Check hashes for your files")
+        )
+        # translators: Application metainfo for the app "Turntable". <https://codeberg.org/GeopJr/Turntable>
+        about.add_other_app("dev.geopjr.Turntable", _("Turntable"), _("Scrobble your music"))
+        # translators: Application metainfo for the app "Tuba". <https://github.com/GeopJr/Tuba>
+        about.add_other_app("dev.geopjr.Tuba", _("Tuba"), _("Browse the Fediverse"))
+
+        about.add_legal_section(
+            title="mat2",
+            copyright="Copyright 2018 Julien (jvoisin) Voisin julien.voisin+mat2@dustri.org\nCopyright 2016 Marie-Rose for mat2's logo",
+            license_type=Gtk.License.LGPL_3_0,
+        )
+        celebrate = get_celebration()
+        if celebrate != "":
+            about.add_css_class(celebrate)
+        about.present(self)
+
     def _setup_actions(self) -> None:
 
         def on_close(action: Gio.Action, parameters: None) -> None:
@@ -133,7 +185,7 @@ class Window(Adw.ApplicationWindow):
         self.add_action(close)
 
         def on_about(action: Gio.Action, parameters: None) -> None:
-            self._about_window.show()
+            self._present_about()
         about = Gio.SimpleAction.new("about", None)
         about.connect("activate", on_about)
         self.add_action(about)

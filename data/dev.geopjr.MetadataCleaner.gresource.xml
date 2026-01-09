@@ -37,4 +37,12 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file preprocess="xml-stripblanks">ui/StatusIndicator.ui</file>
 		<file preprocess="xml-stripblanks">ui/Window.ui</file>
 	</gresource>
+
+	<gresource prefix="/dev/geopjr/MetadataCleaner/icons/scalable/apps/">
+		<file alias="dev.geopjr.Archives.svg" preprocess="xml-stripblanks">icons/dev.geopjr.Archives.svg</file>
+		<file alias="dev.geopjr.Calligraphy.svg" preprocess="xml-stripblanks">icons/dev.geopjr.Calligraphy.svg</file>
+		<file alias="dev.geopjr.Collision.svg" preprocess="xml-stripblanks">icons/dev.geopjr.Collision.svg</file>
+		<file alias="dev.geopjr.Tuba.svg" preprocess="xml-stripblanks">icons/dev.geopjr.Tuba.svg</file>
+		<file alias="dev.geopjr.Turntable.svg" preprocess="xml-stripblanks">icons/dev.geopjr.Turntable.svg</file>
+	</gresource>
 </gresources>
