@@ -109,7 +109,7 @@ class File(GObject.GObject):
         return dir_path
 
     def _set_state(self, state: FileState) -> None:
-        if state == self.state:
+        if state == self.state or self.state == FileState.CLEANED:
             return
 
         def update_state(state) -> bool:
