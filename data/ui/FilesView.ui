@@ -51,35 +51,18 @@ SPDX-License-Identifier: GPL-3.0-or-later
           </object>
         </property>
         <child type="bottom">
-          <object class="GtkBox">
-            <property name="spacing">24</property>
-            <property name="visible">0</property>
-            <style>
-              <class name="toolbar" />
-              <class name="details" />
-            </style>
+          <object class="AdwBin">
+            <property name="margin-top">8</property>
+            <property name="margin-bottom">8</property>
             <child>
               <object class="AdwClamp">
-                <property name="halign">start</property>
+                <property name="halign">center</property>
                 <property name="child">
                   <object class="StatusIndicator">
                     <property name="file-store" bind-source="FilesView" bind-property="file-store" />
-                    <property name="hexpand">True</property>
-                    <property name="margin-start">6</property>
+                    <property name="hexpand">1</property>
                   </object>
                 </property>
-              </object>
-            </child>
-            <child>
-              <object class="GtkBox">
-                <property name="orientation">horizontal</property>
-                <property name="spacing">6</property>
-                <child>
-                  <object class="SettingsButton" />
-                </child>
-                <child>
-                  <object class="CleanMetadataButton" />
-                </child>
               </object>
             </child>
           </object>

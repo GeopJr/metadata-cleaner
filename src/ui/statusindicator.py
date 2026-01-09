@@ -7,8 +7,9 @@ from gettext import gettext as _
 from gettext import ngettext
 from gi.repository import Gio, GLib, GObject, Gtk
 
-from metadatacleaner.modules.filestore \
-    import FileStore, FileStoreAction, FileStoreState
+from metadatacleaner.ui.cleanmetadatabutton import CleanMetadataButton
+from metadatacleaner.ui.settingsbutton import SettingsButton
+from metadatacleaner.modules.filestore import FileStore, FileStoreAction, FileStoreState
 
 
 @Gtk.Template(
@@ -22,7 +23,6 @@ class StatusIndicator(Gtk.Stack):
     file_store: FileStore = GObject.Property(type=FileStore, nick="file-store")
 
     _progressbar: Gtk.ProgressBar = Gtk.Template.Child()
-    _done_label: Gtk.Label = Gtk.Template.Child()
 
     def __init__(self, *args, **kwargs) -> None:
         """Status indicator initialization."""
@@ -87,32 +87,26 @@ class StatusIndicator(Gtk.Stack):
                 ) % len(file_store.get_errored_files())
                     if len(file_store.get_errored_files()) > 0
                     else "")
-                self._done_label.set_label(
-                    " ".join([clean_message, error_message]))
+                # self._done_label.set_label(
+                #     " ".join([clean_message, error_message]))
                 if not self.get_root().is_active():
                     self.send_done_notification()
-            else:
-                self._done_label.set_label("")
-            self.show_done()
+            self.show_idle()
 
     def show_idle(self) -> None:
         """Show the idle state."""
-        self.set_visible_child_name("idle")
+        self.set_visible_child_name("buttons")
 
     def show_progressbar(self) -> None:
         """Show a progress bar."""
         self.set_visible_child_name("working")
-
-    def show_done(self) -> None:
-        """Show a "Done" message."""
-        self.set_visible_child_name("done")
 
     def send_done_notification(self) -> None:
         """Send a notification about the finished cleaning process."""
         window = self.get_root()
         app = window.get_application()
         notification = Gio.Notification.new(app.name)
-        notification.set_body(self._done_label.get_label())
+        # notification.set_body(self._done_label.get_label())
         notification.set_default_action_and_target(
             "app.show-window",
             GLib.Variant.new_uint32(window.get_id()))

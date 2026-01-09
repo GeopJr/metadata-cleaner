@@ -99,7 +99,6 @@ class MetadataCleaner(Adw.Application):
         self.add_action(self.settings.create_action("lightweight-cleaning"))
 
     def _setup_accels(self) -> None:
-        self.set_accels_for_action("app.help::/index", ["F1"])
         self.set_accels_for_action("app.new-window", ["<Control>n"])
         self.set_accels_for_action("app.quit", ["<Control>q"])
         self.set_accels_for_action("win.add-files", ["<Control>o"])

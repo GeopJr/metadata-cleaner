@@ -7,9 +7,7 @@ from gi.repository import Gio, GLib, GObject, Gtk, Adw
 
 from metadatacleaner.modules.filestore import FileStore
 
-from metadatacleaner.ui.cleanmetadatabutton import CleanMetadataButton
 from metadatacleaner.ui.filerow import FileRow
-from metadatacleaner.ui.settingsbutton import SettingsButton
 from metadatacleaner.ui.statusindicator import StatusIndicator
 
 

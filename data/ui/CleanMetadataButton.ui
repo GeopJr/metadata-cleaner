@@ -6,11 +6,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
 <interface>
   <template class="CleanMetadataButton" parent="GtkButton">
     <property name="valign">center</property>
-    <property name="label" translatable="yes">_Clean</property>
-    <property name="use-underline">True</property>
+    <property name="label" translatable="yes">Clean</property>
     <property name="action-name">win.clean-metadata</property>
     <style>
       <class name="destructive-action"/>
+      <class name="pill"/>
     </style>
   </template>
 </interface>

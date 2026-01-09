@@ -12,14 +12,9 @@ listview.files>row {
 	border-bottom: 1px solid var(--border-color);
 }
 
-listview.files .remove,
 listview.files .file {
 	border-radius: unset;
 	font-weight: unset;
-}
-
-listview.files .remove {
-	padding: 6px 12px;
 }
 
 listview.metadata {

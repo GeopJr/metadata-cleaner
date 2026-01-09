@@ -5,15 +5,15 @@ SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
   <menu id="add-menu-model">
-		<item>
-			<attribute name="label" translatable="yes">Add Files</attribute>
-			<attribute name="action">win.add-files</attribute>
-		</item>
-		<item>
-			<attribute name="label" translatable="yes">Add Folders</attribute>
-			<attribute name="action">win.add-folders</attribute>
-		</item>
-	</menu>
+    <item>
+      <attribute name="label" translatable="yes">Add Files</attribute>
+      <attribute name="action">win.add-files</attribute>
+    </item>
+    <item>
+      <attribute name="label" translatable="yes">Add Folders</attribute>
+      <attribute name="action">win.add-folders</attribute>
+    </item>
+  </menu>
   <template class="Window" parent="AdwApplicationWindow">
     <child>
       <object class="AdwBreakpoint">
@@ -31,91 +31,79 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <property name="max-sidebar-width">300</property>
         <signal name="notify::show-sidebar" handler="_on_sidebar_toggled" />
         <property name="content">
-          <object class="AdwBreakpointBin">
-            <!-- <child>
-              <object class="AdwBreakpoint">
-                <condition>min-width: 400sp</condition>
-                <setter object="_add_files_button" property="collapsed">0</setter>
-              </object>
-            </child> -->
-            <property name="width-request">100</property>
-            <property name="height-request">100</property>
-            <property name="child">
-              <object class="AdwToolbarView">
-                <child type="top">
-                  <object class="AdwHeaderBar" id="_header">
-                    <property name="show-end-title-buttons" bind-property="show-sidebar" bind-source="_split_view" bind-flags="invert-boolean" />
-                    <property name="show-title">0</property>
-                    <child type="start">
-                      <object class="GtkMenuButton" id="_add_files_button">
-                        <property name="visible">0</property>
-                        <property name="menu-model">add-menu-model</property>
-                        <property name="icon-name">metadatacleaner-plus-symbolic</property>
-                        <property name="tooltip-text" translatable="yes">Add</property>
-                      </object>
-                    </child>
-                    <child type="end">
-                      <object class="MenuButton" />
-                    </child>
+          <object class="AdwToolbarView">
+            <child type="top">
+              <object class="AdwHeaderBar" id="_header">
+                <property name="show-end-title-buttons" bind-property="show-sidebar" bind-source="_split_view" bind-flags="invert-boolean" />
+                <property name="show-title">0</property>
+                <child type="start">
+                  <object class="GtkMenuButton" id="_add_files_button">
+                    <property name="visible">0</property>
+                    <property name="menu-model">add-menu-model</property>
+                    <property name="icon-name">metadatacleaner-plus-symbolic</property>
+                    <property name="tooltip-text" translatable="yes">Add</property>
                   </object>
                 </child>
-                <property name="content">
-                  <object class="GtkStack" id="_view_stack">
-                    <property name="transition-type">crossfade</property>
-                    <property name="vexpand">True</property>
-                    <property name="hhomogeneous">False</property>
-                    <child>
-                      <object class="GtkStackPage">
-                        <property name="name">empty</property>
-                        <property name="child">
-                          <object class="AdwStatusPage">
-                            <property name="vexpand">True</property>
-                            <property name="icon-name">metadatacleaner-illustration</property>
-                            <property name="title" translatable="yes">Metadata Cleaner</property>
-                            <property name="description" translatable="yes">Clean Your Traces</property>
+                <child type="end">
+                  <object class="MenuButton" />
+                </child>
+              </object>
+            </child>
+            <property name="content">
+              <object class="GtkStack" id="_view_stack">
+                <property name="transition-type">crossfade</property>
+                <property name="vexpand">True</property>
+                <property name="hhomogeneous">False</property>
+                <child>
+                  <object class="GtkStackPage">
+                    <property name="name">empty</property>
+                    <property name="child">
+                      <object class="AdwStatusPage">
+                        <property name="vexpand">True</property>
+                        <property name="icon-name">metadatacleaner-illustration</property>
+                        <property name="title" translatable="yes">Metadata Cleaner</property>
+                        <property name="description" translatable="yes">Clean Your Traces</property>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">vertical</property>
+                            <property name="spacing">12</property>
+                            <property name="halign">center</property>
                             <child>
-                              <object class="GtkBox">
-                                <property name="orientation">vertical</property>
-                                <property name="spacing">12</property>
-                                <property name="halign">center</property>
-                                <child>
-                                  <object class="GtkButton">
-                                    <property name="label" translatable="yes">Open _Files</property>
-                                    <property name="action-name">win.add-files</property>
-                                    <property name="use-underline">1</property>
-                                    <style>
-                                      <class name="pill" />
-                                    </style>
-                                  </object>
-                                </child>
-                                <child>
-                                  <object class="GtkButton">
-                                    <property name="label" translatable="yes">Open F_older</property>
-                                    <property name="action-name">win.add-folders</property>
-                                    <property name="use-underline">1</property>
-                                    <style>
-                                      <class name="pill" />
-                                    </style>
-                                  </object>
-                                </child>
+                              <object class="GtkButton">
+                                <property name="label" translatable="yes">Open _Files</property>
+                                <property name="action-name">win.add-files</property>
+                                <property name="use-underline">1</property>
+                                <style>
+                                  <class name="pill" />
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="label" translatable="yes">Open F_older</property>
+                                <property name="action-name">win.add-folders</property>
+                                <property name="use-underline">1</property>
+                                <style>
+                                  <class name="pill" />
+                                </style>
                               </object>
                             </child>
                           </object>
-                        </property>
+                        </child>
                       </object>
-                    </child>
-                    <child>
-                      <object class="GtkStackPage">
-                        <property name="name">files</property>
-                        <property name="child">
-                          <object class="FilesView">
-                            <property name="file-store" bind-source="Window" bind-property="file-store" />
-                          </object>
-                        </property>
-                      </object>
-                    </child>
+                    </property>
                   </object>
-                </property>
+                </child>
+                <child>
+                  <object class="GtkStackPage">
+                    <property name="name">files</property>
+                    <property name="child">
+                      <object class="FilesView">
+                        <property name="file-store" bind-source="Window" bind-property="file-store" />
+                      </object>
+                    </property>
+                  </object>
+                </child>
               </object>
             </property>
           </object>
