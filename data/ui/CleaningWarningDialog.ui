@@ -4,38 +4,21 @@ SPDX-FileCopyrightText: Metadata Cleaner contributors
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
-  <template class="CleaningWarningDialog" parent="GtkMessageDialog">
-    <property name="modal">True</property>
-    <property name="text" translatable="yes">Make sure you backed up your files!</property>
-    <property name="secondary-text" translatable="yes">Once the files are cleaned, there's no going back.</property>
-    <property name="message-type">warning</property>
-    <signal name="notify::settings" handler="_on_settings_changed"/>
-    <child internal-child="message_area">
-      <object class="GtkBox">
-        <child>
-          <object class="GtkCheckButton" id="_checkbutton">
-            <property name="label" translatable="yes">Don't tell me again</property>
-            <property name="halign">center</property>
-          </object>
-        </child>
+  <template class="CleaningWarningDialog" parent="AdwAlertDialog">
+    <property name="heading" translatable="yes">Clean Metadata?</property>
+    <property name="body" translatable="yes">Make sure you backed up your files! This is irreversible.</property>
+    <property name="default-response">clean</property>
+    <property name="close-response">cancel</property>
+    <responses>
+      <response id="cancel" translatable="yes">_Cancel</response>
+      <response id="clean" translatable="yes" appearance="destructive">Clean</response>
+    </responses>
+    <property name="extra-child">
+      <object class="GtkCheckButton" id="_checkbutton">
+        <property name="label" translatable="yes">Don't ask again</property>
+        <property name="halign">center</property>
+        <signal name="notify::active" handler="_on_settings_changed"/>
       </object>
-    </child>
-    <child type="action">
-      <object class="GtkButton" id="_button_cancel">
-        <property name="label" translatable="yes">Cancel</property>
-      </object>
-    </child>
-    <child type="action">
-      <object class="GtkButton" id="_button_clean">
-        <property name="label" translatable="yes">Clean</property>
-        <style>
-          <class name="destructive-action"/>
-        </style>
-      </object>
-    </child>
-    <action-widgets>
-      <action-widget response="cancel">_button_cancel</action-widget>
-      <action-widget response="ok" default="true">_button_clean</action-widget>
-    </action-widgets>
+    </property>
   </template>
 </interface>

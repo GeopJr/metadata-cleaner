@@ -194,7 +194,7 @@ class Window(Adw.ApplicationWindow):
             self.close_details_view()
             if not self.get_application() \
                     .settings.get_boolean("cleaning-without-warning"):
-                self._cleaning_warning_dialog.show()
+                self._cleaning_warning_dialog.choose(self)
                 return
             self.file_store.clean_files()
         clean_metadata = Gio.SimpleAction.new("clean-metadata", None)
@@ -235,9 +235,8 @@ class Window(Adw.ApplicationWindow):
     def _on_cleaning_warning_dialog_response(
             self,
             dialog: CleaningWarningDialog,
-            response: Gtk.ResponseType) -> None:
-        dialog.hide()
-        if response == Gtk.ResponseType.OK:
+            response: str) -> None:
+        if response == "clean":
             self.file_store.clean_files()
 
     # VIEWS #

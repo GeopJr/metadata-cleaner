@@ -3,14 +3,14 @@
 
 """Dialog warning the user of possible data loss on cleaning."""
 
-from gi.repository import Gio, GObject, Gtk
+from gi.repository import Gio, GObject, Gtk, Adw
 
 
 @Gtk.Template(
     resource_path=(
         "/dev/geopjr/MetadataCleaner/ui/CleaningWarningDialog.ui")
 )
-class CleaningWarningDialog(Gtk.MessageDialog):
+class CleaningWarningDialog(Adw.AlertDialog):
     """Dialog warning the user of possible data loss on cleaning."""
 
     __gtype_name__ = "CleaningWarningDialog"
@@ -20,11 +20,9 @@ class CleaningWarningDialog(Gtk.MessageDialog):
     _checkbutton: Gtk.CheckButton = Gtk.Template.Child()
 
     @Gtk.Template.Callback()
-    def _on_settings_changed(self, dialog, p_spec: GObject.ParamSpec) -> None:
+    def _on_settings_changed(self, checkbox, p_spec: GObject.ParamSpec) -> None:
         if not self.settings:
             return
-        self.settings.bind(
+        self.settings.set_boolean(
             "cleaning-without-warning",
-            self._checkbutton,
-            "active",
-            Gio.SettingsBindFlags.DEFAULT)
+            self._checkbutton.get_active())
