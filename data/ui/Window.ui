@@ -176,25 +176,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
       GNOME Design Team https://gitlab.gnome.org/Teams/Design</property>
     <property name="translator-credits" translatable="yes" comments="Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name &lt;mail@example.org&gt;`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.">translator-credits</property>
   </object>
-  <object class="FileChooserDialog" id="_file_chooser_dialog">
-    <property name="title" translatable="yes">Choose files to clean</property>
-    <property name="action">open</property>
-    <property name="select-multiple">True</property>
-    <property name="modal">True</property>
-    <binding name="transient-for">
-      <lookup name="root" type="GtkWidget" />
-    </binding>
-    <signal name="response" handler="_on_file_chooser_dialog_response" />
-  </object>
-  <object class="FolderChooserDialog" id="_folder_chooser_dialog">
-    <property name="title" translatable="yes">Choose folders to clean</property>
-    <property name="action">select-folder</property>
-    <property name="select-multiple">True</property>
-    <property name="modal">True</property>
-    <binding name="transient-for">
-      <lookup name="root" type="GtkWidget" />
-    </binding>
-    <signal name="response" handler="_on_folder_chooser_dialog_response" />
+  <object class="GtkFileDialog" id="_file_chooser_dialog">
+    <property name="modal">1</property>
   </object>
   <object class="CleaningWarningDialog" id="_cleaning_warning_dialog">
     <binding name="settings">

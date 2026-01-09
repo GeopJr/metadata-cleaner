@@ -30,8 +30,7 @@ class Window(Adw.ApplicationWindow):
     _details_view: DetailsView = Gtk.Template.Child()
 
     _about_window: Adw.AboutWindow = Gtk.Template.Child()
-    _file_chooser_dialog: FileChooserDialog = Gtk.Template.Child()
-    _folder_chooser_dialog: FolderChooserDialog = Gtk.Template.Child()
+    _file_chooser_dialog: Gtk.FileDialog = Gtk.Template.Child()
     _cleaning_warning_dialog: CleaningWarningDialog = Gtk.Template.Child()
     _header: Adw.HeaderBar = Gtk.Template.Child()
     _add_files_button: Gtk.MenuButton = Gtk.Template.Child()
@@ -140,13 +139,13 @@ class Window(Adw.ApplicationWindow):
         self.add_action(about)
 
         def on_add_files(action: Gio.Action, parameters: None) -> None:
-            self._file_chooser_dialog.show()
+            self._file_chooser_dialog.open_multiple(self, None, self._on_file_chooser_dialog_response)
         add_files = Gio.SimpleAction.new("add-files", None)
         add_files.connect("activate", on_add_files)
         self.add_action(add_files)
 
         def on_add_folders(action: Gio.Action, parameters: None) -> None:
-            self._folder_chooser_dialog.show()
+            self._file_chooser_dialog.select_multiple_folders(self, None, self._on_folder_chooser_dialog_response)
         add_folders = Gio.SimpleAction.new("add-folders", None)
         add_folders.connect("activate", on_add_folders)
         self.add_action(add_folders)
@@ -211,25 +210,31 @@ class Window(Adw.ApplicationWindow):
         if self._split_view.get_show_sidebar() == False:
             self._view_stack.get_child_by_name("files").clear_selected_file()
 
-    @Gtk.Template.Callback()
     def _on_file_chooser_dialog_response(
-            self,
-            dialog: FileChooserDialog,
-            response: Gtk.ResponseType) -> None:
-        dialog.hide()
-        if response == Gtk.ResponseType.ACCEPT:
-            self.file_store.add_gfiles(dialog.get_files())
+            self, file_dialog: Gtk.FileDialog, result: Gio.AsyncResult) -> None:
+        try:
+            self.file_store.add_gfiles(file_dialog.open_multiple_finish(result))
+        except GLib.Error as e:
+            if e.code == 2:
+                # dismissed
+                return
 
-    @Gtk.Template.Callback()
+            error(f"Couldn't open files: {e.code} {e.message}")
+            return
+
     def _on_folder_chooser_dialog_response(
-            self,
-            dialog: FolderChooserDialog,
-            response: Gtk.ResponseType) -> None:
-        dialog.hide()
-        if response == Gtk.ResponseType.ACCEPT:
+            self, file_dialog: Gtk.FileDialog, result: Gio.AsyncResult) -> None:
+        try:
             self.file_store.add_gfiles(
-                dialog.get_files(),
-                dialog.get_choice("recursive") == "true")
+                file_dialog.select_multiple_folders_finish(result),
+                True)
+        except GLib.Error as e:
+            if e.code == 2:
+                # dismissed
+                return
+
+            error(f"Couldn't open folders: {e.code} {e.message}")
+            return
 
     @Gtk.Template.Callback()
     def _on_cleaning_warning_dialog_response(
