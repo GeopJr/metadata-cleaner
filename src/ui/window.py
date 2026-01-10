@@ -209,6 +209,12 @@ class Window(Adw.ApplicationWindow):
         toast.connect("activate", on_toast)
         self.add_action(toast)
 
+        def on_info(action: Gio.Action, parameters: None) -> None:
+            self._on_show_info_dialog()
+        info = Gio.SimpleAction.new("info", None)
+        info.connect("activate", on_info)
+        self.add_action(info)
+
         def on_add_files(action: Gio.Action, parameters: None) -> None:
             self._file_chooser_dialog.open_multiple(self, None, self._on_file_chooser_dialog_response)
         add_files = Gio.SimpleAction.new("add-files", None)
@@ -315,8 +321,7 @@ class Window(Adw.ApplicationWindow):
         if response == "clean":
             self.file_store.clean_files()
 
-    @Gtk.Template.Callback()
-    def _on_show_info_dialog(self, button: Gtk.Button) -> None:
+    def _on_show_info_dialog(self) -> None:
         dlg = Adw.Dialog.new()
         dlg.set_title(_("Info"))
         dlg.set_content_width(600)

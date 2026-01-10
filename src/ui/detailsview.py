@@ -52,9 +52,7 @@ class DetailsView(Adw.Bin):
                     "process has some limitations."),
                 child=Gtk.Button(
                     label=_("Learn more"),
-                    action_name="app.help",
-                    action_target=GLib.Variant.new_string(
-                        "/general#cleaning-process"),
+                    action_name="win.info",
                     halign=Gtk.Align.CENTER,
                     css_classes=["pill", "suggested-action"]),
                 css_classes=["compact"]))

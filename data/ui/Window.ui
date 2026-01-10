@@ -57,7 +57,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                           <object class="GtkButton">
                             <property name="icon-name">metadatacleaner-about-symbolic</property>
                             <property name="tooltip-text">Info</property>
-                            <signal name="clicked" handler="_on_show_info_dialog" />
+                            <property name="action-name">app.info</property>
                           </object>
                         </child>
                       </object>
