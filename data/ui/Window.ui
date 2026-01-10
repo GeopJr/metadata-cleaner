@@ -53,6 +53,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
                         <child type="end">
                           <object class="MenuButton" />
                         </child>
+                        <child type="end">
+                          <object class="GtkButton">
+                            <property name="icon-name">metadatacleaner-about-symbolic</property>
+                            <property name="tooltip-text">Info</property>
+                            <signal name="clicked" handler="_on_show_info_dialog" />
+                          </object>
+                        </child>
                       </object>
                     </child>
                     <property name="content">

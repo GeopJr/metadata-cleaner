@@ -4,7 +4,7 @@
 """Application window of Metadata Cleaner."""
 
 from gettext import gettext as _
-from gi.repository import Adw, Gdk, Gio, GLib, GObject, Gtk
+from gi.repository import Adw, Gdk, Gio, GLib, GObject, Gtk, Pango
 from typing import Any
 
 from metadatacleaner.modules.filestore import FileStore, FileStoreState
@@ -314,6 +314,26 @@ class Window(Adw.ApplicationWindow):
             response: str) -> None:
         if response == "clean":
             self.file_store.clean_files()
+
+    @Gtk.Template.Callback()
+    def _on_show_info_dialog(self, button: Gtk.Button) -> None:
+        dlg = Adw.Dialog.new()
+        dlg.set_title(_("Info"))
+        dlg.set_follows_content_size(True)
+        box = Gtk.Box.new(orientation=Gtk.Orientation.VERTICAL, spacing=6)
+        box.append(Gtk.Label(label=_("Meatadata & Privacy"), wrap=True, wrap_mode=Pango.WrapMode.WORD_CHAR, xalign=0, css_classes=["heading"], margin_top = 6))
+        box.append(Gtk.Label(label=_("Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented.\nMetadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."), xalign=0, wrap=True, wrap_mode=Pango.WrapMode.WORD_CHAR))
+        box.append(Gtk.Label(label=_("Cleaning Process"), wrap=True, wrap_mode=Pango.WrapMode.WORD_CHAR, xalign=0, css_classes=["heading"], margin_top = 6))
+        box.append(Gtk.Label(label=_("While Metadata Cleaner is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not.\nMetadata Cleaner takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."), xalign=0, wrap=True, wrap_mode=Pango.WrapMode.WORD_CHAR))
+        box.append(Gtk.Label(label=_("Limitations"), wrap=True, wrap_mode=Pango.WrapMode.WORD_CHAR, xalign=0, css_classes=["heading"], margin_top = 6))
+        box.append(Gtk.Label(label=_("Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, Metadata Cleaner will not protect you."), xalign=0, wrap=True, wrap_mode=Pango.WrapMode.WORD_CHAR))
+        tbarview = Adw.ToolbarView(content=Gtk.ScrolledWindow(
+            propagate_natural_height = True,
+            propagate_natural_width = True,
+            child=Adw.Clamp(child=box, margin_start = 6, margin_end = 6, margin_bottom = 6)))
+        tbarview.add_top_bar(Adw.HeaderBar.new())
+        dlg.set_child(tbarview)
+        dlg.present(self)
 
     # VIEWS #
 
