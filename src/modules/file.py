@@ -16,8 +16,12 @@ from pathlib import Path
 from typing import Dict, Optional
 
 from metadatacleaner.modules.logger import Logger as logger
-from metadatacleaner.modules.metadata \
-    import MetadataStore, MetadataFile, MetadataList, Metadata
+from metadatacleaner.modules.metadata import (
+    MetadataStore,
+    MetadataFile,
+    MetadataList,
+    Metadata,
+)
 
 
 class FileState(IntEnum):
@@ -41,35 +45,20 @@ class File(GObject.GObject):
 
     __gtype_name__ = "File"
 
-    __gsignals__ = {
-        "state-changed": (GObject.SIGNAL_RUN_LAST, None, (int,))
-    }
+    __gsignals__ = {"state-changed": (GObject.SIGNAL_RUN_LAST, None, (int,))}
 
     filename = GObject.Property(type=str)
     directory = GObject.Property(type=str)
     display_directory = GObject.Property(
-        type=bool,
-        nick="display-directory",
-        default=True)
+        type=bool, nick="display-directory", default=True
+    )
     icon_name = GObject.Property(type=str, nick="icon-name")
-    simple_state = GObject.Property(
-        type=str,
-        nick="simple-state",
-        default="working")
+    simple_state = GObject.Property(type=str, nick="simple-state", default="working")
     metadata = GObject.Property(type=MetadataStore)
-    total_metadata = GObject.Property(
-        type=int,
-        nick="total-metadata",
-        default=0)
+    total_metadata = GObject.Property(type=int, nick="total-metadata", default=0)
     selectable = GObject.Property(type=bool, default=False)
-    message_type = GObject.Property(
-        type=str,
-        nick="message-type",
-        default="none")
-    has_message = GObject.Property(
-        type=bool,
-        nick="has-message",
-        default=False)
+    message_type = GObject.Property(type=str, nick="message-type", default="none")
+    has_message = GObject.Property(type=bool, nick="has-message", default=False)
 
     def __init__(self, gfile: Gio.File) -> None:
         """File initialization.
@@ -82,8 +71,7 @@ class File(GObject.GObject):
         self._temp_path = self._compute_temp_path(gfile.get_path())
         self.path = gfile.get_path()
         self.filename = gfile.get_basename()
-        self.directory = self._simplify_dir_path(gfile.get_path())
-        self.display_directory = bool(self.directory)
+        self._extract_path(gfile)
         self.state = FileState.INITIALIZING
         self.mimetype = "text/plain"
         self.icon_name = Gio.content_type_get_generic_icon_name(self.mimetype)
@@ -96,17 +84,37 @@ class File(GObject.GObject):
         digest = hashlib.sha256(path.encode("utf-8")).hexdigest()
         return os.path.join(tempfile.gettempdir(), f"{digest}{extension}")
 
-    def _simplify_dir_path(self, path: str) -> str:
+    def _simplify_dir_path(self, path: str) -> None:
         dir_path = os.path.dirname(path)
         doc_path_match = re.match(r"/run/user/\d+/doc/[a-z\d]+/?", dir_path)
-        home_path_match = re.match(GLib.get_home_dir(), dir_path)
         if doc_path_match:
             # Remove the Document Store path
             dir_path = dir_path.replace(doc_path_match.group(0), "", 1)
-        elif home_path_match:
+        elif re.match(GLib.get_home_dir(), dir_path):
             # Replace the home path with the friendly ~
             dir_path = dir_path.replace(GLib.get_home_dir(), "~", 1)
-        return dir_path
+        self.directory = dir_path
+        self.display_directory = bool(dir_path)
+
+    def _extract_path(self, gfile: Gio.File) -> None:
+        self._simplify_dir_path(gfile.get_path())
+        if gfile:
+            gfile.query_info_async(
+                "xattr::document-portal.host-path",
+                Gio.FileQueryInfoFlags.NONE,
+                GLib.PRIORITY_DEFAULT,
+                None,
+                self.on_gfile_info_cb,
+            )
+
+    def on_gfile_info_cb(self, gfile: Gio.File, result: Gio.AsyncResult) -> None:
+        try:
+            info = gfile.query_info_finish(result)
+            path = info.get_attribute_string("xattr::document-portal.host-path")
+            if path:
+                self._simplify_dir_path(path)
+        except GLib.Error as e:
+            error("Could not query file: {e.code} {e.message}")
 
     def _set_state(self, state: FileState) -> None:
         if state == self.state or self.state == FileState.CLEANED:
@@ -124,7 +132,7 @@ class File(GObject.GObject):
                 FileState.HAS_METADATA: "has-metadata",
                 FileState.REMOVING_METADATA: "working",
                 FileState.ERROR_WHILE_REMOVING_METADATA: "error",
-                FileState.CLEANED: "clean"
+                FileState.CLEANED: "clean",
             }
             message_types = {
                 FileState.INITIALIZING: "none",
@@ -137,7 +145,7 @@ class File(GObject.GObject):
                 FileState.HAS_METADATA: "none",
                 FileState.REMOVING_METADATA: "none",
                 FileState.ERROR_WHILE_REMOVING_METADATA: "error-removing",
-                FileState.CLEANED: "none"
+                FileState.CLEANED: "none",
             }
             self.simple_state = simple_states[state]
             self.selectable = state == FileState.HAS_METADATA
@@ -145,6 +153,7 @@ class File(GObject.GObject):
             self.has_message = self.message_type != "none"
             self.emit("state-changed", state)
             return GLib.SOURCE_REMOVE
+
         GLib.idle_add(update_state, state)
         self.state = state
 
@@ -169,8 +178,7 @@ class File(GObject.GObject):
 
     def _setup_parser_error(self, error: Exception) -> None:
         self.error = error
-        logger.warning(
-            f"Error while setting up parser for {self.filename}: {error}")
+        logger.warning(f"Error while setting up parser for {self.filename}: {error}")
         self._set_state(FileState.ERROR_WHILE_INITIALIZING)
 
     def _setup_parser_finish(self, parser, mimetype) -> None:
@@ -180,11 +188,12 @@ class File(GObject.GObject):
         if Path("/.flatpak-info").exists():
             self._parser.sandbox = False
         if mimetype:
+
             def update_mimetype(mimetype) -> bool:
                 self.mimetype = mimetype
-                self.icon_name = Gio.content_type_get_generic_icon_name(
-                    self.mimetype)
+                self.icon_name = Gio.content_type_get_generic_icon_name(self.mimetype)
                 return GLib.SOURCE_REMOVE
+
             GLib.idle_add(update_mimetype, mimetype)
         if self._parser:
             self._set_state(FileState.SUPPORTED)
@@ -193,8 +202,7 @@ class File(GObject.GObject):
 
     def _check_metadata_error(self, error: Exception) -> None:
         self.error = error
-        logger.warning(
-            f"Error while checking metadata for {self.filename}: {error}")
+        logger.warning(f"Error while checking metadata for {self.filename}: {error}")
         self._set_state(FileState.ERROR_WHILE_CHECKING_METADATA)
 
     def _check_metadata_finish(self, metadata) -> None:
@@ -208,23 +216,27 @@ class File(GObject.GObject):
                 metadata_list = MetadataList()
                 for key, value in file_metadata.items():
                     metadata_list.append(Metadata(key=key, value=value))
-                self.metadata.append(MetadataFile(
-                    filename=os.path.join(self.filename, filename),
-                    metadata=metadata_list))
+                self.metadata.append(
+                    MetadataFile(
+                        filename=os.path.join(self.filename, filename),
+                        metadata=metadata_list,
+                    )
+                )
                 total_metadata += len(metadata_list)
         # Metadata found in a single file
         else:
             metadata_list = MetadataList()
             for key, value in metadata.items():
                 metadata_list.append(Metadata(key=key, value=value))
-            self.metadata.append(MetadataFile(
-                filename=self.filename,
-                metadata=metadata_list))
+            self.metadata.append(
+                MetadataFile(filename=self.filename, metadata=metadata_list)
+            )
             total_metadata += len(metadata_list)
 
         def update_total_metadata(total_metadata) -> bool:
             self.total_metadata = total_metadata
             return GLib.SOURCE_REMOVE
+
         GLib.idle_add(update_total_metadata, total_metadata)
         self._set_state(FileState.HAS_METADATA)
 
@@ -235,10 +247,7 @@ class File(GObject.GObject):
             lightweight_mode (bool, optional): Use mat2 lightweight mode to
                 preserve data integrity. Defaults to False.
         """
-        if self.state not in [
-            FileState.HAS_METADATA,
-            FileState.HAS_NO_METADATA
-        ]:
+        if self.state not in [FileState.HAS_METADATA, FileState.HAS_NO_METADATA]:
             return
         self._set_state(FileState.REMOVING_METADATA)
         try:
@@ -246,18 +255,18 @@ class File(GObject.GObject):
             self._parser.lightweight_cleaning = lightweight_mode
             result = self._parser.remove_all()
             if result is False:
-                raise RuntimeError(_("An error occured during the cleaning."))
+                raise RuntimeError(_("An error occurred during the cleaning."))
             if not os.path.exists(self._temp_path):
-                raise RuntimeError(_(
-                    "Something bad happened during the cleaning, "
-                    "cleaned file not found"))
+                raise RuntimeError(
+                    _(
+                        "Something bad happened during the cleaning, "
+                        "cleaned file not found"
+                    )
+                )
             cleaned_gfile = Gio.File.new_for_path(self._temp_path)
             cleaned_gfile.move(
-                self._gfile,
-                Gio.FileCopyFlags.OVERWRITE,
-                None,
-                None,
-                None)
+                self._gfile, Gio.FileCopyFlags.OVERWRITE, None, None, None
+            )
         except Exception as e:
             self._clean_error(e)
         else:
@@ -265,8 +274,7 @@ class File(GObject.GObject):
 
     def _clean_error(self, error: Exception) -> None:
         self.error = error
-        logger.warning(
-            f"Error while cleaning metadata from {self.filename}: {error}")
+        logger.warning(f"Error while cleaning metadata from {self.filename}: {error}")
         self._set_state(FileState.ERROR_WHILE_REMOVING_METADATA)
 
     def _clean_finish(self) -> None:

@@ -18,6 +18,5 @@ class FolderChooserDialog(Gtk.FileChooserNative):
         self._setup_choice()
 
     def _setup_choice(self) -> None:
-        self.add_choice(
-            "recursive", _("Add files from subfolders"), None, None)
+        self.add_choice("recursive", _("Add files from subfolders"), None, None)
         self.set_choice("recursive", "true")

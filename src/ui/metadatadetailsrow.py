@@ -6,9 +6,7 @@
 from gi.repository import GObject, Gtk, Adw
 
 
-@Gtk.Template(
-    resource_path="/dev/geopjr/MetadataCleaner/ui/MetadataDetailsRow.ui"
-)
+@Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/MetadataDetailsRow.ui")
 class MetadataDetailsRow(Adw.ActionRow):
     """Row displaying a metadata."""
 

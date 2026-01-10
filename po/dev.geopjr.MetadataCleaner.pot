@@ -1,45 +1,338 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 12:45+0000\n"
+"POT-Creation-Date: 2026-01-11 00:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
-#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
+#: builddir/data/dev.geopjr.MetadataCleaner.desktop.in:5
+#: builddir/data/dev.geopjr.MetadataCleaner.desktop.in:6
+#: data/dev.geopjr.MetadataCleaner.desktop.in:5
+#: data/dev.geopjr.MetadataCleaner.desktop.in:6 data/ui/Window.ui:77
+#: src/app.py:30
 msgid "Metadata Cleaner"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
+#: builddir/data/dev.geopjr.MetadataCleaner.desktop.in:7
+#: data/dev.geopjr.MetadataCleaner.desktop.in:7
 msgid "Clean metadata from your files"
 msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
+#: builddir/data/dev.geopjr.MetadataCleaner.desktop.in:14
+#: data/dev.geopjr.MetadataCleaner.desktop.in:14
 msgid "Metadata;Remover;Cleaner;"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
-msgid "View and clean metadata in files"
+#: data/gtk/shortcuts-dialog.ui:10 data/ui/SettingsButton.ui:21
+msgid "General"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: data/gtk/shortcuts-dialog.ui:13
+msgid "New window"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:19
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:25
+msgid "Close Window"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:31
+msgid "Quit"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:39
+msgid "Files"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:42
+msgid "Add Files"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:48
+msgid "Add Folders"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:54
+msgid "Clean Metadata"
+msgstr ""
+
+#: data/gtk/shortcuts-dialog.ui:60
+msgid "Clear all files from window"
+msgstr ""
+
+#: data/ui/CleaningWarningDialog.ui:8
+msgid "Clean Metadata?"
+msgstr ""
+
+#: data/ui/CleaningWarningDialog.ui:9
+msgid "Make sure you backed up your files! This is irreversible."
+msgstr ""
+
+#: data/ui/CleaningWarningDialog.ui:13
+msgid "_Cancel"
+msgstr ""
+
+#: data/ui/CleaningWarningDialog.ui:14 data/ui/CleanMetadataButton.ui:9
+msgid "Clean"
+msgstr ""
+
+#: data/ui/CleaningWarningDialog.ui:18
+msgid "Don't ask again"
+msgstr ""
+
+#: data/ui/FileRow.ui:16
+msgid "Remove"
+msgstr ""
+
+#: data/ui/MenuButton.ui:10
+msgid "_New Window"
+msgstr ""
+
+#: data/ui/MenuButton.ui:14
+msgid "_Clear"
+msgstr ""
+
+#: data/ui/MenuButton.ui:21
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: data/ui/MenuButton.ui:25
+msgid "_About Metadata Cleaner"
+msgstr ""
+
+#: data/ui/MenuButton.ui:34
+msgid "Main Menu"
+msgstr ""
+
+#: data/ui/SettingsButton.ui:8
+msgid "Settings"
+msgstr ""
+
+#: data/ui/SettingsButton.ui:26
+msgid "Lightweight Cleaning"
+msgstr ""
+
+#: data/ui/SettingsButton.ui:28
 msgid ""
+"By default, the removal process might alter a bit the data of your files, in "
+"order to remove as much metadata as possible. For example, texts in PDF "
+"might not be selectable anymore, compressed images might get compressed "
+"again… The lightweight mode, while not as thorough, will not make "
+"destructive changes to your files."
+msgstr ""
+
+#: data/ui/StatusIndicator.ui:47
+msgid "Cancel"
+msgstr ""
+
+#: data/ui/Window.ui:9
+msgid "Add Files…"
+msgstr ""
+
+#: data/ui/Window.ui:13
+msgid "Add Folders…"
+msgstr ""
+
+#. translators: overlay shown when dragging files above it
+#: data/ui/Window.ui:27
+msgid "Drop files or folders to clean them"
+msgstr ""
+
+#: data/ui/Window.ui:50
+msgid "Add"
+msgstr ""
+
+#: data/ui/Window.ui:78
+msgid "Clean Your Traces"
+msgstr ""
+
+#: data/ui/Window.ui:86
+msgid "Open _Files…"
+msgstr ""
+
+#: data/ui/Window.ui:97
+msgid "Open F_olders…"
+msgstr ""
+
+#: data/ui/Window.ui:133
+msgid "Metadata"
+msgstr ""
+
+#: data/ui/Window.ui:140
+msgid "Close"
+msgstr ""
+
+#: src/modules/file.py:258
+msgid "An error occurred during the cleaning."
+msgstr ""
+
+#: src/modules/file.py:262
+msgid "Something bad happened during the cleaning, cleaned file not found"
+msgstr ""
+
+#: src/ui/badge.py:44
+msgid "Warning"
+msgstr ""
+
+#: src/ui/badge.py:52
+msgid "Error"
+msgstr ""
+
+#: src/ui/badge.py:65
+msgid "Cleaned"
+msgstr ""
+
+#: src/ui/detailsview.py:48
+msgid "The File Has Been Cleaned"
+msgstr ""
+
+#: src/ui/detailsview.py:50
+msgid ""
+"Known metadata have been removed, however the cleaning process has some "
+"limitations."
+msgstr ""
+
+#: src/ui/detailsview.py:54
+msgid "Learn more"
+msgstr ""
+
+#: src/ui/detailsview.py:68
+msgid "Unable to Read the File"
+msgstr ""
+
+#: src/ui/detailsview.py:69
+msgid "File Type not Supported"
+msgstr ""
+
+#: src/ui/detailsview.py:70
+msgid "Unable to Check for Metadata"
+msgstr ""
+
+#: src/ui/detailsview.py:71
+msgid "No Known Metadata"
+msgstr ""
+
+#: src/ui/detailsview.py:72
+msgid "Unable to Remove Metadata"
+msgstr ""
+
+#: src/ui/detailsview.py:76
+msgid "The file will be cleaned anyway to be sure."
+msgstr ""
+
+#: src/ui/filechooserdialog.py:24
+msgid "All supported files"
+msgstr ""
+
+#: src/ui/folderchooserdialog.py:21
+msgid "Add files from subfolders"
+msgstr ""
+
+#: src/ui/statusindicator.py:34
+msgid "Processing file {}/{}"
+msgstr ""
+
+#: src/ui/statusindicator.py:35
+msgid "Cleaning file {}/{}"
+msgstr ""
+
+#: src/ui/statusindicator.py:69
+#, python-format
+msgid "%i file cleaned"
+msgid_plural "%i files cleaned"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/ui/statusindicator.py:75
+#, python-format
+msgid "%i error occurred"
+msgid_plural "%i errors occurred"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Translate this string as your translator credits.
+#. Name only:    GeopJr
+#. Name + URL:   GeopJr https://geopjr.dev
+#. Name + Email: GeopJr <evan@geopjr.dev>
+#. Do not remove existing names.
+#. Names are separated with newlines.
+#: src/ui/window.py:150
+msgid "translator-credits"
+msgstr ""
+
+#: src/ui/window.py:155
+msgid "Archives"
+msgstr ""
+
+#: src/ui/window.py:156
+msgid "Create and view web archives"
+msgstr ""
+
+#. translators: Application metainfo for the app "Calligraphy". <https://gitlab.gnome.org/GeopJr/Calligraphy>
+#: src/ui/window.py:162
+msgid "Calligraphy"
+msgstr ""
+
+#: src/ui/window.py:163
+msgid "Turn text into ASCII banners"
+msgstr ""
+
+#: src/ui/window.py:169
+msgid "Collision"
+msgstr ""
+
+#: src/ui/window.py:170
+msgid "Check hashes for your files"
+msgstr ""
+
+#: src/ui/window.py:176
+msgid "Turntable"
+msgstr ""
+
+#: src/ui/window.py:177
+msgid "Scrobble your music"
+msgstr ""
+
+#. translators: Application metainfo for the app "Tuba". <https://github.com/GeopJr/Tuba>
+#: src/ui/window.py:180
+msgid "Tuba"
+msgstr ""
+
+#: src/ui/window.py:180
+msgid "Browse the Fediverse"
+msgstr ""
+
+#: src/ui/window.py:328
+msgid "Info"
+msgstr ""
+
+#: src/ui/window.py:334
+msgid "Metadata & Privacy"
+msgstr ""
+
+#: src/ui/window.py:345
+msgid ""
+"Metadata consists of information that characterizes data. Metadata is used "
+"to provide documentation for data products. In essence, metadata answers "
+"who, what, when, where, why, and how about every facet of the data that is "
+"being documented.\n"
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
 "applications automatically add author and company information to documents "
@@ -47,248 +340,28 @@ msgid ""
 "disclose it."
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
+#: src/ui/window.py:354
+msgid "Cleaning Process"
+msgstr ""
+
+#: src/ui/window.py:365
 msgid ""
-"This tool allows you to view metadata in your files and to get rid of it, as "
-"much as possible."
+"While Metadata Cleaner is doing its very best to display metadata, it "
+"doesn't mean that a file is clean from metadata if it doesn't show any. "
+"There is no reliable way to detect every single possible metadata for "
+"complex file formats. This is why you shouldn't rely on metadata's presence "
+"to decide if your file must be cleaned or not.\n"
+"Metadata Cleaner takes the content of the file and puts it into a new one "
+"without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
 
-#: application/data/gtk/help-overlay.ui:15
-msgid "Files"
+#: src/ui/window.py:374
+msgid "Limitations"
 msgstr ""
 
-#: application/data/gtk/help-overlay.ui:18
-#: application/data/ui/AddFilesButton.ui:49
-msgid "Add files"
-msgstr ""
-
-#: application/data/gtk/help-overlay.ui:24
-#: application/data/ui/AddFilesButton.ui:56
-msgid "Add folders"
-msgstr ""
-
-#: application/data/gtk/help-overlay.ui:30
-msgid "Clean metadata"
-msgstr ""
-
-#: application/data/gtk/help-overlay.ui:36
-msgid "Clear all files from window"
-msgstr ""
-
-#: application/data/gtk/help-overlay.ui:44
-msgid "General"
-msgstr ""
-
-#: application/data/gtk/help-overlay.ui:47
-msgid "New window"
-msgstr ""
-
-#: application/data/gtk/help-overlay.ui:53
-msgid "Close window"
-msgstr ""
-
-#: application/data/gtk/help-overlay.ui:59
-msgid "Quit"
-msgstr ""
-
-#: application/data/gtk/help-overlay.ui:65
-msgid "Keyboard shortcuts"
-msgstr ""
-
-#: application/data/gtk/help-overlay.ui:71
-msgid "Help"
-msgstr ""
-
-#: application/data/ui/AddFilesButton.ui:21
-msgid "_Add Files"
-msgstr ""
-
-#: application/data/ui/AddFilesButton.ui:33
-msgid "Add _Folders"
-msgstr ""
-
-#: application/data/ui/CleanMetadataButton.ui:9
-msgid "_Clean"
-msgstr ""
-
-#: application/data/ui/CleaningWarningDialog.ui:9
-msgid "Make sure you backed up your files!"
-msgstr ""
-
-#: application/data/ui/CleaningWarningDialog.ui:10
-msgid "Once the files are cleaned, there's no going back."
-msgstr ""
-
-#: application/data/ui/CleaningWarningDialog.ui:17
-msgid "Don't tell me again"
-msgstr ""
-
-#: application/data/ui/CleaningWarningDialog.ui:25
-#: application/data/ui/StatusIndicator.ui:37
-msgid "Cancel"
-msgstr ""
-
-#: application/data/ui/CleaningWarningDialog.ui:30
-msgid "Clean"
-msgstr ""
-
-#: application/data/ui/EmptyView.ui:13
-msgid "Clean Your Traces"
-msgstr ""
-
-#: application/data/ui/EmptyView.ui:39
-msgid "Learn more about metadata and the cleaning process limitations"
-msgstr ""
-
-#: application/data/ui/FileRow.ui:11
-msgid "Remove file from list"
-msgstr ""
-
-#: application/data/ui/FileRow.ui:128
-msgid "Warning"
-msgstr ""
-
-#: application/data/ui/FileRow.ui:146
-msgid "Error"
-msgstr ""
-
-#: application/data/ui/FileRow.ui:186
-msgid "Cleaned"
-msgstr ""
-
-#: application/data/ui/MenuButton.ui:10
-msgid "_New Window"
-msgstr ""
-
-#: application/data/ui/MenuButton.ui:14
-msgid "_Clear Window"
-msgstr ""
-
-#: application/data/ui/MenuButton.ui:20
-msgid "_Help"
-msgstr ""
-
-#: application/data/ui/MenuButton.ui:25
-msgid "_Keyboard Shortcuts"
-msgstr ""
-
-#: application/data/ui/MenuButton.ui:29
-msgid "_About Metadata Cleaner"
-msgstr ""
-
-#: application/data/ui/MenuButton.ui:38
-msgid "Main Menu"
-msgstr ""
-
-#: application/data/ui/SettingsButton.ui:9
-msgid "Cleaning settings"
-msgstr ""
-
-#: application/data/ui/SettingsButton.ui:27
-msgid "Lightweight Cleaning"
-msgstr ""
-
-#: application/data/ui/SettingsButton.ui:32
-msgid "Learn more about the lightweight cleaning"
-msgstr ""
-
-#: application/data/ui/Window.ui:80
-msgid "Details"
-msgstr ""
-
-#: application/data/ui/Window.ui:86
-msgid "Close"
-msgstr ""
-
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:125
-msgid "translator-credits"
-msgstr ""
-
-#: application/data/ui/Window.ui:128
-msgid "Choose files to clean"
-msgstr ""
-
-#: application/data/ui/Window.ui:138
-msgid "Choose folders to clean"
-msgstr ""
-
-#: application/metadatacleaner/modules/file.py:249
-msgid "An error occured during the cleaning."
-msgstr ""
-
-#: application/metadatacleaner/modules/file.py:252
-msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
-
-#: application/metadatacleaner/ui/detailsview.py:58
-msgid "The File Has Been Cleaned"
-msgstr ""
-
-#: application/metadatacleaner/ui/detailsview.py:60
+#: src/ui/window.py:385
 msgid ""
-"Known metadata have been removed, however the cleaning process has some "
-"limitations."
-msgstr ""
-
-#: application/metadatacleaner/ui/detailsview.py:63
-msgid "Learn more"
-msgstr ""
-
-#: application/metadatacleaner/ui/detailsview.py:76
-msgid "Unable to Read the File"
-msgstr ""
-
-#: application/metadatacleaner/ui/detailsview.py:77
-msgid "File Type not Supported"
-msgstr ""
-
-#: application/metadatacleaner/ui/detailsview.py:79
-msgid "Unable to Check for Metadata"
-msgstr ""
-
-#: application/metadatacleaner/ui/detailsview.py:80
-msgid "No Known Metadata"
-msgstr ""
-
-#: application/metadatacleaner/ui/detailsview.py:82
-msgid "Unable to Remove Metadata"
-msgstr ""
-
-#: application/metadatacleaner/ui/detailsview.py:86
-msgid "The file will be cleaned anyway to be sure."
-msgstr ""
-
-#: application/metadatacleaner/ui/filechooserdialog.py:24
-msgid "All supported files"
-msgstr ""
-
-#: application/metadatacleaner/ui/folderchooserdialog.py:22
-msgid "Add files from subfolders"
-msgstr ""
-
-#: application/metadatacleaner/ui/statusindicator.py:37
-msgid "Processing file {}/{}"
-msgstr ""
-
-#: application/metadatacleaner/ui/statusindicator.py:39
-msgid "Cleaning file {}/{}"
-msgstr ""
-
-#: application/metadatacleaner/ui/statusindicator.py:79
-#, python-format
-msgid "%i file cleaned."
-msgid_plural "%i files cleaned."
-msgstr[0] ""
-msgstr[1] ""
-
-#: application/metadatacleaner/ui/statusindicator.py:84
-#, python-format
-msgid "%i error occured."
-msgid_plural "%i errors occured."
-msgstr[0] ""
-msgstr[1] ""
-
-#: application/metadatacleaner/ui/window.py:112
-msgid "Libraries"
+"Be aware that metadata is not the only way of marking a file. If the content "
+"itself discloses personal information or has been watermarked, traditionally "
+"or via steganography, Metadata Cleaner will not protect you."
 msgstr ""

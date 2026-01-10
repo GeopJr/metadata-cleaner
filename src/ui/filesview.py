@@ -32,22 +32,21 @@ class FilesView(Adw.Bin):
 
         def on_select(action: Gio.Action, parameters: GLib.Variant) -> None:
             self._selection_model.set_selected(parameters.get_uint32())
+
         select = Gio.SimpleAction.new("select", GLib.VariantType.new("u"))
         select.connect("activate", on_select)
         group.insert(select)
 
     @Gtk.Template.Callback()
     def _on_selection_changed(
-            self,
-            selection_model: Gtk.SelectionModel,
-            position: int,
-            n_items: int) -> None:
+        self, selection_model: Gtk.SelectionModel, position: int, n_items: int
+    ) -> None:
         number_of_items = len(selection_model.get_model())
         if selection_model.get_selected() >= number_of_items:
             return
         self.activate_action(
-            "win.view-details",
-            GLib.Variant.new_uint32(selection_model.get_selected()))
+            "win.view-details", GLib.Variant.new_uint32(selection_model.get_selected())
+        )
 
     def get_selected_file_index(self) -> int:
         """Get the index of the currently selected file.
@@ -62,5 +61,4 @@ class FilesView(Adw.Bin):
         number_of_items = len(self._selection_model.get_model())
         if self._selection_model.get_selected() >= number_of_items:
             return
-        self._selection_model.unselect_item(
-            self._selection_model.get_selected())
+        self._selection_model.unselect_item(self._selection_model.get_selected())

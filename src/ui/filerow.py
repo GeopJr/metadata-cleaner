@@ -10,9 +10,7 @@ from metadatacleaner.modules.file import File
 from metadatacleaner.ui.badge import Badge
 
 
-@Gtk.Template(
-    resource_path="/dev/geopjr/MetadataCleaner/ui/FileRow.ui"
-)
+@Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/FileRow.ui")
 class FileRow(Gtk.Box):
     """Row representing a file."""
 
@@ -23,6 +21,4 @@ class FileRow(Gtk.Box):
 
     @Gtk.Template.Callback()
     def _on_remove_file_button_clicked(self, button: Gtk.Button) -> None:
-        self.activate_action(
-            "win.remove-file",
-            GLib.Variant.new_uint32(self.position))
+        self.activate_action("win.remove-file", GLib.Variant.new_uint32(self.position))

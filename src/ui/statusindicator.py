@@ -12,9 +12,7 @@ from metadatacleaner.ui.settingsbutton import SettingsButton
 from metadatacleaner.modules.filestore import FileStore, FileStoreAction, FileStoreState
 
 
-@Gtk.Template(
-    resource_path="/dev/geopjr/MetadataCleaner/ui/StatusIndicator.ui"
-)
+@Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/StatusIndicator.ui")
 class StatusIndicator(Gtk.Stack):
     """Indicator showing the status of the files manager."""
 
@@ -33,25 +31,20 @@ class StatusIndicator(Gtk.Stack):
         if not self.file_store or not self.file_store.last_action:
             return
         text = {
-            FileStoreAction.ADDING:
-                _("Processing file {}/{}").format(current, total),
-            FileStoreAction.CLEANING:
-                _("Cleaning file {}/{}").format(current, total),
+            FileStoreAction.ADDING: _("Processing file {}/{}").format(current, total),
+            FileStoreAction.CLEANING: _("Cleaning file {}/{}").format(current, total),
         }
         self._progressbar.set_text(text[self.file_store.last_action])
         self._progressbar.set_fraction(current / total if total > 0 else 0)
 
     @Gtk.Template.Callback()
     def _on_file_store_changed(
-            self,
-            widget: Gtk.Widget,
-            pspec: GObject.ParamSpec) -> None:
+        self, widget: Gtk.Widget, pspec: GObject.ParamSpec
+    ) -> None:
+        self.file_store.connect("state-changed", self._on_file_store_state_changed)
         self.file_store.connect(
-            "state-changed",
-            self._on_file_store_state_changed)
-        self.file_store.connect(
-            "progress-changed",
-            self._on_file_store_progress_changed)
+            "progress-changed", self._on_file_store_progress_changed
+        )
 
     @Gtk.Template.Callback()
     def _on_cancel_button_clicked(self, button: Gtk.Button) -> None:
@@ -61,32 +54,32 @@ class StatusIndicator(Gtk.Stack):
             self.file_store.cancel_cleaning_files()
 
     def _on_file_store_state_changed(
-            self,
-            file_store: FileStore,
-            new_state: FileStoreState) -> None:
+        self, file_store: FileStore, new_state: FileStoreState
+    ) -> None:
         if new_state == FileStoreState.WORKING:
             self.show_progressbar()
 
     def _on_file_store_progress_changed(
-            self,
-            file_store: FileStore,
-            current: int,
-            total: int) -> None:
+        self, file_store: FileStore, current: int, total: int
+    ) -> None:
         self._sync_progressbar(current, total)
         if current == total:
             if file_store.last_action == FileStoreAction.CLEANING and total != 0:
                 clean_message = ngettext(
                     "%i file cleaned",
                     "%i files cleaned",
-                    len(file_store.get_cleaned_files())
+                    len(file_store.get_cleaned_files()),
                 ) % len(file_store.get_cleaned_files())
-                error_message = (ngettext(
-                    "%i error occurred",
-                    "%i errors occurred",
-                    len(file_store.get_errored_files())
-                ) % len(file_store.get_errored_files())
+                error_message = (
+                    ngettext(
+                        "%i error occurred",
+                        "%i errors occurred",
+                        len(file_store.get_errored_files()),
+                    )
+                    % len(file_store.get_errored_files())
                     if len(file_store.get_errored_files()) > 0
-                    else "")
+                    else ""
+                )
                 body = " ".join([clean_message, error_message])
                 self.send_toast(body)
                 if not self.get_root().is_active():
@@ -111,6 +104,6 @@ class StatusIndicator(Gtk.Stack):
         notification = Gio.Notification.new(app.name)
         notification.set_body(body)
         notification.set_default_action_and_target(
-            "app.show-window",
-            GLib.Variant.new_uint32(window.get_id()))
+            "app.show-window", GLib.Variant.new_uint32(window.get_id())
+        )
         app.send_notification(f"done{window.get_id()}", notification)

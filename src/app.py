@@ -19,22 +19,14 @@ class MetadataCleaner(Adw.Application):
     settings = GObject.Property(type=Gio.Settings)
     version = GObject.Property(type=str)
 
-    def __init__(
-            self,
-            devel: bool,
-            version: str,
-            *args,
-            **kwargs) -> None:
+    def __init__(self, devel: bool, version: str, *args, **kwargs) -> None:
         """Application initialization.
 
         Args:
             app_id (str): Application ID
             version (str): Version string
         """
-        super().__init__(
-            flags=Gio.ApplicationFlags.HANDLES_OPEN,
-            *args,
-            **kwargs)
+        super().__init__(flags=Gio.ApplicationFlags.HANDLES_OPEN, *args, **kwargs)
         self.name = _("Metadata Cleaner")
         self.devel = devel
         self.version = version
@@ -59,31 +51,30 @@ class MetadataCleaner(Adw.Application):
     # SETUP #
 
     def _setup_actions(self) -> None:
-
         def on_show_help(action: Gio.Action, parameters: GLib.Variant) -> None:
             Gtk.show_uri(
                 self.get_active_window(),
                 f"help:{self.get_application_id()}{parameters.get_string()}",
-                Gdk.CURRENT_TIME)
+                Gdk.CURRENT_TIME,
+            )
+
         show_help = Gio.SimpleAction.new("help", GLib.VariantType.new("s"))
         show_help.connect("activate", on_show_help)
         self.add_action(show_help)
 
-        def on_show_window(
-                action: Gio.Action,
-                parameters: GLib.Variant) -> None:
+        def on_show_window(action: Gio.Action, parameters: GLib.Variant) -> None:
             window_id = parameters.get_uint32()
             window = self.get_window_by_id(window_id)
             window.present_with_time(Gdk.CURRENT_TIME)
             self.withdraw_notification(f"done{window_id}")
-        show_window = Gio.SimpleAction.new(
-            "show-window",
-            GLib.VariantType.new("u"))
+
+        show_window = Gio.SimpleAction.new("show-window", GLib.VariantType.new("u"))
         show_window.connect("activate", on_show_window)
         self.add_action(show_window)
 
         def on_new_window(action: Gio.Action, parameters: None) -> None:
             self.new_window()
+
         new_window = Gio.SimpleAction.new("new-window", None)
         new_window.connect("activate", on_new_window)
         self.add_action(new_window)
@@ -92,6 +83,7 @@ class MetadataCleaner(Adw.Application):
             for window in self.get_windows():
                 self.withdraw_notification(f"done{window.get_id()}")
             self.quit()
+
         quit_app = Gio.SimpleAction.new("quit", None)
         quit_app.connect("activate", on_quit_app)
         self.add_action(quit_app)
@@ -116,8 +108,10 @@ class MetadataCleaner(Adw.Application):
             gfiles (List[Gio.File], optional): List of files to be added to the
                 new window. Defaults to None.
         """
+
         def on_window_destroyed(window) -> None:
             self.withdraw_notification(f"done{window.get_id()}")
+
         window = Window(application=self)
         window.connect("destroy", on_window_destroyed)
         window.present()

@@ -1,5 +1,6 @@
 from gi.repository import Gtk, Adw, GObject
 
+
 class DropOverlay(Adw.Bin):
     __gtype_name__ = "DropOverlay"
 

@@ -55,13 +55,12 @@ class FileStore(Gio.ListStore):
     __gsignals__ = {
         "file-state-changed": (GObject.SIGNAL_RUN_LAST, None, (int,)),
         "state-changed": (GObject.SIGNAL_RUN_LAST, None, (int,)),
-        "progress-changed": (GObject.SIGNAL_RUN_LAST, None, (int, int))
+        "progress-changed": (GObject.SIGNAL_RUN_LAST, None, (int, int)),
     }
 
     lightweight_mode: bool = GObject.Property(
-        type=bool,
-        nick="lightweight-mode",
-        default=False)
+        type=bool, nick="lightweight-mode", default=False
+    )
 
     def __init__(self) -> None:
         """File Store initialization."""
@@ -76,6 +75,7 @@ class FileStore(Gio.ListStore):
         def emit() -> bool:
             self.emit("file-state-changed", self.get_index_of_file(f))
             return GLib.SOURCE_REMOVE
+
         GLib.idle_add(emit)
 
     def _set_state(self, state: FileStoreState) -> None:
@@ -86,6 +86,7 @@ class FileStore(Gio.ListStore):
         def emit() -> bool:
             self.emit("state-changed", state)
             return GLib.SOURCE_REMOVE
+
         GLib.idle_add(emit)
 
     def _set_progress(self, current: int, total: int) -> None:
@@ -94,6 +95,7 @@ class FileStore(Gio.ListStore):
         def emit() -> bool:
             self.emit("progress-changed", current, total)
             return GLib.SOURCE_REMOVE
+
         GLib.idle_add(emit)
 
     def get_files(self) -> List[File]:
@@ -132,8 +134,7 @@ class FileStore(Gio.ListStore):
             raise RuntimeError("File not found in file store.")
         return position
 
-    def add_gfiles(
-            self, gfiles: List[Gio.File], recursive: bool = True) -> None:
+    def add_gfiles(self, gfiles: List[Gio.File], recursive: bool = True) -> None:
         """Add Gio Files to the Files Manager.
 
         Args:
@@ -142,17 +143,14 @@ class FileStore(Gio.ListStore):
             into. Defaults to True.
         """
         thread = Thread(
-            target=self._add_gfiles_async,
-            args=(gfiles, recursive),
-            daemon=True)
+            target=self._add_gfiles_async, args=(gfiles, recursive), daemon=True
+        )
         thread.start()
 
-    def _add_gfiles_async(
-            self, gfiles: List[Gio.File], recursive: bool = True) -> None:
+    def _add_gfiles_async(self, gfiles: List[Gio.File], recursive: bool = True) -> None:
         self._set_state(FileStoreState.WORKING)
         all_gfiles = self._gather_all_gfiles(gfiles, recursive)
-        self._set_progress(
-            self.progress[0], self.progress[1] + len(all_gfiles))
+        self._set_progress(self.progress[0], self.progress[1] + len(all_gfiles))
         self.last_action = FileStoreAction.ADDING
         futures = {
             self.add_files_executor.submit(self._add_gfile, gfile)
@@ -166,9 +164,8 @@ class FileStore(Gio.ListStore):
                 self._stop_adding_gfiles()
 
     def _gather_all_gfiles(
-            self,
-            gfiles: List[Gio.File],
-            recursive: bool = True) -> List[Gio.File]:
+        self, gfiles: List[Gio.File], recursive: bool = True
+    ) -> List[Gio.File]:
         all_gfiles: List[Gio.File] = []
         for gfile in gfiles:
             if not gfile:
@@ -181,17 +178,16 @@ class FileStore(Gio.ListStore):
             else:
                 logger.warning(
                     f"File {gfile.get_path()} is neither a directory nor a "
-                    "regular file, skipping.")
+                    "regular file, skipping."
+                )
         return all_gfiles
 
-    def _get_gfiles_from_dir(
-            self, dir: Gio.File, recursive: bool) -> List[Gio.File]:
+    def _get_gfiles_from_dir(self, dir: Gio.File, recursive: bool) -> List[Gio.File]:
         gfiles: List[Gio.File] = []
         subdirs: List[Gio.File] = []
         children_enumerator = dir.enumerate_children(
-            "",
-            Gio.FileQueryInfoFlags.NONE,
-            None)
+            "", Gio.FileQueryInfoFlags.NONE, None
+        )
         while True:
             info = children_enumerator.next_file(None)
             if info is None:
@@ -205,9 +201,8 @@ class FileStore(Gio.ListStore):
         children_enumerator.close(None)
         with ThreadPoolExecutor() as executor:
             for subgfiles in executor.map(
-                    self._get_gfiles_from_dir,
-                    subdirs,
-                    [recursive] * len(subdirs)):
+                self._get_gfiles_from_dir, subdirs, [recursive] * len(subdirs)
+            ):
                 gfiles.extend(subgfiles)
         return gfiles
 
@@ -217,8 +212,7 @@ class FileStore(Gio.ListStore):
             return
 
         if not gfile.query_exists(None):
-            logger.warning(
-                f"File {gfile.get_path()} does not exist, skipping.")
+            logger.warning(f"File {gfile.get_path()} does not exist, skipping.")
             return
 
         if bool(list(filter(lambda x: x.path == gfile.get_path(), self))):
@@ -232,6 +226,7 @@ class FileStore(Gio.ListStore):
             self.append(f)
             f.connect("state-changed", self._on_file_state_changed)
             return GLib.SOURCE_REMOVE
+
         GLib.idle_add(finish)
 
     def _stop_adding_gfiles(self) -> None:
@@ -271,8 +266,7 @@ class FileStore(Gio.ListStore):
 
     def _clean_files_async(self) -> None:
         cleanable_files = self.get_cleanable_files()
-        self._set_progress(
-            self.progress[0], self.progress[1] + len(cleanable_files))
+        self._set_progress(self.progress[0], self.progress[1] + len(cleanable_files))
         self._set_state(FileStoreState.WORKING)
         self.last_action = FileStoreAction.CLEANING
         futures = {
@@ -301,9 +295,9 @@ class FileStore(Gio.ListStore):
         Returns:
             List[File]: List of cleanable files.
         """
-        return self._get_files_with_states((
-            FileState.HAS_METADATA,
-            FileState.HAS_NO_METADATA))
+        return self._get_files_with_states(
+            (FileState.HAS_METADATA, FileState.HAS_NO_METADATA)
+        )
 
     def get_cleaned_files(self) -> List[File]:
         """Get all the cleaned files.
@@ -319,12 +313,13 @@ class FileStore(Gio.ListStore):
         Returns:
             List[File]: List of files with errors.
         """
-        return self._get_files_with_states((
-            FileState.ERROR_WHILE_INITIALIZING,
-            FileState.ERROR_WHILE_CHECKING_METADATA,
-            FileState.ERROR_WHILE_REMOVING_METADATA))
+        return self._get_files_with_states(
+            (
+                FileState.ERROR_WHILE_INITIALIZING,
+                FileState.ERROR_WHILE_CHECKING_METADATA,
+                FileState.ERROR_WHILE_REMOVING_METADATA,
+            )
+        )
 
-    def _get_files_with_states(
-            self,
-            states: Iterable[FileState]) -> List[File]:
+    def _get_files_with_states(self, states: Iterable[FileState]) -> List[File]:
         return list(filter(lambda f: f.state in states, self))

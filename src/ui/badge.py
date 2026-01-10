@@ -38,30 +38,33 @@ class Badge(Adw.Bin):
                 self.set_child(Gtk.Spinner(spinning=True))
             case "warning":
                 self.add_css_class("warning")
-                self.set_child(Gtk.Image(
-                    icon_name = "metadatacleaner-warning-symbolic",
-                    tooltip_text = _("Warning")
-                ))
+                self.set_child(
+                    Gtk.Image(
+                        icon_name="metadatacleaner-warning-symbolic",
+                        tooltip_text=_("Warning"),
+                    )
+                )
             case "error":
                 self.add_css_class("error")
-                self.set_child(Gtk.Image(
-                    icon_name = "metadatacleaner-error-symbolic",
-                    tooltip_text = _("Error")
-                ))
+                self.set_child(
+                    Gtk.Image(
+                        icon_name="metadatacleaner-error-symbolic",
+                        tooltip_text=_("Error"),
+                    )
+                )
             case "has-metadata":
                 self.add_css_class("metadata")
-                label = Gtk.Label(
-                    css_classes = ["numeric"],
-                    label = self._label
-                )
+                label = Gtk.Label(css_classes=["numeric"], label=self._label)
                 self.bind_property("label", label, "label")
                 self.set_child(label)
             case "clean":
                 self.add_css_class("success")
-                self.set_child(Gtk.Image(
-                    icon_name = "metadatacleaner-ok-symbolic",
-                    tooltip_text = _("Cleaned")
-                ))
+                self.set_child(
+                    Gtk.Image(
+                        icon_name="metadatacleaner-ok-symbolic",
+                        tooltip_text=_("Cleaned"),
+                    )
+                )
 
     def _reset(self):
         self.set_css_classes(["badge"])

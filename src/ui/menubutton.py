@@ -6,9 +6,7 @@
 from gi.repository import Gtk
 
 
-@Gtk.Template(
-    resource_path="/dev/geopjr/MetadataCleaner/ui/MenuButton.ui"
-)
+@Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/MenuButton.ui")
 class MenuButton(Gtk.MenuButton):
     """Menu button."""
 

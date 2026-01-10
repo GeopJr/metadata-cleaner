@@ -8,9 +8,7 @@ import re
 from gi.repository import GObject, Gtk
 
 
-@Gtk.Template(
-    resource_path="/dev/geopjr/MetadataCleaner/ui/CreditsRole.ui"
-)
+@Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/CreditsRole.ui")
 class CreditsRole(Gtk.Box):
     """Widget crediting persons for a role."""
 
@@ -47,11 +45,11 @@ def _parse_links(string: str) -> str:
         match_email = regex_email.search(line)
         match_url = regex_url.search(line)
         if match_email:
-            name = line[:match_email.start()].strip()
+            name = line[: match_email.start()].strip()
             url = f"mailto:{match_email.group()[1:-1]}"
             parsed_lines.append(f"<a href='{url}'>{name}</a>")
         elif match_url:
-            name = line[:match_url.start()].strip()
+            name = line[: match_url.start()].strip()
             url = match_url.group()
             parsed_lines.append(f"<a href='{url}'>{name}</a>")
         else:

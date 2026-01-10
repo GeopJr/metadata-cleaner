@@ -6,9 +6,7 @@
 from gi.repository import Gtk
 
 
-@Gtk.Template(
-    resource_path="/dev/geopjr/MetadataCleaner/ui/CleanMetadataButton.ui"
-)
+@Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/CleanMetadataButton.ui")
 class CleanMetadataButton(Gtk.Button):
     """Button to clean metadata of all added files."""
 

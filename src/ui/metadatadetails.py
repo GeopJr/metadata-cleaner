@@ -10,9 +10,7 @@ from metadatacleaner.modules.metadata import MetadataList
 from metadatacleaner.ui.metadatadetailsrow import MetadataDetailsRow
 
 
-@Gtk.Template(
-    resource_path="/dev/geopjr/MetadataCleaner/ui/MetadataDetails.ui"
-)
+@Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/MetadataDetails.ui")
 class MetadataDetails(Adw.PreferencesGroup):
     """List of a file's metadata."""
 

@@ -12,9 +12,7 @@ from metadatacleaner.modules.file import File, FileState
 from metadatacleaner.ui.metadataview import MetadataView
 
 
-@Gtk.Template(
-    resource_path="/dev/geopjr/MetadataCleaner/ui/DetailsView.ui"
-)
+@Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/DetailsView.ui")
 class DetailsView(Adw.Bin):
     """View details of a file."""
 
@@ -32,11 +30,12 @@ class DetailsView(Adw.Bin):
         elif f.state == FileState.CLEANED:
             self._setup_cleaned_details()
         elif f.state in [
-                FileState.ERROR_WHILE_CHECKING_METADATA,
-                FileState.ERROR_WHILE_INITIALIZING,
-                FileState.ERROR_WHILE_REMOVING_METADATA,
-                FileState.HAS_NO_METADATA,
-                FileState.UNSUPPORTED]:
+            FileState.ERROR_WHILE_CHECKING_METADATA,
+            FileState.ERROR_WHILE_INITIALIZING,
+            FileState.ERROR_WHILE_REMOVING_METADATA,
+            FileState.HAS_NO_METADATA,
+            FileState.UNSUPPORTED,
+        ]:
             self._setup_error_details(f)
 
     def set_content(self, w) -> None:
@@ -49,13 +48,17 @@ class DetailsView(Adw.Bin):
                 title=_("The File Has Been Cleaned"),
                 description=_(
                     "Known metadata have been removed, however the cleaning "
-                    "process has some limitations."),
+                    "process has some limitations."
+                ),
                 child=Gtk.Button(
                     label=_("Learn more"),
                     action_name="win.info",
                     halign=Gtk.Align.CENTER,
-                    css_classes=["pill", "suggested-action"]),
-                css_classes=["compact"]))
+                    css_classes=["pill", "suggested-action"],
+                ),
+                css_classes=["compact"],
+            )
+        )
 
     def _setup_metadata_details(self, f: File) -> None:
         self.set_content(MetadataView(metadata=f.metadata))
@@ -64,11 +67,9 @@ class DetailsView(Adw.Bin):
         info_titles = {
             FileState.ERROR_WHILE_INITIALIZING: _("Unable to Read the File"),
             FileState.UNSUPPORTED: _("File Type not Supported"),
-            FileState.ERROR_WHILE_CHECKING_METADATA: _(
-                "Unable to Check for Metadata"),
+            FileState.ERROR_WHILE_CHECKING_METADATA: _("Unable to Check for Metadata"),
             FileState.HAS_NO_METADATA: _("No Known Metadata"),
-            FileState.ERROR_WHILE_REMOVING_METADATA: _(
-                "Unable to Remove Metadata")
+            FileState.ERROR_WHILE_REMOVING_METADATA: _("Unable to Remove Metadata"),
         }
         info_details = str(f.error or "")
         if f.state == FileState.HAS_NO_METADATA:
@@ -77,4 +78,6 @@ class DetailsView(Adw.Bin):
             Adw.StatusPage(
                 title=info_titles[f.state],
                 description=info_details,
-                css_classes=["compact"]))
+                css_classes=["compact"],
+            )
+        )

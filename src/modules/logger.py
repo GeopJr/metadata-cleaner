@@ -16,12 +16,15 @@ class Logger(GObject.GObject):
     @staticmethod
     def _log(message: str, level: GLib.LogLevelFlags) -> None:
         caller_frame = inspect.stack()[2]
-        gvariant_dict = GLib.Variant("a{sv}", {
-            "MESSAGE": GLib.Variant("s", message),
-            "CODE_FILE": GLib.Variant("s", caller_frame.filename),
-            "CODE_LINE": GLib.Variant("i", caller_frame.lineno),
-            "CODE_FUNC": GLib.Variant("s", caller_frame.function)
-        })
+        gvariant_dict = GLib.Variant(
+            "a{sv}",
+            {
+                "MESSAGE": GLib.Variant("s", message),
+                "CODE_FILE": GLib.Variant("s", caller_frame.filename),
+                "CODE_LINE": GLib.Variant("i", caller_frame.lineno),
+                "CODE_FUNC": GLib.Variant("s", caller_frame.function),
+            },
+        )
         GLib.log_variant(Logger._DOMAIN, level, gvariant_dict)
 
     @staticmethod

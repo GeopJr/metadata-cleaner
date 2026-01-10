@@ -20,6 +20,7 @@
 from enum import Enum
 from datetime import datetime
 
+
 class Season(Enum):
     INTERSEX = "intersex"
     LESBIAN = "lesbian"
@@ -47,11 +48,15 @@ class Season(Enum):
             case Season.AGENDER:
                 return date.month == 5 and date.day == 19
             case Season.INTERSEX:
-                return (date.month == 10 and date.day == 26) or (date.month == 11 and date.day == 8)
+                return (date.month == 10 and date.day == 26) or (
+                    date.month == 11 and date.day == 8
+                )
             case Season.LESBIAN:
-                return (date.month == 10 and date.day == 8) or \
-                    (date.month == 4 and date.day >= 26) or \
-                    (date.month == 5 and date.day <= 2)
+                return (
+                    (date.month == 10 and date.day == 8)
+                    or (date.month == 4 and date.day >= 26)
+                    or (date.month == 5 and date.day <= 2)
+                )
             case Season.AIDS:
                 return date.month == 12 and date.day == 1
             case Season.AUTISM:
@@ -59,9 +64,11 @@ class Season(Enum):
             case Season.PAN:
                 return date.month == 5 and date.day == 24
             case Season.TRANS:
-                return (date.month == 11 and 13 <= date.day <= 19) or \
-                    (date.month == 11 and date.day == 20) or \
-                    (date.month == 3 and date.day == 31)
+                return (
+                    (date.month == 11 and 13 <= date.day <= 19)
+                    or (date.month == 11 and date.day == 20)
+                    or (date.month == 3 and date.day == 31)
+                )
             case Season.ARO:
                 february_14 = datetime(date.year, 2, 14)
                 weekday_offset = february_14.weekday()
@@ -71,7 +78,11 @@ class Season(Enum):
             case Season.ACE:
                 last_day_october = datetime(date.year, 10, 31)
                 weekday_offset_last_day_october = last_day_october.weekday()
-                start = 31 - 7 if weekday_offset_last_day_october == 6 else 31 - weekday_offset_last_day_october - 7
+                start = (
+                    31 - 7
+                    if weekday_offset_last_day_october == 6
+                    else 31 - weekday_offset_last_day_october - 7
+                )
                 end = start + 6
                 return date.month == 10 and start <= date.day <= end
             case Season.BI:
@@ -94,6 +105,7 @@ class Season(Enum):
     @classmethod
     def current(cls):
         return cls.for_date(datetime.now())
+
 
 def get_celebration() -> str:
     current_season = Season.current()

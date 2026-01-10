@@ -9,9 +9,7 @@ from metadatacleaner.modules.metadata import MetadataStore
 from metadatacleaner.ui.metadatadetails import MetadataDetails
 
 
-@Gtk.Template(
-    resource_path="/dev/geopjr/MetadataCleaner/ui/MetadataView.ui"
-)
+@Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/MetadataView.ui")
 class MetadataView(Gtk.ScrolledWindow):
     """List of multiple files' metadata."""
 

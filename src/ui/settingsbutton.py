@@ -6,9 +6,7 @@
 from gi.repository import Gtk, Adw
 
 
-@Gtk.Template(
-    resource_path="/dev/geopjr/MetadataCleaner/ui/SettingsButton.ui"
-)
+@Gtk.Template(resource_path="/dev/geopjr/MetadataCleaner/ui/SettingsButton.ui")
 class SettingsButton(Gtk.Button):
     """Settings button."""
 
