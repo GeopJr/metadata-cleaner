@@ -212,6 +212,10 @@ class FileStore(Gio.ListStore):
         return gfiles
 
     def _add_gfile(self, gfile: Gio.File) -> None:
+        if gfile == None:
+            logger.warning("File is None, skipping.")
+            return
+
         if not gfile.query_exists(None):
             logger.warning(
                 f"File {gfile.get_path()} does not exist, skipping.")

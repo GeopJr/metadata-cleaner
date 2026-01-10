@@ -74,23 +74,23 @@ class StatusIndicator(Gtk.Stack):
             total: int) -> None:
         self._sync_progressbar(current, total)
         if current == total:
-            if file_store.last_action == FileStoreAction.CLEANING:
+            if file_store.last_action == FileStoreAction.CLEANING and total != 0:
                 clean_message = ngettext(
-                    "%i file cleaned.",
-                    "%i files cleaned.",
+                    "%i file cleaned",
+                    "%i files cleaned",
                     len(file_store.get_cleaned_files())
                 ) % len(file_store.get_cleaned_files())
                 error_message = (ngettext(
-                    "%i error occured.",
-                    "%i errors occured.",
+                    "%i error occurred",
+                    "%i errors occurred",
                     len(file_store.get_errored_files())
                 ) % len(file_store.get_errored_files())
                     if len(file_store.get_errored_files()) > 0
                     else "")
-                # self._done_label.set_label(
-                #     " ".join([clean_message, error_message]))
+                body = " ".join([clean_message, error_message])
+                self.send_toast(body)
                 if not self.get_root().is_active():
-                    self.send_done_notification()
+                    self.send_done_notification(body)
             self.show_idle()
 
     def show_idle(self) -> None:
@@ -101,12 +101,15 @@ class StatusIndicator(Gtk.Stack):
         """Show a progress bar."""
         self.set_visible_child_name("working")
 
-    def send_done_notification(self) -> None:
+    def send_toast(self, body: str) -> None:
+        self.activate_action("win.toast", GLib.Variant.new_string(body))
+
+    def send_done_notification(self, body: str) -> None:
         """Send a notification about the finished cleaning process."""
         window = self.get_root()
         app = window.get_application()
         notification = Gio.Notification.new(app.name)
-        # notification.set_body(self._done_label.get_label())
+        notification.set_body(body)
         notification.set_default_action_and_target(
             "app.show-window",
             GLib.Variant.new_uint32(window.get_id()))

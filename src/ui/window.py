@@ -36,6 +36,7 @@ class Window(Adw.ApplicationWindow):
     _header: Adw.HeaderBar = Gtk.Template.Child()
     _add_files_button: Gtk.MenuButton = Gtk.Template.Child()
     _drop_overlay: DropOverlay = Gtk.Template.Child()
+    _toast_overlay: Adw.ToastOverlay = Gtk.Template.Child()
 
     def __init__(
         self,
@@ -201,6 +202,12 @@ class Window(Adw.ApplicationWindow):
         about = Gio.SimpleAction.new("about", None)
         about.connect("activate", on_about)
         self.add_action(about)
+
+        def on_toast(action: Gio.Action, parameters: GLib.Variant) -> None:
+            self._toast_overlay.add_toast(Adw.Toast.new(title=parameters.get_string()))
+        toast = Gio.SimpleAction.new("toast", GLib.VariantType.new("s"))
+        toast.connect("activate", on_toast)
+        self.add_action(toast)
 
         def on_add_files(action: Gio.Action, parameters: None) -> None:
             self._file_chooser_dialog.open_multiple(self, None, self._on_file_chooser_dialog_response)
