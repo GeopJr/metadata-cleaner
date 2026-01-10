@@ -3,13 +3,22 @@
 
 """Settings button."""
 
-from gi.repository import Gtk
+from gi.repository import Gtk, Adw
 
 
 @Gtk.Template(
     resource_path="/dev/geopjr/MetadataCleaner/ui/SettingsButton.ui"
 )
-class SettingsButton(Gtk.MenuButton):
+class SettingsButton(Gtk.Button):
     """Settings button."""
 
     __gtype_name__ = "SettingsButton"
+
+    _preferences_dlg: Adw.PreferencesDialog = Gtk.Template.Child()
+
+    def __init__(self, *args, **kwargs) -> None:
+        super().__init__(*args, **kwargs)
+        self.connect("clicked", self.show_pref_dialog)
+
+    def show_pref_dialog(self, button: Gtk.Button) -> None:
+        self._preferences_dlg.present(self.get_root())

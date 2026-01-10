@@ -319,7 +319,8 @@ class Window(Adw.ApplicationWindow):
     def _on_show_info_dialog(self, button: Gtk.Button) -> None:
         dlg = Adw.Dialog.new()
         dlg.set_title(_("Info"))
-        dlg.set_follows_content_size(True)
+        dlg.set_content_width(600)
+        dlg.set_content_height(500)
         box = Gtk.Box.new(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         box.append(Gtk.Label(label=_("Meatadata & Privacy"), wrap=True, wrap_mode=Pango.WrapMode.WORD_CHAR, xalign=0, css_classes=["heading"], margin_top = 6))
         box.append(Gtk.Label(label=_("Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented.\nMetadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."), xalign=0, wrap=True, wrap_mode=Pango.WrapMode.WORD_CHAR))

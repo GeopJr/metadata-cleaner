@@ -4,46 +4,28 @@ SPDX-FileCopyrightText: Metadata Cleaner contributors
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
-  <template class="SettingsButton" parent="GtkMenuButton">
-    <property name="direction">up</property>
-    <property name="tooltip-text" translatable="yes">Cleaning settings</property>
+  <template class="SettingsButton" parent="GtkButton">
+    <property name="tooltip-text" translatable="yes">Settings</property>
     <property name="icon-name">metadatacleaner-settings-symbolic</property>
-    <property name="popover">settings-popover</property>
     <property name="valign">center</property>
     <style>
-      <class name="circular"/>
+      <class name="circular" />
     </style>
   </template>
-  <object class="GtkPopover" id="settings-popover">
-    <property name="margin-start">6</property>
-    <property name="margin-end">6</property>
-    <property name="margin-top">6</property>
-    <property name="margin-bottom">6</property>
+  <object class="AdwPreferencesDialog" id="_preferences_dlg">
+    <property name="content-width">500</property>
+    <property name="content-height">350</property>
     <child>
-      <object class="GtkListBox">
-        <property name="selection-mode">none</property>
+      <object class="AdwPreferencesPage">
+        <property name="icon-name">metadatacleaner-settings-symbolic</property>
+        <property name="title" translatable="yes">General</property>
         <child>
-          <object class="AdwActionRow">
-            <property name="title" translatable="yes">Lightweight Cleaning</property>
-            <property name="activatable-widget">_lightweight_switch</property>
+          <object class="AdwPreferencesGroup">
             <child>
-              <object class="GtkButton">
-                <property name="icon-name">metadatacleaner-help-symbolic</property>
-                <property name="tooltip-text" translatable="yes">Learn more about the lightweight cleaning</property>
-                <property name="valign">center</property>
-                <property name="action-name">app.help</property>
-                <property name="action-target">"/usage#lightweight-cleaning"</property>
-                <style>
-                  <class name="circular"/>
-                  <class name="flat"/>
-                </style>
-              </object>
-            </child>
-            <child type="suffix">
-              <object class="GtkSwitch" id="_lightweight_switch">
-                <property name="valign">center</property>
-                <property name="margin-start">48</property>
+              <object class="AdwSwitchRow">
+                <property name="title" translatable="yes">Lightweight Cleaning</property>
                 <property name="action-name">app.lightweight-cleaning</property>
+                <property name="subtitle" translatable="yes">By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again… The lightweight mode, while not as thorough, will not make destructive changes to your files.</property>
               </object>
             </child>
           </object>
