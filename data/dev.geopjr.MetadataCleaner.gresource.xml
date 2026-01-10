@@ -6,7 +6,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 <gresources>
 	<gresource prefix="/dev/geopjr/MetadataCleaner">
 		<file alias="style.css">style.css</file>
-		<file preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
+		<file preprocess="xml-stripblanks" alias="shortcuts-dialog.ui">gtk/shortcuts-dialog.ui</file>
 		<file preprocess="xml-stripblanks" alias="icons/metadatacleaner-illustration.svg">icons/illustration.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-about-symbolic.svg">icons/about-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-plus-symbolic.svg">icons/plus-symbolic.svg</file>
