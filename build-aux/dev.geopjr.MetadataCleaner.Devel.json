@@ -74,7 +74,7 @@
                             "type": "git",
                             "url": "https://github.com/jvoisin/mat2.git",
                             "tag": "0.14.0",
-                            "commit": "0.14.0"
+                            "commit": "b50a49f50f64af3d33ebd99062d114bf5f776055"
                         }
                     ],
                     "modules": [
