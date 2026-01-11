@@ -14,4 +14,4 @@ steps:
     image: alpine:edge
     commands:
       - apk add --no-cache meson python3 glib-dev gtk4.0-dev libadwaita-dev desktop-file-utils gettext-dev make clang git mat2
-      - CC=clang make build
+      - CC=clang make
