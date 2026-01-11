@@ -15,9 +15,7 @@ from metadatacleaner.modules.filestore import (
 from metadatacleaner.modules.pride import get_celebration
 
 from metadatacleaner.ui.dropoverlay import DropOverlay
-from metadatacleaner.ui.filechooserdialog import FileChooserDialog
 from metadatacleaner.ui.filesview import FilesView
-from metadatacleaner.ui.folderchooserdialog import FolderChooserDialog
 from metadatacleaner.ui.menubutton import MenuButton
 from metadatacleaner.ui.detailsview import DetailsView
 from metadatacleaner.ui.cleaningwarningdialog import CleaningWarningDialog
