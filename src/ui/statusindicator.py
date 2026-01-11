@@ -64,7 +64,11 @@ class StatusIndicator(Gtk.Stack):
     ) -> None:
         self._sync_progressbar(current, total)
         if current == total:
-            if file_store.last_action == FileStoreAction.CLEANING and total != 0:
+            if (
+                file_store.last_action == FileStoreAction.CLEANING
+                and total != 0
+                and self.get_visible_child_name() != "buttons"
+            ):
                 clean_message = ngettext(
                     "%i file cleaned",
                     "%i files cleaned",
