@@ -7,7 +7,11 @@ from gettext import gettext as _
 from gi.repository import Adw, Gdk, Gio, GLib, GObject, Gtk, Pango
 from typing import Any
 
-from metadatacleaner.modules.filestore import FileStore, FileStoreState
+from metadatacleaner.modules.filestore import (
+    FileStore,
+    FileStoreState,
+    SUPPORTED_FORMATS,
+)
 from metadatacleaner.modules.pride import get_celebration
 
 from metadatacleaner.ui.dropoverlay import DropOverlay
@@ -47,8 +51,17 @@ class Window(Adw.ApplicationWindow):
         self._setup_file_store()
         self._setup_drop_target()
         self._setup_actions()
+        self._setup_file_filter()
 
     # SETUP #
+
+    def _setup_file_filter(self) -> None:
+        file_filter = Gtk.FileFilter()
+        file_filter.set_name(_("All supported files"))
+        for mimetype, extensions in SUPPORTED_FORMATS.items():
+            for extension in extensions:
+                file_filter.add_suffix(extension[1:])
+        self._file_chooser_dialog.set_default_filter(file_filter)
 
     def _setup_size(self) -> None:
         def on_close_request(window: Gtk.Window) -> None:
