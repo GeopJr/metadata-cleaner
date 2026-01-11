@@ -135,9 +135,43 @@ class Window(Adw.ApplicationWindow):
         about.set_application_icon("dev.geopjr.MetadataCleaner")
         about.set_application_name(self.get_application().name)
         about.set_version(self.get_application().version)
-        about.set_license_type(Gtk.License.GPL_3_0_ONLY)
+        about.set_license_type(Gtk.License.GPL_3_0)
         about.set_developer_name('Evangelos "GeopJr" Paterakis')
-        # TODO set website, issue_url etc
+        about.set_issue_url("https://codeberg.org/GeopJr/metadata-cleaner/issues")
+        about.add_link(_("Donate"), "https://geopjr.dev/donate")
+        about.add_link(
+            _("Translate"), "https://translate.codeberg.org/engage/metadata-cleaner/"
+        )
+
+        app = self.get_application()
+        about.set_debug_info(
+            (
+                "os: {os_name} {os_version}\n"
+                "version: {version} ({profile})\n"
+                "gtk: {gtk_rt_major}.{gtk_rt_minor}.{gtk_rt_micro} "
+                "({gtk_ct_major}.{gtk_ct_minor}.{gtk_ct_micro})\n"
+                "libadwaita: {adw_rt_major}.{adw_rt_minor}.{adw_rt_micro} "
+                "({adw_ct_major}.{adw_ct_minor}.{adw_ct_micro})"
+            ).format(
+                os_name=GLib.get_os_info("NAME"),
+                os_version=GLib.get_os_info("VERSION"),
+                version=app.version,
+                profile="devel" if app.devel else "prod",
+                gtk_rt_major=Gtk.get_major_version(),
+                gtk_rt_minor=Gtk.get_minor_version(),
+                gtk_rt_micro=Gtk.get_micro_version(),
+                gtk_ct_major=Gtk.MAJOR_VERSION,
+                gtk_ct_minor=Gtk.MINOR_VERSION,
+                gtk_ct_micro=Gtk.MICRO_VERSION,
+                adw_rt_major=Adw.get_major_version(),
+                adw_rt_minor=Adw.get_minor_version(),
+                adw_rt_micro=Adw.get_micro_version(),
+                adw_ct_major=Adw.MAJOR_VERSION,
+                adw_ct_minor=Adw.MINOR_VERSION,
+                adw_ct_micro=Adw.MICRO_VERSION,
+            )
+        )
+        about.set_debug_info_filename("metadata-cleaner.txt")
 
         about.set_artists(
             [
