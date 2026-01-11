@@ -6,32 +6,24 @@
 
 	<name xml:lang="en">Metadata Cleaner</name>
 	<shortdesc xml:lang="en">View and clean metadata in files</shortdesc>
-
-	<homepage rdf:resource="https://metadatacleaner.romainvigier.fr"/>
-	<download-page rdf:resource="https://flathub.org/apps/details/dev.geopjr.MetadataCleaner"/>
-	<bug-database rdf:resource="https://gitlab.com/rmnvgr/metadata-cleaner/-/issues"/>
-
-	<repository>
-		<GitRepository>
-			<location rdf:resource="https://gitlab.com/rmnvgr/metadata-cleaner.git"/>
-			<browse rdf:resource="https://gitlab.com/rmnvgr/metadata-cleaner"/>
-		</GitRepository>
-	</repository>
-
+	<homepage rdf:resource="https://metadata-cleaner.geopjr.dev"/>
+	<bug-database rdf:resource="https://codeberg.org/GeopJr/metadata-cleaner/issues"/>
 	<programming-language>Python</programming-language>
 	<platform>GTK 4</platform>
 	<platform>Libadwaita</platform>
 
 	<maintainer>
 		<foaf:Person>
-			<foaf:name>Romain Vigier</foaf:name>
-			<foaf:homepage rdf:resource="https://www.romainvigier.fr/"/>
-			<foaf:mbox_sha1sum>5c53ca9b23b6db4803772c8ea03080d4284fe52b</foaf:mbox_sha1sum>
-			<gnome:userid>rvigier</gnome:userid>
+			<foaf:name>Evangelos "GeopJr" Paterakis</foaf:name>
+			<foaf:mbox rdf:resource="mailto:evan@geopjr.dev" />
 			<foaf:account>
 				<foaf:OnlineAccount>
-					<foaf:accountServiceHomepage rdf:resource="https://gitlab.com"/>
-					<foaf:accountName>rmnvgr</foaf:accountName>
+					<foaf:accountServiceHomepage rdf:resource="https://github.com/" />
+					<foaf:accountName>GeopJr</foaf:accountName>
+				</foaf:OnlineAccount>
+				<foaf:OnlineAccount>
+					<foaf:accountServiceHomepage rdf:resource="https://gitlab.gnome.org"/>
+					<foaf:accountName>GeopJr</foaf:accountName>
 				</foaf:OnlineAccount>
 			</foaf:account>
 		</foaf:Person>

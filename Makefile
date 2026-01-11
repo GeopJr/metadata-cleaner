@@ -1,7 +1,10 @@
-.PHONY: build potfiles xgettext
+.PHONY: all potfiles xgettext
 
-build:
-	meson builddir --prefix=/usr && meson compile -C builddir/ && meson install -C builddir
+all:
+	meson setup builddir --prefix=/usr -Ddevel=true && meson compile -C builddir/
+
+install: all
+	meson install -C builddir
 
 potfiles:
 	find ./ -not -path '*/.*' -type f -name "*.in" | sort > po/POTFILES

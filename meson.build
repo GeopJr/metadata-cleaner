@@ -25,7 +25,7 @@ bin_config = configuration_data()
 bin_config.set('localedir', localedir)
 bin_config.set('pkgdatadir', pkgdatadir)
 bin_config.set('app_id', meson.project_name())
-bin_config.set('devel', devel)
+bin_config.set('devel', devel ? 'True' : 'False')
 bin_config.set('version', meson.project_version())
 
 if devel

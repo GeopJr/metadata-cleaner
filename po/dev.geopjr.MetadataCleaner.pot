@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-11 00:19+0200\n"
+"POT-Creation-Date: 2026-01-11 02:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,11 +179,11 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: src/modules/file.py:258
+#: src/modules/file.py:254
 msgid "An error occurred during the cleaning."
 msgstr ""
 
-#: src/modules/file.py:262
+#: src/modules/file.py:258
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 
@@ -237,14 +237,6 @@ msgstr ""
 msgid "The file will be cleaned anyway to be sure."
 msgstr ""
 
-#: src/ui/filechooserdialog.py:24
-msgid "All supported files"
-msgstr ""
-
-#: src/ui/folderchooserdialog.py:21
-msgid "Add files from subfolders"
-msgstr ""
-
 #: src/ui/statusindicator.py:34
 msgid "Processing file {}/{}"
 msgstr ""
@@ -253,19 +245,31 @@ msgstr ""
 msgid "Cleaning file {}/{}"
 msgstr ""
 
-#: src/ui/statusindicator.py:69
+#: src/ui/statusindicator.py:73
 #, python-format
 msgid "%i file cleaned"
 msgid_plural "%i files cleaned"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/ui/statusindicator.py:75
+#: src/ui/statusindicator.py:79
 #, python-format
 msgid "%i error occurred"
 msgid_plural "%i errors occurred"
 msgstr[0] ""
 msgstr[1] ""
+
+#: src/ui/window.py:58
+msgid "All supported files"
+msgstr ""
+
+#: src/ui/window.py:141
+msgid "Donate"
+msgstr ""
+
+#: src/ui/window.py:143
+msgid "Translate"
+msgstr ""
 
 #. translators: Translate this string as your translator credits.
 #. Name only:    GeopJr
@@ -273,61 +277,61 @@ msgstr[1] ""
 #. Name + Email: GeopJr <evan@geopjr.dev>
 #. Do not remove existing names.
 #. Names are separated with newlines.
-#: src/ui/window.py:150
+#: src/ui/window.py:195
 msgid "translator-credits"
 msgstr ""
 
-#: src/ui/window.py:155
+#: src/ui/window.py:200
 msgid "Archives"
 msgstr ""
 
-#: src/ui/window.py:156
+#: src/ui/window.py:201
 msgid "Create and view web archives"
 msgstr ""
 
 #. translators: Application metainfo for the app "Calligraphy". <https://gitlab.gnome.org/GeopJr/Calligraphy>
-#: src/ui/window.py:162
+#: src/ui/window.py:207
 msgid "Calligraphy"
 msgstr ""
 
-#: src/ui/window.py:163
+#: src/ui/window.py:208
 msgid "Turn text into ASCII banners"
 msgstr ""
 
-#: src/ui/window.py:169
+#: src/ui/window.py:214
 msgid "Collision"
 msgstr ""
 
-#: src/ui/window.py:170
+#: src/ui/window.py:215
 msgid "Check hashes for your files"
 msgstr ""
 
-#: src/ui/window.py:176
+#: src/ui/window.py:221
 msgid "Turntable"
 msgstr ""
 
-#: src/ui/window.py:177
+#: src/ui/window.py:222
 msgid "Scrobble your music"
 msgstr ""
 
 #. translators: Application metainfo for the app "Tuba". <https://github.com/GeopJr/Tuba>
-#: src/ui/window.py:180
+#: src/ui/window.py:225
 msgid "Tuba"
 msgstr ""
 
-#: src/ui/window.py:180
+#: src/ui/window.py:225
 msgid "Browse the Fediverse"
 msgstr ""
 
-#: src/ui/window.py:328
+#: src/ui/window.py:373
 msgid "Info"
 msgstr ""
 
-#: src/ui/window.py:334
+#: src/ui/window.py:379
 msgid "Metadata & Privacy"
 msgstr ""
 
-#: src/ui/window.py:345
+#: src/ui/window.py:390
 msgid ""
 "Metadata consists of information that characterizes data. Metadata is used "
 "to provide documentation for data products. In essence, metadata answers "
@@ -340,11 +344,11 @@ msgid ""
 "disclose it."
 msgstr ""
 
-#: src/ui/window.py:354
+#: src/ui/window.py:399
 msgid "Cleaning Process"
 msgstr ""
 
-#: src/ui/window.py:365
+#: src/ui/window.py:410
 msgid ""
 "While Metadata Cleaner is doing its very best to display metadata, it "
 "doesn't mean that a file is clean from metadata if it doesn't show any. "
@@ -355,11 +359,11 @@ msgid ""
 "without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
 
-#: src/ui/window.py:374
+#: src/ui/window.py:419
 msgid "Limitations"
 msgstr ""
 
-#: src/ui/window.py:385
+#: src/ui/window.py:430
 msgid ""
 "Be aware that metadata is not the only way of marking a file. If the content "
 "itself discloses personal information or has been watermarked, traditionally "

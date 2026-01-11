@@ -16,7 +16,5 @@
 ./src/modules/file.py
 ./src/ui/badge.py
 ./src/ui/detailsview.py
-./src/ui/filechooserdialog.py
-./src/ui/folderchooserdialog.py
 ./src/ui/statusindicator.py
 ./src/ui/window.py

@@ -1,67 +1,76 @@
-<!--
-SPDX-FileCopyrightText: Metadata Cleaner contributors
-SPDX-License-Identifier: CC-BY-SA-4.0
--->
+<p align="center">
+  <img alt="A rectangle with a fingerprint on it being wiped using a sponge" width="160" src="./data/icons/dev.geopjr.MetadataCleaner.svg">
+</p>
+<h1 align="center">Metadata Cleaner</h1>
+<h3 align="center">View and clean metadata in files</h3>
+<p align="center">
+  <br />
+    <a href="./CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Code%20of%20Conduct-GNOME-f5c211.svg?style=for-the-badge&labelColor=f9f06b" alt="GNOME Code of Conduct" /></a>
+    <a href="./LICENSE"><img src="https://img.shields.io/badge/LICENSE-GPL--3.0-f5c211.svg?style=for-the-badge&labelColor=f9f06b" alt="License GPL-3.0" /></a>
+    <a href='https://stopthemingmy.app'><img width='193.455' alt='Please do not theme this app' src='https://stopthemingmy.app/badge.svg'/></a>
+</p>
 
-# UNMAINTAINED
+<p align="center">
+    <img alt="Screenshot of the Metadata Cleaner app in light mobile. A bunch of files are ready to be cleaned. gnome-story.webp is open and has 4 metadata visible in a side panel." src="./data/screenshots/screenshot-1.png">
+</p>
 
-After more than 3 years, I unfortunately don't have time to maintain Metadata Cleaner anymore. If someone wants to continue working on it, please feel free to fork the repository.
+<p align="center">Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it. Metadata Cleaner allows you to view metadata in your files and to get rid of it, as much as possible.</p>
 
-Thanks to everyone who contributed over the years.
+# Install
 
----
+## Official
 
-# Metadata Cleaner
+### Release
 
-![](./resources/icons/icon.svg)
+<a href="https://flathub.org/apps/details/dev.geopjr.MetadataCleaner" rel="noreferrer noopener" target="_blank"><img loading="lazy" draggable="false" width='240' alt='Download on Flathub' src='https://flathub.org/api/badge?svg&locale=en' /></a>
 
-Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it.
+## From Source
 
-This tool allows you to view metadata in your files and to get rid of it, as much as possible.
+<details>
+<summary>Dependencies</summary>
 
-Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse and remove the metadata.
+Package Name | Required
+:--- | ---:
+meson | ✅
+python3 | ✅
+libadwaita-1.0-dev | ✅
+mat2 | ✅
 
-## Screenshots
+</details>
 
-<a href="./resources/screenshots/1.png"><img src="./resources/screenshots/1.png" alt="Welcome screen" height="250"></a>
-<a href="./resources/screenshots/2.png"><img src="./resources/screenshots/2.png" alt="Files view" height="250"></a>
-<a href="./resources/screenshots/3.png"><img src="./resources/screenshots/3.png" alt="Metadata details" height="250"></a>
-<a href="./resources/screenshots/4.png"><img src="./resources/screenshots/4.png" alt="Cleaned files" height="250"></a>
+### Makefile
 
-## Installing
-
-Metadata Cleaner is available as a Flatpak on Flathub:
-
-<a href="https://flathub.org/apps/details/dev.geopjr.MetadataCleaner"><img src="https://flathub.org/api/badge?svg&locale=en" alt="Download on Flathub" width="240"></a>
-
-## Building from source
-
-Dependencies:
-
-- `gtk4` >= 4.6
-- `libadwaita-1` >= 1.2
-- `pygobject-3.0`
-- `python3`
-- Python 3 `libmat2` module and [its dependencies](https://0xacab.org/jvoisin/mat2#requirements)
-
-Metadata Cleaner uses the meson build system:
-
-```sh
-meson builddir
-meson install -C builddir
+```
+$ make
+$ make install
 ```
 
-Flatpak building is also available and requires the GNOME platform and SDK runtimes:
+### GNOME Builder
 
-```sh
-flatpak-builder --force-clean --user --install builddir build-aux/dev.geopjr.MetadataCleaner.yaml
-```
+- Clone
+- Open in GNOME Builder
 
-## Contributing
+# Acknowledgements
 
-You can contribute to the documentation, translation or code, see [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+- Metadata cleaning is being done using [mat2](https://github.com/jvoisin/mat2)
+- This is a fork of [rmnvgr/metadata-cleaner](https://gitlab.com/rmnvgr/metadata-cleaner)
+- The original artwork, translations, `metadata-cleaner.doap` are released under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
-The application is part of [GNOME Circle](https://circle.gnome.org/), so the [GNOME Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct) applies to this project.
+# Sponsors
 
+<div align="center">
 
-- The original artwork, translations, `metadata-cleaner.doap` are released under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International](./LICENSES/CC-BY-SA-4.0.txt).
+[![GeopJr Sponsors](https://cdn.jsdelivr.net/gh/GeopJr/GeopJr@main/sponsors.svg)](https://github.com/sponsors/GeopJr)
+
+</div>
+
+[![Translation status](https://translate.codeberg.org/widgets/metadata-cleaner/-/metadata-cleaner/287x66-white.png)](https://translate.codeberg.org/engage/metadata-cleaner)
+
+# Contributing
+
+1. Read the [Code of Conduct](./CODE_OF_CONDUCT.md)
+2. Fork it ( https://codeberg.org/GeopJr/metadata-cleaner/fork )
+3. Create your feature branch (git checkout -b my-new-feature)
+4. Commit your changes (git commit -am 'Add some feature')
+5. Push to the branch (git push origin my-new-feature)
+6. Create a new Pull Request

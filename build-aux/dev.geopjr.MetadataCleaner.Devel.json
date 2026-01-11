@@ -1,225 +1,225 @@
 {
-  "app-id": "dev.geopjr.MetadataCleaner",
-  "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
-  "sdk": "org.gnome.Sdk",
-  "command": "metadata-cleaner",
-  "add-extensions": {
-    "org.freedesktop.Platform.ffmpeg-full": {
-      "directory": "lib/ffmpeg",
-      "add-ld-path": ".",
-      "version": "23.08"
-    }
-  },
-  "finish-args": [
-    "--socket=wayland",
-    "--socket=fallback-x11",
-    "--share=ipc",
-    "--device=dri"
-  ],
-  "cleanup": [
-    "/include",
-    "/lib/pkgconfig",
-    "/man",
-    "/share/doc",
-    "/share/gtk-doc",
-    "/share/man",
-    "/share/pkgconfig",
-    "*.la",
-    "*.a"
-  ],
-  "modules": [
-    {
-      "name": "metadata-cleaner",
-      "buildsystem": "meson",
-      "run-tests": true,
-      "builddir": true,
-      "config-opts": [
-        "-Ddevel=true"
-      ],
-      "sources": [
-        {
-          "type": "dir",
-          "path": "../"
+    "app-id": "dev.geopjr.MetadataCleaner",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "49",
+    "sdk": "org.gnome.Sdk",
+    "command": "metadata-cleaner",
+    "add-extensions": {
+        "org.freedesktop.Platform.ffmpeg-full": {
+            "directory": "lib/ffmpeg",
+            "add-ld-path": ".",
+            "version": "23.08"
         }
-      ],
-      "modules": [
+    },
+    "finish-args": [
+        "--socket=wayland",
+        "--socket=fallback-x11",
+        "--share=ipc",
+        "--device=dri"
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig",
+        "*.la",
+        "*.a"
+    ],
+    "modules": [
         {
-          "name": "media-types",
-          "buildsystem": "simple",
-          "build-commands": [
-            "mkdir -p $FLATPAK_DEST/share",
-            "install -D mime.types $FLATPAK_DEST/share/"
-          ],
-          "sources": [
-            {
-              "type": "git",
-              "url": "https://salsa.debian.org/debian/media-types.git",
-              "tag": "debian/14.0.0",
-              "commit": "98d3fa0d18efa9d9b707a89d3fd2ec5dbcc83eff"
-            }
-          ]
-        },
-        {
-          "name": "python3-libmat2",
-          "buildsystem": "simple",
-          "build-commands": [
-            "python3 -m pip install --no-build-isolation --prefix=$FLATPAK_DEST ."
-          ],
-          "ensure-writable": [
-            "/lib/python3*/site-packages/easy-install.pth"
-          ],
-          "sources": [
-            {
-              "type": "git",
-              "url": "https://github.com/jvoisin/mat2.git",
-              "tag": "0.14.0",
-              "commit": "0.14.0"
-            }
-          ],
-          "modules": [
-            {
-              "name": "exiftool",
-              "buildsystem": "simple",
-              "build-commands": [
-                "perl Makefile.PL",
-                "make install"
-              ],
-              "cleanup": [
-                "*.pod"
-              ],
-              "sources": [
+            "name": "metadata-cleaner",
+            "buildsystem": "meson",
+            "run-tests": true,
+            "builddir": true,
+            "config-opts": [
+                "-Ddevel=true"
+            ],
+            "sources": [
                 {
-                  "type": "git",
-                  "url": "https://github.com/exiftool/exiftool.git",
-                  "tag": "12.88",
-                  "commit": "de702162a10a5a16ca74adb72a7438977fcd01aa"
+                    "type": "dir",
+                    "path": "../"
                 }
-              ],
-              "modules": [
+            ],
+            "modules": [
                 {
-                  "name": "perl",
-                  "buildsystem": "simple",
-                  "build-commands": [
-                    "./Configure -des -Dprefix=$FLATPAK_DEST -Dman1dir=none -Dman3dir=none",
-                    "make",
-                    "make install"
-                  ],
-                  "post-install": [
-                    "chmod -R u+w $FLATPAK_DEST/lib/perl5"
-                  ],
-                  "cleanup": [
-                    "/bin/corelist",
-                    "/bin/cpan",
-                    "/bin/enc2xs",
-                    "/bin/encguess",
-                    "/bin/h2ph",
-                    "/bin/h2xs",
-                    "/bin/instmodsh",
-                    "/bin/json_pp",
-                    "/bin/libnetcfg",
-                    "/bin/perl5*",
-                    "/bin/perlbug",
-                    "/bin/perldoc",
-                    "/bin/perlivp",
-                    "/bin/perlthanks",
-                    "/bin/piconv",
-                    "/bin/pl2pm",
-                    "/bin/pod2html",
-                    "/bin/pod2man",
-                    "/bin/pod2text",
-                    "/bin/pod2usage",
-                    "/bin/podchecker",
-                    "/bin/prove",
-                    "/bin/ptar",
-                    "/bin/ptardiff",
-                    "/bin/ptargrep",
-                    "/bin/shasum",
-                    "/bin/splain",
-                    "/bin/streamzip",
-                    "/bin/xsubpp",
-                    "/bin/zipdetails",
-                    "*.pod"
-                  ],
-                  "sources": [
-                    {
-                      "type": "git",
-                      "url": "https://github.com/Perl/perl5.git",
-                      "tag": "v5.40.0",
-                      "commit": "f22a16ecf4821b7e93d2569f630817a2631fddd9"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "poppler",
-              "buildsystem": "cmake",
-              "config-opts": [
-                "-DENABLE_BOOST=OFF",
-                "-DENABLE_SPLASH=OFF",
-                "-DBUILD_GTK_TESTS=OFF",
-                "-DBUILD_QT5_TESTS=OFF",
-                "-DBUILD_QT6_TESTS=OFF",
-                "-DBUILD_CPP_TESTS=OFF",
-                "-DBUILD_MANUAL_TESTS=OFF",
-                "-DENABLE_CPP=OFF",
-                "-DENABLE_UTILS=OFF",
-                "-DENABLE_QT5=OFF",
-                "-DENABLE_QT6=OFF"
-              ],
-              "sources": [
+                    "name": "media-types",
+                    "buildsystem": "simple",
+                    "build-commands": [
+                        "mkdir -p $FLATPAK_DEST/share",
+                        "install -D mime.types $FLATPAK_DEST/share/"
+                    ],
+                    "sources": [
+                        {
+                            "type": "git",
+                            "url": "https://salsa.debian.org/debian/media-types.git",
+                            "tag": "debian/14.0.0",
+                            "commit": "98d3fa0d18efa9d9b707a89d3fd2ec5dbcc83eff"
+                        }
+                    ]
+                },
                 {
-                  "type": "git",
-                  "url": "https://gitlab.freedesktop.org/poppler/poppler.git",
-                  "tag": "poppler-26.01.0",
-                  "commit": "d3c0e9ca648efbca25a32741ebef9386afc53d1d"
+                    "name": "python3-libmat2",
+                    "buildsystem": "simple",
+                    "build-commands": [
+                        "python3 -m pip install --no-build-isolation --prefix=$FLATPAK_DEST ."
+                    ],
+                    "ensure-writable": [
+                        "/lib/python3*/site-packages/easy-install.pth"
+                    ],
+                    "sources": [
+                        {
+                            "type": "git",
+                            "url": "https://github.com/jvoisin/mat2.git",
+                            "tag": "0.14.0",
+                            "commit": "0.14.0"
+                        }
+                    ],
+                    "modules": [
+                        {
+                            "name": "exiftool",
+                            "buildsystem": "simple",
+                            "build-commands": [
+                                "perl Makefile.PL",
+                                "make install"
+                            ],
+                            "cleanup": [
+                                "*.pod"
+                            ],
+                            "sources": [
+                                {
+                                    "type": "git",
+                                    "url": "https://github.com/exiftool/exiftool.git",
+                                    "tag": "12.88",
+                                    "commit": "de702162a10a5a16ca74adb72a7438977fcd01aa"
+                                }
+                            ],
+                            "modules": [
+                                {
+                                    "name": "perl",
+                                    "buildsystem": "simple",
+                                    "build-commands": [
+                                        "./Configure -des -Dprefix=$FLATPAK_DEST -Dman1dir=none -Dman3dir=none",
+                                        "make",
+                                        "make install"
+                                    ],
+                                    "post-install": [
+                                        "chmod -R u+w $FLATPAK_DEST/lib/perl5"
+                                    ],
+                                    "cleanup": [
+                                        "/bin/corelist",
+                                        "/bin/cpan",
+                                        "/bin/enc2xs",
+                                        "/bin/encguess",
+                                        "/bin/h2ph",
+                                        "/bin/h2xs",
+                                        "/bin/instmodsh",
+                                        "/bin/json_pp",
+                                        "/bin/libnetcfg",
+                                        "/bin/perl5*",
+                                        "/bin/perlbug",
+                                        "/bin/perldoc",
+                                        "/bin/perlivp",
+                                        "/bin/perlthanks",
+                                        "/bin/piconv",
+                                        "/bin/pl2pm",
+                                        "/bin/pod2html",
+                                        "/bin/pod2man",
+                                        "/bin/pod2text",
+                                        "/bin/pod2usage",
+                                        "/bin/podchecker",
+                                        "/bin/prove",
+                                        "/bin/ptar",
+                                        "/bin/ptardiff",
+                                        "/bin/ptargrep",
+                                        "/bin/shasum",
+                                        "/bin/splain",
+                                        "/bin/streamzip",
+                                        "/bin/xsubpp",
+                                        "/bin/zipdetails",
+                                        "*.pod"
+                                    ],
+                                    "sources": [
+                                        {
+                                            "type": "git",
+                                            "url": "https://github.com/Perl/perl5.git",
+                                            "tag": "v5.40.0",
+                                            "commit": "f22a16ecf4821b7e93d2569f630817a2631fddd9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "poppler",
+                            "buildsystem": "cmake",
+                            "config-opts": [
+                                "-DENABLE_BOOST=OFF",
+                                "-DENABLE_SPLASH=OFF",
+                                "-DBUILD_GTK_TESTS=OFF",
+                                "-DBUILD_QT5_TESTS=OFF",
+                                "-DBUILD_QT6_TESTS=OFF",
+                                "-DBUILD_CPP_TESTS=OFF",
+                                "-DBUILD_MANUAL_TESTS=OFF",
+                                "-DENABLE_CPP=OFF",
+                                "-DENABLE_UTILS=OFF",
+                                "-DENABLE_QT5=OFF",
+                                "-DENABLE_QT6=OFF"
+                            ],
+                            "sources": [
+                                {
+                                    "type": "git",
+                                    "url": "https://gitlab.freedesktop.org/poppler/poppler.git",
+                                    "tag": "poppler-26.01.0",
+                                    "commit": "d3c0e9ca648efbca25a32741ebef9386afc53d1d"
+                                }
+                            ],
+                            "modules": [
+                                {
+                                    "name": "poppler-data",
+                                    "buildsystem": "cmake-ninja",
+                                    "sources": [
+                                        {
+                                            "type": "git",
+                                            "url": "https://gitlab.freedesktop.org/poppler/poppler-data.git",
+                                            "tag": "POPPLER_DATA_0_4_12",
+                                            "commit": "af9f452b427d5ce8abe81ff98cc40c5f39fad90b"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "python3-mutagen",
+                            "buildsystem": "simple",
+                            "build-commands": [
+                                "python3 -m pip install --no-build-isolation --prefix=$FLATPAK_DEST ."
+                            ],
+                            "ensure-writable": [
+                                "/lib/python3*/site-packages/easy-install.pth"
+                            ],
+                            "cleanup": [
+                                "/bin/mid3cp",
+                                "/bin/mid3iconv",
+                                "/bin/mid3v2",
+                                "/bin/moggsplit",
+                                "/bin/mutagen-inspect",
+                                "/bin/mutagen-pony"
+                            ],
+                            "sources": [
+                                {
+                                    "type": "git",
+                                    "url": "https://github.com/quodlibet/mutagen.git",
+                                    "tag": "release-1.47.0",
+                                    "commit": "e38a475b4e00e248e04c50901d75b526464550d3"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ],
-              "modules": [
-                {
-                  "name": "poppler-data",
-                  "buildsystem": "cmake-ninja",
-                  "sources": [
-                    {
-                      "type": "git",
-                      "url": "https://gitlab.freedesktop.org/poppler/poppler-data.git",
-                      "tag": "POPPLER_DATA_0_4_12",
-                      "commit": "af9f452b427d5ce8abe81ff98cc40c5f39fad90b"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "python3-mutagen",
-              "buildsystem": "simple",
-              "build-commands": [
-                "python3 -m pip install --no-build-isolation --prefix=$FLATPAK_DEST ."
-              ],
-              "ensure-writable": [
-                "/lib/python3*/site-packages/easy-install.pth"
-              ],
-              "cleanup": [
-                "/bin/mid3cp",
-                "/bin/mid3iconv",
-                "/bin/mid3v2",
-                "/bin/moggsplit",
-                "/bin/mutagen-inspect",
-                "/bin/mutagen-pony"
-              ],
-              "sources": [
-                {
-                  "type": "git",
-                  "url": "https://github.com/quodlibet/mutagen.git",
-                  "tag": "release-1.47.0",
-                  "commit": "e38a475b4e00e248e04c50901d75b526464550d3"
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
