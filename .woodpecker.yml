@@ -10,7 +10,7 @@ steps:
       args: "--all-files"
 
   build:
-    depends_on: [lint]
+    depends_on: [precommit]
     image: alpine:edge
     commands:
       - apk add --no-cache meson python3 glib-dev gtk4.0-dev libadwaita-dev desktop-file-utils gettext-dev make clang git mat2
